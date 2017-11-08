@@ -1,0 +1,81 @@
+# -----------------------------------------------
+    light.dev01:
+      friendly_name: "Lampe Wohnzimmer 01"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev20_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev20_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    light.dev02:
+      friendly_name: "Lampe Esszimmer 01"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev21_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev21_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    sensor.dev22_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev22_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    light.dev03:
+      friendly_name: "AP Fräse"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev04:
+      friendly_name: "AP Löten"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev05:
+      friendly_name: "AP Rest"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev23_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev23_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    sensor.dark_sky_apparent_temperature:
+      friendly_name: "Apparent Temp"
+    sensor.dark_sky_cloud_coverage:
+      friendly_name: "Cloud coverage"
+    sensor.dark_sky_daily_high_temperature:
+      friendly_name: "Max today"
+    sensor.dark_sky_daily_low_temperature:
+      friendly_name: "Min today"
+    sensor.dark_sky_precip_intensity:
+      friendly_name: "Rain intensity"
+    sensor.dark_sky_precip_probability:
+      friendly_name: "Rain probability"
+    sensor.dark_sky_temperature:
+      friendly_name: "Current Temp"
+    sensor.dark_sky_daily_summary:
+      friendly_name: " "
+# -----------------------------------------------
+    group.dining_room:            
+      friendly_name: "Esszimmer"
+    group.living_room:            
+      friendly_name: "Wohnzimmer"
+    group.kitchen:            
+      friendly_name: "Küche"
+    group.carport:            
+      friendly_name: "Carport"
+    group.attic:            
+      friendly_name: "Dachboden"
+    group.outside:
+      friendly_name: "Außen"
+    #daily_forecast:
+    #  friendly_name: "Wettervorhersage"
+# -----------------------------------------------

@@ -1,0 +1,35 @@
+dev01: Schalter für Lampe 01 im Wohnzimmer 
+dev02: Schalter für Lampe 01 im Esszimmer
+dev20: DHT Temperatur und Luftfeuchte im Wohnzimmer
+dev21: DHT Temperatur und Luftfeuchte im Esszimmer
+dev22: DHT Temperatur und Luftfeuchte im Carport
+dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
+dev40: Relais für Pumpe 1
+dev41: Relais für Pumpe 2
+
+
+Sensors:
+    state_topic: "dev20/temp_hum/temp"
+    state_topic: "dev20/temp_hum/hum"
+
+Simple Lights:
+    state_topic: "dev0X/simple_light/status"
+    command_topic: "dev0X/simple_light/switch"
+    payload_on: "ON"
+    payload_off: "OFF"
+
+Relais:
+    command_topic: "dev0X/simple_relay/toggle
+    command_topic: "dev0X/simple_relay/switch
+    state_topic: "dev0X/simple_relay/status"
+    payload_on: "ON"
+    payload_off: "OFF"
+
+All:
+command_topic: "devXX/generic/cmd
+    payload_on: "INFO"
+    payload_off: "SETUP"
+    state_topic: "/generic/fwident" //firmware identification
+    state_topic: "/generic/fwversion" //firmware version
+    state_topic: "/generic/desc" //firmware description
+

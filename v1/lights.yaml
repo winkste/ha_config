@@ -1,0 +1,57 @@
+# --------------------------------------------------
+#  - platform: mqtt
+#    name: "joiner_kitchen"
+#    command_topic: "joiner/kitchen"
+#    command_topic: "joiner/bedroom"
+#    retain: True
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 01 in living room
+    name: "dev01"
+    state_topic: "dev01/simple_light/status"
+    command_topic: "dev01/simple_light/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 01 in dining room
+    name: "dev02"
+    state_topic: "dev02/simple_light/status"
+    command_topic: "dev02/simple_light/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 01 in carport
+    name: "dev03"
+    state_topic: "dev03/simple_light/status"
+    command_topic: "dev03/simple_light/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 02 in carport
+    name: "dev04"
+    state_topic: "dev04/simple_light/status"
+    command_topic: "dev04/simple_light/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 03 in carport
+    name: "dev05"
+    state_topic: "dev05/simple_light/status"
+    command_topic: "dev05/simple_light/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
