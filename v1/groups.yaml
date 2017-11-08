@@ -9,6 +9,7 @@
       - group.carport
       - group.attic
       - group.rooms
+      - group.outside
       - group.daily_forecast
 # -----------------------------------------------
   living_room:
@@ -47,7 +48,7 @@
 # -----------------------------------------------
   outside:
     control: hidden
-    view: yes
+#    view: yes
     entities:
 #      - light.dev5
 #      - light.dev6
