@@ -62,8 +62,8 @@
 #      - sensor.dark_sky_daily_summary
 # -----------------------------------------------
   daily_forecast:
-    view: yes
-    name: Daily Forecast
+    #view: yes
+    name: Wetter
     entities:
       - sensor.pws_weather_1d_metric
       - sensor.pws_weather_1n_metric
