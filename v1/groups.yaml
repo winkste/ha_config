@@ -9,6 +9,7 @@
       - group.carport
       - group.attic
       - group.rooms
+      - daily_forecast
 # -----------------------------------------------
   living_room:
     control: hidden
@@ -61,7 +62,7 @@
 #      - sensor.dark_sky_daily_summary
 # -----------------------------------------------
   daily_forecast:
-    view: yes
+    #view: yes
     name: Daily Forecast
     entities:
       - sensors.pws_weather_1d_metric
