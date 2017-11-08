@@ -103,6 +103,7 @@
   - platform: wunderground
     api_key: !secret wu_key
     pws_id: ILBCELLE7
+    lang: DL
     monitored_conditions:
       - weather_1d_metric
       - weather_1n_metric
