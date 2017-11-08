@@ -4,12 +4,12 @@
     icon: mdi:home
     view: yes
     entities:
-      - group.living_room
-      - group.dining_room
-      - group.carport
-      - group.attic
-      - group.rooms
-      - group.daily_forecast
+      - groups.living_room
+      - groups.dining_room
+      - groups.carport
+      - groups.attic
+      - groups.rooms
+      - groups.daily_forecast
 # -----------------------------------------------
   living_room:
     control: hidden
@@ -62,17 +62,17 @@
 #      - sensor.dark_sky_daily_summary
 # -----------------------------------------------
   daily_forecast:
-    #view: yes
+    view: yes
     name: Daily Forecast
     entities:
-      - sensors.pws_weather_1d_metric
-      - sensors.pws_weather_1n_metric
-      - sensors.pws_weather_2d_metric
-      - sensors.pws_weather_2n_metric
-      - sensors.pws_weather_3d_metric
-      - sensors.pws_weather_3n_metric
-      - sensors.pws_weather_4d_metric
-      - sensors.pws_weather_4n_metric
+      - sensor.pws_weather_1d_metric
+      - sensor.pws_weather_1n_metric
+      - sensor.pws_weather_2d_metric
+      - sensor.pws_weather_2n_metric
+      - sensor.pws_weather_3d_metric
+      - sensor.pws_weather_3n_metric
+      - sensor.pws_weather_4d_metric
+      - sensor.pws_weather_4n_metric
 # -----------------------------------------------  
   alllights:
     name: All lights

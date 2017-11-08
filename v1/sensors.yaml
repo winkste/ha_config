@@ -4,13 +4,13 @@
 # -----------------------------------------------------------
 # --------------- MQTT --------------------------------------
 # -----------------------------------------------------------
-  - platform: template
-    sensors:
-      dev1_update:
-        value_template: '{{ (( as_timestamp(now()) - as_timestamp(states.sensor.dev1.last_updated)) //60) | int }}'
-        unit_of_measurement: 'min'
-        entity_id:
-         - sensor.time
+#  - platform: template
+#    sensors:
+#      dev1_update:
+#        value_template: '{{ (( as_timestamp(now()) - as_timestamp(states.sensor.dev1.last_updated)) //60) | int }}'
+#        unit_of_measurement: 'min'
+#        entity_id:
+#         - sensor.time
 # -----------------------------------------------------------
   - platform: mqtt
     state_topic: "dev20/#"
