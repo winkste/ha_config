@@ -9,7 +9,7 @@
       - group.carport
       - group.attic
       - group.rooms
-      - daily_forecast
+      - group.daily_forecast
 # -----------------------------------------------
   living_room:
     control: hidden
