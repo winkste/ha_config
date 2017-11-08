@@ -4,12 +4,12 @@
     icon: mdi:home
     view: yes
     entities:
-      - groups.living_room
-      - groups.dining_room
-      - groups.carport
-      - groups.attic
-      - groups.rooms
-      - groups.daily_forecast
+      - group.living_room
+      - group.dining_room
+      - group.carport
+      - group.attic
+      - group.rooms
+      - group.daily_forecast
 # -----------------------------------------------
   living_room:
     control: hidden
