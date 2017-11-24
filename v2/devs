@@ -20,9 +20,9 @@ Simple Lights:
     payload_off: "OFF"
 
 Relais:
-    command_topic: "dev0X/simple_relay/toggle
-    command_topic: "dev0X/simple_relay/switch
-    state_topic: "dev0X/simple_relay/status"
+    command_topic: "dev0X/relay/toggle
+    command_topic: "dev0X/relay/switch
+    state_topic: "dev0X/relay/status"
     payload_on: "ON"
     payload_off: "OFF"
 

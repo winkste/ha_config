@@ -4,6 +4,8 @@ dev20: DHT Temperatur und Luftfeuchte im Wohnzimmer
 dev21: DHT Temperatur und Luftfeuchte im Esszimmer
 dev22: DHT Temperatur und Luftfeuchte im Carport
 dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
+dev24: DHT Temperatur und Luftfeuchte im Badezimmer oben (Battery)
+dev25: DHT Temperatur und Luftfeuchte im Badezimmer unten (Battery)
 dev40: Relais für Pumpe 1
 dev41: Relais für Pumpe 2
 
