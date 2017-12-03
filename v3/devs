@@ -1,25 +1,33 @@
-dev01: Schalter für Lampe 01 im Wohnzimmer 
-dev02: Schalter für Lampe 01 im Esszimmer
+dev01: Sonoff Schalter für Lampe 01 im Wohnzimmer 
+dev02: Schalter für Kugel klein
+dev04: Schalter für Kugel groß
 dev20: DHT Temperatur und Luftfeuchte im Wohnzimmer
 dev21: DHT Temperatur und Luftfeuchte im Esszimmer
 dev22: DHT Temperatur und Luftfeuchte im Carport
 dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
 dev24: DHT Temperatur und Luftfeuchte Badezimmer oben
 dev25: DHT Temperatur und Luftfeuchte Badezimmer unten
+dev26: DHT 11 Temperatur und Luftfeuchte Außen
 
 dev40: Relais für Pumpe 1
 dev41: Relais für Pumpe 2
 
 
 Sensors:
-    state_topic: "dev20/temp_hum/temp"
-    state_topic: "dev20/temp_hum/hum"
+    state_topic: "dev2x/temp_hum/temp"
+    state_topic: "dev2x/temp_hum/hum"
+    state_topic: "dev2x/temp_hum/bat"
 
 Simple Lights:
     state_topic: "dev0X/simple_light/status"
     command_topic: "dev0X/simple_light/switch"
     payload_on: "ON"
     payload_off: "OFF"
+
+Sonoff Relay:
+    command_topic: "/sonoff_basic/toggle" 
+    command_topic: "/sonoff_basic/switch" 
+    state_topic: "/sonoff_basic/status"
 
 Relais:
     command_topic: "dev0X/relay/toggle

@@ -11,7 +11,7 @@
       icon: "mdi:signal-variant"
 # -----------------------------------------------
     light.dev02:
-      friendly_name: "Lampe Esszimmer 01"
+      friendly_name: "Lampe kleine Kugel"
       icon: "mdi:lamp"
 # -----------------------------------------------
     sensor.dev21_temperature_dht:
@@ -33,7 +33,7 @@
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev04:
-      friendly_name: "AP Löten"
+      friendly_name: "Lampe große Kugel"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev05:
@@ -75,6 +75,8 @@
       friendly_name: "Esszimmer"
     group.living_room:            
       friendly_name: "Wohnzimmer"
+    group.hall_room:            
+      friendly_name: "Flur"
     group.kitchen:            
       friendly_name: "Küche"
     group.carport:            

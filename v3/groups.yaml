@@ -22,11 +22,17 @@
       - sensor.dev20_humidity_dht
       #- binary_sensor.dev101_motion
 # -----------------------------------------------
-  dining_room:
+  hall_room:
     control: hidden
     view: yes
     entities:
       - light.dev02
+      - light.dev04
+# -----------------------------------------------
+  dining_room:
+    control: hidden
+    view: yes
+    entities:
       - sensor.dev21_temperature_dht
       - sensor.dev21_humidity_dht
 # -----------------------------------------------
@@ -34,9 +40,6 @@
     control: hidden
     view: yes
     entities:
-      - light.dev03
-      - light.dev04
-      - light.dev05
       - sensor.dev22_temperature_dht
       - sensor.dev22_humidity_dht
 # -----------------------------------------------
