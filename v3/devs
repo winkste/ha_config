@@ -29,10 +29,26 @@ Sonoff Relay:
     command_topic: "/sonoff_basic/switch" 
     state_topic: "/sonoff_basic/status"
 
-Relais:
-    command_topic: "dev0X/relay/toggle
-    command_topic: "dev0X/relay/switch
-    state_topic: "dev0X/relay/status"
+Single Relay:
+    command_topic: "dev4X/relay_one/toggle
+    command_topic: "dev4X/relay_one/switch
+    state_topic: "dev4X/relay_one/status"
+    payload_on: "ON"
+    payload_off: "OFF"
+
+Multi Relay:
+    command_topic: "dev5X/relay_one/toggle
+    command_topic: "dev5X/relay_one/switch
+    state_topic: "dev5X/relay_one/status"
+    command_topic: "dev5X/relay_two/toggle
+    command_topic: "dev5X/relay_two/switch
+    state_topic: "dev5X/relay_two/status"
+    command_topic: "dev5X/relay_three/toggle
+    command_topic: "dev5X/relay_three/switch
+    state_topic: "dev5X/relay_three/status"
+    command_topic: "dev5X/relay_four/toggle
+    command_topic: "dev5X/relay_four/switch
+    state_topic: "dev5X/relay_four/status"
     payload_on: "ON"
     payload_off: "OFF"
 
