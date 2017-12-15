@@ -1,0 +1,112 @@
+# -----------------------------------------------
+    light.dev01:
+      friendly_name: "Lampe Wohnzimmer 01"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev20_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev20_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    light.dev02:
+      friendly_name: "Lampe kleine Kugel"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev21_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev21_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    sensor.dev22_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev22_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    light.dev03:
+      friendly_name: "AP Fräse"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev04:
+      friendly_name: "Lampe große Kugel"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev05:
+      friendly_name: "AP Rest"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dev23_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev23_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    sensor.dev24_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev24_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    sensor.dev25_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev25_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    binary_sensor.dev60_motion:
+      friendly_name: "Bewegungsmelder Carport außen"
+      icon: "mdi:information-outline"
+    light.dev60:
+      friendly_name: "Licht im Holzschuppen"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    sensor.dark_sky_apparent_temperature:
+      friendly_name: "Aktuelle Außentemperatur"
+    sensor.dark_sky_cloud_coverage:
+      friendly_name: "Cloud coverage"
+    sensor.dark_sky_daily_high_temperature:
+      friendly_name: "Max. Außentemperatur"
+    sensor.dark_sky_daily_low_temperature:
+      friendly_name: "Min. Außentemperatur"
+    sensor.dark_sky_precip_intensity:
+      friendly_name: "Rain intensity"
+    sensor.dark_sky_precip_probability:
+      friendly_name: "Regenwarscheinlichkeit"
+    sensor.dark_sky_temperature:
+      friendly_name: "Aktuelle Außentemperatur"
+    sensor.dark_sky_daily_summary:
+      friendly_name: " "
+# -----------------------------------------------
+    group.dining_room:            
+      friendly_name: "Esszimmer"
+    group.living_room:            
+      friendly_name: "Wohnzimmer"
+    group.hall_room:            
+      friendly_name: "Flur"
+    group.kitchen:            
+      friendly_name: "Küche"
+    group.carport:            
+      friendly_name: "Carport"
+    group.attic:            
+      friendly_name: "Dachboden"
+    group.outside:
+      friendly_name: "Außen"
+    group.bathroom_1:
+      friendly_name: "Badezimmer oben"
+    group.bathroom_2:
+      friendly_name: "Badezimmer unten"
+    group.all_temphums:
+      friendly_name: "Raumklima"
+    group.daily_forecast_short:
+      friendly_name: "Wettervorhersage"
+    #daily_forecast:
+    #  friendly_name: "Wettervorhersage"
+# -----------------------------------------------
