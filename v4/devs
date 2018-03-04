@@ -8,60 +8,61 @@ dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
 dev24: DHT Temperatur und Luftfeuchte Badezimmer oben
 dev25: DHT Temperatur und Luftfeuchte Badezimmer unten
 dev26: DHT 11 Temperatur und Luftfeuchte Außen
+dev27: DHT 22 Temperatur und Luftfeuchte Flur unten
 
 dev40: Relais für Pumpe 1
 dev41: Relais für Pumpe 2
 
+dev60: Relais & PIR
+
 
 Sensors:
-    state_topic: "dev2x/temp_hum/temp"
-    state_topic: "dev2x/temp_hum/hum"
-    state_topic: "dev2x/temp_hum/bat"
+    state_topic: "std/dev2x/s/temp_hum/temp"
+    state_topic: "std/dev2x/s/temp_hum/hum"
+    state_topic: "std/dev2x/s/temp_hum/bat"
 
-Simple Lights:
-    state_topic: "dev0X/simple_light/status"
-    command_topic: "dev0X/simple_light/switch"
-    payload_on: "ON"
-    payload_off: "OFF"
-
-Sonoff Relay:
-    command_topic: "/sonoff_basic/toggle" 
-    command_topic: "/sonoff_basic/switch" 
-    state_topic: "/sonoff_basic/status"
+Sonoff Basic:
+    command_topic: "std/dev0x/r/so_basic/toggle" 
+    command_topic: "std/dev0x/r/so_basic/switch" 
+    state_topic: "std/dev0x/s/so_basic/status"
 
 Single Relay:
-    command_topic: "dev4X/relay_one/toggle
-    command_topic: "dev4X/relay_one/switch
-    state_topic: "dev4X/relay_one/status"
+    command_topic: "std/dev4x/r/relay_one/toggle"
+    command_topic: "std/dev4x/r/relay_one/switch"
+    state_topic: "std/dev4x/s/relay_one/status"
     payload_on: "ON"
     payload_off: "OFF"
 
 Multi Relay:
-    command_topic: "dev5X/relay_one/toggle
-    command_topic: "dev5X/relay_one/switch
-    state_topic: "dev5X/relay_one/status"
-    command_topic: "dev5X/relay_two/toggle
-    command_topic: "dev5X/relay_two/switch
-    state_topic: "dev5X/relay_two/status"
-    command_topic: "dev5X/relay_three/toggle
-    command_topic: "dev5X/relay_three/switch
-    state_topic: "dev5X/relay_three/status"
-    command_topic: "dev5X/relay_four/toggle
-    command_topic: "dev5X/relay_four/switch
-    state_topic: "dev5X/relay_four/status"
+    command_topic: "std/dev5x/r/relay_one/toggle"
+    command_topic: "std/dev5x/r/relay_one/switch"
+    state_topic: "std/dev4x/s/relay_one/status"
+    command_topic: "std/dev5x/r/relay_two/toggle"
+    command_topic: "std/dev5x/r/relay_two/switch"
+    state_topic: "std/dev4x/s/relay_two/status"
+    command_topic: "std/dev5x/r/relay_three/toggle"
+    command_topic: "std/dev5x/r/relay_three/switch"
+    state_topic: "std/dev4x/s/relay_three/status"
+    command_topic: "std/dev5x/r/relay_four/toggle"
+    command_topic: "ostd/dev5x/r/relay_four/switch"
+    state_topic: "std/dev4x/s/relay_four/status"
     payload_on: "ON"
     payload_off: "OFF"
 
 Pir
-    state_topic: "dev6x/pir/status"
+    state_topic: "std/dev6x/s/pir/status"
     payload motion: "MOTION"
-    payload no motion: "NO MOTION"
+    payload no motion: "ON"
+    payload no motion: "OFF"
 
 All:
-command_topic: "devXX/generic/cmd
+command_topic: "std/devXX/r/generic/cmd
     payload_on: "INFO"
     payload_off: "SETUP"
-    state_topic: "/generic/fwident" //firmware identification
-    state_topic: "/generic/fwversion" //firmware version
-    state_topic: "/generic/desc" //firmware description
+    state_topic: "std/devXX/s/generic/fwident" //firmware identification
+    state_topic: "std/devXX/s//generic/fwversion" //firmware version
+    state_topic: "std/devXX/s//generic/desc" //firmware description
+    state_topic: "std/devXX/s//generic/room" //room of device
+    state_topic: "inf/devXX/s/trace/
+    state_topic: "err/devXX/s/trace/
 

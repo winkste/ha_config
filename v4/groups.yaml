@@ -27,6 +27,8 @@
     control: hidden
  #   view: no
     entities:
+      - sensor.dev27_temperature_dht
+      - sensor.dev27_humidity_dht
       - light.dev02
       - light.dev04
 # -----------------------------------------------
@@ -99,6 +101,8 @@
       - sensor.dev24_humidity_dht
       - sensor.dev25_temperature_dht
       - sensor.dev25_humidity_dht
+      - sensor.dev27_temperature_dht
+      - sensor.dev27_humidity_dht
 # -----------------------------------------------
   daily_forecast_short:
     #view: yes

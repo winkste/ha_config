@@ -19,10 +19,10 @@
 
 # -------------- templates ----------------------
   - platform: mqtt
-    state_topic: "dev60/pir/status"
+    state_topic: "std/dev60/s/pir/status"
     name: "dev60_motion"
     device_class: motion
   - platform: mqtt
-    state_topic: "dev61/pir/status"
+    state_topic: "std/dev61/s/pir/status"
     name: "dev61_motion"
     device_class: motion

@@ -61,6 +61,13 @@
       friendly_name: "Luftfeuchtigkeit"
       icon: "mdi:signal-variant"
 # -----------------------------------------------
+    sensor.dev27_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev27_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
     binary_sensor.dev60_motion:
       friendly_name: "Bewegungsmelder Carport außen"
       icon: "mdi:information-outline"

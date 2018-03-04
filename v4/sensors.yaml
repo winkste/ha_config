@@ -17,12 +17,12 @@
     name: "dev20"
 
   - platform: mqtt
-    state_topic: "dev20/temp_hum/temp"
+    state_topic: "std/dev20/s/temp_hum/temp"
     name: "dev20_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev20/temp_hum/hum"
+    state_topic: "std/dev20/s/temp_hum/hum"
     name: "dev20_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
@@ -31,12 +31,12 @@
     name: "dev21"
 
   - platform: mqtt
-    state_topic: "dev21/temp_hum/temp"
+    state_topic: "std/dev21/s/temp_hum/temp"
     name: "dev21_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev21/temp_hum/hum"
+    state_topic: "std/dev21/s/temp_hum/hum"
     name: "dev21_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
@@ -45,12 +45,12 @@
     name: "dev22"
 
   - platform: mqtt
-    state_topic: "dev22/temp_hum/temp"
+    state_topic: "std/dev22/s/temp_hum/temp"
     name: "dev22_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev22/temp_hum/hum"
+    state_topic: "std/dev22/s/temp_hum/hum"
     name: "dev22_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
@@ -59,12 +59,12 @@
     name: "dev23"
 
   - platform: mqtt
-    state_topic: "dev23/temp_hum/temp"
+    state_topic: "std/dev23/s/temp_hum/temp"
     name: "dev23_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev23/temp_hum/hum"
+    state_topic: "std/dev23/s/temp_hum/hum"
     name: "dev23_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
@@ -73,12 +73,12 @@
     name: "dev24"
 
   - platform: mqtt
-    state_topic: "dev24/temp_hum/temp"
+    state_topic: "std/dev24/s/temp_hum/temp"
     name: "dev24_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev24/temp_hum/hum"
+    state_topic: "std/dev24/s/temp_hum/hum"
     name: "dev24_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
@@ -87,13 +87,27 @@
     name: "dev25"
 
   - platform: mqtt
-    state_topic: "dev25/temp_hum/temp"
+    state_topic: "std/dev25/s/temp_hum/temp"
     name: "dev25_temperature_dht"
     unit_of_measurement: "ºC"
 
   - platform: mqtt
-    state_topic: "dev25/temp_hum/hum"
+    state_topic: "std/dev25/s/temp_hum/hum"
     name: "dev25_humidity_dht"
+    unit_of_measurement: "%"
+# -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev27/#"
+    name: "dev27"
+
+  - platform: mqtt
+    state_topic: "std/dev27/s/temp_hum/temp"
+    name: "dev27_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev27/s/temp_hum/hum"
+    name: "dev27_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
 # -----------------------------------------------------------
