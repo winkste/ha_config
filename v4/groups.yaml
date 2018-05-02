@@ -19,8 +19,8 @@
  #   view: no
     entities:
       - light.dev01
-      - sensor.dev20_temperature_dht
-      - sensor.dev20_humidity_dht
+      - sensor.dev30_temperature_bme
+      - sensor.dev30_humidity_bme
       #- binary_sensor.dev101_motion
 # -----------------------------------------------
   hall_room:

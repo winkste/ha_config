@@ -110,6 +110,20 @@
     name: "dev27_humidity_dht"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev30/#"
+    name: "dev30"
+
+  - platform: mqtt
+    state_topic: "std/dev30/s/bme/temp"
+    name: "dev30_temperature_bme"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev30/s/bme/hum"
+    name: "dev30_humidity_bme"
+    unit_of_measurement: "%"
+# -----------------------------------------------------------
 # -----------------------------------------------------------
   - platform: darksky
     api_key: !secret darksky_key
