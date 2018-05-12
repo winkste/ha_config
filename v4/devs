@@ -15,6 +15,8 @@ dev30: BME280 Temperatur/Luftfeuchte/Luftdruck/Höhe BME 280 Sensor im Wohnzimme
 dev40: Relais für Pumpe 1
 dev41: Relais für Pumpe 2
 
+dev50: Multi Relais Gartensteuerung
+
 dev60: Relais & PIR
 
 
@@ -52,7 +54,7 @@ Multi Relay:
     command_topic: "std/dev5x/r/relay_three/switch"
     state_topic: "std/dev4x/s/relay_three/status"
     command_topic: "std/dev5x/r/relay_four/toggle"
-    command_topic: "ostd/dev5x/r/relay_four/switch"
+    command_topic: "std/dev5x/r/relay_four/switch"
     state_topic: "std/dev4x/s/relay_four/status"
     payload_on: "ON"
     payload_off: "OFF"
