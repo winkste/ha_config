@@ -58,78 +58,78 @@
 # --------------------------------------------------
   - platform: mqtt ### garden control station 50
     name: "dev50_r1"
-    state_topic: "std/dev50/r/relay_one/switch"
-    command_topic: "std/dev50/s/relay_one/status"
+    state_topic: "std/dev50/s/relay_one/status"
+    command_topic: "std/dev50/r/relay_one/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r2"
-    state_topic: "std/dev50/r/relay_two/switch"
-    command_topic: "std/dev50/s/relay_two/status"
+    state_topic: "std/dev50/s/relay_two/status"
+    command_topic: "std/dev50/r/relay_two/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r3"
-    state_topic: "std/dev50/r/relay_three/switch"
-    command_topic: "std/dev50/s/relay_three/status"
+    state_topic: "std/dev50/s/relay_three/status"
+    command_topic: "std/dev50/r/relay_three/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r4"
-    state_topic: "std/dev50/r/relay_four/switch"
-    command_topic: "std/dev50/s/relay_four/status"
+    state_topic: "std/dev50/s/relay_four/status"
+    command_topic: "std/dev50/r/relay_four/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r5"
-    state_topic: "std/dev50/r/relay_five/switch"
-    command_topic: "std/dev50/s/relay_five/status"
+    state_topic: "std/dev50/s/relay_five/status"
+    command_topic: "std/dev50/r/relay_five/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r6"
-    state_topic: "std/dev50/r/relay_six/switch"
-    command_topic: "std/dev50/s/relay_six/status"
+    state_topic: "std/dev50/s/relay_six/status"
+    command_topic: "std/dev50/r/relay_six/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
-# --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+# -------------------------------------------------- 
+  - platform: mqtt ### garden control station 50
     name: "dev50_r7"
-    state_topic: "std/dev50/r/relay_seven/switch"
-    command_topic: "std/dev50/s/relay_seven/status"
+    state_topic: "std/dev50/s/relay_seven/status"
+    command_topic: "std/dev50/r/relay_seven/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-    - platform: mqtt ### garden control station 50
+  - platform: mqtt ### garden control station 50
     name: "dev50_r8"
-    state_topic: "std/dev50/r/relay_eight/switch"
-    command_topic: "std/dev50/s/relay_eight/status"
+    state_topic: "std/dev50/s/relay_eight/status"
+    command_topic: "std/dev50/r/relay_eight/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"

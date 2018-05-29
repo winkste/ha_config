@@ -1,0 +1,41 @@
+  - platform: mqtt
+    initial: false
+    name: "Background"
+    command_topic: "gmusic_nice_player"
+  
+  - platform: template
+    switches:
+      fernseher:
+        value_template: >-
+            {% if states.remote.tvhub.attributes.current_activity == 'PowerOff' %}
+               off
+            {% else %}
+               on
+            {% endif %}
+        turn_on:
+          service: remote.turn_on
+          entity_id: remote.tvhub
+          data:
+            activity: 28402151
+        turn_off:
+          service: script.turn_on
+          entity_id: script.seq_tv_off
+
+
+      next_track:
+        value_template: off
+        turn_on: 
+          service: media_player.media_next_track
+          entity_id: media_player.jkw_cast2
+        turn_off: 
+          service: media_player.media_next_track
+          entity_id: media_player.jkw_cast2
+
+      the_buzz:
+        value_template: off
+        turn_on: 
+          service: script.turn_on
+          entity_id: script.the_buzz
+        turn_off: 
+          service: script.turn_on
+          entity_id: script.the_buzz

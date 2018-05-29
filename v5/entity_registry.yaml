@@ -1,0 +1,32 @@
+sensor.pws_weather_4n_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_4n_metric
+sensor.pws_weather_2n_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_2n_metric
+sensor.pws_weather_3d_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_3d_metric
+sensor.pws_weather_1d_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_1d_metric
+sensor.pws_weather_3n_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_3n_metric
+sensor.pws_weather_2d_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_2d_metric
+sensor.pws_weather_4d_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_4d_metric
+sensor.pws_weather_1n_metric:
+  name:
+  platform: wunderground
+  unique_id: ILBCELLE7,weather_1n_metric

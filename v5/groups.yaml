@@ -12,6 +12,7 @@
       - group.bathroom_1
       - group.carport
       - group.attic
+      - group.garden
       - group.rooms
 # -----------------------------------------------
   living_room:
