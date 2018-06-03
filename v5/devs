@@ -61,6 +61,14 @@ Multi Relay:
     payload_on: "ON"
     payload_off: "OFF"
 
+    state_topic: "std/dev5x/s/temp_hum/temp"
+    state_topic: "std/dev5x/s/temp_hum/hum"
+    state_topic: "std/dev5x/s/temp_hum/bat"
+
+    state_topic: "std/dev5x/s/temp_hum/tempX"
+    state_topic: "std/dev5x/s/temp_hum/humX"
+    state_topic: "std/dev5x/s/temp_hum/batX"
+
 Pir
     state_topic: "std/dev6x/s/pir/status"
     payload motion: "MOTION"

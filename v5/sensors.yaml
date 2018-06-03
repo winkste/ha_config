@@ -111,6 +111,30 @@
     unit_of_measurement: "%"
 # -----------------------------------------------------------
   - platform: mqtt
+    state_topic: "dev50/#"
+    name: "dev50"
+
+  - platform: mqtt
+    state_topic: "std/dev50/s/temp_hum/temp"
+    name: "dev50_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev50/s/temp_hum/hum"
+    name: "dev50_humidity_dht"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev50/s/temp_hum/temp1"
+    name: "dev50_temperature_dht1"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev50/s/temp_hum/hum1"
+    name: "dev50_humidity_dht1"
+    unit_of_measurement: "%"
+# -----------------------------------------------------------
+  - platform: mqtt
     state_topic: "dev30/#"
     name: "dev30"
 

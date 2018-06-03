@@ -90,9 +90,10 @@
     control: hidden
  #   view: yes
     entities:
-      #- sensor.dev22_temperature_dht
-      #- sensor.dev22_humidity_dht
-      #- binary_sensor.dev60_motion
+      - sensor.dev50_temperature_dht
+      - sensor.dev50_humidity_dht
+      - sensor.dev50_temperature_dht1
+      - sensor.dev50_humidity_dht1
       - light.dev50_r1
       - light.dev50_r2
       - light.dev50_r3
