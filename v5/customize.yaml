@@ -100,16 +100,16 @@
       friendly_name: "Luftfeuchtigkeit"
       icon: "mdi:signal-variant"
 # -----------------------------------------------
-    sensor.dev50_temperature_dht:
+    sensor.dev28_temperature_dht:
       friendly_name: "Temp Außen"
       icon: "mdi:thermometer"
-    sensor.dev50_humidity_dht:
+    sensor.dev28_humidity_dht:
       friendly_name: "Feuchte Außen"
       icon: "mdi:signal-variant"
-    sensor.dev50_temperature_dht1:
+    sensor.dev28_temperature_dht1:
       friendly_name: "Temp Innen"
       icon: "mdi:thermometer"
-    sensor.dev50_humidity_dht1:
+    sensor.dev28_humidity_dht1:
       friendly_name: "Feuchte Innen"
       icon: "mdi:signal-variant"
 # -----------------------------------------------
