@@ -16,22 +16,22 @@
     hide_entity: False
     trigger: 
       - platform: state
-        entity_id: binary_sensor.dev60_motion
+        entity_id: binary_sensor.dev03_motion
         to: 'off'
  #       for: 
  #         hours: 0
  #         minutes: 2
  #         seconds: 0
       - platform: state
-        entity_id: binary_sensor.dev60_motion
+        entity_id: binary_sensor.dev03_motion
         to: 'on'
     action:
       - service_template: >
-          {% if is_state('binary_sensor.dev60_motion','on') %}
+          {% if is_state('binary_sensor.dev03_motion','on') %}
             light.turn_on
           {% else %}
             light.turn_off
           {% endif %}
         entity_id: 
-          - light.dev60
+          - light.dev03
 # ------------------- entrance Room ------------------------

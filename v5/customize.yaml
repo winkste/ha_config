@@ -28,10 +28,6 @@
       friendly_name: "Luftfeuchtigkeit"
       icon: "mdi:signal-variant"
 # -----------------------------------------------
-    light.dev03:
-      friendly_name: "AP Fräse"
-      icon: "mdi:lamp"
-# -----------------------------------------------
     light.dev04:
       friendly_name: "Lampe große Kugel"
       icon: "mdi:lamp"
@@ -120,10 +116,10 @@
       friendly_name: "Luftfeuchtigkeit"
       icon: "mdi:signal-variant"
 # -----------------------------------------------
-    binary_sensor.dev60_motion:
+    binary_sensor.dev03_motion:
       friendly_name: "Bewegungsmelder Carport außen"
       icon: "mdi:information-outline"
-    light.dev60:
+    light.dev03:
       friendly_name: "Licht im Holzschuppen"
       icon: "mdi:lamp"
 # -----------------------------------------------

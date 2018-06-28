@@ -1,17 +1,17 @@
 # ---------------------------------------------------------
-  light_on_dev60:
+  light_on_dev03:
     sequence:
       - condition: state 
-        entity_id: light.dev60
+        entity_id: light.dev03
         state: 'off'
       - service: light.turn_on
-        entity_id: light.dev60
+        entity_id: light.dev03
         
-  light_off_dev60:
+  light_off_dev03:
     sequence:
       - condition: state 
-        entity_id: light.dev60
+        entity_id: light.dev03
         state: 'on'
       - service: light.turn_off
-        entity_id: light.dev60
+        entity_id: light.dev03
 # ---------------------------------------------------------

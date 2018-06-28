@@ -46,8 +46,8 @@
     entities:
       - sensor.dev22_temperature_dht
       - sensor.dev22_humidity_dht
-      - binary_sensor.dev60_motion
-      - light.dev60
+      - binary_sensor.dev03_motion
+      - light.dev03
 # -----------------------------------------------
   attic:
     control: hidden
@@ -121,6 +121,12 @@
       - sensor.dev25_humidity_dht
       - sensor.dev27_temperature_dht
       - sensor.dev27_humidity_dht
+      - sensor.dev28_temperature_dht
+      - sensor.dev28_humidity_dht
+      - sensor.dev28_temperature_dht1
+      - sensor.dev28_humidity_dht1
+      - sensor.dev30_temperature_bme
+      - sensor.dev30_humidity_bme
 # -----------------------------------------------
   daily_forecast_short:
     #view: yes
@@ -155,6 +161,14 @@
       - light.dev03
       - light.dev04
       - light.dev05   
+      - light.dev50_r1
+      - light.dev50_r2
+      - light.dev50_r3
+      - light.dev50_r4
+      - light.dev50_r5
+      - light.dev50_r6
+      - light.dev50_r7
+      - light.dev50_r8
 # -----------------------------------------------  
   system:
     name: System

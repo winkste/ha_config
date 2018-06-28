@@ -5,7 +5,7 @@
       g_motion:
         device_class: motion
         value_template: >-
-          {%- if is_state("binary_sensor.dev60_motion", "on")
+          {%- if is_state("binary_sensor.dev03_motion", "on")
              or is_state("binary_sensor.dev61_motion", "on")  
           -%}     
           true
@@ -13,14 +13,14 @@
           false
           {%- endif %}
         entity_id:
-          - binary_sensor.dev60_motion
+          - binary_sensor.dev03_motion
           - binary_sensor.dev61_motion
 # -------------- all motion sensors -------------
 
 # -------------- templates ----------------------
   - platform: mqtt
-    state_topic: "std/dev60/s/pir/status"
-    name: "dev60_motion"
+    state_topic: "std/dev03/s/pir/status"
+    name: "dev03_motion"
     device_class: motion
   - platform: mqtt
     state_topic: "std/dev61/s/pir/status"

@@ -26,16 +26,6 @@
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-  - platform: mqtt ### light 03 in carport
-    name: "dev03"
-    state_topic: "std/dev03/s/so_basic/status"
-    command_topic: "std/dev03/r/so_basic/switch"
-    qos: 0
-    payload_on: "ON"
-    payload_off: "OFF"
-    optimistic: false
-# --------------------------------------------------
-# --------------------------------------------------
   - platform: mqtt ### light big ball
     name: "dev04"
     state_topic: "std/dev04/s/so_basic/status"
@@ -137,9 +127,9 @@
 # --------------------------------------------------
 # --------------------------------------------------
   - platform: mqtt ### light 01 carport outside
-    name: "dev60"
-    state_topic: "std/dev60/s/relay_one/status"
-    command_topic: "std/dev60/r/relay_one/switch"
+    name: "dev03"
+    state_topic: "std/dev03/s/so_basic/status"
+    command_topic: "std/dev03/r/so_basic/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"

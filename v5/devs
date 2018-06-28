@@ -71,7 +71,7 @@ Multi Relay:
     state_topic: "std/dev2x/s/temp_hum/bat"
 
 Pir
-    state_topic: "std/dev6x/s/pir/status"
+    state_topic: "std/devxx/s/pir/status"
     payload motion: "MOTION"
     payload no motion: "ON"
     payload no motion: "OFF"
