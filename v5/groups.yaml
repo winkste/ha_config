@@ -8,12 +8,35 @@
       - group.living_room
       - group.dining_room
       - group.hall_room
-      - group.bathroom_2
-      - group.bathroom_1
       - group.carport
       - group.attic
       - group.garden
-      - group.rooms
+      - group.mySysMonitor
+ #     - group.bathroom_2
+ #     - group.bathroom_1
+ #     - group.rooms
+# ----------------------------------------------- 
+  system:
+    control: hidden
+    name: System
+    view: yes
+    icon: mdi:settings
+    entities:
+      - group.mySysMonitor
+      #- group.alarm_controll
+      - group.alllights
+      #- group.joiner
+      #- automation.joiner_bedroom_in
+# -----------------------------------------------
+#  weatherOverview:
+#    control: hidden
+#    name: System
+#    view: yes
+#    icon: mdi:settings
+#    entities:
+#      - group.daily_forecast_short
+      #- group.daily_forecast
+# -----------------------------------------------
 # -----------------------------------------------
   living_room:
     control: hidden
@@ -138,18 +161,18 @@
       - sensor.dark_sky_daily_low_temperature
       - sensor.pws_weather_1d_metric
 # -----------------------------------------------
-  daily_forecast:
-    #view: yes
-    name: Wetter
-    entities:
-      - sensor.pws_weather_1d_metric
-      - sensor.pws_weather_1n_metric
-      - sensor.pws_weather_2d_metric
-      - sensor.pws_weather_2n_metric
-      - sensor.pws_weather_3d_metric
-      - sensor.pws_weather_3n_metric
-      - sensor.pws_weather_4d_metric
-      - sensor.pws_weather_4n_metric
+#  daily_forecast:
+#    #view: yes
+#    name: Wetter
+#    entities:
+#      - sensor.pws_weather_1d_metric
+#      - sensor.pws_weather_1n_metric
+#      - sensor.pws_weather_2d_metric
+#      - sensor.pws_weather_2n_metric
+#      - sensor.pws_weather_3d_metric
+#      - sensor.pws_weather_3n_metric
+#      - sensor.pws_weather_4d_metric
+#      - sensor.pws_weather_4n_metric
 # -----------------------------------------------  
   alllights:
     name: All lights
@@ -169,15 +192,14 @@
       - light.dev50_r6
       - light.dev50_r7
       - light.dev50_r8
-# -----------------------------------------------  
-  system:
-    name: System
-    view: yes
-    icon: mdi:settings
+# -----------------------------------------------
+  mySysMonitor:
+    name: System Monitor
+    view: no
     entities:
-      #- group.alarm_controll
-      - group.alllights
-      #- group.joiner
-      #- automation.joiner_bedroom_in
-
-        
+      - sensors.disk_use_percent
+      - sensors.memory_free
+      - sensors.processor_use
+      - sensors.last_boot
+      - sensors.since_last_boot
+# -----------------------------------------------         

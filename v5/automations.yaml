@@ -11,27 +11,56 @@
 #      entity_id: light.dev60
 # ----------------------------------------------------------      
 # ------------------- outside_carport ----------------------
-  - alias: outside_carport
-    initial_state: True
-    hide_entity: False
-    trigger: 
-      - platform: state
-        entity_id: binary_sensor.dev03_motion
-        to: 'off'
- #       for: 
- #         hours: 0
- #         minutes: 2
- #         seconds: 0
+#  - alias: outside_carport
+#    initial_state: True
+#    hide_entity: False
+#    trigger: 
+#      - platform: state
+#        entity_id: binary_sensor.dev03_motion
+#        to: 'off'
+#        for: 
+#          hours: 0
+#          minutes: 1
+#          seconds: 0
+#      - platform: state
+#        entity_id: binary_sensor.dev03_motion
+#        to: 'on'
+#    action:
+#      - service_template: >
+#          {% if is_state('binary_sensor.dev03_motion','on') %}
+#            light.turn_on
+#          {% else %}
+#            light.turn_off
+#          {% endif %}
+#        entity_id: 
+#          - light.dev03
+# ------------------- alternative carport light control ------
+  - alias: Lights on when motion and sun below horizon
+    trigger:
       - platform: state
         entity_id: binary_sensor.dev03_motion
         to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev03
+        state: 'off'
     action:
-      - service_template: >
-          {% if is_state('binary_sensor.dev03_motion','on') %}
-            light.turn_on
-          {% else %}
-            light.turn_off
-          {% endif %}
-        entity_id: 
-          - light.dev03
-# ------------------- entrance Room ------------------------
+      - service: light.turn_on
+        entity_id: light.dev03
+  - alias: Nightlight off after 1 min when motion off and at day
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev03_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+    action:
+      - service: light.turn_off
+        entity_id: light.dev03
+# ---------------------------------------------------------- 

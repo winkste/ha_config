@@ -140,6 +140,17 @@
     sensor.dark_sky_daily_summary:
       friendly_name: " "
 # -----------------------------------------------
+    sensors.disk_use_percent:
+      friendly_name: "Speicher verwendet"
+    sensors.memory_free:
+      friendly_name: "Speicher frei"
+    sensors.processor_use:
+      friendly_name: "CPU Auslastung"
+    sensors.last_boot:
+      friendly_name: "Letzter Boot"
+    sensors.since_last_boot:
+      friendly_name: "Zeit seit letztem Boot"
+# -----------------------------------------------
     group.dining_room:            
       friendly_name: "Esszimmer"
     group.living_room:            
@@ -164,6 +175,8 @@
       friendly_name: "Wettervorhersage"
     group.garden:
       friendly_name: "Garten"
-    #daily_forecast:
-    #  friendly_name: "Wettervorhersage"
+    group.mySysMonitor:
+      friendly_name: "System"
+  #  daily_forecast:
+  #    friendly_name: "Wettervorhersage"
 # -----------------------------------------------
