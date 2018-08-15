@@ -51,6 +51,8 @@
     control: hidden
  #   view: no
     entities:
+      - sensor.dev27_temperature_dht
+      - sensor.dev27_humidity_dht   
       - sensor.dev70_temperature_dht
       - sensor.dev70_humidity_dht
       - sensor.dev70_brightness_temt6000

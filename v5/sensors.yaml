@@ -148,7 +148,7 @@
     name: "dev30_humidity_bme"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
- - platform: mqtt
+  - platform: mqtt
     state_topic: "dev70/#"
     name: "dev70"
 

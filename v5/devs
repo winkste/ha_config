@@ -88,13 +88,13 @@ TEMT6000
 
 
 All:
-command_topic: "std/devXX/r/generic/cmd
+command_topic: "std/devXX/r/gen/cmd
     payload_on: "INFO"
     payload_off: "SETUP"
-    state_topic: "std/devXX/s/generic/fwident" //firmware identification
-    state_topic: "std/devXX/s//generic/fwversion" //firmware version
-    state_topic: "std/devXX/s//generic/desc" //firmware description
-    state_topic: "std/devXX/s//generic/room" //room of device
+    state_topic: "std/devXX/s/gen/fwident" //firmware identification
+    state_topic: "std/devXX/s//gen/fwversion" //firmware version
+    state_topic: "std/devXX/s//gen/desc" //firmware description
+    state_topic: "std/devXX/s//gen/room" //room of device
     state_topic: "inf/devXX/s/trace/
     state_topic: "err/devXX/s/trace/
 
