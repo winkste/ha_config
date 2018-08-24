@@ -73,6 +73,10 @@
     entities:
       - sensor.dev22_temperature_dht
       - sensor.dev22_humidity_dht
+      - sensor.dev71_temperature_dht
+      - sensor.dev71_humidity_dht
+      - sensor.dev71_brightness_temt6000
+      - binary_sensor.dev71_motion
       - binary_sensor.dev03_motion
       - light.dev03
 # -----------------------------------------------

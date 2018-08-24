@@ -20,7 +20,8 @@ dev50: Multi Relais Gartensteuerung
 
 dev60: Relais & PIR
 
-dev70: MultiSense (PIR, DHT22, TEMT6000)
+dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
+dev71: MultiSense (PIR, DHT22, TEMT6000) im Carport Schuppen
 
 
 
