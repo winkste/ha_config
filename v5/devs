@@ -22,6 +22,7 @@ dev60: Relais & PIR
 
 dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
 dev71: MultiSense (PIR, DHT22, TEMT6000) im Carport Schuppen
+dev72: MultiSense (PIR, DHT22, TEMT6000) im Wohnzimmer
 
 
 

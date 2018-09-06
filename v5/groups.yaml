@@ -45,7 +45,10 @@
       - light.dev01
       - sensor.dev30_temperature_bme
       - sensor.dev30_humidity_bme
-      #- binary_sensor.dev101_motion
+      - sensor.dev72_temperature_dht
+      - sensor.dev72_humidity_dht
+      - sensor.dev72_brightness_temt6000
+      - binary_sensor.dev72_motion
 # -----------------------------------------------
   hall_room:
     control: hidden

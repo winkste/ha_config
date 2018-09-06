@@ -149,6 +149,19 @@
       friendly_name: "Bewegungsmelder Carport innen"
       icon: "mdi:information-outline"
 # -----------------------------------------------
+    sensor.dev72_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev72_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev72_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev72_motion:
+      friendly_name: "Bewegungsmelder Wz"
+      icon: "mdi:information-outline"
+# -----------------------------------------------
     sensor.dark_sky_apparent_temperature:
       friendly_name: "Aktuelle Außentemperatur"
     sensor.dark_sky_cloud_coverage:

@@ -52,6 +52,7 @@
     action:
       - service: light.turn_on
         entity_id: light.dev03
+
   - alias: Nightlight off after 1 min when motion off and at day
     trigger:
       - platform: state
@@ -60,6 +61,15 @@
         for:
           minutes: 01
           seconds: 00
+#    condition:
+#      condition: and
+#      conditions:
+#        - condition: sun
+#          before: sunrise
+#          before_offset: '00:30:00'
+#        - condition: state
+#          entity_id: light.dev03
+#          state: 'on'
     action:
       - service: light.turn_off
         entity_id: light.dev03

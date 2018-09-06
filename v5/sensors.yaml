@@ -186,6 +186,25 @@
     name: "dev71_brightness_temt6000"
     unit_of_measurement: "raw"
 # -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev72/#"
+    name: "dev72"
+
+  - platform: mqtt
+    state_topic: "std/dev72/s/temp_hum/temp"
+    name: "dev72_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev72/s/temp_hum/hum"
+    name: "dev72_humidity_dht"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev72/s/temt6000/raw"
+    name: "dev72_brightness_temt6000"
+    unit_of_measurement: "raw"
+# -----------------------------------------------------------
   - platform: darksky
     api_key: !secret darksky_key
     monitored_conditions:

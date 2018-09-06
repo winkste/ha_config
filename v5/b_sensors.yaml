@@ -15,6 +15,8 @@
         entity_id:
           - binary_sensor.dev03_motion
           - binary_sensor.dev61_motion
+          - binary_sensor.dev71_motion
+          - binary_sensor.dev72_motion
 # -------------- all motion sensors -------------
 
 # -------------- templates ----------------------
@@ -33,4 +35,8 @@
   - platform: mqtt
     state_topic: "std/dev71/s/pir/status"
     name: "dev71_motion"
+    device_class: motion
+  - platform: mqtt
+    state_topic: "std/dev72/s/pir/status"
+    name: "dev72_motion"
     device_class: motion
