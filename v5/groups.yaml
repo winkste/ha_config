@@ -25,6 +25,7 @@
       - group.mySysMonitor
       #- group.alarm_controll
       - group.alllights
+      - group.octoprint_status_card
       #- group.joiner
       #- automation.joiner_bedroom_in
 # -----------------------------------------------
@@ -213,4 +214,20 @@
       - sensor.processor_use
       - sensor.last_boot
       - sensor.since_last_boot
-# -----------------------------------------------         
+# ----------------------------------------------- 
+  octoprint_status_card:
+    name: 3D Printer Status
+    view: no
+    entities:
+      #- switch.wemo_insight
+      #- switch.strip_cord
+      - sensor.octoprint_current_state
+      - binary_sensor.octoprint_printing
+      - binary_sensor.octoprint_printing_error
+      - sensor.octoprint_job_percentage
+      - sensor.octoprint_target_bed_temp
+      - sensor.octoprint_actual_bed_temp
+      - sensor.octoprint_target_tool0_temp
+      - sensor.octoprint_actual_tool0_temp
+      #- weblink.octoprint_web_ui
+      #- camera.octoprint       

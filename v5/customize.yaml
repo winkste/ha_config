@@ -216,6 +216,8 @@
       friendly_name: "Garten"
     group.mySysMonitor:
       friendly_name: "System"
+    group.octoprint_status_card:
+      friendly_name: "3D-Printer"
   #  daily_forecast:
   #    friendly_name: "Wettervorhersage"
 # -----------------------------------------------

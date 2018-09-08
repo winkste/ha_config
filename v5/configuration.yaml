@@ -72,16 +72,20 @@ sun:
 #sensor:
 #  - platform: yr
 
+octoprint:
+  host: !secret octoprint_ip
+  api_key: !secret octoprint_api
+
 # Text to speech
 tts:
   - platform: google
 
 mqtt:
- broker: 127.0.0.1
- port: 1883
- client_id: home-assistant-1
- username: !secret mq_user
- password: !secret mq_pass
+  broker: 127.0.0.1
+  port: 1883
+  client_id: home-assistant-1
+  username: !secret mq_user
+  password: !secret mq_pass
 
 sensor: !include sensors.yaml
 #switch: !include switches.yaml

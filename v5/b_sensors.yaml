@@ -40,3 +40,10 @@
     state_topic: "std/dev72/s/pir/status"
     name: "dev72_motion"
     device_class: motion
+# -------------- octoprint sensor ---------------
+  - platform: octoprint
+    name: OctoPrint
+    monitored_conditions:
+    - Printing
+    - Printing Error
+# -------------- octoprint sensor ---------------
