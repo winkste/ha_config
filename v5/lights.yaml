@@ -36,7 +36,7 @@
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
-  - platform: mqtt ### light 05 in carport
+  - platform: mqtt ### 3D Printer
     name: "dev05"
     state_topic: "std/dev05/s/so_basic/status"
     command_topic: "std/dev05/r/so_basic/switch"

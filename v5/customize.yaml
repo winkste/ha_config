@@ -33,7 +33,7 @@
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev05:
-      friendly_name: "AP Rest"
+      friendly_name: "3D-Printer"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r1:

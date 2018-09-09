@@ -109,8 +109,6 @@
     control: hidden
 #    view: yes
     entities:
-#      - light.dev5
-#      - light.dev6
 #      - sun.sun
 #      - sensor.dark_sky_temperature
       - sensor.dark_sky_apparent_temperature
@@ -219,8 +217,7 @@
     name: 3D Printer Status
     view: no
     entities:
-      #- switch.wemo_insight
-      #- switch.strip_cord
+      - light.dev05
       - sensor.octoprint_current_state
       - binary_sensor.octoprint_printing
       - binary_sensor.octoprint_printing_error

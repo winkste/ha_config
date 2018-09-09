@@ -1,6 +1,7 @@
 dev01: Sonoff Schalter für Lampe 01 im Wohnzimmer 
 dev02: Schalter für Kugel klein
 dev04: Schalter für Kugel groß
+dev05: 3D Printer
 
 dev21: DHT Temperatur und Luftfeuchte im Esszimmer
 dev22: DHT Temperatur und Luftfeuchte im Carport
