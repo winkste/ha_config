@@ -44,8 +44,8 @@
  #   view: no
     entities:
       - light.dev01
-      - sensor.dev30_temperature_bme
-      - sensor.dev30_humidity_bme
+#      - sensor.dev30_temperature_bme
+#      - sensor.dev30_humidity_bme
       - sensor.dev72_temperature_dht
       - sensor.dev72_humidity_dht
       - sensor.dev72_brightness_temt6000
@@ -55,12 +55,13 @@
     control: hidden
  #   view: no
     entities:
-      - sensor.dev27_temperature_dht
-      - sensor.dev27_humidity_dht   
+#      - sensor.dev27_temperature_dht
+#      - sensor.dev27_humidity_dht   
       - sensor.dev70_temperature_dht
       - sensor.dev70_humidity_dht
       - sensor.dev70_brightness_temt6000
       - binary_sensor.dev70_motion
+      - light.dev70
       - light.dev02
       - light.dev04
 # -----------------------------------------------
@@ -75,11 +76,10 @@
     control: hidden
  #   view: yes
     entities:
-      - sensor.dev22_temperature_dht
-      - sensor.dev22_humidity_dht
       - sensor.dev71_temperature_dht
       - sensor.dev71_humidity_dht
       - sensor.dev71_brightness_temt6000
+      - light.dev71
       - binary_sensor.dev71_motion
       - binary_sensor.dev03_motion
       - light.dev03
@@ -202,6 +202,8 @@
       - light.dev50_r6
       - light.dev50_r7
       - light.dev50_r8
+      - light.dev99
+      - light.dev71
 # -----------------------------------------------
   mySysMonitor:
     name: System Monitor
@@ -218,6 +220,8 @@
     view: no
     entities:
       - light.dev05
+      - sensor.dev22_temperature_dht
+      - sensor.dev22_humidity_dht
       - sensor.octoprint_current_state
       - binary_sensor.octoprint_printing
       - binary_sensor.octoprint_printing_error

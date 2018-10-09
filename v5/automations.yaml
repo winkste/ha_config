@@ -35,7 +35,7 @@
 #        entity_id: 
 #          - light.dev03
 # ------------------- alternative carport light control ------
-  - alias: Lights on when motion and sun below horizon
+  - alias: Outside Light Control ON
     trigger:
       - platform: state
         entity_id: binary_sensor.dev03_motion
@@ -53,7 +53,7 @@
       - service: light.turn_on
         entity_id: light.dev03
 
-  - alias: Nightlight off after 1 min when motion off and at day
+  - alias: Outside Light Control OFF
     trigger:
       - platform: state
         entity_id: binary_sensor.dev03_motion
@@ -73,4 +73,84 @@
     action:
       - service: light.turn_off
         entity_id: light.dev03
+# ---------------------------------------------------------- 
+# ------------------- hall light control -------------------
+  - alias: Hall ground floor Orient Light ON
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev70_motion
+        to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev70
+        state: 'off'
+    action:
+      - service: light.turn_on
+        entity_id: light.dev70
+
+  - alias: Hall ground floor Orient Light OFF
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev70_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+#    condition:
+#      condition: and
+#      conditions:
+#        - condition: sun
+#          before: sunrise
+#          before_offset: '00:30:00'
+#        - condition: state
+#          entity_id: light.dev03
+#          state: 'on'
+    action:
+      - service: light.turn_off
+        entity_id: light.dev70
+# ----------------------------------------------------------
+# ------------------- carport light control ----------------
+  - alias: Carport Inside Orient Light ON
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev71_motion
+        to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev71
+        state: 'off'
+    action:
+      - service: light.turn_on
+        entity_id: light.dev71
+
+  - alias: Carport Inside Orient Light OFF
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev71_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+#    condition:
+#      condition: and
+#      conditions:
+#        - condition: sun
+#          before: sunrise
+#          before_offset: '00:30:00'
+#        - condition: state
+#          entity_id: light.dev03
+#          state: 'on'
+    action:
+      - service: light.turn_off
+        entity_id: light.dev71
 # ---------------------------------------------------------- 

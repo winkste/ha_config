@@ -135,3 +135,57 @@
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### flur
+    name: "dev70"
+    state_topic: "std/dev70/s/light_one/status"
+    command_topic: "std/dev70/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev70/s/light_one/color'
+    rgb_command_topic: 'std/dev70/r/light_one/color'
+
+    brightness_state_topic: 'std/dev70/s/light_one/brightness'
+    brightness_command_topic: 'std/dev70/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### carport intern
+    name: "dev71"
+    state_topic: "std/dev71/s/light_one/status"
+    command_topic: "std/dev71/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev71/s/light_one/color'
+    rgb_command_topic: 'std/dev71/r/light_one/color'
+
+    brightness_state_topic: 'std/dev71/s/light_one/brightness'
+    brightness_command_topic: 'std/dev71/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### testing
+    name: "dev99"
+    state_topic: "std/dev99/s/light_one/status"
+    command_topic: "std/dev99/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev99/s/light_one/color'
+    rgb_command_topic: 'std/dev99/r/light_one/color'
+
+    brightness_state_topic: 'std/dev99/s/light_one/brightness'
+    brightness_command_topic: 'std/dev99/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99

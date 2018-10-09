@@ -123,6 +123,14 @@
       friendly_name: "Licht im Holzschuppen"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    light.dev71:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev70:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     sensor.dev70_temperature_dht:
       friendly_name: "Temperatur"
       icon: "mdi:thermometer"

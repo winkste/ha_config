@@ -22,7 +22,7 @@ dev50: Multi Relais Gartensteuerung
 dev60: Relais & PIR
 
 dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
-dev71: MultiSense (PIR, DHT22, TEMT6000) im Carport Schuppen
+dev71: MultiSense (PIR, DHT22, TEMT6000, NeoPixel LED) im Carport Schuppen
 dev72: MultiSense (PIR, DHT22, TEMT6000) im Wohnzimmer
 
 
@@ -71,6 +71,15 @@ Multi Relay:
     state_topic: "std/dev5x/s/relay_xxx/status"
     payload_on: "ON"
     payload_off: "OFF"
+
+Dim Light:
+    command_topic: "std/dev8x/r/light_one/toggle"
+    command_topic: "std/dev8x/r/light_one/switch"
+    state_topic: "std/dev8x/s/light_one/status"
+    command_topic: "std/dev8x/r/light_one/brightness"
+    state_topic: "std/dev8x/s/light_one/brightness"
+    command_topic: "std/dev8x/r/light_one/color"
+    state_topic: "std/dev8x/s/light_one/color"
 
     state_topic: "std/dev2x/s/temp_hum/temp"
     state_topic: "std/dev2x/s/temp_hum/hum"
