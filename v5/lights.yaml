@@ -172,6 +172,78 @@
     optimistic: false
     brightness_scale: 99
 # --------------------------------------------------
+  - platform: mqtt ### living room orient light 
+    name: "dev72"
+    state_topic: "std/dev72/s/light_one/status"
+    command_topic: "std/dev72/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev72/s/light_one/color'
+    rgb_command_topic: 'std/dev72/r/light_one/color'
+
+    brightness_state_topic: 'std/dev72/s/light_one/brightness'
+    brightness_command_topic: 'std/dev72/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### H801 LED ctrl channel 1: furniture living room
+    name: "dev80_l1"
+    state_topic: "std/dev80/s/light_one/status"
+    command_topic: "std/dev80/r/light_one/switch"
+
+    #rgb_state_topic: 'std/dev80/s/light_one/color'
+    #rgb_command_topic: 'std/dev80/r/light_one/color'
+
+    brightness_state_topic: 'std/dev80/s/light_one/brightness'
+    brightness_command_topic: 'std/dev80/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### H801 LED ctrl channel 2: furniture living room
+    name: "dev80_l2"
+    state_topic: "std/dev80/s/light_two/status"
+    command_topic: "std/dev80/r/light_two/switch"
+
+    #rgb_state_topic: 'std/dev80/s/light_one/color'
+    #rgb_command_topic: 'std/dev80/r/light_one/color'
+
+    brightness_state_topic: 'std/dev80/s/light_two/brightness'
+    brightness_command_topic: 'std/dev80/r/light_two/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### H801 LED ctrl channel 3: furniture living room
+    name: "dev80_l3"
+    state_topic: "std/dev80/s/light_three/status"
+    command_topic: "std/dev80/r/light_three/switch"
+
+    #rgb_state_topic: 'std/dev80/s/light_one/color'
+    #rgb_command_topic: 'std/dev80/r/light_one/color'
+
+    brightness_state_topic: 'std/dev80/s/light_three/brightness'
+    brightness_command_topic: 'std/dev80/r/light_three/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
   - platform: mqtt ### testing
     name: "dev99"
     state_topic: "std/dev99/s/light_one/status"

@@ -28,6 +28,7 @@
       - group.octoprint_status_card
       #- group.joiner
       #- automation.joiner_bedroom_in
+      - group.yahoo_forecast
 # -----------------------------------------------
 #  weatherOverview:
 #    control: hidden
@@ -50,6 +51,10 @@
       - sensor.dev72_humidity_dht
       - sensor.dev72_brightness_temt6000
       - binary_sensor.dev72_motion
+      - light.dev72
+      - light.dev80_l1
+      - light.dev80_l2
+      - light.dev80_l3
 # -----------------------------------------------
   hall_room:
     control: hidden
@@ -232,3 +237,5 @@
       - sensor.octoprint_actual_tool0_temp
       #- weblink.octoprint_web_ui
       #- camera.octoprint       
+# -----------------------------------------------
+ 

@@ -127,8 +127,24 @@
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    light.dev72:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev70:
       friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev80_l1:
+      friendly_name: "Schrank links"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev80_l2:
+      friendly_name: "Schrank rechts"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev80_l3:
+      friendly_name: "Schrank mitte"
       icon: "mdi:lamp"
 # -----------------------------------------------
     sensor.dev70_temperature_dht:

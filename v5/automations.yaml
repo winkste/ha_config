@@ -154,3 +154,43 @@
       - service: light.turn_off
         entity_id: light.dev71
 # ---------------------------------------------------------- 
+# ------------------- living room light control ------------
+  - alias: Living Room Orient Light ON
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev72_motion
+        to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev72
+        state: 'off'
+    action:
+      - service: light.turn_on
+        entity_id: light.dev72
+
+  - alias: Living Room Orient Light OFF
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev72_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+#    condition:
+#      condition: and
+#      conditions:
+#        - condition: sun
+#          before: sunrise
+#          before_offset: '00:30:00'
+#        - condition: state
+#          entity_id: light.dev03
+#          state: 'on'
+    action:
+      - service: light.turn_off
+        entity_id: light.dev72
+# ---------------------------------------------------------- 
