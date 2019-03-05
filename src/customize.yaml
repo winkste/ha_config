@@ -131,6 +131,10 @@
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    light.dev73:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev70:
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
@@ -157,7 +161,7 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev70_motion:
-      friendly_name: "Bewegungsmelder Flur innen"
+      friendly_name: "Bewegungsmelder"
       icon: "mdi:information-outline"
 # -----------------------------------------------
     sensor.dev71_temperature_dht:
@@ -185,6 +189,48 @@
     binary_sensor.dev72_motion:
       friendly_name: "Bewegungsmelder Wz"
       icon: "mdi:information-outline"
+# -----------------------------------------------
+    sensor.dev73_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev73_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev73_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev73_motion:
+      friendly_name: "Bewegungsmelder"
+      icon: "mdi:information-outline"
+# -----------------------------------------------
+    sensor.dev11_temperature_dht:
+      friendly_name: "Temp 3D Print"
+      icon: "mdi:thermometer"
+    sensor.dev11_humidity_dht:
+      friendly_name: "Feuchte 3D Print"
+      icon: "mdi:signal-variant"
+    sensor.dev11_temperature_dht1:
+      friendly_name: "Temp Filament"
+      icon: "mdi:thermometer"
+    sensor.dev11_humidity_dht1:
+      friendly_name: "Feuchte Filament"
+      icon: "mdi:signal-variant"
+# -----------------------------------------------
+    light.dev11_l1:
+      friendly_name: "Fan"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev11_l2:
+      friendly_name: "LEDs"
+      icon: "mdi:fan"
+# -----------------------------------------------
+    light.dev11_r1:
+      friendly_name: "unused"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    light.dev11_r2:
+      friendly_name: "OctoPi Server"
+      icon: "mdi:lamp"
 # -----------------------------------------------
     sensor.dark_sky_apparent_temperature:
       friendly_name: "Aktuelle Außentemperatur"
@@ -219,7 +265,9 @@
     group.living_room:            
       friendly_name: "Wohnzimmer"
     group.hall_room:            
-      friendly_name: "Flur"
+      friendly_name: "Flur unten"
+    group.hall_room2:            
+      friendly_name: "Flur oben"
     group.kitchen:            
       friendly_name: "Küche"
     group.carport:            
@@ -242,6 +290,8 @@
       friendly_name: "System"
     group.octoprint_status_card:
       friendly_name: "3D-Printer"
+    group.octoprint_control_card:
+      friendly_name: "3D-Printer Ctrl"
   #  daily_forecast:
   #    friendly_name: "Wettervorhersage"
 # -----------------------------------------------

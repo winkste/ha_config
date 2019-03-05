@@ -205,6 +205,49 @@
     name: "dev72_brightness_temt6000"
     unit_of_measurement: "raw"
 # -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev73/#"
+    name: "dev73"
+
+  - platform: mqtt
+    state_topic: "std/dev73/s/temp_hum/temp"
+    name: "dev73_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev73/s/temp_hum/hum"
+    name: "dev73_humidity_dht"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev73/s/temt6000/raw"
+    name: "dev73_brightness_temt6000"
+    unit_of_measurement: "raw"
+# -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev11/#"
+    name: "dev11"
+
+  - platform: mqtt
+    state_topic: "std/dev11/s/temp_hum/temp"
+    name: "dev11_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev11/s/temp_hum/hum"
+    name: "dev11_humidity_dht"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev11/s/temp_hum/temp1"
+    name: "dev11_temperature_dht1"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev11/s/temp_hum/hum1"
+    name: "dev11_humidity_dht1"
+    unit_of_measurement: "%"
+# -----------------------------------------------------------
   - platform: darksky
     api_key: !secret darksky_key
     monitored_conditions:

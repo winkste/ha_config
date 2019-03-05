@@ -172,7 +172,7 @@
     optimistic: false
     brightness_scale: 99
 # --------------------------------------------------
-  - platform: mqtt ### living room orient light 
+  - platform: mqtt ### hall room orient light 
     name: "dev72"
     state_topic: "std/dev72/s/light_one/status"
     command_topic: "std/dev72/r/light_one/switch"
@@ -182,6 +182,24 @@
 
     brightness_state_topic: 'std/dev72/s/light_one/brightness'
     brightness_command_topic: 'std/dev72/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### hall room 2 orient light 
+    name: "dev73"
+    state_topic: "std/dev73/s/light_one/status"
+    command_topic: "std/dev73/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev73/s/light_one/color'
+    rgb_command_topic: 'std/dev73/r/light_one/color'
+
+    brightness_state_topic: 'std/dev73/s/light_one/brightness'
+    brightness_command_topic: 'std/dev73/r/light_one/brightness'
 
     retain: True
     qos: 0
@@ -243,6 +261,61 @@
     payload_off: "OFF"
     optimistic: false
     brightness_scale: 99
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### MOS Module channel 1: LEDs
+    name: "dev11_l1"
+    state_topic: "std/dev11/s/light_one/status"
+    command_topic: "std/dev11/r/light_one/switch"
+
+    #rgb_state_topic: 'std/dev80/s/light_one/color'
+    #rgb_command_topic: 'std/dev80/r/light_one/color'
+
+    brightness_state_topic: 'std/dev11/s/light_one/brightness'
+    brightness_command_topic: 'std/dev11/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### MOS Module channel 1: FAN
+    name: "dev11_l2"
+    state_topic: "std/dev11/s/light_two/status"
+    command_topic: "std/dev11/r/light_two/switch"
+
+    #rgb_state_topic: 'std/dev80/s/light_one/color'
+    #rgb_command_topic: 'std/dev80/r/light_one/color'
+
+    brightness_state_topic: 'std/dev11/s/light_two/brightness'
+    brightness_command_topic: 'std/dev11/r/light_two/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### relay module 1
+    name: "dev11_r1"
+    state_topic: "std/dev11/s/relay_one/status"
+    command_topic: "std/dev11/r/relay_one/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+  - platform: mqtt ### relay module 2
+    name: "dev11_r2"
+    state_topic: "std/dev11/s/relay_two/status"
+    command_topic: "std/dev11/r/relay_two/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
 # --------------------------------------------------
   - platform: mqtt ### testing
     name: "dev99"

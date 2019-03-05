@@ -194,3 +194,34 @@
       - service: light.turn_off
         entity_id: light.dev72
 # ---------------------------------------------------------- 
+# ------------------- hall light 2 control -----------------
+  - alias: Hall first floor Orient Light ON
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev73_motion
+        to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev73
+        state: 'off'
+    action:
+      - service: light.turn_on
+        entity_id: light.dev73
+
+  - alias: Hall first floor Orient Light OFF
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev73_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+    action:
+      - service: light.turn_off
+        entity_id: light.dev73
+# ----------------------------------------------------------

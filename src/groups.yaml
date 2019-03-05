@@ -8,6 +8,7 @@
       - group.living_room
       - group.dining_room
       - group.hall_room
+      - group.hall_room2
       - group.carport
       - group.attic
       - group.garden
@@ -25,10 +26,11 @@
       - group.mySysMonitor
       #- group.alarm_controll
       - group.alllights
-      - group.octoprint_status_card
+      - group.octoprint_control_card
+      #- group.octoprint_status_card
       #- group.joiner
       #- automation.joiner_bedroom_in
-      - group.yahoo_forecast
+      #- group.yahoo_forecast
 # -----------------------------------------------
 #  weatherOverview:
 #    control: hidden
@@ -59,15 +61,23 @@
   hall_room:
     control: hidden
  #   view: no
-    entities:
-#      - sensor.dev27_temperature_dht
-#      - sensor.dev27_humidity_dht   
+    entities:  
       - sensor.dev70_temperature_dht
       - sensor.dev70_humidity_dht
       - sensor.dev70_brightness_temt6000
       - binary_sensor.dev70_motion
       - light.dev70
       - light.dev02
+# -----------------------------------------------
+  hall_room2:
+    control: hidden
+ #   view: no
+    entities: 
+      - sensor.dev73_temperature_dht
+      - sensor.dev73_humidity_dht
+      - sensor.dev73_brightness_temt6000
+      - binary_sensor.dev73_motion
+      - light.dev73
       - light.dev04
 # -----------------------------------------------
   dining_room:
@@ -165,6 +175,10 @@
       - sensor.dev28_humidity_dht1
       - sensor.dev30_temperature_bme
       - sensor.dev30_humidity_bme
+      - sensor.dev11_temperature_dht
+      - sensor.dev11_humidity_dht
+      - sensor.dev11_temperature_dht1
+      - sensor.dev11_humidity_dht1
 # -----------------------------------------------
   daily_forecast_short:
     #view: yes
@@ -209,6 +223,12 @@
       - light.dev50_r8
       - light.dev99
       - light.dev71
+      - light.dev72
+      - light.dev73
+      - light.dev11_l1
+      - light.dev11_l2
+      - light.dev11_r1
+      - light.dev11_r2
 # -----------------------------------------------
   mySysMonitor:
     name: System Monitor
@@ -222,6 +242,7 @@
 # ----------------------------------------------- 
   octoprint_status_card:
     name: 3D Printer Status
+    control: hidden
     view: no
     entities:
       - light.dev05
@@ -235,7 +256,31 @@
       - sensor.octoprint_actual_bed_temp
       - sensor.octoprint_target_tool0_temp
       - sensor.octoprint_actual_tool0_temp
+      - camera.octo_print_cam
       #- weblink.octoprint_web_ui
       #- camera.octoprint       
+# -----------------------------------------------
+  octoprint_control_card:
+    name: 3D Printer Control
+    control: hidden
+    #view: no
+    entities:
+      - light.dev11_l1
+      - light.dev11_l2
+      - light.dev11_r1
+      - light.dev11_r2
+      - sensor.dev11_temperature_dht
+      - sensor.dev11_humidity_dht
+      - sensor.dev11_temperature_dht1
+      - sensor.dev11_humidity_dht1
+      - sensor.octoprint_current_state
+      - binary_sensor.octoprint_printing
+      - binary_sensor.octoprint_printing_error
+      - sensor.octoprint_job_percentage
+      - sensor.octoprint_target_bed_temp
+      - sensor.octoprint_actual_bed_temp
+      - sensor.octoprint_target_tool0_temp
+      - sensor.octoprint_actual_tool0_temp
+      - camera.octo_print_cam       
 # -----------------------------------------------
  

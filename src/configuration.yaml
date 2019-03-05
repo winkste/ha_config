@@ -43,15 +43,6 @@ discovery:
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
-# camera test setup
-camera:
-  - platform: generic
-    name: Carport
-    still_image_url: http://192.168.178.32/web/admin.html
-    username: admin
-    password: admin
-    content_type: 'image/svg+xml'
-
 # Enables support for tracking state changes over time
 history:
 
@@ -96,3 +87,4 @@ binary_sensor: !include b_sensors.yaml
 #input_slider: !include slider.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+camera: !include cameras.yaml
