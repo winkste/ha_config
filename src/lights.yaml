@@ -136,6 +136,16 @@
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
+  - platform: mqtt ### light 02 carport outside
+    name: "dev62"
+    state_topic: "std/dev62/s/so_basic/status"
+    command_topic: "std/dev62/r/so_basic/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
   - platform: mqtt ### flur
     name: "dev70"
     state_topic: "std/dev70/s/light_one/status"

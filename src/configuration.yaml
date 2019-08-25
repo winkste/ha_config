@@ -22,6 +22,10 @@ frontend:
 # Enables configuration UI
 config:
 
+weather:
+  - platform: darksky
+    api_key: !secret darksky_key
+
 http:
   # Secrets are defined in the file secrets.yaml
   api_password: !secret http_password
@@ -69,7 +73,7 @@ octoprint:
 
 # Text to speech
 tts:
-  - platform: google
+  - platform: google_translate
 
 mqtt:
   broker: 127.0.0.1

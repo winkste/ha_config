@@ -19,7 +19,10 @@ dev41: Relais für Pumpe 2
 
 dev50: Multi Relais Gartensteuerung
 
-dev60: Relais & PIR
+-obsolete- dev60: Relais & PIR Carport 1
+dev03: Relais & PIR Carport 1
+dev62: Relais & PIR Carport 2
+dev63: Relais & PIR Schuppen außen
 
 dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
 dev71: MultiSense (PIR, DHT22, TEMT6000, NeoPixel LED) im Carport Schuppen

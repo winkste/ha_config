@@ -123,6 +123,13 @@
       friendly_name: "Licht im Holzschuppen"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    binary_sensor.dev62_motion:
+      friendly_name: "Bewegungsmelder unter Carport"
+      icon: "mdi:information-outline"
+    light.dev62:
+      friendly_name: "Licht unter Carport"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev71:
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
@@ -232,22 +239,22 @@
       friendly_name: "OctoPi Server"
       icon: "mdi:lamp"
 # -----------------------------------------------
-    sensor.dark_sky_apparent_temperature:
-      friendly_name: "Aktuelle Außentemperatur"
-    sensor.dark_sky_cloud_coverage:
-      friendly_name: "Cloud coverage"
-    sensor.dark_sky_daily_high_temperature:
-      friendly_name: "Max. Außentemperatur"
-    sensor.dark_sky_daily_low_temperature:
-      friendly_name: "Min. Außentemperatur"
-    sensor.dark_sky_precip_intensity:
-      friendly_name: "Rain intensity"
-    sensor.dark_sky_precip_probability:
-      friendly_name: "Regenwarscheinlichkeit"
-    sensor.dark_sky_temperature:
-      friendly_name: "Aktuelle Außentemperatur"
-    sensor.dark_sky_daily_summary:
-      friendly_name: " "
+#    sensor.dark_sky_apparent_temperature:
+#      friendly_name: "Aktuelle Außentemperatur"
+#    sensor.dark_sky_cloud_coverage:
+#      friendly_name: "Cloud coverage"
+#    sensor.dark_sky_daily_high_temperature:
+#      friendly_name: "Max. Außentemperatur"
+#    sensor.dark_sky_daily_low_temperature:
+#      friendly_name: "Min. Außentemperatur"
+#    sensor.dark_sky_precip_intensity:
+#      friendly_name: "Rain intensity"
+#    sensor.dark_sky_precip_probability:
+#      friendly_name: "Regenwarscheinlichkeit"
+#    sensor.dark_sky_temperature:
+#      friendly_name: "Aktuelle Außentemperatur"
+#    sensor.dark_sky_daily_summary:
+#      friendly_name: " "
 # -----------------------------------------------
     sensors.disk_use_percent:
       friendly_name: "Speicher verwendet"
@@ -257,8 +264,8 @@
       friendly_name: "CPU Auslastung"
     sensors.last_boot:
       friendly_name: "Letzter Boot"
-    sensors.since_last_boot:
-      friendly_name: "Zeit seit letztem Boot"
+#    sensors.since_last_boot:
+#      friendly_name: "Zeit seit letztem Boot"
 # -----------------------------------------------
     group.dining_room:            
       friendly_name: "Esszimmer"

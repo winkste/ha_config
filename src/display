@@ -1,0 +1,257 @@
+title: Home
+views:
+  - badges: []
+    cards:
+      - entity: weather.dark_sky
+        name: Wetter Trend
+        type: weather-forecast
+      - aspect_ratio: 80%
+        title: Regenradar
+        type: iframe
+        url: >-
+          https://embed.windy.com/embed2.html?lat=51.645&lon=8.921&zoom=5&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
+      - entities:
+          - light.dev01
+          - sensor.dev72_temperature_dht
+          - sensor.dev72_humidity_dht
+          - sensor.dev72_brightness_temt6000
+          - binary_sensor.dev72_motion
+          - light.dev72
+          - light.dev80_l1
+          - light.dev80_l2
+          - light.dev80_l3
+        show_header_toggle: false
+        title: Wohnzimmer
+        type: entities
+      - entities:
+          - sensor.dev21_temperature_dht
+          - sensor.dev21_humidity_dht
+        show_header_toggle: false
+        title: Esszimmer
+        type: entities
+      - entities:
+          - sensor.dev70_temperature_dht
+          - sensor.dev70_humidity_dht
+          - sensor.dev70_brightness_temt6000
+          - binary_sensor.dev70_motion
+          - light.dev70
+          - light.dev02
+        show_header_toggle: false
+        title: Flur unten
+        type: entities
+      - entities:
+          - sensor.dev73_temperature_dht
+          - sensor.dev73_humidity_dht
+          - sensor.dev73_brightness_temt6000
+          - binary_sensor.dev73_motion
+          - light.dev73
+          - light.dev04
+        show_header_toggle: false
+        title: Flur oben
+        type: entities
+      - entities:
+          - sensor.dev71_temperature_dht
+          - sensor.dev71_humidity_dht
+          - sensor.dev71_brightness_temt6000
+          - light.dev71
+          - binary_sensor.dev71_motion
+          - binary_sensor.dev03_motion
+          - light.dev03
+          - binary_sensor.dev62_motion
+          - light.dev62
+        show_header_toggle: false
+        title: Carport
+        type: entities
+      - entities:
+          - sensor.dev23_temperature_dht
+          - sensor.dev23_humidity_dht
+        show_header_toggle: false
+        title: Dachboden
+        type: entities
+      - entities:
+          - sensor.dev28_temperature_dht
+          - sensor.dev28_humidity_dht
+          - sensor.dev28_temperature_dht1
+          - sensor.dev28_humidity_dht1
+          - light.dev50_r1
+          - light.dev50_r2
+          - light.dev50_r3
+          - light.dev50_r4
+          - light.dev50_r5
+          - light.dev50_r6
+          - light.dev50_r7
+          - light.dev50_r8
+        show_header_toggle: false
+        title: Garten
+        type: entities
+    icon: 'mdi:home'
+    path: default_view
+    title: Home
+  - badges: []
+    cards:
+      - entities:
+          - entity: sensor.disk_use_percent
+          - entity: sensor.memory_free
+          - entity: sensor.processor_use
+          - entity: sensor.last_boot
+        show_header_toggle: false
+        title: System
+        type: entities
+      - entities:
+          - light.dev01
+          - light.dev02
+          - light.dev03
+          - light.dev04
+          - light.dev05
+          - light.dev50_r1
+          - light.dev50_r2
+          - light.dev50_r3
+          - light.dev50_r4
+          - light.dev50_r5
+          - light.dev50_r6
+          - light.dev50_r7
+          - light.dev50_r8
+          - light.dev62
+          - light.dev99
+          - light.dev71
+          - light.dev72
+          - light.dev73
+          - light.dev11_l1
+          - light.dev11_l2
+          - light.dev11_r1
+          - light.dev11_r2
+        show_header_toggle: false
+        title: All lights
+        type: entities
+    icon: 'mdi:settings'
+    path: system
+    title: System
+  - badges: []
+    cards:
+      - entities:
+          - entity: light.dev11_l1
+          - entity: light.dev11_l2
+          - entity: light.dev11_r1
+          - entity: light.dev11_r2
+          - entity: sensor.dev11_temperature_dht
+          - entity: sensor.dev11_humidity_dht
+          - entity: sensor.dev11_temperature_dht1
+          - entity: sensor.dev11_humidity_dht1
+          - entity: sensor.octoprint_current_state
+          - entity: binary_sensor.octoprint_printing
+          - entity: binary_sensor.octoprint_printing_error
+          - entity: sensor.octoprint_job_percentage
+          - entity: sensor.octoprint_target_bed_temp
+          - entity: sensor.octoprint_actual_bed_temp
+          - entity: sensor.octoprint_target_tool0_temp
+          - entity: sensor.octoprint_actual_tool0_temp
+        show_header_toggle: false
+        title: 3D-Printer Ctrl
+        type: entities
+      - entity: camera.octo_print_cam
+        type: picture-entity
+    icon: 'mdi:fax'
+    path: groups.printer_3d
+    title: 3D Drucker
+  - badges: []
+    cards:
+      - detail: 0.1
+        entity: sensor.dev23_temperature_dht
+        hours_to_show: 48
+        name: Dachboden
+        theme: default
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev70_temperature_dht
+        hours_to_show: 48
+        name: Flur unten
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev71_temperature_dht
+        hours_to_show: 48
+        name: Carport Schuppen
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev72_temperature_dht
+        hours_to_show: 48
+        name: Wohnzimmer
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev73_temperature_dht
+        hours_to_show: 48
+        name: Flur oben
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev28_temperature_dht1
+        hours_to_show: 48
+        name: Garten Box innen
+        type: sensor
+        unit: °C
+      - detail: 0.1
+        entity: sensor.dev28_temperature_dht
+        hours_to_show: 48
+        name: Garten Box Außen
+        type: sensor
+        unit: °C
+      - entity: sensor.dev21_temperature_dht
+        name: Esszimmer
+        type: sensor
+        unit: °C
+      - entities:
+          - entity: sensor.dev73_temperature_dht
+            name: Flur oben
+          - entity: sensor.dev70_temperature_dht
+            name: Flur unten
+          - entity: sensor.dev72_temperature_dht
+            name: Wohnzimmer
+          - entity: sensor.dev21_temperature_dht
+            name: Esszimmer
+          - entity: sensor.dev23_temperature_dht
+            name: Dachboden
+        title: Innen- Temperaturen
+        type: history-graph
+      - entities:
+          - entity: sensor.dev71_temperature_dht
+            name: Carport Schuppen
+          - entity: sensor.dev28_temperature_dht1
+            name: Gartenbox innen
+          - entity: sensor.dev28_temperature_dht
+            name: Gartenbox außen
+        title: Außen- Temperaturen
+        type: history-graph
+    icon: 'mdi:thermometer'
+    path: groups_temperature
+    title: Temperaturen
+  - badges: []
+    cards:
+      - entities:
+          - entity: sensor.dev73_humidity_dht
+            name: Flur oben
+          - entity: sensor.dev70_humidity_dht
+            name: Flur unten
+          - entity: sensor.dev72_humidity_dht
+            name: Wohnzimmer
+          - entity: sensor.dev21_humidity_dht
+            name: Esszimmer
+          - entity: sensor.dev23_humidity_dht
+            name: Dachboden
+        title: Innen- Luftfeuchte
+        type: history-graph
+      - entities:
+          - entity: sensor.dev71_humidity_dht
+            name: Carport Schuppen
+          - entity: sensor.dev28_humidity_dht1
+            name: Gartenbox innen
+          - entity: sensor.dev28_humidity_dht
+            name: Gartenbox außen
+        title: Außen- Luftfeuchte
+        type: history-graph
+    icon: 'mdi:waves'
+    path: groups_humid
+    title: Humidity
+

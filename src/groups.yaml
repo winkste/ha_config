@@ -4,7 +4,6 @@
     icon: mdi:home
     view: yes
     entities:
-      - group.daily_forecast_short
       - group.living_room
       - group.dining_room
       - group.hall_room
@@ -13,9 +12,6 @@
       - group.attic
       - group.garden
       - group.mySysMonitor
- #     - group.bathroom_2
- #     - group.bathroom_1
- #     - group.rooms
 # ----------------------------------------------- 
   system:
     control: hidden
@@ -24,31 +20,22 @@
     icon: mdi:settings
     entities:
       - group.mySysMonitor
-      #- group.alarm_controll
       - group.alllights
       - group.octoprint_control_card
-      #- group.octoprint_status_card
-      #- group.joiner
-      #- automation.joiner_bedroom_in
-      #- group.yahoo_forecast
 # -----------------------------------------------
-#  weatherOverview:
-#    control: hidden
-#    name: System
-#    view: yes
-#    icon: mdi:settings
-#    entities:
-#      - group.daily_forecast_short
-      #- group.daily_forecast
-# -----------------------------------------------
+  printer_3d:
+    control: hidden
+    name: 3D Drucker
+    view: yes
+    icon: mdi:fax
+    entities:
+      - group.octoprint_control_card
 # -----------------------------------------------
   living_room:
     control: hidden
  #   view: no
     entities:
       - light.dev01
-#      - sensor.dev30_temperature_bme
-#      - sensor.dev30_humidity_bme
       - sensor.dev72_temperature_dht
       - sensor.dev72_humidity_dht
       - sensor.dev72_brightness_temt6000
@@ -98,6 +85,8 @@
       - binary_sensor.dev71_motion
       - binary_sensor.dev03_motion
       - light.dev03
+      - binary_sensor.dev62_motion
+      - light.dev62
 # -----------------------------------------------
   attic:
     control: hidden
@@ -120,20 +109,6 @@
       - sensor.dev25_temperature_dht
       - sensor.dev25_humidity_dht
 # -----------------------------------------------
-  outside:
-    control: hidden
-#    view: yes
-    entities:
-#      - sun.sun
-#      - sensor.dark_sky_temperature
-      - sensor.dark_sky_apparent_temperature
-      - sensor.dark_sky_daily_high_temperature
-      - sensor.dark_sky_daily_low_temperature
-#      - sensor.dark_sky_cloud_coverage
-      - sensor.dark_sky_precip_probability
-      - sensor.dark_sky_precip_intensity
-#      - sensor.dark_sky_daily_summary
-# -----------------------------------------------
   garden:
     control: hidden
  #   view: yes
@@ -152,8 +127,6 @@
       - light.dev50_r8
 # -----------------------------------------------
   all_temphums:
-    #view: yes
-    #name: Wetter
     entities:
       - sensor.dev20_temperature_dht
       - sensor.dev20_humidity_dht
@@ -179,29 +152,6 @@
       - sensor.dev11_humidity_dht
       - sensor.dev11_temperature_dht1
       - sensor.dev11_humidity_dht1
-# -----------------------------------------------
-  daily_forecast_short:
-    #view: yes
-    name: Wetter
-    entities:
-      - sensor.dark_sky_temperature
-#      - sensor.dark_sky_apparent_temperature
-      - sensor.dark_sky_daily_high_temperature
-      - sensor.dark_sky_daily_low_temperature
-      - sensor.pws_weather_1d_metric
-# -----------------------------------------------
-#  daily_forecast:
-#    #view: yes
-#    name: Wetter
-#    entities:
-#      - sensor.pws_weather_1d_metric
-#      - sensor.pws_weather_1n_metric
-#      - sensor.pws_weather_2d_metric
-#      - sensor.pws_weather_2n_metric
-#      - sensor.pws_weather_3d_metric
-#      - sensor.pws_weather_3n_metric
-#      - sensor.pws_weather_4d_metric
-#      - sensor.pws_weather_4n_metric
 # -----------------------------------------------  
   alllights:
     name: All lights
@@ -221,6 +171,7 @@
       - light.dev50_r6
       - light.dev50_r7
       - light.dev50_r8
+      - light.dev62
       - light.dev99
       - light.dev71
       - light.dev72
@@ -238,7 +189,6 @@
       - sensor.memory_free
       - sensor.processor_use
       - sensor.last_boot
-      - sensor.since_last_boot
 # ----------------------------------------------- 
   octoprint_status_card:
     name: 3D Printer Status
@@ -256,14 +206,11 @@
       - sensor.octoprint_actual_bed_temp
       - sensor.octoprint_target_tool0_temp
       - sensor.octoprint_actual_tool0_temp
-      - camera.octo_print_cam
-      #- weblink.octoprint_web_ui
-      #- camera.octoprint       
+      - camera.octo_print_cam     
 # -----------------------------------------------
   octoprint_control_card:
     name: 3D Printer Control
     control: hidden
-    #view: no
     entities:
       - light.dev11_l1
       - light.dev11_l2

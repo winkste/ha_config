@@ -74,6 +74,46 @@
       - service: light.turn_off
         entity_id: light.dev03
 # ---------------------------------------------------------- 
+# ------------------- Carport 2 light control --------------
+  - alias: Carport Out Light ON
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev62_motion
+        to: 'on'
+    condition:
+      condition: and
+      conditions:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+      - condition: state
+        entity_id: light.dev62
+        state: 'off'
+    action:
+      - service: light.turn_on
+        entity_id: light.dev62
+
+  - alias: Carport Out Light OFF
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.dev62_motion
+        to: 'off'
+        for:
+          minutes: 01
+          seconds: 00
+#    condition:
+#      condition: and
+#      conditions:
+#        - condition: sun
+#          before: sunrise
+#          before_offset: '00:30:00'
+#        - condition: state
+#          entity_id: light.dev03
+#          state: 'on'
+    action:
+      - service: light.turn_off
+        entity_id: light.dev62
+# ----------------------------------------------------------
 # ------------------- hall light control -------------------
   - alias: Hall ground floor Orient Light ON
     trigger:
