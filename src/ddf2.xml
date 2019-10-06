@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<home>
+    <dev id="dev21">
+        <name>DHT Temperatur und Luftfeuchte im Esszimmer</name>
+        <type>ESP8266</type>
+        <locat>living room</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>This is the firmware description</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x01</cap_id>           
+    </dev>
+
+
+    <cap id="0xFF">
+        <name>Generic Commands</name>
+        <topic_rx>gen/cmd</topic_rx>
+        <topic_tx>gen/fwident</topic_tx>
+        <topic_tx>gen/fwversion</topic_tx>
+        <topic_tx>gen/desc</topic_tx>
+        <topic_tx>gen/room</topic_tx>
+        <topic_tx>trace/</topic_tx>
+    </cap>
+    <cap id="0x01">
+        <name>DHT22 Temperature and Humidity</name>
+        <topic_tx>temp_hum/temp</topic_tx>
+        <topic_tx>temp_hum/temp</topic_tx>
+        <ext>1</ext>
+        <ext>2</ext>
+    </cap>
+    
+    
+    <topic id="gen/cmd">
+        <chan>std</chan>
+        <payload>INFO</payload>
+        <payload>SETUP</payload>
+    </topic>
+    <topic id="gen/fwident">
+        <chan>std</chan>
+    </topic>
+    <topic id="gen/fwversion">
+        <chan>std</chan>
+    </topic>
+    <topic id="gen/desc">
+        <chan>std</chan>
+    </topic>
+    <topic id="gen/room">
+        <chan>std</chan>
+    </topic>
+    <topic id="trace/">
+        <chan>std</chan>
+    </topic>
+    <topic id="temp_hum/temp">
+        <chan>std</chan>
+        <ext>1</ext>
+    </topic>
+    <topic id="temp_hum/hum">
+        <chan>std</chan>
+    </topic>     
+</home>
