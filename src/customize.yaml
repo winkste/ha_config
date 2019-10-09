@@ -130,6 +130,13 @@
       friendly_name: "Licht unter Carport"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    binary_sensor.dev63_motion:
+      friendly_name: "Bewegungsmelder Gartenhaus"
+      icon: "mdi:information-outline"
+    light.dev63:
+      friendly_name: "Licht Gartenhaus außen"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev71:
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"

@@ -146,6 +146,16 @@
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
+  - platform: mqtt ### garden house
+    name: "dev63"
+    state_topic: "std/dev63/s/so_basic/status"
+    command_topic: "std/dev63/r/so_basic/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
   - platform: mqtt ### flur
     name: "dev70"
     state_topic: "std/dev70/s/light_one/status"

@@ -16,6 +16,7 @@
           - binary_sensor.dev03_motion
           - binary_sensor.dev61_motion
           - binary_sensor.dev62_motion
+          - binary_sensor.dev63_motion
           - binary_sensor.dev71_motion
           - binary_sensor.dev72_motion
           - binary_sensor.dev73_motion
@@ -33,6 +34,10 @@
   - platform: mqtt
     state_topic: "std/dev61/s/pir/status"
     name: "dev61_motion"
+    device_class: motion
+  - platform: mqtt
+    state_topic: "std/dev63/s/pir/status"
+    name: "dev63_motion"
     device_class: motion
   - platform: mqtt
     state_topic: "std/dev70/s/pir/status"
