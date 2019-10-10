@@ -29,6 +29,9 @@ dev71: MultiSense (PIR, DHT22, TEMT6000, NeoPixel LED) im Carport Schuppen
 dev72: MultiSense (PIR, DHT22, TEMT6000) im Wohnzimmer
 dev73: MultiSense (PIR, DHT22, TEMT6000) im FLur oben
 
+dev9x: PC system applications
+dev90: macbook pro
+
 
 
 Sensors:
@@ -113,4 +116,5 @@ command_topic: "std/devXX/r/gen/cmd
     state_topic: "std/devXX/s//gen/room" //room of device
     state_topic: "inf/devXX/s/trace/
     state_topic: "err/devXX/s/trace/
+    state_topic: "std/devXX/s/gen/heart" //heartbeat
 
