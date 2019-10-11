@@ -78,7 +78,7 @@
         <topic_tx>temt6000/level</topic_tx>
         <topic_rx>light_one/toggle</topic_rx>
         <topic_rx>light_one/switch</topic_rx>
-        <topic_tx>light/one/status</topic_tx>
+        <topic_tx>light_one/status</topic_tx>
         <topic_rx>light_one/brightness</topic_rx>
         <topic_tx>light_one/brightness</topic_tx>
         <topic_rx>light_one/color</topic_rx>
@@ -88,7 +88,7 @@
         <name>Sonoff Basic</name>
         <topic_rx>so_basic/toggle</topic_rx>
         <topic_rx>so_basic/switch</topic_rx>
-        <topic_tx>so_basic/one/status</topic_tx>
+        <topic_tx>so_basic/status</topic_tx>
     </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
