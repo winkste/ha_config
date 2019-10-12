@@ -65,14 +65,14 @@
     <cap id="0x01">
         <name>DHT22 Temperature and Humidity</name>
         <topic_tx>temp_hum/temp</topic_tx>
-        <topic_tx>temp_hum/temp</topic_tx>
+        <topic_tx>temp_hum/hum</topic_tx>
         <ext>1</ext>
         <ext>2</ext>
     </cap>
         <cap id="0x0F">
         <name>Multi Sense</name>
         <topic_tx>temp_hum/temp</topic_tx>
-        <topic_tx>temp_hum/temp</topic_tx>
+        <topic_tx>temp_hum/hum</topic_tx>
         <topic_tx>pir/status</topic_tx>
         <topic_tx>temt6000/raw</topic_tx>
         <topic_tx>temt6000/level</topic_tx>
