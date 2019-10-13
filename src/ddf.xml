@@ -3,37 +3,106 @@
 <home>
     <dev id="dev01">
         <name>Sonoff Schalter Lampe Wohnzimmer</name>
-        <type>ESP8266</type>
+        <type>ESP8285</type>
         <locat>living room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
-        <fw_desc>This is the firmware description</fw_desc>
+        <fw_desc>Table light sonoff device</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x02</cap_id>           
+    </dev>
+    <dev id="dev02">
+        <name>Sonoff Schalter Kugel klein</name>
+        <type>ESP8285</type>
+        <locat>hall room</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>Light for a small ball lamp</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x02</cap_id>           
+    </dev>
+    <dev id="dev03">
+        <name>Sonoff und Pir Carport 1</name>
+        <type>ESP8285</type>
+        <locat>carport</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>sonoff with pir combined</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0D</cap_id>           
+    </dev>
+    <dev id="dev04">
+        <name>Sonoff Schalter Kugel gross</name>
+        <type>ESP8285</type>
+        <locat>hall room</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>Light for a big ball lamp</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0x02</cap_id>           
     </dev>
     <dev id="dev21">
         <name>DHT Temperatur und Luftfeuchte im Esszimmer</name>
-        <type>ESP8266</type>
+        <type>Raspi3</type>
         <locat>living room</locat>
-        <fw_id>N39005</fw_id>
+        <fw_id>PYTHON</fw_id>
         <fw_ver>001</fw_ver>
-        <fw_desc>This is the firmware description</fw_desc>
-        <cap_id>0xFF</cap_id>
+        <fw_desc>This is a python script</fw_desc>
         <cap_id>0x01</cap_id>           
     </dev>
     <dev id="dev23">
         <name>DHT Temperatur und Luftfeuchte auf dem Dachboden</name>
-        <type>ESP8266</type>
+        <type>NodeMCU</type>
         <locat>2nd floor</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
-        <fw_desc>This is the firmware description</fw_desc>
+        <fw_desc>Temperature and Umidity measure</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0x01</cap_id>           
     </dev>
+    <dev id="dev28">
+        <name>Dual DHT Temp und Hum im Garten</name>
+        <type>WEMOS</type>
+        <locat>garden</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>Dual Temperature and Umidity measure</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0B</cap_id>           
+    </dev>
+    <dev id="dev50">
+        <name>Multi Relais in Gartensteuerung</name>
+        <type>WEMOS</type>
+        <locat>garden</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>Multi relay switch</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0C</cap_id>           
+    </dev>
+    <dev id="dev62">
+        <name>Sonoff und Pir Carport 2</name>
+        <type>ESP8285</type>
+        <locat>carport</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>sonoff with pir combined</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0D</cap_id>           
+    </dev>
+    <dev id="dev63">
+        <name>Sonoff und Pir Gartenhaus aussen</name>
+        <type>ESP8285</type>
+        <locat>gardenhouse</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>sonoff with pir combined</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0D</cap_id>           
+    </dev>
     <dev id="dev70">
         <name>MultiSense im Flur</name>
-        <type>ESP8266</type>
+        <type>NodeMCU</type>
         <locat>hall room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
@@ -43,16 +112,51 @@
     </dev>
     <dev id="dev71">
         <name>MultiSense Carport Schuppen</name>
-        <type>ESP8266</type>
+        <type>NodeMCU</type>
         <locat>machine room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
-        <fw_desc>This is the firmware description</fw_desc>
+        <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
-
-
+    <dev id="dev72">
+        <name>MultiSense im Wohnzimmer</name>
+        <type>WEMOS</type>
+        <locat>living room</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>multi sense control</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0F</cap_id>          
+    </dev>
+    <dev id="dev90">
+        <name>MacBook Pro</name>
+        <type>PC</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>PC application</fw_desc>
+        <cap_id>0xFE</cap_id>          
+    </dev>
+    <dev id="dev91">
+        <name>iMAC</name>
+        <type>PC</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>PC application</fw_desc>
+        <cap_id>0xFE</cap_id>          
+    </dev>
+    <dev id="dev92">
+        <name>DELL</name>
+        <type>PC</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>PC application</fw_desc>
+        <cap_id>0xFE</cap_id>          
+    </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>
@@ -62,12 +166,58 @@
         <topic_tx>gen/room</topic_tx>
         <topic_tx>trace/</topic_tx>
     </cap>
+    <cap id="0xFE">
+        <name>Single HeartBeat</name>
+        <topic_tx>gen/heart</topic_tx>
+    </cap>
     <cap id="0x01">
         <name>DHT22 Temperature and Humidity</name>
         <topic_tx>temp_hum/temp</topic_tx>
         <topic_tx>temp_hum/hum</topic_tx>
-        <ext>1</ext>
-        <ext>2</ext>
+    </cap>
+    <cap id="0x02">
+        <name>Sonoff Basic</name>
+        <topic_rx>so_basic/toggle</topic_rx>
+        <topic_rx>so_basic/switch</topic_rx>
+        <topic_tx>so_basic/status</topic_tx>
+    </cap>
+    <cap id="0x0B">
+        <name>Dual DHT22 Temperature and Humidity</name>
+        <topic_tx>temp_hum/temp</topic_tx>
+        <topic_tx>temp_hum/hum</topic_tx>
+        <topic_tx>temp_hum/temp1</topic_tx>
+        <topic_tx>temp_hum/hum1</topic_tx>
+    </cap>
+    <cap id="0x0C">
+        <name>Multi Relay</name>
+        <topic_rx>relay_one/toggle</topic_rx>
+        <topic_rx>relay_one/switch</topic_rx>
+        <topic_tx>relay_one/status</topic_tx>
+        <topic_rx>relay_two/toggle</topic_rx>
+        <topic_rx>relay_two/switch</topic_rx>
+        <topic_tx>relay_two/status</topic_tx>
+        <topic_rx>relay_three/toggle</topic_rx>
+        <topic_rx>relay_three/switch</topic_rx>
+        <topic_tx>relay_three/status</topic_tx>
+        <topic_rx>relay_four/toggle</topic_rx>
+        <topic_rx>relay_four/switch</topic_rx>
+        <topic_tx>relay_four/status</topic_tx>
+        <topic_rx>relay_five/toggle</topic_rx>
+        <topic_rx>relay_five/switch</topic_rx>
+        <topic_tx>relay_five/status</topic_tx>
+        <topic_rx>relay_six/toggle</topic_rx>
+        <topic_rx>relay_six/switch</topic_rx>
+        <topic_tx>relay_seven/status</topic_tx>
+        <topic_rx>relay_eight/toggle</topic_rx>
+        <topic_rx>relay_eight/switch</topic_rx>
+        <topic_tx>relay_eight/status</topic_tx>
+    </cap>
+    <cap id="0x0D">
+        <name>Sonoff Basic</name>
+        <topic_rx>so_basic/toggle</topic_rx>
+        <topic_rx>so_basic/switch</topic_rx>
+        <topic_tx>so_basic/status</topic_tx>
+        <topic_tx>pir/status</topic_tx>
     </cap>
         <cap id="0x0F">
         <name>Multi Sense</name>
@@ -83,12 +233,6 @@
         <topic_tx>light_one/brightness</topic_tx>
         <topic_rx>light_one/color</topic_rx>
         <topic_tx>light_one/color</topic_tx>
-    </cap>
-    <cap id="0x02">
-        <name>Sonoff Basic</name>
-        <topic_rx>so_basic/toggle</topic_rx>
-        <topic_rx>so_basic/switch</topic_rx>
-        <topic_tx>so_basic/status</topic_tx>
     </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
@@ -108,6 +252,9 @@
         <chan>std</chan>
     </topic>
     <topic id="trace/">
+        <chan>std</chan>
+    </topic>
+    <topic id="gen/heart">
         <chan>std</chan>
     </topic>
     <topic id="temp_hum/temp">
@@ -158,6 +305,110 @@
         <payload>OFF</payload>
     </topic>
     <topic id="so_basic/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_one/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_one/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_one/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_two/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_two/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_two/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_three/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_three/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_three/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_four/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_four/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_four/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_five/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_five/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_five/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_six/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_six/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_six/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_seven/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_seven/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_seven/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_eight/toggle">
+        <chan>std</chan>
+    </topic>
+    <topic id="relay_eight/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="relay_eight/status">
         <chan>std</chan>
         <payload>ON</payload>
         <payload>OFF</payload>

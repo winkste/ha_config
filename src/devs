@@ -1,33 +1,33 @@
-dev01: Sonoff Schalter für Lampe 01 im Wohnzimmer 
-dev02: Schalter für Kugel klein
-dev04: Schalter für Kugel groß
+#dev01: Sonoff Schalter für Lampe 01 im Wohnzimmer 
+#dev02: Schalter für Kugel klein
+#dev04: Schalter für Kugel groß
 dev05: 3D Printer
 
-dev21: DHT Temperatur und Luftfeuchte im Esszimmer
-dev22: DHT Temperatur und Luftfeuchte im Carport
-dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
-dev24: DHT Temperatur und Luftfeuchte Badezimmer oben
-dev25: DHT Temperatur und Luftfeuchte Badezimmer unten
+#dev21: DHT Temperatur und Luftfeuchte im Esszimmer
+obsolete?dev22: DHT Temperatur und Luftfeuchte im Carport
+#dev23: DHT Temperatur und Luftfeuchte auf dem Dachboden
+obsolete?dev24: DHT Temperatur und Luftfeuchte Badezimmer oben
+obsolete?dev25: DHT Temperatur und Luftfeuchte Badezimmer unten
 --- obsolete --- dev26: DHT 22 Temperatur und Luftfeuchte Außen
 --- obsolete --- dev27: DHT 22 Temperatur und Luftfeuchte Flur unten
-dev28: DHT 22 double Temp + Luftfeuchte für Garten 
+#dev28: DHT 22 double Temp + Luftfeuchte für Garten 
 
-dev30: BME280 Temperatur/Luftfeuchte/Luftdruck/Höhe BME 280 Sensor im Wohnzimmer
+--- obsolete --- dev30: BME280 Temperatur/Luftfeuchte/Luftdruck/Höhe BME 280 Sensor im Wohnzimmer
 
 dev40: Relais für Pumpe 1
 dev41: Relais für Pumpe 2
 
-dev50: Multi Relais Gartensteuerung
+#dev50: Multi Relais Gartensteuerung
 
 -obsolete- dev60: Relais & PIR Carport 1
-dev03: Relais & PIR Carport 1
-dev62: Relais & PIR Carport 2
-dev63: Relais & PIR Schuppen außen
+#dev03: Relais & PIR Carport 1
+#dev62: Relais & PIR Carport 2
+#dev63: Relais & PIR Schuppen außen
 
-dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
-dev71: MultiSense (PIR, DHT22, TEMT6000, NeoPixel LED) im Carport Schuppen
-dev72: MultiSense (PIR, DHT22, TEMT6000) im Wohnzimmer
-dev73: MultiSense (PIR, DHT22, TEMT6000) im FLur oben
+#dev70: MultiSense (PIR, DHT22, TEMT6000) im Flur
+#dev71: MultiSense (PIR, DHT22, TEMT6000, NeoPixel LED) im Carport Schuppen
+#dev72: MultiSense (PIR, DHT22, TEMT6000) im Wohnzimmer
+#dev73: MultiSense (PIR, DHT22, TEMT6000) im FLur oben
 
 dev9x: PC system applications
 dev90: macbook pro
