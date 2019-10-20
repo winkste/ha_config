@@ -259,11 +259,16 @@
     </topic>
     <topic id="temp_hum/temp">
         <chan>std</chan>
-        <ext>1</ext>
     </topic>
     <topic id="temp_hum/hum">
         <chan>std</chan>
     </topic>  
+    <topic id="temp_hum/temp1">
+        <chan>std</chan>
+    </topic>
+    <topic id="temp_hum/hum1">
+        <chan>std</chan>
+    </topic> 
     <topic id="pir/status">
         <chan>std</chan>
         <payload>ON</payload>
