@@ -130,6 +130,16 @@
         <cap_id>0xFF</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
+    <dev id="dev74">
+        <name>MultiSense im Wohnzimmer</name>
+        <type>WEMOS</type>
+        <locat>HWR</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>026</fw_ver>
+        <fw_desc>multi sense control</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0F</cap_id>          
+    </dev>
     <dev id="dev90">
         <name>MacBook Pro</name>
         <type>PC</type>
