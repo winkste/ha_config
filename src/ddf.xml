@@ -167,6 +167,19 @@
         <fw_desc>PC application</fw_desc>
         <cap_id>0xFE</cap_id>          
     </dev>
+    <dev id="dev99">
+        <name>MultiSense Relay</name>
+        <type>WEMOS</type>
+        <locat>NA</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>026</fw_ver>
+        <fw_desc>multi sense relay</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
+        <cap_id>0x0F</cap_id>   
+        <cap_id>0x20</cap_id>
+
+    </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>
@@ -178,7 +191,7 @@
     </cap>
     <cap id="0xFE">
         <name>Single HeartBeat</name>
-        <topic_tx>gen/heart</topic_tx>
+        <topic_tx>health/tic</topic_tx>
     </cap>
     <cap id="0x01">
         <name>DHT22 Temperature and Humidity</name>
@@ -244,6 +257,12 @@
         <topic_rx>light_one/color</topic_rx>
         <topic_tx>light_one/color</topic_tx>
     </cap>
+    <cap id="0x20">
+        <name>Single Relay</name>
+        <topic_rx>relay_one/toggle</topic_rx>
+        <topic_rx>relay_one/switch</topic_rx>
+        <topic_tx>relay_one/status</topic_tx>
+    </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
         <payload>INFO</payload>
@@ -264,7 +283,7 @@
     <topic id="trace/">
         <chan>std</chan>
     </topic>
-    <topic id="gen/heart">
+    <topic id="health/tic">
         <chan>std</chan>
     </topic>
     <topic id="temp_hum/temp">
