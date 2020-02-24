@@ -32,6 +32,10 @@
       friendly_name: "Lampe große Kugel"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    light.dev75B:
+      friendly_name: "Lampe große Kugel"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev05:
       friendly_name: "3D-Printer"
       icon: "mdi:lamp"
@@ -149,6 +153,10 @@
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
 # -----------------------------------------------
+    light.dev75:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+# -----------------------------------------------
     light.dev70:
       friendly_name: "Orientierungslicht"
       icon: "mdi:lamp"
@@ -214,6 +222,19 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev73_motion:
+      friendly_name: "Bewegungsmelder"
+      icon: "mdi:information-outline"
+# -----------------------------------------------
+    sensor.dev75_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev75_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev75_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev75_motion:
       friendly_name: "Bewegungsmelder"
       icon: "mdi:information-outline"
 # -----------------------------------------------

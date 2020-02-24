@@ -20,6 +20,7 @@
           - binary_sensor.dev71_motion
           - binary_sensor.dev72_motion
           - binary_sensor.dev73_motion
+          - binary_sensor.dev75_motion
 # -------------- all motion sensors -------------
 
 # -------------- templates ----------------------
@@ -54,6 +55,10 @@
   - platform: mqtt
     state_topic: "std/dev73/s/pir/status"
     name: "dev73_motion"
+    device_class: motion
+  - platform: mqtt
+    state_topic: "std/dev75/s/pir/status"
+    name: "dev75_motion"
     device_class: motion
 # -------------- octoprint sensor ---------------
   - platform: octoprint

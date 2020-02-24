@@ -130,6 +130,16 @@
         <cap_id>0xFF</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
+        <dev id="dev73">
+        <name>MultiSense im Flur oben</name>
+        <type>WEMOS</type>
+        <locat>hall room2</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>multi sense control</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0F</cap_id>          
+    </dev>
     <dev id="dev74">
         <name>MultiSense im Wohnzimmer</name>
         <type>WEMOS</type>
@@ -139,6 +149,18 @@
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0x0F</cap_id>          
+    </dev>
+    <dev id="dev75">
+        <name>MultiSense Relay Flur oben</name>
+        <type>WEMOS</type>
+        <locat>NA</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>026</fw_ver>
+        <fw_desc>multi sense relay</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
+        <cap_id>0x0F</cap_id>   
+        <cap_id>0x20</cap_id>
     </dev>
     <dev id="dev90">
         <name>MacBook Pro</name>
@@ -178,7 +200,6 @@
         <cap_id>0xFE</cap_id>
         <cap_id>0x0F</cap_id>   
         <cap_id>0x20</cap_id>
-
     </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>

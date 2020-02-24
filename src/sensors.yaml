@@ -225,6 +225,25 @@
     unit_of_measurement: "raw"
 # -----------------------------------------------------------
   - platform: mqtt
+    state_topic: "dev75/#"
+    name: "dev75"
+
+  - platform: mqtt
+    state_topic: "std/dev75/s/temp_hum/temp"
+    name: "dev75_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev75/s/temp_hum/hum"
+    name: "dev75_humidity_dht"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev75/s/temt6000/raw"
+    name: "dev75_brightness_temt6000"
+    unit_of_measurement: "raw"
+# -----------------------------------------------------------
+  - platform: mqtt
     state_topic: "dev11/#"
     name: "dev11"
 

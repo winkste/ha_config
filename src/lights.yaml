@@ -36,6 +36,16 @@
     optimistic: false
 # --------------------------------------------------
 # --------------------------------------------------
+  - platform: mqtt ### light big ball 2
+    name: "dev75B"
+    state_topic: "std/dev75/s/relay_one/status"
+    command_topic: "std/dev75/r/relay_one/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
   - platform: mqtt ### 3D Printer
     name: "dev05"
     state_topic: "std/dev05/s/so_basic/status"
@@ -220,6 +230,24 @@
 
     brightness_state_topic: 'std/dev73/s/light_one/brightness'
     brightness_command_topic: 'std/dev73/r/light_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### hall room 2 orient light 
+    name: "dev75"
+    state_topic: "std/dev75/s/light_one/status"
+    command_topic: "std/dev75/r/light_one/switch"
+
+    rgb_state_topic: 'std/dev75/s/light_one/color'
+    rgb_command_topic: 'std/dev75/r/light_one/color'
+
+    brightness_state_topic: 'std/dev75/s/light_one/brightness'
+    brightness_command_topic: 'std/dev75/r/light_one/brightness'
 
     retain: True
     qos: 0
