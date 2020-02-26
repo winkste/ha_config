@@ -237,6 +237,9 @@
     binary_sensor.dev75_motion:
       friendly_name: "Bewegungsmelder"
       icon: "mdi:information-outline"
+    sensor.dev75_health_tic:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
 # -----------------------------------------------
     sensor.dev11_temperature_dht:
       friendly_name: "Temp 3D Print"
