@@ -206,6 +206,7 @@
         <topic_rx>gen/cmd</topic_rx>
         <topic_tx>gen/fwident</topic_tx>
         <topic_tx>gen/fwversion</topic_tx>
+        <topic_tx>gen/ip</topic_tx>
         <topic_tx>gen/desc</topic_tx>
         <topic_tx>gen/room</topic_tx>
         <topic_tx>trace/</topic_tx>
@@ -305,6 +306,9 @@
         <chan>std</chan>
     </topic>
     <topic id="health/tic">
+        <chan>std</chan>
+    </topic>
+    <topic id="gen/ip">
         <chan>std</chan>
     </topic>
     <topic id="temp_hum/temp">
