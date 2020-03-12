@@ -196,7 +196,8 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
-        <cap_id>0xFF</cap_id>  
+        <cap_id>0xFD</cap_id> 
+        <cap_id>0xFC</cap_id> 
         <cap_id>0x30</cap_id>         
     </dev>
     <dev id="dev99">
@@ -211,6 +212,17 @@
         <cap_id>0x0F</cap_id>   
         <cap_id>0x20</cap_id>
     </dev>
+    <dev id="dev101">
+        <name>ESP32 Debug Device</name>
+        <type>ESP32</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>esp_proto</fw_desc>
+        <cap_id>0xFD</cap_id> 
+        <cap_id>0xFC</cap_id> 
+        <cap_id>0x30</cap_id>         
+    </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>
@@ -224,6 +236,20 @@
     <cap id="0xFE">
         <name>Single HeartBeat</name>
         <topic_tx>health/tic</topic_tx>
+    </cap>
+    <cap id="0xFD">
+        <name>Generic Commands</name>
+        <topic_rx>0/gen/cmd</topic_rx>
+        <topic_tx>0/gen/fwident</topic_tx>
+        <topic_tx>0/gen/fwversion</topic_tx>
+        <topic_tx>0/gen/ip</topic_tx>
+        <topic_tx>0/gen/desc</topic_tx>
+        <topic_tx>0/gen/room</topic_tx>
+        <topic_tx>trace/</topic_tx>
+    </cap>
+    <cap id="0xFC">
+        <name>Single HeartBeat</name>
+        <topic_tx>0/health/tic</topic_tx>
     </cap>
     <cap id="0x01">
         <name>DHT22 Temperature and Humidity</name>
@@ -533,4 +559,30 @@
     <topic id="1/mija/cnt">
         <chan>std</chan>
     </topic> 
+    <topic id="0/gen/cmd">
+        <chan>std</chan>
+        <payload>INFO</payload>
+        <payload>SETUP</payload>
+    </topic>
+    <topic id="0/gen/fwident">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/gen/fwversion">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/gen/desc">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/gen/room">
+        <chan>std</chan>
+    </topic>
+    <topic id="trace/">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/health/tic">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/gen/ip">
+        <chan>std</chan>
+    </topic>
 </home>
