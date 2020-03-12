@@ -131,7 +131,7 @@
         <cap_id>0x0F</cap_id>          
     </dev>
         <dev id="dev73">
-        <name>MultiSense im Flur oben</name>
+        <name>MultiSense im HWR</name>
         <type>WEMOS</type>
         <locat>hall room2</locat>
         <fw_id>N39005</fw_id>
@@ -188,6 +188,16 @@
         <fw_ver>001</fw_ver>
         <fw_desc>PC application</fw_desc>
         <cap_id>0xFE</cap_id>          
+    </dev>
+    <dev id="dev98">
+        <name>ESP32 Debug Device</name>
+        <type>ESP32</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>esp_proto</fw_desc>
+        <cap_id>0xFF</cap_id>  
+        <cap_id>0x30</cap_id>         
     </dev>
     <dev id="dev99">
         <name>MultiSense Relay</name>
@@ -284,6 +294,21 @@
         <topic_rx>relay_one/toggle</topic_rx>
         <topic_rx>relay_one/switch</topic_rx>
         <topic_tx>relay_one/status</topic_tx>
+    </cap>
+    <cap id="0x30">
+        <name>Multi MIJA Sensor</name>
+        <topic_tx>0/mija/loc</topic_tx>
+        <topic_tx>0/mija/know</topic_tx>
+        <topic_tx>0/mija/temp</topic_tx>
+        <topic_tx>0/mija/hum</topic_tx>
+        <topic_tx>0/mija/batt</topic_tx>
+        <topic_tx>0/mija/cnt</topic_tx>
+        <topic_tx>1/mija/loc</topic_tx>
+        <topic_tx>1/mija/know</topic_tx>
+        <topic_tx>1/mija/temp</topic_tx>
+        <topic_tx>1/mija/hum</topic_tx>
+        <topic_tx>1/mija/batt</topic_tx>
+        <topic_tx>1/mija/cnt</topic_tx>
     </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
@@ -472,4 +497,40 @@
         <payload>ON</payload>
         <payload>OFF</payload>
     </topic>
+    <topic id="0/mija/loc">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/mija/know">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/mija/temp">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/mija/hum">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/mija/batt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/mija/cnt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="1/mija/loc">
+        <chan>std</chan>
+    </topic> 
+    <topic id="1/mija/know">
+        <chan>std</chan>
+    </topic> 
+    <topic id="1/mija/temp">
+        <chan>std</chan>
+    </topic>
+    <topic id="1/mija/hum">
+        <chan>std</chan>
+    </topic>
+    <topic id="1/mija/batt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="1/mija/cnt">
+        <chan>std</chan>
+    </topic> 
 </home>

@@ -241,6 +241,32 @@
       friendly_name: "Health Counter"
       icon: "mdi:counter"
 # -----------------------------------------------
+    sensor.dev101_temperature_mija0:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija0:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija0:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija0:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+# -----------------------------------------------
+    sensor.dev101_temperature_mija1:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija1:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija1:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija1:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+# -----------------------------------------------
     sensor.dev11_temperature_dht:
       friendly_name: "Temp 3D Print"
       icon: "mdi:thermometer"

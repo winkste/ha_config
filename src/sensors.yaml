@@ -249,6 +249,50 @@
     unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
+    state_topic: "dev101/#"
+    name: "dev101"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/mija/temp"
+    name: "dev101_temperature_mija0"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/mija/hum"
+    name: "dev101_humidity_mija0"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/mija/batt"
+    name: "dev101_battery_mija0"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/mija/cnt"
+    name: "dev101_healthtic_mija0"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/1/mija/temp"
+    name: "dev101_temperature_mija1"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/1/mija/hum"
+    name: "dev101_humidity_mija1"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/1/mija/batt"
+    name: "dev101_battery_mija1"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/1/mija/cnt"
+    name: "dev101_healthtic_mija1"
+    unit_of_measurement: "cnt"
+# -----------------------------------------------------------
+  - platform: mqtt
     state_topic: "dev11/#"
     name: "dev11"
 
