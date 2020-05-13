@@ -101,23 +101,25 @@
         <cap_id>0x0D</cap_id>           
     </dev>
     <dev id="dev70">
-        <name>MultiSense im Flur</name>
+        <name>MultiSense im Flur unten</name>
         <type>NodeMCU</type>
         <locat>hall room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>This is the firmware description</fw_desc>
         <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
     <dev id="dev71">
-        <name>MultiSense Carport Schuppen</name>
+        <name>MultiSense Werkstatt</name>
         <type>NodeMCU</type>
         <locat>machine room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
     <dev id="dev72">
@@ -128,6 +130,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
         <dev id="dev73">
@@ -138,16 +141,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0F</cap_id>          
-    </dev>
-    <dev id="dev74">
-        <name>MultiSense im Wohnzimmer</name>
-        <type>WEMOS</type>
-        <locat>HWR</locat>
-        <fw_id>N39005</fw_id>
-        <fw_ver>026</fw_ver>
-        <fw_desc>multi sense control</fw_desc>
-        <cap_id>0xFF</cap_id>
+        <cap_id>0xFE</cap_id>
         <cap_id>0x0F</cap_id>          
     </dev>
     <dev id="dev75">

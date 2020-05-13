@@ -185,6 +185,9 @@
     binary_sensor.dev70_motion:
       friendly_name: "Bewegungsmelder"
       icon: "mdi:information-outline"
+    sensor.dev70_health_tic:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
 # -----------------------------------------------
     sensor.dev71_temperature_dht:
       friendly_name: "Temperatur"
@@ -198,6 +201,9 @@
     binary_sensor.dev71_motion:
       friendly_name: "Bewegungsmelder Carport innen"
       icon: "mdi:information-outline"
+    sensor.dev71_health_tic:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
 # -----------------------------------------------
     sensor.dev72_temperature_dht:
       friendly_name: "Temperatur"
@@ -211,6 +217,9 @@
     binary_sensor.dev72_motion:
       friendly_name: "Bewegungsmelder Wz"
       icon: "mdi:information-outline"
+    sensor.dev72_health_tic:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
 # -----------------------------------------------
     sensor.dev73_temperature_dht:
       friendly_name: "Temperatur"
@@ -224,6 +233,9 @@
     binary_sensor.dev73_motion:
       friendly_name: "Bewegungsmelder"
       icon: "mdi:information-outline"
+    sensor.dev73_health_tic:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
 # -----------------------------------------------
     sensor.dev75_temperature_dht:
       friendly_name: "Temperatur"

@@ -166,6 +166,11 @@
     state_topic: "std/dev70/s/temt6000/raw"
     name: "dev70_brightness_temt6000"
     unit_of_measurement: "raw"
+  
+  - platform: mqtt
+    state_topic: "std/dev70/s/health/tic"
+    name: "dev70_health_tic"
+    unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
     state_topic: "dev71/#"
@@ -185,6 +190,11 @@
     state_topic: "std/dev71/s/temt6000/raw"
     name: "dev71_brightness_temt6000"
     unit_of_measurement: "raw"
+  
+  - platform: mqtt
+    state_topic: "std/dev71/s/health/tic"
+    name: "dev71_health_tic"
+    unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
     state_topic: "dev72/#"
@@ -204,6 +214,11 @@
     state_topic: "std/dev72/s/temt6000/raw"
     name: "dev72_brightness_temt6000"
     unit_of_measurement: "raw"
+  
+  - platform: mqtt
+    state_topic: "std/dev72/s/health/tic"
+    name: "dev72_health_tic"
+    unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
     state_topic: "dev73/#"
@@ -223,6 +238,11 @@
     state_topic: "std/dev73/s/temt6000/raw"
     name: "dev73_brightness_temt6000"
     unit_of_measurement: "raw"
+  
+  - platform: mqtt
+    state_topic: "std/dev73/s/health/tic"
+    name: "dev73_health_tic"
+    unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
     state_topic: "dev75/#"
