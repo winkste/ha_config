@@ -1,7 +1,7 @@
 # -----------------------------------------------
     light.dev01:
-      friendly_name: "Lampe Wohnzimmer 01"
-      icon: "mdi:lamp"
+      friendly_name: "Pool Filterpumpe"
+      icon: "mdi:pool"
 # -----------------------------------------------
     sensor.dev20_temperature_dht:
       friendly_name: "Temperatur"
@@ -41,8 +41,8 @@
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r1:
-      friendly_name: "Pool Filterpumpe"
-      icon: "mdi:pool"
+      friendly_name: "Garten 1"
+      icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r2:
       friendly_name: "Teich Wasserpumpe"
@@ -53,7 +53,7 @@
       icon: "mdi:fish"
 # -----------------------------------------------
     light.dev50_r4:
-      friendly_name: "Garden 4"
+      friendly_name: "Garten 4"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r5:

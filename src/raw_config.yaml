@@ -11,15 +11,14 @@ views:
         url: >-
           https://embed.windy.com/embed2.html?lat=51.645&lon=8.921&zoom=5&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
       - entities:
-          - light.dev01
-          - sensor.dev72_temperature_dht
-          - sensor.dev72_humidity_dht
-          - sensor.dev72_brightness_temt6000
-          - binary_sensor.dev72_motion
-          - light.dev72
-          - light.dev80_l1
-          - light.dev80_l2
-          - light.dev80_l3
+          - entity: sensor.dev72_temperature_dht
+          - entity: sensor.dev72_humidity_dht
+          - entity: sensor.dev72_brightness_temt6000
+          - entity: binary_sensor.dev72_motion
+          - entity: light.dev72
+          - entity: light.dev80_l1
+          - entity: light.dev80_l2
+          - entity: light.dev80_l3
         show_header_toggle: false
         title: Wohnzimmer
         type: entities
@@ -69,18 +68,19 @@ views:
         title: Flur oben
         type: entities
       - entities:
-          - sensor.dev28_temperature_dht
-          - sensor.dev28_humidity_dht
-          - sensor.dev28_temperature_dht1
-          - sensor.dev28_humidity_dht1
-          - light.dev50_r1
-          - light.dev50_r2
-          - light.dev50_r3
-          - light.dev50_r4
-          - light.dev50_r5
-          - light.dev50_r6
-          - light.dev50_r7
-          - light.dev50_r8
+          - entity: sensor.dev28_temperature_dht
+          - entity: sensor.dev28_humidity_dht
+          - entity: sensor.dev28_temperature_dht1
+          - entity: sensor.dev28_humidity_dht1
+          - entity: light.dev50_r1
+          - entity: light.dev50_r2
+          - entity: light.dev50_r3
+          - entity: light.dev50_r4
+          - entity: light.dev50_r5
+          - entity: light.dev50_r6
+          - entity: light.dev50_r7
+          - entity: light.dev50_r8
+          - entity: light.dev01
         show_header_toggle: false
         title: Garten
         type: entities
@@ -91,14 +91,29 @@ views:
         title: Gartenhaus
         type: entities
       - entities:
-          - sensor.dev73_temperature_dht
-          - sensor.dev73_humidity_dht
-          - sensor.dev73_brightness_temt6000
-          - binary_sensor.dev73_motion
-          - light.dev73
-          - light.dev04
+          - entity: sensor.dev73_temperature_dht
+          - entity: sensor.dev73_humidity_dht
+          - entity: sensor.dev73_brightness_temt6000
+          - entity: binary_sensor.dev73_motion
+          - entity: light.dev73
         show_header_toggle: false
-        title: Flur oben
+        title: Hauswirtschaftsraum
+        type: entities
+      - entities:
+          - entity: sensor.dev101_temperature_mija1
+          - entity: sensor.dev101_humidity_mija1
+          - entity: sensor.dev101_battery_mija1
+          - entity: sensor.dev101_healthtic_mija1
+        show_header_toggle: false
+        title: Badezimmer unten
+        type: entities
+      - entities:
+          - entity: sensor.dev101_temperature_mija0
+          - entity: sensor.dev101_humidity_mija0
+          - entity: sensor.dev101_battery_mija0
+          - entity: sensor.dev101_healthtic_mija0
+        show_header_toggle: false
+        title: Badezimmer oben
         type: entities
     icon: 'mdi:home'
     path: default_view
@@ -114,6 +129,10 @@ views:
         title: System
         type: entities
       - entities:
+          - entity: sensor.dev70_health_tic
+          - entity: sensor.dev71_health_tic
+          - entity: sensor.dev72_health_tic
+          - entity: sensor.dev73_health_tic
           - entity: sensor.dev75_health_tic
         show_header_toggle: false
         title: Device Health Status
@@ -143,6 +162,22 @@ views:
           - light.dev11_r2
         show_header_toggle: false
         title: All lights
+        type: entities
+      - hold_action:
+          action: none
+        image: 'http://192.168.178.103/capture'
+        tap_action:
+          action: none
+        type: picture
+      - entities:
+          - entity: binary_sensor.dev03_motion
+          - entity: binary_sensor.dev62_motion
+          - entity: binary_sensor.dev63_motion
+          - entity: binary_sensor.dev71_motion
+          - entity: binary_sensor.dev72_motion
+          - entity: binary_sensor.dev73_motion
+          - entity: binary_sensor.dev75_motion
+        title: Bewegungen
         type: entities
     icon: 'mdi:settings'
     path: system
@@ -234,6 +269,12 @@ views:
             name: Esszimmer
           - entity: sensor.dev23_temperature_dht
             name: Dachboden
+          - entity: sensor.dev101_temperature_mija0
+            name: Bad oben
+          - entity: sensor.dev101_temperature_mija1
+            name: Bad unten
+        hours_to_show: 24
+        refresh_interval: 0
         title: Innen- Temperaturen
         type: history-graph
       - entities:
@@ -245,6 +286,12 @@ views:
             name: Gartenbox außen
         title: Außen- Temperaturen
         type: history-graph
+      - entity: sensor.dev101_temperature_mija0
+        name: Badezimmer oben
+        type: sensor
+      - entity: sensor.dev101_temperature_mija1
+        name: Badezimmer unten
+        type: sensor
     icon: 'mdi:thermometer'
     path: groups_temperature
     title: Temperaturen

@@ -2,7 +2,7 @@
 
 <home>
     <dev id="dev01">
-        <name>Sonoff Schalter Lampe Wohnzimmer</name>
+        <name>Sonoff Schalter Pool</name>
         <type>ESP8285</type>
         <locat>living room</locat>
         <fw_id>N39005</fw_id>
