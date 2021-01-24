@@ -55,7 +55,7 @@ history:
 
 # Enable the database storage
 recorder:
-  db_url: mysql://hass:ssah@core-mariadb/homeassistant
+  db_url: mysql://homeassistant:sw10950@core-mariadb/homeassistant?charset=utf8mb4
 
 # View all events in a logbook
 logbook:

@@ -213,9 +213,13 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
-        <cap_id>0xFD</cap_id> 
-        <cap_id>0xFC</cap_id> 
-        <cap_id>0x30</cap_id>         
+        <cap_id>0xFB</cap_id> 
+        <cap_id>0xFE</cap_id> 
+        <cap_id>0x31</cap_id>     
+        <cap_id>0x33</cap_id>  
+        <cap_id>0x34</cap_id>    
+        <cap_id>0x35</cap_id> 
+        <cap_id>0x36</cap_id> 
     </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>
@@ -244,6 +248,17 @@
     <cap id="0xFC">
         <name>Single HeartBeat</name>
         <topic_tx>0/health/tic</topic_tx>
+    </cap>
+        <cap id="0xFB">
+        <name>Generic Commands</name>
+        <topic_rx>gen/info</topic_rx>
+        <topic_rx>gen/update</topic_rx>
+        <topic_tx>gen/fwident</topic_tx>
+        <topic_tx>gen/fwversion</topic_tx>
+        <topic_tx>gen/ip</topic_tx>
+        <topic_tx>gen/desc</topic_tx>
+        <topic_tx>gen/room</topic_tx>
+        <topic_tx>trace/</topic_tx>
     </cap>
     <cap id="0x01">
         <name>DHT22 Temperature and Humidity</name>
@@ -318,22 +333,76 @@
     <cap id="0x30">
         <name>Multi MIJA Sensor</name>
         <topic_tx>0/mija/loc</topic_tx>
-        <topic_tx>0/mija/know</topic_tx>
         <topic_tx>0/mija/temp</topic_tx>
         <topic_tx>0/mija/hum</topic_tx>
         <topic_tx>0/mija/batt</topic_tx>
         <topic_tx>0/mija/cnt</topic_tx>
         <topic_tx>1/mija/loc</topic_tx>
-        <topic_tx>1/mija/know</topic_tx>
         <topic_tx>1/mija/temp</topic_tx>
         <topic_tx>1/mija/hum</topic_tx>
         <topic_tx>1/mija/batt</topic_tx>
         <topic_tx>1/mija/cnt</topic_tx>
     </cap>
+    <cap id="0x31">
+        <name>Multi Sense E32</name>
+        <topic_tx>0/dht/temp</topic_tx>
+        <topic_tx>0/dht/hum</topic_tx>
+        <topic_tx>0/pir/status</topic_tx>
+        <topic_tx>0/temt6x/raw</topic_tx>
+        <topic_tx>0/temt6x/level</topic_tx>
+        <topic_rx>0/neo_one/toggle</topic_rx>
+        <topic_rx>0/neo_one/switch</topic_rx>
+        <topic_tx>0/neo_one/status</topic_tx>
+        <topic_rx>0/neo_one/brightness</topic_rx>
+        <topic_tx>0/neo_one/brightness</topic_tx>
+        <topic_rx>0/neo_one/color</topic_rx>
+        <topic_tx>0/neo_one/color</topic_tx>
+        <topic_rx>0/relay/toggle</topic_rx>
+        <topic_rx>0/relay/switch</topic_rx>
+        <topic_tx>0/relay/state</topic_tx>
+    </cap>
+    <cap id="0x33">
+        <name>MIJA Sensor Chan 0</name>
+        <topic_tx>0/mija/loc</topic_tx>
+        <topic_tx>0/mija/temp</topic_tx>
+        <topic_tx>0/mija/hum</topic_tx>
+        <topic_tx>0/mija/batt</topic_tx>
+        <topic_tx>0/mija/cnt</topic_tx>
+    </cap>
+    <cap id="0x34">
+        <name>MIJA Sensor Chan 1</name>
+        <topic_tx>1/mija/loc</topic_tx>
+        <topic_tx>1/mija/temp</topic_tx>
+        <topic_tx>1/mija/hum</topic_tx>
+        <topic_tx>1/mija/batt</topic_tx>
+        <topic_tx>1/mija/cnt</topic_tx>
+    </cap>
+    <cap id="0x35">
+        <name>MIJA Sensor Chan 2</name>
+        <topic_tx>2/mija/loc</topic_tx>
+        <topic_tx>2/mija/temp</topic_tx>
+        <topic_tx>2/mija/hum</topic_tx>
+        <topic_tx>2/mija/batt</topic_tx>
+        <topic_tx>2/mija/cnt</topic_tx>
+    </cap>
+    <cap id="0x36">
+        <name>MIJA Sensor Chan 3</name>
+        <topic_tx>3/mija/loc</topic_tx>
+        <topic_tx>3/mija/temp</topic_tx>
+        <topic_tx>3/mija/hum</topic_tx>
+        <topic_tx>3/mija/batt</topic_tx>
+        <topic_tx>3/mija/cnt</topic_tx>
+    </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
         <payload>INFO</payload>
         <payload>SETUP</payload>
+    </topic>
+    <topic id="gen/info">
+        <chan>std</chan>
+    </topic> 
+    <topic id="gen/update">
+        <chan>std</chan>
     </topic>
     <topic id="gen/fwident">
         <chan>std</chan>
@@ -553,6 +622,42 @@
     <topic id="1/mija/cnt">
         <chan>std</chan>
     </topic> 
+    <topic id="2/mija/loc">
+        <chan>std</chan>
+    </topic> 
+    <topic id="2/mija/know">
+        <chan>std</chan>
+    </topic> 
+    <topic id="2/mija/temp">
+        <chan>std</chan>
+    </topic>
+    <topic id="2/mija/hum">
+        <chan>std</chan>
+    </topic>
+    <topic id="2/mija/batt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="2/mija/cnt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="3/mija/loc">
+        <chan>std</chan>
+    </topic> 
+    <topic id="3/mija/know">
+        <chan>std</chan>
+    </topic> 
+    <topic id="3/mija/temp">
+        <chan>std</chan>
+    </topic>
+    <topic id="3/mija/hum">
+        <chan>std</chan>
+    </topic>
+    <topic id="3/mija/batt">
+        <chan>std</chan>
+    </topic> 
+    <topic id="3/mija/cnt">
+        <chan>std</chan>
+    </topic> 
     <topic id="0/gen/cmd">
         <chan>std</chan>
         <payload>INFO</payload>
@@ -579,4 +684,55 @@
     <topic id="0/gen/ip">
         <chan>std</chan>
     </topic>
+    <topic id="0/pir/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic> 
+    <topic id="0/temt6x/raw">
+        <chan>std</chan>
+    </topic>  
+    <topic id="0/temt6x/level">
+        <chan>std</chan>
+        <payload>DARK</payload>
+        <payload>BRIGHT</payload>
+    </topic>
+    <topic id="0/neo_one/toggle">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/neo_one/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="0/neo_one/status">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="0/neo_one/brightness">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/neo_one/color">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/relay/toggle">
+        <chan>std</chan>
+    </topic> 
+    <topic id="0/relay/switch">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="0/relay/state">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+        <topic id="0/dht/temp">
+        <chan>std</chan>
+    </topic>
+    <topic id="0/dht/hum">
+        <chan>std</chan>
+    </topic>  
 </home>
