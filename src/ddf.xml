@@ -347,7 +347,7 @@
         <name>Multi Sense E32</name>
         <topic_tx>0/dht/temp</topic_tx>
         <topic_tx>0/dht/hum</topic_tx>
-        <topic_tx>0/pir/status</topic_tx>
+        <topic_tx>0/pir/state</topic_tx>
         <topic_tx>0/temt6x/raw</topic_tx>
         <topic_tx>0/temt6x/level</topic_tx>
         <topic_rx>0/neo_one/toggle</topic_rx>
@@ -684,7 +684,7 @@
     <topic id="0/gen/ip">
         <chan>std</chan>
     </topic>
-    <topic id="0/pir/status">
+    <topic id="0/pir/state">
         <chan>std</chan>
         <payload>ON</payload>
         <payload>OFF</payload>

@@ -1,8 +1,8 @@
 # -----------------------------------------------
   default_view:
-    control: hidden
+ #   control: hidden
     icon: mdi:home
-    view: yes
+ #   view: yes
     entities:
       - group.living_room
       - group.dining_room
@@ -14,9 +14,9 @@
       - group.mySysMonitor
 # ----------------------------------------------- 
   system:
-    control: hidden
+  #  control: hidden
     name: System
-    view: yes
+ #   view: yes
     icon: mdi:settings
     entities:
       - group.mySysMonitor
@@ -24,15 +24,15 @@
       - group.octoprint_control_card
 # -----------------------------------------------
   printer_3d:
-    control: hidden
+ #   control: hidden
     name: 3D Drucker
-    view: yes
+ #   view: yes
     icon: mdi:fax
     entities:
       - group.octoprint_control_card
 # -----------------------------------------------
   living_room:
-    control: hidden
+ #   control: hidden
  #   view: no
     entities:
       - light.dev01
@@ -46,7 +46,7 @@
       - light.dev80_l3
 # -----------------------------------------------
   hall_room:
-    control: hidden
+ #   control: hidden
  #   view: no
     entities:  
       - sensor.dev70_temperature_dht
@@ -57,7 +57,7 @@
       - light.dev02
 # -----------------------------------------------
   hall_room2:
-    control: hidden
+ #   control: hidden
  #   view: no
     entities: 
       - sensor.dev73_temperature_dht
@@ -68,14 +68,14 @@
       - light.dev04
 # -----------------------------------------------
   dining_room:
-    control: hidden
+ #   control: hidden
  #   view: no
     entities:
       - sensor.dev21_temperature_dht
       - sensor.dev21_humidity_dht
 # -----------------------------------------------
   carport:
-    control: hidden
+ #   control: hidden
  #   view: yes
     entities:
       - sensor.dev71_temperature_dht
@@ -89,28 +89,28 @@
       - light.dev62
 # -----------------------------------------------
   attic:
-    control: hidden
+ #   control: hidden
  #   view: yes
     entities:
       - sensor.dev23_temperature_dht
       - sensor.dev23_humidity_dht
 # -----------------------------------------------
   bathroom_1:
-    control: hidden
+ #   control: hidden
 #   view: yes
     entities:
       - sensor.dev24_temperature_dht
       - sensor.dev24_humidity_dht
 # -----------------------------------------------
   bathroom_2:
-    control: hidden
+ #   control: hidden
  #   view: yes
     entities:
       - sensor.dev25_temperature_dht
       - sensor.dev25_humidity_dht
 # -----------------------------------------------
   garden:
-    control: hidden
+ #   control: hidden
  #   view: yes
     entities:
       - sensor.dev28_temperature_dht
@@ -155,8 +155,8 @@
 # -----------------------------------------------  
   alllights:
     name: All lights
-    control: hidden
-    view: no
+ #   control: hidden
+ #   view: no
     entities:
       - light.dev01
       - light.dev02  
@@ -183,7 +183,7 @@
 # -----------------------------------------------
   mySysMonitor:
     name: System Monitor
-    view: no
+ #   view: no
     entities:
       - sensor.disk_use_percent
       - sensor.memory_free
@@ -192,8 +192,8 @@
 # ----------------------------------------------- 
   octoprint_status_card:
     name: 3D Printer Status
-    control: hidden
-    view: no
+ #   control: hidden
+ #   view: no
     entities:
       - light.dev05
       - sensor.dev22_temperature_dht
@@ -210,7 +210,7 @@
 # -----------------------------------------------
   octoprint_control_card:
     name: 3D Printer Control
-    control: hidden
+   # control: hidden
     entities:
       - light.dev11_l1
       - light.dev11_l2

@@ -60,6 +60,10 @@
     state_topic: "std/dev75/s/pir/status"
     name: "dev75_motion"
     device_class: motion
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/pir/state"
+    name: "dev101_motion"
+    device_class: motion
 # -------------- octoprint sensor ---------------
   - platform: octoprint
     name: OctoPrint

@@ -55,6 +55,7 @@ history:
 
 # Enable the database storage
 recorder:
+  purge_keep_days: 2
   db_url: mysql://homeassistant:sw10950@core-mariadb/homeassistant?charset=utf8mb4
 
 # View all events in a logbook
@@ -70,9 +71,9 @@ sun:
 #sensor:
 #  - platform: yr
 
-octoprint:
-  host: !secret octoprint_ip
-  api_key: !secret octoprint_api
+#octoprint:
+#  host: !secret octoprint_ip
+#  api_key: !secret octoprint_api
 
 # Text to speech
 tts:

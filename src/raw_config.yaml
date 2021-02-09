@@ -23,12 +23,6 @@ views:
         title: Wohnzimmer
         type: entities
       - entities:
-          - sensor.dev21_temperature_dht
-          - sensor.dev21_humidity_dht
-        show_header_toggle: false
-        title: Esszimmer
-        type: entities
-      - entities:
           - sensor.dev70_temperature_dht
           - sensor.dev70_humidity_dht
           - sensor.dev70_brightness_temt6000
@@ -115,15 +109,32 @@ views:
         show_header_toggle: false
         title: Badezimmer oben
         type: entities
+      - type: entities
+        entities:
+          - entity: sensor.dev101_temperature_mija2
+          - entity: sensor.dev101_humidity_mija2
+          - entity: sensor.dev101_battery_mija2
+          - entity: sensor.dev101_healthtic_mija2
+        title: Elternschlafzimmer
+      - type: entities
+        entities:
+          - entity: sensor.dev101_temperature_mija3
+          - entity: sensor.dev101_humidity_mija3
+          - entity: sensor.dev101_battery_mija3
+          - entity: sensor.dev101_healthtic_mija3
+        title: Gästezimmer
     icon: 'mdi:home'
     path: default_view
     title: Home
-  - badges: []
+  - icon: 'mdi:guy-fawkes-mask'
+    path: system
+    title: System
+    badges: []
     cards:
       - entities:
           - entity: sensor.disk_use_percent
           - entity: sensor.memory_free
-          - entity: sensor.processor_use
+          - entity: sensor.processor_use_percent
           - entity: sensor.last_boot
         show_header_toggle: false
         title: System
@@ -134,6 +145,7 @@ views:
           - entity: sensor.dev72_health_tic
           - entity: sensor.dev73_health_tic
           - entity: sensor.dev75_health_tic
+          - entity: sensor.dev101_health_tic
         show_header_toggle: false
         title: Device Health Status
         type: entities
@@ -177,38 +189,9 @@ views:
           - entity: binary_sensor.dev72_motion
           - entity: binary_sensor.dev73_motion
           - entity: binary_sensor.dev75_motion
+          - entity: binary_sensor.dev101_motion
         title: Bewegungen
         type: entities
-    icon: 'mdi:settings'
-    path: system
-    title: System
-  - badges: []
-    cards:
-      - entities:
-          - entity: light.dev11_l1
-          - entity: light.dev11_l2
-          - entity: light.dev11_r1
-          - entity: light.dev11_r2
-          - entity: sensor.dev11_temperature_dht
-          - entity: sensor.dev11_humidity_dht
-          - entity: sensor.dev11_temperature_dht1
-          - entity: sensor.dev11_humidity_dht1
-          - entity: sensor.octoprint_current_state
-          - entity: binary_sensor.octoprint_printing
-          - entity: binary_sensor.octoprint_printing_error
-          - entity: sensor.octoprint_job_percentage
-          - entity: sensor.octoprint_target_bed_temp
-          - entity: sensor.octoprint_actual_bed_temp
-          - entity: sensor.octoprint_target_tool0_temp
-          - entity: sensor.octoprint_actual_tool0_temp
-        show_header_toggle: false
-        title: 3D-Printer Ctrl
-        type: entities
-      - entity: camera.octo_print_cam
-        type: picture-entity
-    icon: 'mdi:fax'
-    path: groups.printer_3d
-    title: 3D Drucker
   - badges: []
     cards:
       - detail: 0.1
@@ -335,4 +318,17 @@ views:
     icon: 'mdi:weather-sunny'
     path: wetter
     title: Wetter
+  - title: Test
+    path: test
+    badges: []
+    cards:
+      - type: entities
+        entities:
+          - entity: sensor.dev101_temperature_dht
+          - entity: sensor.dev101_humidity_dht
+          - entity: sensor.dev101_brightness_temt6x
+          - entity: binary_sensor.dev101_motion
+          - entity: light.dev101
+          - entity: light.dev101_r1
+        title: ESP32 Test
 

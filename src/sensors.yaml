@@ -273,6 +273,26 @@
     name: "dev101"
 
   - platform: mqtt
+    state_topic: "std/dev101/s/0/dht/temp"
+    name: "dev101_temperature_dht"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/dht/hum"
+    name: "dev101_humidity_dht"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/temt6x/raw"
+    name: "dev101_brightness_temt6x"
+    unit_of_measurement: "raw"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/health/tic"
+    name: "dev101_health_tic"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
     state_topic: "std/dev101/s/0/mija/temp"
     name: "dev101_temperature_mija0"
     unit_of_measurement: "ºC"
@@ -310,6 +330,46 @@
   - platform: mqtt
     state_topic: "std/dev101/s/1/mija/cnt"
     name: "dev101_healthtic_mija1"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/2/mija/temp"
+    name: "dev101_temperature_mija2"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/2/mija/hum"
+    name: "dev101_humidity_mija2"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/2/mija/batt"
+    name: "dev101_battery_mija2"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/2/mija/cnt"
+    name: "dev101_healthtic_mija2"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/3/mija/temp"
+    name: "dev101_temperature_mija3"
+    unit_of_measurement: "ºC"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/3/mija/hum"
+    name: "dev101_humidity_mija3"
+    unit_of_measurement: "%"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/3/mija/batt"
+    name: "dev101_battery_mija3"
+    unit_of_measurement: "%"
+
+  - platform: mqtt
+    state_topic: "std/dev101/s/3/mija/cnt"
+    name: "dev101_healthtic_mija3"
     unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt

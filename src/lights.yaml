@@ -365,6 +365,33 @@
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
+  - platform: mqtt ### dev 101 orientation light
+    name: "dev101"
+    state_topic: "std/dev101/s/0/neo_one/state"
+    command_topic: "std/dev101/r/0/neo_one/switch"
+
+    rgb_state_topic: 'std/dev101/s/0/neo_one/color'
+    rgb_command_topic: 'std/dev101/r/0/neo_one/color'
+
+    brightness_state_topic: 'std/dev101/s/0/neo_one/brightness'
+    brightness_command_topic: 'std/dev101/r/0/neo_one/brightness'
+
+    retain: True
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    brightness_scale: 99
+# --------------------------------------------------
+  - platform: mqtt ### relay module in dev 101
+    name: "dev101_r1"
+    state_topic: "std/dev101/s/0/relay/state"
+    command_topic: "std/dev101/r/0/relay/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
   - platform: mqtt ### testing
     name: "dev99"
     state_topic: "std/dev99/s/light_one/status"

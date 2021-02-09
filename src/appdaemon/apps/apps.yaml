@@ -2,3 +2,10 @@
 hello_world:
   module: hello
   class: HelloWorld
+
+motion_test:
+  module: motion_light
+  class: MotionLight
+  Motion_light_gardenhouse:
+  sensors:binary_sensor.dev101_motion
+  lights:light.dev101_r1
