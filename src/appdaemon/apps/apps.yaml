@@ -1,21 +1,4 @@
 ---
-hello_world:
-  module: hello
-  class: HelloWorld
-
-#orient32_test:
-#  module: orientation_light
-#  class: OrientLight
-#  sensors: binary_sensor.dev101_motion
-#  lights: light.dev101
-#  configs: 10
-
-#motion_test:
-#  module: motion_light
-#  class: MotionLight
-#  sensors: binary_sensor.dev101_motion
-#  lights: light.dev101_r1
-#  configs: 11
 
 carport_light:
   module: carport_light
@@ -72,5 +55,19 @@ orient_es32test:
   sensors: binary_sensor.dev101_motion
   lights: light.dev101
   configs: 20
+
+nightly_reset:
+  module: night_reset
+  class: NightReset
+  lights: 
+    - light.dev63
+    - light.dev70
+    - light.dev71
+    - light.dev72
+    - light.dev73
+    - light.dev75
+    - light.dev03
+    - light.dev62
+    - light.dev101
   
 
