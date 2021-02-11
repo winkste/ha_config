@@ -20,7 +20,16 @@ hello_world:
 carport_light:
   module: carport_light
   class: CarportLight
-  configs: 20
+  configs: 60
+
+
+garden_house_light:
+  module: motion_light
+  class: MotionLight
+  sensors: binary_sensor.dev63_motion
+  lights: light.dev63
+  configs: 60
+
 
 orient_living:
   module: orientation_light
@@ -57,5 +66,11 @@ orient_hall_first:
   lights: light.dev75
   configs: 20
 
+orient_es32test:
+  module: orientation_light
+  class: OrientLight
+  sensors: binary_sensor.dev101_motion
+  lights: light.dev101
+  configs: 20
   
 
