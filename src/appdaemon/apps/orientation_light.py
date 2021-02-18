@@ -1,45 +1,51 @@
-import appdaemon.plugins.hass.hassapi as hass
+import hassapi as hass
 
 #
 # Orientation light controller
+
+# App to turn lights on when motion detected then off again after a delay
+#
+# Use with constraints to activate only for the hours of darkness
 #
 # Args:
 #
-# Description: 
-# - checks if motion is detected 
-# - checks if sun is down
-# - if all conditions are satisfied, turn light on
-#       and start timer to turn light off after X seconds
-# - if motion is detected during timer counting, the timer
-#       is restarted 
-# TODO: 
-# - handle alarm controlling
+# sensor: binary sensor to use as trigger
+# entity_ctrl: entity to control when detecting motion, can be a light, script, 
+#               scene or anything else that can be turned on/off
+# delay: amount of time after turning on to turn off again. If not specified defaults 
+#               to 60 seconds.
 #
+# Release Notes
+#
+# Version 1.0:
+#   Initial Version adapted from: 
+#   https://github.com/AppDaemon/appdaemon/blob/dev/conf/example_apps/motion_lights.py
+
 
 class OrientLight(hass.Hass):
 
-  def initialize(self):
-    self.log("motion light controller application initialized...")
-    self.sensor = self.args["sensors"]
-    self.light = self.args["lights"]
-    self.light_delay = self.args["configs"] 
-    self.log("Sensor: " + self.sensor + '   Light: ' + self.light + '  Delay: ' + str(self.light_delay)) 
-    self.listen_state(self.motion, self.sensor, new = "on")
-    self.timer = None
+    def initialize(self):
+        self.handle = None
+        # Subscribe to sensors
+        if "sensor" in self.args:
+            self.listen_state(self.motion, self.args["sensor"])
+        else:
+            self.log("No sensor specified, doing nothing")
 
-  def motion(self, entity, attribute, old, new, kwargs):
-    self.log("motion detected for: " + self.sensor)
-    if self.sun_down():   # check that it is still dark 
-      self.turn_on(self.light) # turn on the light
-      self.log("light turned on: " + self.light)
-      if None != self.timer:  # check if timer is already running, means new motion detected within a timer cycle 
-        self.cancel_timer(self.timer) # cancel that timer for restarting
-      self.timer = self.run_in(self.light_off, self.light_delay) # start timer to turn of the light with delay
+    def motion(self, entity, attribute, old, new, kwargs):
+        if self.sun_down():   # check that it is still dark 
+            if new == "on":
+                if "entity_ctrl" in self.args:
+                    self.log("Motion detected: turning {} on".format(self.args["entity_ctrl"]))
+                    self.turn_on(self.args["entity_ctrl"])
+                if "delay" in self.args:
+                    delay = self.args["delay"]
+                else:
+                    delay = 60
+                self.cancel_timer(self.handle)
+                self.handle = self.run_in(self.light_off, delay)
 
-  def light_off(self, kwargs):
-    if self.get_state(self.sensor) == "on": # check if sensor is still in motion
-      self.timer = self.run_in(self.light_off, self.light_delay) # yes, restart timer
-    else:
-      self.turn_off(self.light) # turn of light
-      self.log("light turned off: " + self.light)
-      self.timer = None
+    def light_off(self, kwargs):
+        if "entity_ctrl" in self.args:
+            self.log("Turning {} off".format(self.args["entity_ctrl"]))
+            self.turn_off(self.args["entity_ctrl"])

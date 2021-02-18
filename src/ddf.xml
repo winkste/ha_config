@@ -32,14 +32,24 @@
         <cap_id>0x0D</cap_id>           
     </dev>
     <dev id="dev04">
-        <name>Sonoff Schalter Kugel gross</name>
+        <name>Sonoff Schalter WZ Lampe</name>
         <type>ESP8285</type>
         <locat>hall room</locat>
         <fw_id>N39005</fw_id>
         <fw_ver>001</fw_ver>
-        <fw_desc>Light for a big ball lamp</fw_desc>
+        <fw_desc>Ambi light living room</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0x02</cap_id>           
+    </dev>
+    <dev id="dev05">
+        <name>Sonoff und Pir Carport 3</name>
+        <type>ESP8285</type>
+        <locat>carport</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>sonoff with pir combined</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x0D</cap_id>           
     </dev>
     <dev id="dev21">
         <name>DHT Temperatur und Luftfeuchte im Esszimmer</name>

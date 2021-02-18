@@ -45,17 +45,6 @@
     payload_off: "OFF"
     optimistic: false
 # --------------------------------------------------
-# --------------------------------------------------
-  - platform: mqtt ### 3D Printer
-    name: "dev05"
-    state_topic: "std/dev05/s/so_basic/status"
-    command_topic: "std/dev05/r/so_basic/switch"
-    qos: 0
-    payload_on: "ON"
-    payload_off: "OFF"
-    optimistic: false
-# --------------------------------------------------
-# --------------------------------------------------
   - platform: mqtt ### garden control station 50
     name: "dev50_r1"
     state_topic: "std/dev50/s/relay_one/status"
@@ -140,6 +129,16 @@
     name: "dev03"
     state_topic: "std/dev03/s/so_basic/status"
     command_topic: "std/dev03/r/so_basic/switch"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+# --------------------------------------------------
+# --------------------------------------------------
+  - platform: mqtt ### light 03 carport outside
+    name: "dev05"
+    state_topic: "std/dev05/s/so_basic/status"
+    command_topic: "std/dev05/r/so_basic/switch"
     qos: 0
     payload_on: "ON"
     payload_off: "OFF"

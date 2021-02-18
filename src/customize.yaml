@@ -29,15 +29,11 @@
       icon: "mdi:signal-variant"
 # -----------------------------------------------
     light.dev04:
-      friendly_name: "Lampe große Kugel"
+      friendly_name: "Ambi Lampe WZ"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev75B:
       friendly_name: "Lampe große Kugel"
-      icon: "mdi:lamp"
-# -----------------------------------------------
-    light.dev05:
-      friendly_name: "3D-Printer"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r1:
@@ -124,6 +120,13 @@
       friendly_name: "Bewegungsmelder Carport außen"
       icon: "mdi:information-outline"
     light.dev03:
+      friendly_name: "Licht im Holzschuppen"
+      icon: "mdi:lamp"
+# -----------------------------------------------
+    binary_sensor.dev05_motion:
+      friendly_name: "Bewegungsmelder Carport außen"
+      icon: "mdi:information-outline"
+    light.dev05:
       friendly_name: "Licht im Holzschuppen"
       icon: "mdi:lamp"
 # -----------------------------------------------

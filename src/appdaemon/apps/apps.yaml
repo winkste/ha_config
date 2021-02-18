@@ -3,58 +3,64 @@
 carport_light:
   module: carport_light
   class: CarportLight
-  configs: 60
+  sensor:
+    - binary_sensor.dev03_motion
+    - binary_sensor.dev62_motion
+  entity_ctrl:
+    - light.dev03
+    - light.dev62
+  delay: 60
 
 
 garden_house_light:
   module: motion_light
   class: MotionLight
-  sensors: binary_sensor.dev63_motion
-  lights: light.dev63
-  configs: 60
+  sensor: binary_sensor.dev63_motion
+  entity_ctrl: light.dev63
+  delay: 60
 
 
 orient_living:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev72_motion
-  lights: light.dev72
-  configs: 20
+  sensor: binary_sensor.dev72_motion
+  entity_ctrl: light.dev72
+  delay: 20
 
 orient_carp_inside:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev71_motion
-  lights: light.dev71
-  configs: 20
+  sensor: binary_sensor.dev71_motion
+  entity_ctrl: light.dev71
+  delay: 20
 
 orient_util:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev73_motion
-  lights: light.dev73
-  configs: 20
+  sensor: binary_sensor.dev73_motion
+  entity_ctrl: light.dev73
+  delay: 20
 
 orient_hall_ground:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev70_motion
-  lights: light.dev70
-  configs: 20
+  sensor: binary_sensor.dev70_motion
+  entity_ctrl: light.dev70
+  delay: 20
 
 orient_hall_first:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev75_motion
-  lights: light.dev75
-  configs: 20
+  sensor: binary_sensor.dev75_motion
+  entity_ctrl: light.dev75
+  delay: 20
 
 orient_es32test:
   module: orientation_light
   class: OrientLight
-  sensors: binary_sensor.dev101_motion
-  lights: light.dev101
-  configs: 20
+  sensor: binary_sensor.dev101_motion
+  entity_ctrl: light.dev101
+  delay: 20
 
 nightly_reset:
   module: night_reset

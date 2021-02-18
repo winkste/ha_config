@@ -29,6 +29,10 @@
     name: "dev03_motion"
     device_class: motion
   - platform: mqtt
+    state_topic: "std/dev05/s/pir/status"
+    name: "dev05_motion"
+    device_class: motion
+  - platform: mqtt
     state_topic: "std/dev62/s/pir/status"
     name: "dev62_motion"
     device_class: motion
