@@ -19,6 +19,7 @@ views:
           - entity: light.dev80_l1
           - entity: light.dev80_l2
           - entity: light.dev80_l3
+          - entity: light.dev04
         show_header_toggle: false
         title: Wohnzimmer
         type: entities
@@ -126,72 +127,19 @@ views:
     icon: 'mdi:home'
     path: default_view
     title: Home
-  - icon: 'mdi:guy-fawkes-mask'
-    path: system
-    title: System
-    badges: []
+  - badges: []
     cards:
-      - entities:
-          - entity: sensor.disk_use_percent
-          - entity: sensor.memory_free
-          - entity: sensor.processor_use_percent
-          - entity: sensor.last_boot
-        show_header_toggle: false
-        title: System
-        type: entities
-      - entities:
-          - entity: sensor.dev70_health_tic
-          - entity: sensor.dev71_health_tic
-          - entity: sensor.dev72_health_tic
-          - entity: sensor.dev73_health_tic
-          - entity: sensor.dev75_health_tic
-          - entity: sensor.dev101_health_tic
-        show_header_toggle: false
-        title: Device Health Status
-        type: entities
-      - entities:
-          - light.dev01
-          - light.dev02
-          - light.dev03
-          - light.dev04
-          - light.dev05
-          - light.dev50_r1
-          - light.dev50_r2
-          - light.dev50_r3
-          - light.dev50_r4
-          - light.dev50_r5
-          - light.dev50_r6
-          - light.dev50_r7
-          - light.dev50_r8
-          - light.dev62
-          - light.dev99
-          - light.dev71
-          - light.dev72
-          - light.dev73
-          - light.dev11_l1
-          - light.dev11_l2
-          - light.dev11_r1
-          - light.dev11_r2
-        show_header_toggle: false
-        title: All lights
-        type: entities
-      - hold_action:
-          action: none
-        image: 'http://192.168.178.103/capture'
-        tap_action:
-          action: none
-        type: picture
-      - entities:
-          - entity: binary_sensor.dev03_motion
-          - entity: binary_sensor.dev62_motion
-          - entity: binary_sensor.dev63_motion
-          - entity: binary_sensor.dev71_motion
-          - entity: binary_sensor.dev72_motion
-          - entity: binary_sensor.dev73_motion
-          - entity: binary_sensor.dev75_motion
-          - entity: binary_sensor.dev101_motion
-        title: Bewegungen
-        type: entities
+      - entity: weather.dark_sky
+        name: Vorhersage
+        type: weather-forecast
+      - aspect_ratio: 50%
+        title: Radar
+        type: iframe
+        url: >-
+          https://embed.windy.com/embed2.html?lat=51.645&lon=8.921&zoom=5&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
+    icon: 'mdi:weather-sunny'
+    path: wetter
+    title: Wetter
   - badges: []
     cards:
       - detail: 0.1
@@ -305,19 +253,72 @@ views:
     icon: 'mdi:waves'
     path: groups_humid
     title: Humidity
-  - badges: []
+  - icon: 'mdi:guy-fawkes-mask'
+    path: system
+    title: System
+    badges: []
     cards:
-      - entity: weather.dark_sky
-        name: Vorhersage
-        type: weather-forecast
-      - aspect_ratio: 50%
-        title: Radar
-        type: iframe
-        url: >-
-          https://embed.windy.com/embed2.html?lat=51.645&lon=8.921&zoom=5&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
-    icon: 'mdi:weather-sunny'
-    path: wetter
-    title: Wetter
+      - entities:
+          - entity: sensor.disk_use_percent
+          - entity: sensor.memory_free
+          - entity: sensor.processor_use_percent
+          - entity: sensor.last_boot
+        show_header_toggle: false
+        title: System
+        type: entities
+      - entities:
+          - entity: sensor.dev70_health_tic
+          - entity: sensor.dev71_health_tic
+          - entity: sensor.dev72_health_tic
+          - entity: sensor.dev73_health_tic
+          - entity: sensor.dev75_health_tic
+          - entity: sensor.dev101_health_tic
+        show_header_toggle: false
+        title: Device Health Status
+        type: entities
+      - entities:
+          - light.dev01
+          - light.dev02
+          - light.dev03
+          - light.dev04
+          - light.dev05
+          - light.dev50_r1
+          - light.dev50_r2
+          - light.dev50_r3
+          - light.dev50_r4
+          - light.dev50_r5
+          - light.dev50_r6
+          - light.dev50_r7
+          - light.dev50_r8
+          - light.dev62
+          - light.dev99
+          - light.dev71
+          - light.dev72
+          - light.dev73
+          - light.dev11_l1
+          - light.dev11_l2
+          - light.dev11_r1
+          - light.dev11_r2
+        show_header_toggle: false
+        title: All lights
+        type: entities
+      - hold_action:
+          action: none
+        image: 'http://192.168.178.103/capture'
+        tap_action:
+          action: none
+        type: picture
+      - entities:
+          - entity: binary_sensor.dev03_motion
+          - entity: binary_sensor.dev62_motion
+          - entity: binary_sensor.dev63_motion
+          - entity: binary_sensor.dev71_motion
+          - entity: binary_sensor.dev72_motion
+          - entity: binary_sensor.dev73_motion
+          - entity: binary_sensor.dev75_motion
+          - entity: binary_sensor.dev101_motion
+        title: Bewegungen
+        type: entities
   - title: Test
     path: test
     badges: []
@@ -331,4 +332,3 @@ views:
           - entity: light.dev101
           - entity: light.dev101_r1
         title: ESP32 Test
-
