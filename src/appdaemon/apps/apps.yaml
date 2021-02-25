@@ -1,13 +1,17 @@
 ---
 
+sun_state_check:
+  module: sun_checker
+  class: SunChecker
+
 carport_light:
   module: carport_light
   class: CarportLight
   sensor:
-    - binary_sensor.dev03_motion
+    - binary_sensor.dev05_motion
     - binary_sensor.dev62_motion
   entity_ctrl:
-    - light.dev03
+    - light.dev05
     - light.dev62
   delay: 60
 
