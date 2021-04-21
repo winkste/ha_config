@@ -231,6 +231,21 @@
         <cap_id>0x35</cap_id> 
         <cap_id>0x36</cap_id> 
     </dev>
+    <dev id="dev102">
+        <name>ESP32 Debug2 Device</name>
+        <type>ESP32</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>esp_proto</fw_desc>
+        <cap_id>0xFB</cap_id> 
+        <cap_id>0xFE</cap_id> 
+        <cap_id>0x31</cap_id>     
+        <cap_id>0x33</cap_id>  
+        <cap_id>0x34</cap_id>    
+        <cap_id>0x35</cap_id> 
+        <cap_id>0x36</cap_id> 
+    </dev>
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>

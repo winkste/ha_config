@@ -40,15 +40,15 @@ views:
         title: Dachboden
         type: entities
       - entities:
-          - sensor.dev71_temperature_dht
-          - sensor.dev71_humidity_dht
-          - sensor.dev71_brightness_temt6000
-          - light.dev71
-          - binary_sensor.dev71_motion
-          - binary_sensor.dev03_motion
-          - light.dev03
-          - binary_sensor.dev62_motion
-          - light.dev62
+          - entity: sensor.dev71_temperature_dht
+          - entity: sensor.dev71_humidity_dht
+          - entity: sensor.dev71_brightness_temt6000
+          - entity: light.dev71
+          - entity: binary_sensor.dev71_motion
+          - entity: binary_sensor.dev05_motion
+          - entity: light.dev05
+          - entity: binary_sensor.dev62_motion
+          - entity: light.dev62
         show_header_toggle: false
         title: Carport
         type: entities
@@ -124,6 +124,18 @@ views:
           - entity: sensor.dev101_battery_mija3
           - entity: sensor.dev101_healthtic_mija3
         title: Gästezimmer
+      - type: history-graph
+        entities:
+          - entity: sensor.dev200_rki_celle_7day
+          - entity: sensor.dev200_rki_noh_7day
+        hours_to_show: 24
+        refresh_interval: 0
+        title: RKI 7 Tage Incident
+      - type: entities
+        entities:
+          - entity: sensor.dev200_rki_celle_7day
+          - entity: sensor.dev200_rki_noh_7day
+        title: COVID-19 RKI Zahlen
     icon: 'mdi:home'
     path: default_view
     title: Home
@@ -332,3 +344,9 @@ views:
           - entity: light.dev101
           - entity: light.dev101_r1
         title: ESP32 Test
+      - type: picture
+        image: 'http://192.168.178.103:81/stream'
+        tap_action:
+          action: none
+        hold_action:
+          action: none

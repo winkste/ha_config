@@ -373,6 +373,20 @@
     unit_of_measurement: "cnt"
 # -----------------------------------------------------------
   - platform: mqtt
+    state_topic: "dev200/#"
+    name: "dev200"
+
+  - platform: mqtt
+    state_topic: "std/dev200/s/rki/ce/c7"
+    name: "dev200_rki_celle_7day"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
+    state_topic: "std/dev200/s/rki/noh/c7"
+    name: "dev200_rki_noh_7day"
+    unit_of_measurement: "cnt"
+# -----------------------------------------------------------
+  - platform: mqtt
     state_topic: "dev11/#"
     name: "dev11"
 
