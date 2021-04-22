@@ -346,11 +346,11 @@
       icon: "mdi:signal-variant"
 # -----------------------------------------------
     sensor.dev200_rki_celle_7day:
-      friendly_name: "7 Tage Incident für Celle"
+      friendly_name: "7T Trend Celle"
       icon: "mdi:mdi-hospital"
 
     sensor.dev200_rki_noh_7day:
-      friendly_name: "7 Tage Incident für Noh"
+      friendly_name: "7T Trend Noh"
       icon: "mdi:mdi-hospital"   
 # -----------------------------------------------
     light.dev11_l1:

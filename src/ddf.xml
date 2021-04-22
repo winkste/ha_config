@@ -246,6 +246,20 @@
         <cap_id>0x35</cap_id> 
         <cap_id>0x36</cap_id> 
     </dev>
+        <dev id="dev200">
+        <name>RKI per PI3</name>
+        <type>PI3</type>
+        <locat>Schuppen</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>None</fw_desc>
+        <cap_id>0x100</cap_id>  
+    </dev>
+    <cap id="0x100">
+        <name>RKI Statistics</name>
+        <topic_tx>rki/ce/c7</topic_tx>
+        <topic_tx>rki/noh/c7</topic_tx>
+    </cap>   
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>
@@ -760,4 +774,10 @@
     <topic id="0/dht/hum">
         <chan>std</chan>
     </topic>  
+    <topic id="rki/ce/c7">
+        <chan>std</chan>
+    </topic> 
+    <topic id="rki/noh/c7">
+        <chan>std</chan>
+    </topic> 
 </home>
