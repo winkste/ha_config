@@ -250,7 +250,7 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev73_motion:
-      friendly_name: "Bewegungsmelder"
+      friendly_name: "Bewegungsmelder HWR"
       icon: "mdi:information-outline"
     sensor.dev73_health_tic:
       friendly_name: "Health Counter DEV73"
@@ -266,7 +266,7 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev75_motion:
-      friendly_name: "Bewegungsmelder"
+      friendly_name: "Bewegungsmelder Flur OG"
       icon: "mdi:information-outline"
     sensor.dev75_health_tic:
       friendly_name: "Health Counter DEV75"
@@ -282,7 +282,7 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev101_motion:
-      friendly_name: "Bewegungsmelder"
+      friendly_name: "Bewegungsmelder DEV101"
       icon: "mdi:information-outline"
     sensor.dev101_health_tic:
       friendly_name: "Health Counter DEV101"
@@ -352,7 +352,7 @@
       friendly_name: "Helligkeit"
       icon: "mdi:weather-sunny"
     binary_sensor.dev102_motion:
-      friendly_name: "Bewegungsmelder"
+      friendly_name: "Bewegungsmelder DEV102"
       icon: "mdi:information-outline"
     sensor.dev102_health_tic:
       friendly_name: "Health Counter DEV102"
