@@ -48,26 +48,31 @@ class OrientLight(hass.Hass):
         self.handle = None
         # Subscribe to sensors
         if "sensor" in self.args:
-            self.listen_state(self.motion, self.args["sensor"])
+            self.listen_state(self.motion_on, self.args["sensor"], new = "on")
+            self.listen_state(self.motion_off, self.args["sensor"], new = "off")
         else:
             self.log("No sensor specified, doing nothing")
 
-    def motion(self, entity, attribute, old, new, kwargs):
+    def motion_on(self, entity, attribute, old, new, kwargs):
         if "sensor" in self.args:
-            self.log("Motion detected: {}".format(self.args["sensor"]))
+            self.log("Motion activated: {}".format(self.args["sensor"]))
         if self.sun_down():   # check that it is still dark 
-            if new == "on":
-                if "entity_ctrl" in self.args:
-                    self.log("Turning {} on".format(self.args["entity_ctrl"]))
-                    self.turn_on(self.args["entity_ctrl"])
-                if "delay" in self.args:
-                    delay = self.args["delay"]
-                else:
-                    delay = 60
-                self.cancel_timer(self.handle)
-                self.handle = self.run_in(self.light_off, delay)
-
-    def light_off(self, kwargs):
+            self.cancel_timer(self.handle)
+            if "entity_ctrl" in self.args:
+                self.log("Turning {} on".format(self.args["entity_ctrl"]))
+                self.turn_on(self.args["entity_ctrl"])
+    
+    def motion_off(self, entity, attribute, old, new, kwargs):
+        if "sensor" in self.args:
+            self.log("Motion deactivated: {}".format(self.args["sensor"]))
+        if "delay" in self.args:
+            delay = self.args["delay"]
+        else:
+            delay = 60
+        self.cancel_timer(self.handle)
+        self.handle = self.run_in(self.timer_timeout, delay)
+    
+    def timer_timeout(self, kwargs):
         if "entity_ctrl" in self.args:
             self.log("Turning {} off".format(self.args["entity_ctrl"]))
             self.turn_off(self.args["entity_ctrl"])

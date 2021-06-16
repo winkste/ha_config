@@ -37,7 +37,7 @@
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r1:
-      friendly_name: "Garten 1"
+      friendly_name: "Garten Strahler 1"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r2:
@@ -45,11 +45,11 @@
       icon: "mdi:fish"
 # -----------------------------------------------
     light.dev50_r3:
-      friendly_name: "Teich Luftpumpe"
+      friendly_name: "Gartenstehlampe links"
       icon: "mdi:fish"
 # -----------------------------------------------
     light.dev50_r4:
-      friendly_name: "Garten 4"
+      friendly_name: "Garten Strahler 2"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r5:
@@ -57,7 +57,7 @@
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r6:
-      friendly_name: "Gartenstehlampe"
+      friendly_name: "Gartenstehlampe rechts"
       icon: "mdi:lamp"
 # -----------------------------------------------
     light.dev50_r7:
