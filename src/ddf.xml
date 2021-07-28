@@ -9,7 +9,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Table light sonoff device</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x02</cap_id>           
+        <cap_id>0x02</cap_id>
     </dev>
     <dev id="dev02">
         <name>Sonoff Schalter Kugel klein</name>
@@ -19,7 +19,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Light for a small ball lamp</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x02</cap_id>           
+        <cap_id>0x02</cap_id>
     </dev>
     <dev id="dev03">
         <name>Sonoff und Pir Carport 1</name>
@@ -29,7 +29,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>sonoff with pir combined</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0D</cap_id>           
+        <cap_id>0x0D</cap_id>
     </dev>
     <dev id="dev04">
         <name>Sonoff Schalter WZ Lampe</name>
@@ -39,7 +39,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Ambi light living room</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x02</cap_id>           
+        <cap_id>0x02</cap_id>
     </dev>
     <dev id="dev05">
         <name>Sonoff und Pir Carport 3</name>
@@ -49,7 +49,37 @@
         <fw_ver>001</fw_ver>
         <fw_desc>sonoff with pir combined</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0D</cap_id>           
+        <cap_id>0x0D</cap_id>
+    </dev>
+    <dev id="dev06">
+        <name>Sonoff Schalter 06</name>
+        <type>SONOFF</type>
+        <locat>na</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>040</fw_ver>
+        <fw_desc>Sonoff relais switch</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x02</cap_id>
+    </dev>
+    <dev id="dev07">
+        <name>Sonoff Schalter 07</name>
+        <type>SONOFF</type>
+        <locat>na</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>040</fw_ver>
+        <fw_desc>Sonoff relais switch</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x02</cap_id>
+    </dev>
+    <dev id="dev08">
+        <name>Sonoff Schalter 08</name>
+        <type>SONOFF</type>
+        <locat>na</locat>
+        <fw_id>N39005</fw_id>
+        <fw_ver>040</fw_ver>
+        <fw_desc>Sonoff relais switch</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x02</cap_id>
     </dev>
     <dev id="dev21">
         <name>DHT Temperatur und Luftfeuchte im Esszimmer</name>
@@ -58,7 +88,7 @@
         <fw_id>PYTHON</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>This is a python script</fw_desc>
-        <cap_id>0x01</cap_id>           
+        <cap_id>0x01</cap_id>
     </dev>
     <dev id="dev23">
         <name>DHT Temperatur und Luftfeuchte auf dem Dachboden</name>
@@ -68,7 +98,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Temperature and Umidity measure</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x01</cap_id>           
+        <cap_id>0x01</cap_id>
     </dev>
     <dev id="dev28">
         <name>Dual DHT Temp und Hum im Garten</name>
@@ -78,7 +108,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Dual Temperature and Umidity measure</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0B</cap_id>           
+        <cap_id>0x0B</cap_id>
     </dev>
     <dev id="dev50">
         <name>Multi Relais in Gartensteuerung</name>
@@ -88,7 +118,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>Multi relay switch</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0C</cap_id>           
+        <cap_id>0x0C</cap_id>
     </dev>
     <dev id="dev62">
         <name>Sonoff und Pir Carport 2</name>
@@ -98,7 +128,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>sonoff with pir combined</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0D</cap_id>           
+        <cap_id>0x0D</cap_id>
     </dev>
     <dev id="dev63">
         <name>Sonoff und Pir Gartenhaus aussen</name>
@@ -108,7 +138,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>sonoff with pir combined</fw_desc>
         <cap_id>0xFF</cap_id>
-        <cap_id>0x0D</cap_id>           
+        <cap_id>0x0D</cap_id>
     </dev>
     <dev id="dev70">
         <name>MultiSense im Flur unten</name>
@@ -119,7 +149,7 @@
         <fw_desc>This is the firmware description</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>          
+        <cap_id>0x0F</cap_id>
     </dev>
     <dev id="dev71">
         <name>MultiSense Werkstatt</name>
@@ -130,7 +160,7 @@
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>          
+        <cap_id>0x0F</cap_id>
     </dev>
     <dev id="dev72">
         <name>MultiSense im Wohnzimmer</name>
@@ -141,7 +171,7 @@
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>          
+        <cap_id>0x0F</cap_id>
     </dev>
         <dev id="dev73">
         <name>MultiSense im HWR</name>
@@ -152,7 +182,7 @@
         <fw_desc>multi sense control</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>          
+        <cap_id>0x0F</cap_id>
     </dev>
     <dev id="dev75">
         <name>MultiSense Relay Flur oben</name>
@@ -163,7 +193,7 @@
         <fw_desc>multi sense relay</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>   
+        <cap_id>0x0F</cap_id>
         <cap_id>0x20</cap_id>
     </dev>
     <dev id="dev90">
@@ -173,7 +203,7 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>PC application</fw_desc>
-        <cap_id>0xFE</cap_id>          
+        <cap_id>0xFE</cap_id>
     </dev>
     <dev id="dev91">
         <name>iMAC</name>
@@ -182,7 +212,7 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>PC application</fw_desc>
-        <cap_id>0xFE</cap_id>          
+        <cap_id>0xFE</cap_id>
     </dev>
     <dev id="dev92">
         <name>DELL</name>
@@ -191,7 +221,7 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>PC application</fw_desc>
-        <cap_id>0xFE</cap_id>          
+        <cap_id>0xFE</cap_id>
     </dev>
     <dev id="dev98">
         <name>ESP32 Debug Device</name>
@@ -200,9 +230,9 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
-        <cap_id>0xFD</cap_id> 
-        <cap_id>0xFC</cap_id> 
-        <cap_id>0x30</cap_id>         
+        <cap_id>0xFD</cap_id>
+        <cap_id>0xFC</cap_id>
+        <cap_id>0x30</cap_id>
     </dev>
     <dev id="dev99">
         <name>MultiSense Relay</name>
@@ -213,7 +243,7 @@
         <fw_desc>multi sense relay</fw_desc>
         <cap_id>0xFF</cap_id>
         <cap_id>0xFE</cap_id>
-        <cap_id>0x0F</cap_id>   
+        <cap_id>0x0F</cap_id>
         <cap_id>0x20</cap_id>
     </dev>
     <dev id="dev101">
@@ -223,13 +253,14 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
-        <cap_id>0xFB</cap_id> 
-        <cap_id>0xFE</cap_id> 
-        <cap_id>0x31</cap_id>     
-        <cap_id>0x33</cap_id>  
-        <cap_id>0x34</cap_id>    
-        <cap_id>0x35</cap_id> 
-        <cap_id>0x36</cap_id> 
+        <cap_id>0xFB</cap_id>
+        <cap_id>0xFD</cap_id>
+        <cap_id>0xFE</cap_id>
+        <cap_id>0x31</cap_id>
+        <cap_id>0x33</cap_id>
+        <cap_id>0x34</cap_id>
+        <cap_id>0x35</cap_id>
+        <cap_id>0x36</cap_id>
     </dev>
     <dev id="dev102">
         <name>ESP32 Debug2 Device</name>
@@ -238,13 +269,28 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
-        <cap_id>0xFB</cap_id> 
-        <cap_id>0xFE</cap_id> 
-        <cap_id>0x31</cap_id>     
-        <cap_id>0x33</cap_id>  
-        <cap_id>0x34</cap_id>    
-        <cap_id>0x35</cap_id> 
-        <cap_id>0x36</cap_id> 
+        <cap_id>0xFB</cap_id>
+        <cap_id>0xFE</cap_id>
+        <cap_id>0x31</cap_id>
+        <cap_id>0x33</cap_id>
+        <cap_id>0x34</cap_id>
+        <cap_id>0x35</cap_id>
+        <cap_id>0x36</cap_id>
+    </dev>
+    <dev id="dev104">
+        <name>ESP32 Debug2 Device</name>
+        <type>ESP32</type>
+        <locat>free</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>esp_proto</fw_desc>
+        <cap_id>0xFB</cap_id>
+        <cap_id>0xFE</cap_id>
+        <cap_id>0x31</cap_id>
+        <cap_id>0x33</cap_id>
+        <cap_id>0x34</cap_id>
+        <cap_id>0x35</cap_id>
+        <cap_id>0x36</cap_id>
     </dev>
         <dev id="dev200">
         <name>RKI per PI3</name>
@@ -253,13 +299,13 @@
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>None</fw_desc>
-        <cap_id>0x100</cap_id>  
+        <cap_id>0x100</cap_id>
     </dev>
     <cap id="0x100">
         <name>RKI Statistics</name>
         <topic_tx>rki/ce/c7</topic_tx>
         <topic_tx>rki/noh/c7</topic_tx>
-    </cap>   
+    </cap>
     <cap id="0xFF">
         <name>Generic Commands</name>
         <topic_rx>gen/cmd</topic_rx>
@@ -276,12 +322,7 @@
     </cap>
     <cap id="0xFD">
         <name>Generic Commands</name>
-        <topic_rx>0/gen/cmd</topic_rx>
-        <topic_tx>0/gen/fwident</topic_tx>
-        <topic_tx>0/gen/fwversion</topic_tx>
-        <topic_tx>0/gen/ip</topic_tx>
-        <topic_tx>0/gen/desc</topic_tx>
-        <topic_tx>0/gen/room</topic_tx>
+        <topic_rx>gen/mode</topic_rx>
         <topic_tx>trace/</topic_tx>
     </cap>
     <cap id="0xFC">
@@ -291,7 +332,6 @@
         <cap id="0xFB">
         <name>Generic Commands</name>
         <topic_rx>gen/info</topic_rx>
-        <topic_rx>gen/update</topic_rx>
         <topic_tx>gen/fwident</topic_tx>
         <topic_tx>gen/fwversion</topic_tx>
         <topic_tx>gen/ip</topic_tx>
@@ -439,9 +479,6 @@
     </topic>
     <topic id="gen/info">
         <chan>std</chan>
-    </topic> 
-    <topic id="gen/update">
-        <chan>std</chan>
     </topic>
     <topic id="gen/fwident">
         <chan>std</chan>
@@ -469,21 +506,21 @@
     </topic>
     <topic id="temp_hum/hum">
         <chan>std</chan>
-    </topic>  
+    </topic>
     <topic id="temp_hum/temp1">
         <chan>std</chan>
     </topic>
     <topic id="temp_hum/hum1">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="pir/status">
         <chan>std</chan>
         <payload>ON</payload>
         <payload>OFF</payload>
-    </topic>  
+    </topic>
     <topic id="temt6000/raw">
         <chan>std</chan>
-    </topic>  
+    </topic>
     <topic id="temt6000/level">
         <chan>std</chan>
         <payload>DARK</payload>
@@ -491,7 +528,7 @@
     </topic>
     <topic id="light_one/toggle">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="light_one/switch">
         <chan>std</chan>
         <payload>ON</payload>
@@ -504,13 +541,13 @@
     </topic>
     <topic id="light_one/brightness">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="light_one/color">
         <chan>std</chan>
     </topic>
         <topic id="so_basic/toggle">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="so_basic/switch">
         <chan>std</chan>
         <payload>ON</payload>
@@ -627,10 +664,10 @@
     </topic>
     <topic id="0/mija/loc">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/mija/know">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/mija/temp">
         <chan>std</chan>
     </topic>
@@ -639,16 +676,16 @@
     </topic>
     <topic id="0/mija/batt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/mija/cnt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="1/mija/loc">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="1/mija/know">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="1/mija/temp">
         <chan>std</chan>
     </topic>
@@ -657,16 +694,16 @@
     </topic>
     <topic id="1/mija/batt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="1/mija/cnt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="2/mija/loc">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="2/mija/know">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="2/mija/temp">
         <chan>std</chan>
     </topic>
@@ -675,16 +712,16 @@
     </topic>
     <topic id="2/mija/batt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="2/mija/cnt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="3/mija/loc">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="3/mija/know">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="3/mija/temp">
         <chan>std</chan>
     </topic>
@@ -693,14 +730,15 @@
     </topic>
     <topic id="3/mija/batt">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="3/mija/cnt">
         <chan>std</chan>
-    </topic> 
-    <topic id="0/gen/cmd">
+    </topic>
+    <topic id="gen/mode">
         <chan>std</chan>
-        <payload>INFO</payload>
-        <payload>SETUP</payload>
+        <payload>reset</payload>
+        <payload>repl</payload>
+        <payload>update</payload>
     </topic>
     <topic id="0/gen/fwident">
         <chan>std</chan>
@@ -727,10 +765,10 @@
         <chan>std</chan>
         <payload>ON</payload>
         <payload>OFF</payload>
-    </topic> 
+    </topic>
     <topic id="0/temt6x/raw">
         <chan>std</chan>
-    </topic>  
+    </topic>
     <topic id="0/temt6x/level">
         <chan>std</chan>
         <payload>DARK</payload>
@@ -738,7 +776,7 @@
     </topic>
     <topic id="0/neo_one/toggle">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/neo_one/switch">
         <chan>std</chan>
         <payload>ON</payload>
@@ -751,13 +789,13 @@
     </topic>
     <topic id="0/neo_one/brightness">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/neo_one/color">
         <chan>std</chan>
     </topic>
     <topic id="0/relay/toggle">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="0/relay/switch">
         <chan>std</chan>
         <payload>ON</payload>
@@ -773,11 +811,11 @@
     </topic>
     <topic id="0/dht/hum">
         <chan>std</chan>
-    </topic>  
+    </topic>
     <topic id="rki/ce/c7">
         <chan>std</chan>
-    </topic> 
+    </topic>
     <topic id="rki/noh/c7">
         <chan>std</chan>
-    </topic> 
+    </topic>
 </home>
