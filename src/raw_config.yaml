@@ -24,12 +24,12 @@ views:
         title: Wohnzimmer
         type: entities
       - entities:
-          - sensor.dev70_temperature_dht
-          - sensor.dev70_humidity_dht
-          - sensor.dev70_brightness_temt6000
-          - binary_sensor.dev70_motion
-          - light.dev70
-          - light.dev02
+          - entity: sensor.dev101_temperature_dht
+          - entity: sensor.dev101_humidity_dht
+          - entity: sensor.dev101_brightness_temt6x
+          - entity: binary_sensor.dev101_motion
+          - entity: light.dev101
+          - entity: light.dev101_r1
         show_header_toggle: false
         title: Flur unten
         type: entities
@@ -45,13 +45,10 @@ views:
           - entity: sensor.dev71_brightness_temt6000
           - entity: light.dev71
           - entity: binary_sensor.dev71_motion
-          - entity: binary_sensor.dev05_motion
-          - entity: light.dev05
-          - entity: binary_sensor.dev62_motion
-          - entity: light.dev62
         show_header_toggle: false
-        title: Carport
+        title: Werkstatt
         type: entities
+        state_color: false
       - entities:
           - entity: sensor.dev75_temperature_dht
           - entity: sensor.dev75_humidity_dht
@@ -79,6 +76,14 @@ views:
         show_header_toggle: false
         title: Garten
         type: entities
+      - type: entities
+        entities:
+          - entity: binary_sensor.dev05_motion
+          - entity: light.dev05
+          - entity: binary_sensor.dev62_motion
+          - entity: light.dev62
+        title: Carport
+        show_header_toggle: false
       - entities:
           - entity: binary_sensor.dev63_motion
           - entity: light.dev63
@@ -134,7 +139,9 @@ views:
       - type: entities
         entities:
           - entity: sensor.dev200_rki_celle_7day
+            icon: 'mdi:hospital'
           - entity: sensor.dev200_rki_noh_7day
+            icon: 'mdi:hospital'
         title: COVID-19 RKI Zahlen
     icon: 'mdi:home'
     path: default_view
@@ -285,6 +292,7 @@ views:
           - entity: sensor.dev73_health_tic
           - entity: sensor.dev75_health_tic
           - entity: sensor.dev101_health_tic
+          - entity: sensor.dev102_health_tic
         show_header_toggle: false
         title: Device Health Status
         type: entities
