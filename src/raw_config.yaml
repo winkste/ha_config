@@ -50,12 +50,12 @@ views:
         type: entities
         state_color: false
       - entities:
-          - entity: sensor.dev75_temperature_dht
-          - entity: sensor.dev75_humidity_dht
-          - entity: sensor.dev75_brightness_temt6000
-          - entity: binary_sensor.dev75_motion
-          - entity: light.dev75
-          - entity: light.dev75b
+          - entity: sensor.dev102_temperature_dht
+          - entity: sensor.dev102_humidity_dht
+          - entity: sensor.dev102_brightness_temt6x
+          - entity: binary_sensor.dev102_motion
+          - entity: light.dev102
+          - entity: light.dev102_r1
         show_header_toggle: false
         title: Flur oben
         type: entities
@@ -108,26 +108,26 @@ views:
         title: Badezimmer unten
         type: entities
       - entities:
-          - entity: sensor.dev101_temperature_mija0
-          - entity: sensor.dev101_humidity_mija0
-          - entity: sensor.dev101_battery_mija0
-          - entity: sensor.dev101_healthtic_mija0
+          - entity: sensor.dev102_temperature_mija0
+          - entity: sensor.dev102_humidity_mija0
+          - entity: sensor.dev102_battery_mija0
+          - entity: sensor.dev102_healthtic_mija0
         show_header_toggle: false
         title: Badezimmer oben
         type: entities
       - type: entities
         entities:
-          - entity: sensor.dev101_temperature_mija2
-          - entity: sensor.dev101_humidity_mija2
-          - entity: sensor.dev101_battery_mija2
-          - entity: sensor.dev101_healthtic_mija2
+          - entity: sensor.dev102_temperature_mija2
+          - entity: sensor.dev102_humidity_mija2
+          - entity: sensor.dev102_battery_mija2
+          - entity: sensor.dev102_healthtic_mija2
         title: Elternschlafzimmer
       - type: entities
         entities:
-          - entity: sensor.dev101_temperature_mija3
-          - entity: sensor.dev101_humidity_mija3
-          - entity: sensor.dev101_battery_mija3
-          - entity: sensor.dev101_healthtic_mija3
+          - entity: sensor.dev102_temperature_mija3
+          - entity: sensor.dev102_humidity_mija3
+          - entity: sensor.dev102_battery_mija3
+          - entity: sensor.dev102_healthtic_mija3
         title: Gästezimmer
       - type: history-graph
         entities:
@@ -286,11 +286,9 @@ views:
         title: System
         type: entities
       - entities:
-          - entity: sensor.dev70_health_tic
           - entity: sensor.dev71_health_tic
           - entity: sensor.dev72_health_tic
           - entity: sensor.dev73_health_tic
-          - entity: sensor.dev75_health_tic
           - entity: sensor.dev101_health_tic
           - entity: sensor.dev102_health_tic
         show_header_toggle: false

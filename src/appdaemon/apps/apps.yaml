@@ -48,22 +48,15 @@ orient_util:
 orient_hall_ground:
   module: orientation_light
   class: OrientLight
-  sensor: binary_sensor.dev70_motion
-  entity_ctrl: light.dev70
+  sensor: binary_sensor.dev101_motion
+  entity_ctrl: light.dev101
   delay: 20
 
 orient_hall_first:
   module: orientation_light
   class: OrientLight
-  sensor: binary_sensor.dev75_motion
-  entity_ctrl: light.dev75
-  delay: 20
-
-orient_es32test:
-  module: orientation_light
-  class: OrientLight
-  sensor: binary_sensor.dev101_motion
-  entity_ctrl: light.dev101
+  sensor: binary_sensor.dev102_motion
+  entity_ctrl: light.dev102
   delay: 20
 
 nightly_reset:
@@ -79,5 +72,6 @@ nightly_reset:
     - light.dev03
     - light.dev62
     - light.dev101
+    - light.dev102
   
 

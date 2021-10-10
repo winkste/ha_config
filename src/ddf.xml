@@ -270,6 +270,7 @@
         <fw_ver>001</fw_ver>
         <fw_desc>esp_proto</fw_desc>
         <cap_id>0xFB</cap_id>
+        <cap_id>0xFD</cap_id>
         <cap_id>0xFE</cap_id>
         <cap_id>0x31</cap_id>
         <cap_id>0x33</cap_id>
