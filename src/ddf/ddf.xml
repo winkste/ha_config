@@ -247,7 +247,7 @@
         <cap_id>0x20</cap_id>
     </dev>
     <dev id="dev101">
-        <name>ESP32 Debug Device</name>
+        <name>ESP32 Ground Floor</name>
         <type>ESP32</type>
         <locat>free</locat>
         <fw_id>NA</fw_id>
@@ -258,12 +258,9 @@
         <cap_id>0xFE</cap_id>
         <cap_id>0x31</cap_id>
         <cap_id>0x33</cap_id>
-        <cap_id>0x34</cap_id>
-        <cap_id>0x35</cap_id>
-        <cap_id>0x36</cap_id>
     </dev>
     <dev id="dev102">
-        <name>ESP32 Debug2 Device</name>
+        <name>ESP32 First FLoor</name>
         <type>ESP32</type>
         <locat>free</locat>
         <fw_id>NA</fw_id>
@@ -274,7 +271,6 @@
         <cap_id>0xFE</cap_id>
         <cap_id>0x31</cap_id>
         <cap_id>0x33</cap_id>
-        <cap_id>0x34</cap_id>
         <cap_id>0x35</cap_id>
         <cap_id>0x36</cap_id>
     </dev>
@@ -430,6 +426,7 @@
         <topic_tx>0/pir/state</topic_tx>
         <topic_tx>0/temt6x/raw</topic_tx>
         <topic_tx>0/temt6x/level</topic_tx>
+        <topic_tx>0/switch/triggered</topic_tx>
         <topic_rx>0/neo_one/toggle</topic_rx>
         <topic_rx>0/neo_one/switch</topic_rx>
         <topic_tx>0/neo_one/status</topic_tx>
@@ -803,6 +800,11 @@
         <payload>OFF</payload>
     </topic>
     <topic id="0/relay/state">
+        <chan>std</chan>
+        <payload>ON</payload>
+        <payload>OFF</payload>
+    </topic>
+    <topic id="0/switch">
         <chan>std</chan>
         <payload>ON</payload>
         <payload>OFF</payload>

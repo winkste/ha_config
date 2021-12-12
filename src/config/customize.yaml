@@ -1,0 +1,405 @@
+# --------DEV 01---------------------------------
+    light.dev01:
+      friendly_name: "Pool Filterpumpe"
+      icon: "mdi:pool"
+# --------DEV 20---------------------------------
+    sensor.dev20_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev20_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 02---------------------------------
+    light.dev02:
+      friendly_name: "Lampe kleine Kugel"
+      icon: "mdi:lamp"
+# --------DEV 21---------------------------------
+    sensor.dev21_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev21_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 22---------------------------------
+    sensor.dev22_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev22_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 04---------------------------------
+    light.dev04:
+      friendly_name: "Ambi Lampe WZ"
+      icon: "mdi:lamp"
+# --------DEV 75B--------------------------------
+    light.dev75B:
+      friendly_name: "Lampe große Kugel"
+      icon: "mdi:lamp"
+# --------DEV 50---------------------------------
+    light.dev50_r1:
+      friendly_name: "Garten Strahler 1"
+      icon: "mdi:lamp"
+    light.dev50_r2:
+      friendly_name: "Teich Wasserpumpe"
+      icon: "mdi:fish"
+    light.dev50_r3:
+      friendly_name: "Gartenstehlampe links"
+      icon: "mdi:fish"
+    light.dev50_r4:
+      friendly_name: "Garten Strahler 2"
+      icon: "mdi:lamp"
+    light.dev50_r5:
+      friendly_name: "Wandbeleuchtung"
+      icon: "mdi:lamp"
+    light.dev50_r6:
+      friendly_name: "Gartenstehlampe rechts"
+      icon: "mdi:lamp"
+    light.dev50_r7:
+      friendly_name: "Terrasse Bodenlampe"
+      icon: "mdi:lamp"
+    light.dev50_r8:
+      friendly_name: "Garden 8"
+      icon: "mdi:lamp"
+# --------DEV 23---------------------------------
+    sensor.dev23_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev23_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 24---------------------------------
+    sensor.dev24_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev24_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 25---------------------------------
+    sensor.dev25_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev25_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 27---------------------------------
+    sensor.dev27_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev27_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 28---------------------------------
+    sensor.dev28_temperature_dht:
+      friendly_name: "Temp Außen"
+      icon: "mdi:thermometer"
+    sensor.dev28_humidity_dht:
+      friendly_name: "Feuchte Außen"
+      icon: "mdi:signal-variant"
+    sensor.dev28_temperature_dht1:
+      friendly_name: "Temp Innen"
+      icon: "mdi:thermometer"
+    sensor.dev28_humidity_dht1:
+      friendly_name: "Feuchte Innen"
+      icon: "mdi:signal-variant"
+# --------DEV 30---------------------------------
+    sensor.dev30_temperature_bme:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev30_humidity_bme:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+# --------DEV 03---------------------------------
+    binary_sensor.dev03_motion:
+      friendly_name: "Bewegungsmelder Carport außen"
+      icon: "mdi:information-outline"
+    light.dev03:
+      friendly_name: "Licht im Holzschuppen"
+      icon: "mdi:lamp"
+# --------DEV 05---------------------------------
+    binary_sensor.dev05_motion:
+      friendly_name: "Bewegungsmelder Carport außen"
+      icon: "mdi:information-outline"
+    light.dev05:
+      friendly_name: "Licht im Holzschuppen"
+      icon: "mdi:lamp"
+# --------DEV 06---------------------------------
+    binary_sensor.dev62_motion:
+      friendly_name: "Bewegungsmelder unter Carport"
+      icon: "mdi:information-outline"
+    light.dev62:
+      friendly_name: "Licht unter Carport"
+      icon: "mdi:lamp"
+# --------DEV 63---------------------------------
+    binary_sensor.dev63_motion:
+      friendly_name: "Bewegungsmelder Gartenhaus"
+      icon: "mdi:information-outline"
+    light.dev63:
+      friendly_name: "Licht Gartenhaus außen"
+      icon: "mdi:lamp"
+# --------DEV 71---------------------------------
+    light.dev71:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    sensor.dev71_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev71_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev71_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev71_motion:
+      friendly_name: "Bewegungsmelder Carport innen"
+      icon: "mdi:information-outline"
+    sensor.dev71_health_tic:
+      friendly_name: "Health Counter DEV71"
+      icon: "mdi:counter"
+# --------DEV 72---------------------------------
+    light.dev72:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    sensor.dev72_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev72_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev72_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev72_motion:
+      friendly_name: "Bewegungsmelder Wz"
+      icon: "mdi:information-outline"
+    sensor.dev72_health_tic:
+      friendly_name: "Health Counter DEV72"
+      icon: "mdi:counter"
+# --------DEV 73---------------------------------
+    light.dev73:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    sensor.dev73_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev73_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev73_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev73_motion:
+      friendly_name: "Bewegungsmelder HWR"
+      icon: "mdi:information-outline"
+    sensor.dev73_health_tic:
+      friendly_name: "Health Counter DEV73"
+      icon: "mdi:counter"
+# --------DEV 75---------------------------------
+    light.dev75:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    sensor.dev75_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev75_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev75_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev75_motion:
+      friendly_name: "Bewegungsmelder Flur OG"
+      icon: "mdi:information-outline"
+    sensor.dev75_health_tic:
+      friendly_name: "Health Counter DEV75"
+      icon: "mdi:counter"
+# --------DEV 70---------------------------------
+    light.dev70:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    sensor.dev70_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev70_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev70_brightness_temt6000:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev70_motion:
+      friendly_name: "Bewegungsmelder"
+      icon: "mdi:information-outline"
+    sensor.dev70_health_tic:
+      friendly_name: "Health Counter DEV70"
+      icon: "mdi:counter"
+# --------DEV 101--------------------------------
+    light.dev101:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    light.dev101_r1:
+      friendly_name: "Lampe 1"
+      icon: "mdi:lamp"
+    sensor.dev101_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_brightness_temt6x:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev101_motion:
+      friendly_name: "Bewegungsmelder DEV101"
+      icon: "mdi:information-outline"
+    sensor.dev101_health_tic:
+      friendly_name: "Health Counter DEV101"
+      icon: "mdi:counter"
+    sensor.dev101_temperature_mija0:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija0:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija0:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija0:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev101_temperature_mija1:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija1:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija1:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija1:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev101_temperature_mija2:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija2:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija2:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija2:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev101_temperature_mija3:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev101_humidity_mija3:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev101_battery_mija3:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev101_healthtic_mija3:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    switch.dev101_switch:
+      friendly_name: "Schalter 101"
+# --------DEV 102--------------------------------
+    light.dev102:
+      friendly_name: "Orientierungslicht"
+      icon: "mdi:lamp"
+    light.dev102_r1:
+      friendly_name: "Lampe 1"
+      icon: "mdi:lamp"
+    sensor.dev102_temperature_dht:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev102_humidity_dht:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev102_brightness_temt6x:
+      friendly_name: "Helligkeit"
+      icon: "mdi:weather-sunny"
+    binary_sensor.dev102_motion:
+      friendly_name: "Bewegungsmelder DEV102"
+      icon: "mdi:information-outline"
+    sensor.dev102_health_tic:
+      friendly_name: "Health Counter DEV102"
+      icon: "mdi:counter"
+    sensor.dev102_temperature_mija0:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev102_humidity_mija0:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev102_battery_mija0:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev102_healthtic_mija0:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev102_temperature_mija1:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev102_humidity_mija1:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev102_battery_mija1:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev102_healthtic_mija1:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev102_temperature_mija2:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev102_humidity_mija2:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev102_battery_mija2:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev102_healthtic_mija2:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    sensor.dev102_temperature_mija3:
+      friendly_name: "Temperatur"
+      icon: "mdi:thermometer"
+    sensor.dev102_humidity_mija3:
+      friendly_name: "Luftfeuchtigkeit"
+      icon: "mdi:signal-variant"
+    sensor.dev102_battery_mija3:
+      friendly_name: "Batterie Kapazität"
+      icon: "mdi:battery-bluetooth-variant"
+    sensor.dev102_healthtic_mija3:
+      friendly_name: "Health Counter"
+      icon: "mdi:counter"
+    switch.dev102_switch:
+      friendly_name: "Schalter 102"
+# --------DEV 80---------------------------------
+    light.dev80_l1:
+      friendly_name: "Schrank links"
+      icon: "mdi:lamp"
+    light.dev80_l2:
+      friendly_name: "Schrank rechts"
+      icon: "mdi:lamp"
+    light.dev80_l3:
+      friendly_name: "Schrank mitte"
+      icon: "mdi:lamp"
+# --------DEV 200--------------------------------
+    sensor.dev200_rki_celle_7day:
+      friendly_name: "7T Trend Celle"
+      icon: "mdi:mdi-hospital"
+
+    sensor.dev200_rki_noh_7day:
+      friendly_name: "7T Trend Noh"
+      icon: "mdi:mdi-hospital"   
+# --------DEV SYSTEM-----------------------------
+    sensor.disk_use_percent:
+      friendly_name: "Speicher verwendet"
+    sensor.memory_free:
+      friendly_name: "Speicher frei"
+    sensor.processor_use:
+      friendly_name: "CPU Auslastung"
+    sensor.last_boot:
+      friendly_name: "Letzter Boot"
+# -----------------------------------------------

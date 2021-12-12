@@ -1,0 +1,10 @@
+# -------------- binary switch sensors -------------
+  - platform: mqtt
+    state_topic: "std/dev102/s/0/switch"
+    command_topic: "std/dev102/s/0/switch/cmd"
+    name: "dev102_switch"
+  
+  - platform: mqtt
+    state_topic: "std/dev101/s/0/switch"
+    command_topic: "std/dev101/s/0/switch/cmd"
+    name: "dev101_switch"

@@ -209,20 +209,22 @@ views:
         type: sensor
         unit: °C
       - entities:
-          - entity: sensor.dev73_temperature_dht
-            name: Flur oben
-          - entity: sensor.dev70_temperature_dht
-            name: Flur unten
-          - entity: sensor.dev72_temperature_dht
-            name: Wohnzimmer
-          - entity: sensor.dev21_temperature_dht
-            name: Esszimmer
           - entity: sensor.dev23_temperature_dht
             name: Dachboden
+          - entity: sensor.dev71_temperature_dht
+          - entity: sensor.dev72_temperature_dht
+            name: Wohnzimmer
+          - entity: sensor.dev73_temperature_dht
+            name: Flur oben
           - entity: sensor.dev101_temperature_mija0
             name: Bad oben
-          - entity: sensor.dev101_temperature_mija1
+          - entity: sensor.dev102_temperature_mija0
             name: Bad unten
+          - entity: sensor.dev102_temperature_mija1
+          - entity: sensor.dev102_temperature_mija2
+          - entity: sensor.dev102_temperature_mija3
+          - entity: sensor.dev101_temperature_dht
+          - entity: sensor.dev102_temperature_dht
         hours_to_show: 24
         refresh_interval: 0
         title: Innen- Temperaturen
@@ -320,12 +322,6 @@ views:
         show_header_toggle: false
         title: All lights
         type: entities
-      - hold_action:
-          action: none
-        image: 'http://192.168.178.103/capture'
-        tap_action:
-          action: none
-        type: picture
       - entities:
           - entity: binary_sensor.dev03_motion
           - entity: binary_sensor.dev62_motion
@@ -351,8 +347,8 @@ views:
           - entity: light.dev101_r1
         title: ESP32 Test
       - type: picture
-        image: 'http://192.168.178.103:81/stream'
         tap_action:
           action: none
         hold_action:
           action: none
+        image: 'http://192.168.178.84:81/stream'

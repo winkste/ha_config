@@ -15,14 +15,12 @@ carport_light:
     - light.dev62
   delay: 60
 
-
 garden_house_light:
   module: motion_light
   class: MotionLight
   sensor: binary_sensor.dev63_motion
   entity_ctrl: light.dev63
   delay: 60
-
 
 orient_living:
   module: orientation_light
@@ -59,6 +57,13 @@ orient_hall_first:
   entity_ctrl: light.dev102
   delay: 20
 
+ambi_light_living:
+  module: ambient_light
+  class: AmbientLight
+  offset: -30 
+  entity_ctrl: light.dev04
+  switch: switch.dev101_switch
+
 nightly_reset:
   module: night_reset
   class: NightReset
@@ -73,5 +78,6 @@ nightly_reset:
     - light.dev62
     - light.dev101
     - light.dev102
+    - light.dev04
   
 
