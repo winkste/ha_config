@@ -77,5 +77,15 @@ class AmbientLight(hass.Hass):
         if self.switch != None:
                 self.log("Trigger detected: {}".format(self.switch))
                 self.log(f"Trigger from {old} to {new}")
+                if self.entity_ctrl != None:
+                    entity_state = self.get_state(self.entity_ctrl)
+                    self.log(f"{self.entity_ctrl} is in state: {entity_state}")
+                    if old == "off" and new == "on":
+                        if entity_state == "off":
+                            self.turn_on(self.entity_ctrl)
+                        else:
+                            self.turn_off(self.entity_ctrl)
+
+                    
 
     

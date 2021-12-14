@@ -57,12 +57,38 @@ orient_hall_first:
   entity_ctrl: light.dev102
   delay: 20
 
-ambi_light_living:
+ambi_light_hall_gnd:
   module: ambient_light
   class: AmbientLight
   offset: -30 
-  entity_ctrl: light.dev04
+  entity_ctrl: light.dev101_r1
   switch: switch.dev101_switch
+
+ambi_light_hall_1st:
+  module: ambient_light
+  class: AmbientLight
+  offset: -30 
+  entity_ctrl: light.dev102_r1
+  switch: switch.dev102_switch
+
+ambi_light_living:
+  module: ambient_light
+  class: AmbientLight
+  offset: -20 
+  entity_ctrl: light.dev04
+
+ambi_light_garden5:
+  module: ambient_light
+  class: AmbientLight
+  offset: -10 
+  entity_ctrl: light.dev50_r5
+
+ambi_light_garden7:
+  module: ambient_light
+  class: AmbientLight
+  offset: -10 
+  entity_ctrl: light.dev50_r7
+
 
 nightly_reset:
   module: night_reset
@@ -79,5 +105,10 @@ nightly_reset:
     - light.dev101
     - light.dev102
     - light.dev04
+    - light.dev101_r1
+    - light.dev102_r1
+    - light.dev50_r5
+    - light.dev50_r7
+    
   
 
