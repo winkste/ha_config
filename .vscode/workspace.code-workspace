@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.yaml": "home-assistant"
+		}
+	},
+	
+	"python.defaultInterpreterPath": "/Users/stephan_wink/workspace_github/ha_config/src/appdaemon/appdaemon_env/bin"
+     
+}
