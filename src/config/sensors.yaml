@@ -505,30 +505,6 @@
     name: "dev11_humidity_dht1"
     unit_of_measurement: "%"
 # -----------------------------------------------------------
-#  - platform: darksky
-#    api_key: !secret darksky_key
-  #  auth_providers:
-  #    - type: legacy_api_password
- #   monitored_conditions:
- #     - temperature_max
- #     - temperature_min
- #     - precip_intensity
- #     - precip_probability
- #     - temperature
- #     - apparent_temperature
- #     - cloud_cover
- #     - daily_summary
-#      - summary
-#      - icon
-#      - precip_type
-#      - wind_speed
-#      - wind_bearing
-#      - humidity
-#      - visibility
-#      - apparent_temperature_max
-#      - apparent_temperature_min
-#      - precip_intensity_max
-# -----------------------------------------------------------
   - platform: systemmonitor
     resources:
       - type: disk_use_percent
@@ -536,26 +512,20 @@
       - type: memory_free
       - type: processor_use
       - type: last_boot
-#      - type: since_last_boot
 # -----------------------------------------------------------
-#  - platform: octoprint
-#    name: OctoPrint
-#    monitored_conditions:
-#    - Current State
-#    - Temperatures
-#    - Job Percentage
-# ------------------- WUNDERGROUND --------------------------
-#  - platform: wunderground
-#    api_key: !secret wu_key
-#    pws_id: ILBCELLE7
-#    lang: DL
-#    monitored_conditions:
-#      - weather_1d_metric
-#      - weather_1n_metric
-#      - weather_2d_metric
-#      - weather_2n_metric
-#      - weather_3d_metric
-#      - weather_3n_metric
-#      - weather_4d_metric
-#      - weather_4n_metric
-# -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev300/#"
+    name: "dev300"
+
+  - platform: mqtt
+    state_topic: "std/dev300/s/hb/heart_beat"
+    name: "dev300_heart_beat"
+    unit_of_measurement: "cnt"
+
+  - platform: mqtt
+    state_topic: "std/dev300/s/hb/time_now"
+    name: "dev300_time_now"
+
+  - platform: mqtt
+    state_topic: "std/dev300/s/hb/ts_now"
+    name: "dev300_ts_now"

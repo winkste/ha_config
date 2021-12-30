@@ -89,6 +89,10 @@ ambi_light_garden7:
   offset: -10 
   entity_ctrl: light.dev50_r7
 
+heart_beat_ctr:
+  module: heart_beat
+  class: HeartBeat
+  period: 30
 
 nightly_reset:
   module: night_reset

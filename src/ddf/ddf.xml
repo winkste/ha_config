@@ -290,7 +290,7 @@
         <cap_id>0x36</cap_id>
     </dev>
         <dev id="dev200">
-        <name>RKI per PI3</name>
+        <name>RKI per NAS</name>
         <type>PI3</type>
         <locat>Schuppen</locat>
         <fw_id>NA</fw_id>

@@ -389,7 +389,6 @@
     sensor.dev200_rki_celle_7day:
       friendly_name: "7T Trend Celle"
       icon: "mdi:mdi-hospital"
-
     sensor.dev200_rki_noh_7day:
       friendly_name: "7T Trend Noh"
       icon: "mdi:mdi-hospital"   
@@ -403,3 +402,12 @@
     sensor.last_boot:
       friendly_name: "Letzter Boot"
 # -----------------------------------------------
+    sensor.dev300_heart_beat:
+      friendly_name: "HASSIO Health Counter"
+      icon: "mdi:counter"
+    sensor.dev300_time_now:
+      friendly_name: "HASSIO Time now"
+      icon: "mdi:clock"
+    sensor.dev300_ts_now:
+      friendly_name: "HASSIO Time now"
+      icon: "mdi:counter"

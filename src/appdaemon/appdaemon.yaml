@@ -17,6 +17,11 @@ appdaemon:
   elevation: 2
   time_zone: Europe/Amsterdam
   plugins:
+    MQTT:
+      type: mqtt
+      namespace: mqtt
+      client_host: '192.168.178.45'
+      verbose: true
     HASS:
       type: hass
 http:
