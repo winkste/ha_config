@@ -113,3 +113,9 @@ https://www.youtube.com/watch?v=D6ZlhE-Iv9E
 ### HACKS Integrations
 - swipe card
 - mini-graph-card
+
+### TODO
+- GITHUB via File Editor or SSH:
+https://blog.schembri.me/post/syncing-homeassistant-with-github/
+
+- How to backup the zigbee configurations, entities not found so far?
