@@ -87,3 +87,15 @@ stop appdaemon
 update source files
 start updaemon
 ```
+### InfluxDB
+
+### Zigbee Home Automation
+Using the conbee stick to integrate zigbee devices. 
+
+### HACKS
+Installation and configuration according to video tutorials:
+https://www.youtube.com/watch?v=D6ZlhE-Iv9E
+
+### HACKS Integrations
+- swipe card
+- mini-graph-card
