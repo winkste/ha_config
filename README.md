@@ -89,6 +89,20 @@ start updaemon
 ```
 ### InfluxDB
 
+### File Editor
+```
+dirsfirst: false
+enforce_basepath: true
+git: true
+ignore_pattern:
+  - __pycache__
+  - .cloud
+  - .storage
+  - deps
+ssh_keys: []
+```
+
+
 ### Zigbee Home Automation
 Using the conbee stick to integrate zigbee devices. 
 
