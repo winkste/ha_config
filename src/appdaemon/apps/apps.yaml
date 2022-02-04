@@ -114,5 +114,7 @@ nightly_reset:
     - light.dev50_r5
     - light.dev50_r7
     
-  
+zigbee_tester:
+  module: zigbee_test
+  class: ZigbeeTest
 

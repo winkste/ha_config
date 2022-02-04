@@ -21,6 +21,7 @@ mobile_app:
 
 # Enables the frontend
 frontend:
+  themes: !include_dir_merge_named themes
 
 # Enables configuration UI
 config:
@@ -57,6 +58,17 @@ history:
 recorder:
   purge_keep_days: 2
   db_url: mysql://homeassistant:sw10950@core-mariadb/homeassistant?charset=utf8mb4
+
+# additional influx db recording
+# https://archive.docs.influxdata.com/influxdb/v1.2/query_language/database_management/#retention-policy-management
+influxdb:
+  host: a0d7b954-influxdb
+  port: 8086
+  database: homeassistant
+  username: !secret influx_user
+  password: !secret influx_pwd
+  max_retries: 3
+  default_measurement: state
 
 # View all events in a logbook
 logbook:
