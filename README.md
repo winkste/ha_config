@@ -87,3 +87,35 @@ stop appdaemon
 update source files
 start updaemon
 ```
+### InfluxDB
+
+### File Editor
+```
+dirsfirst: false
+enforce_basepath: true
+git: true
+ignore_pattern:
+  - __pycache__
+  - .cloud
+  - .storage
+  - deps
+ssh_keys: []
+```
+
+
+### Zigbee Home Automation
+Using the conbee stick to integrate zigbee devices. 
+
+### HACKS
+Installation and configuration according to video tutorials:
+https://www.youtube.com/watch?v=D6ZlhE-Iv9E
+
+### HACKS Integrations
+- swipe card
+- mini-graph-card
+
+### TODO
+- GITHUB via File Editor or SSH:
+https://blog.schembri.me/post/syncing-homeassistant-with-github/
+
+- How to backup the zigbee configurations, entities not found so far?
