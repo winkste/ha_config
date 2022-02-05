@@ -94,6 +94,17 @@ heart_beat_ctr:
   class: HeartBeat
   period: 30
 
+zigbee_switch_ctr:
+  module: zigbee_switch
+  class: ZigbeeSwitch
+  switch: 00:12:4b:00:25:04:6d:0b
+  entity_ctrl: 
+    - light.dev101_r1
+    - light.dev102_r1
+    - light.dev04
+    - light.dev50_r5
+    - light.dev50_r7
+
 nightly_reset:
   module: night_reset
   class: NightReset
@@ -114,7 +125,7 @@ nightly_reset:
     - light.dev50_r5
     - light.dev50_r7
     
-zigbee_tester:
-  module: zigbee_test
-  class: ZigbeeTest
+#zigbee_tester:
+#  module: zigbee_test
+#  class: ZigbeeTest
 

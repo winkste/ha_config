@@ -24,7 +24,7 @@
 # Args:
 #
 # offset:       positive or negative offset to sunset
-# entity_ctrl:  entity to control, can be a light, script, 
+# entity_ctrl:  entities to control, can be a light, script, 
 #               scene or anything else that can be turned on/off
 # switch:       additional switch to control light
 #
