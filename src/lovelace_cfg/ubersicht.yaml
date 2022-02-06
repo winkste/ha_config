@@ -139,11 +139,11 @@ views:
       - type: entities
         entities:
           - entity: sensor.dev200_rki_celle_7day
-            icon: 'mdi:hospital'
+            icon: mdi:hospital
           - entity: sensor.dev200_rki_noh_7day
-            icon: 'mdi:hospital'
+            icon: mdi:hospital
         title: COVID-19 RKI Zahlen
-    icon: 'mdi:home'
+    icon: mdi:home
     path: default_view
     title: Home
   - badges: []
@@ -156,7 +156,7 @@ views:
         type: iframe
         url: >-
           https://embed.windy.com/embed2.html?lat=51.645&lon=8.921&zoom=5&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
-    icon: 'mdi:weather-sunny'
+    icon: mdi:weather-sunny
     path: wetter
     title: Wetter
   - badges: []
@@ -244,7 +244,7 @@ views:
       - entity: sensor.dev101_temperature_mija1
         name: Badezimmer unten
         type: sensor
-    icon: 'mdi:thermometer'
+    icon: mdi:thermometer
     path: groups_temperature
     title: Temperaturen
   - badges: []
@@ -271,10 +271,10 @@ views:
             name: Gartenbox außen
         title: Außen- Luftfeuchte
         type: history-graph
-    icon: 'mdi:waves'
+    icon: mdi:waves
     path: groups_humid
     title: Humidity
-  - icon: 'mdi:guy-fawkes-mask'
+  - icon: mdi:guy-fawkes-mask
     path: system
     title: System
     badges: []
@@ -287,6 +287,12 @@ views:
         show_header_toggle: false
         title: System
         type: entities
+      - type: entities
+        entities:
+          - entity: sensor.dev300_heart_beat
+          - entity: sensor.dev300_time_now
+          - entity: sensor.dev300_ts_now
+        title: Time
       - entities:
           - entity: sensor.dev71_health_tic
           - entity: sensor.dev72_health_tic
@@ -297,40 +303,34 @@ views:
         title: Device Health Status
         type: entities
       - entities:
-          - light.dev01
-          - light.dev02
-          - light.dev03
-          - light.dev04
-          - light.dev05
-          - light.dev50_r1
-          - light.dev50_r2
-          - light.dev50_r3
-          - light.dev50_r4
-          - light.dev50_r5
-          - light.dev50_r6
-          - light.dev50_r7
-          - light.dev50_r8
-          - light.dev62
-          - light.dev99
-          - light.dev71
-          - light.dev72
-          - light.dev73
-          - light.dev11_l1
-          - light.dev11_l2
-          - light.dev11_r1
-          - light.dev11_r2
+          - entity: light.dev01
+          - entity: light.dev02
+          - entity: light.dev03
+          - entity: light.dev04
+          - entity: light.dev05
+          - entity: light.dev50_r1
+          - entity: light.dev50_r2
+          - entity: light.dev50_r3
+          - entity: light.dev50_r4
+          - entity: light.dev50_r5
+          - entity: light.dev50_r6
+          - entity: light.dev50_r7
+          - entity: light.dev50_r8
+          - entity: light.dev62
+          - entity: light.dev71
+          - entity: light.dev72
+          - entity: light.dev73
         show_header_toggle: false
         title: All lights
         type: entities
       - entities:
-          - entity: binary_sensor.dev03_motion
+          - entity: binary_sensor.dev05_motion
           - entity: binary_sensor.dev62_motion
           - entity: binary_sensor.dev63_motion
-          - entity: binary_sensor.dev71_motion
-          - entity: binary_sensor.dev72_motion
           - entity: binary_sensor.dev73_motion
-          - entity: binary_sensor.dev75_motion
+          - entity: binary_sensor.dev71_motion
           - entity: binary_sensor.dev101_motion
+          - entity: binary_sensor.dev102_motion
         title: Bewegungen
         type: entities
   - title: Test
@@ -351,4 +351,98 @@ views:
           action: none
         hold_action:
           action: none
-        image: 'http://192.168.178.84:81/stream'
+        image: http://192.168.178.84:81/stream
+      - type: gauge
+        min: 0
+        max: 100
+        entity: sensor.iphone_8_winkste_battery_level
+        name: Stephan‘ IPhone Batterie
+        unit: '%'
+      - type: entities
+        entities:
+          - entity: binary_sensor.win_switch1
+          - entity: sensor.win_batt1
+        title: zigbee test
+      - type: custom:mini-graph-card
+        entities:
+          - sensor.dev101_temperature_dht
+        line_color: blue
+        line_width: 5
+        name: Temp Flur oben
+        font_size: 120
+      - type: sensor
+        entity: sensor.dev101_temperature_dht
+        graph: line
+        name: Temp
+      - type: entities
+        entities:
+          - entity: binary_sensor.ewelink_move1
+        title: switch1
+      - type: entities
+        entities:
+          - entity: sensor.ewelink_signal_power1
+        title: switch1
+      - type: entities
+        entities:
+          - sensor.ewelink_humidity1
+          - sensor.ewelink_temperature1
+        title: measure1
+      - type: entities
+        entities:
+          - entity: sensor.ewelink_measure_power1
+          - entity: sensor.ewelink_move_power1
+          - entity: sensor.ewelink_signal_power1
+          - entity: sensor.win_batt1
+        title: Batterien
+      - type: custom:swipe-card
+        card_width: 200px
+        start_card: 2
+        parameters:
+          effect: coverflow
+          graphCursor: true
+          slidesPerView: auto
+          coverflowEffect:
+            rotate: 50
+            stretch: 0
+            depth: 100
+            modifier: 1
+            slidesShadows: true
+            pagination: null
+            type: bullets
+        cards:
+          - type: custom:mini-graph-card
+            entities:
+              - sensor.dev101_temperature_dht
+            line_color: blue
+            line_width: 5
+            name: Temp Flur oben
+            font_size: 120
+          - type: custom:mini-graph-card
+            entities:
+              - sensor.dev102_temperature_dht
+            line_color: blue
+            line_width: 5
+            name: Temp Flur unten
+            font_size: 120
+          - type: custom:mini-graph-card
+            entities:
+              - sensor.dev102_temperature_dht
+            line_color: blue
+            line_width: 5
+            name: Test
+            font_size: 120
+      - type: entities
+        entities:
+          - switch.lidl_power1_switch
+        title: lidl_power1
+      - type: entities
+        entities:
+          - switch.lidl_power2_switch
+        title: lidl_power2
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.lidl_power2_switch
+        name: Lidl Power
+        icon: mdi:lamp
+        show_state: false

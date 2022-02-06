@@ -1,0 +1,398 @@
+title: Home
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: picture-entity
+                image: /api/image/serve/c37123661f8931db0c4e3267bca290c2/512x512
+                entity: person.stephan_wink
+                show_name: false
+              - type: picture-entity
+                image: /api/image/serve/c598c58fc240838142ff160f522c00ed/512x512
+                entity: person.winkhei
+                show_name: false
+            columns: 2
+            square: false
+          - type: weather-forecast
+            entity: weather.home
+            name: Wetter
+        columns: 1
+        square: false
+  - title: Wohnzimmer
+    path: wohnzimmer
+    icon: mdi:television
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev04
+                name: Lampe PC
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev80_l1
+                name: Schrank links
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev80_l3
+                name: Schrank mitte
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev80_l2
+                name: Schrank rechts
+            columns: 4
+            square: false
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev72_temperature_dht
+                name: Temperatur
+                unit: °C
+              - type: sensor
+                graph: line
+                entity: sensor.dev72_humidity_dht
+                icon: mdi:water
+                unit: '%'
+            columns: 2
+            square: false
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev72_motion
+                icon: mdi:run
+                name: Bewegung
+                hold_action:
+                  action: none
+            square: false
+            columns: 1
+        columns: 1
+        square: false
+  - title: Garten
+    path: garten
+    icon: mdi:flower
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: light
+                name: Wand
+                entity: light.dev50_r5
+              - type: light
+                entity: light.dev50_r7
+                name: Boden
+              - type: light
+                entity: light.dev50_r3
+                icon: mdi:lamp
+                name: Steh links
+              - type: light
+                entity: light.dev50_r6
+                name: Steh rechts
+              - type: light
+                entity: light.dev50_r1
+                name: Strahler 1
+              - type: light
+                entity: light.dev50_r4
+                name: Strahler 2
+            square: false
+            columns: 3
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev01
+                name: Pool
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev50_r2
+            columns: 2
+            square: false
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev28_temperature_dht
+                name: Außen
+                unit: °C
+              - type: sensor
+                graph: line
+                entity: sensor.dev28_temperature_dht1
+                name: Innen
+                unit: °C
+              - type: sensor
+                graph: line
+                entity: sensor.dev28_humidity_dht
+                name: Außen
+                icon: mdi:water
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev28_humidity_dht1
+                name: Innen
+                icon: mdi:water
+                unit: '%'
+            columns: 2
+            square: false
+        square: false
+        columns: 1
+  - title: Geräte
+    path: gerate
+    icon: mdi:garage
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: light
+                entity: light.dev05
+                name: Holz
+              - type: light
+                entity: light.dev62
+                name: Carport
+              - type: light
+                entity: light.dev63
+                name: Gartenhaus
+            square: false
+          - type: grid
+            cards:
+              - type: button
+                entity: binary_sensor.dev05_motion
+                icon: mdi:run
+                tap_action:
+                  action: more-info
+                name: Holz
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev62_motion
+                name: Carport
+                icon: mdi:run
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev63_motion
+                name: Gartenhaus
+                icon: mdi:run
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev71_motion
+                name: Schuppen
+                icon: mdi:run
+            square: false
+            columns: 2
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev71_temperature_dht
+                name: Schuppen
+                unit: °C
+              - type: sensor
+                entity: sensor.winkste_mbp_internal_battery_level
+                graph: line
+                name: Schuppen
+                icon: mdi:water
+                unit: '%'
+            columns: 2
+            square: false
+          - type: button
+            tap_action:
+              action: more-info
+            entity: binary_sensor.dev73_motion
+            name: HWR
+            icon: mdi:run
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev73_temperature_dht
+                name: HWR T
+              - type: sensor
+                graph: line
+                entity: sensor.dev73_humidity_dht
+                name: HWR H
+                unit: '%'
+                icon: mdi:water
+            square: false
+            columns: 2
+        square: false
+        columns: 1
+  - title: Flur
+    path: flur
+    icon: mdi:stairs
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev101_r1
+                name: Kugel klein
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev102_r1
+                name: Kugel groß
+            columns: 2
+            square: false
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev101_motion
+                name: Unten
+                icon: mdi:run
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.dev102_motion
+                name: Oben
+                icon: mdi:run
+            columns: 2
+            square: false
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev101_temperature_dht
+                name: Unten
+                unit: °C
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_temperature_dht
+                unit: °C
+                name: Oben
+              - type: sensor
+                graph: line
+                entity: sensor.dev101_humidity_dht
+                name: Unten
+                icon: mdi:water
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_humidity_dht
+                name: Oben
+                icon: mdi:water
+                unit: '%'
+            columns: 2
+            square: false
+        columns: 1
+        square: false
+  - title: Bad
+    path: bad
+    icon: mdi:bathtub
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev101_temperature_mija1
+                name: Gäste T
+                unit: °C
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.dev101_battery_mija1
+                name: Gäste B
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev101_humidity_mija1
+                icon: mdi:water
+                name: Gäste H
+            square: false
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_temperature_mija0
+                name: Bad T
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.dev102_battery_mija0
+                name: Bad B
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_humidity_mija0
+                name: Bad H
+                icon: mdi:water
+                unit: '%'
+            square: false
+        columns: 1
+        square: false
+  - title: Schlafzimmer
+    path: schlafzimmer
+    icon: mdi:bed
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_temperature_mija2
+                name: Eltern T
+                unit: °C
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.dev102_battery_mija2
+                name: Eltern B
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_humidity_mija2
+                name: Eltern H
+                icon: mdi:water
+                unit: '%'
+            square: false
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_temperature_mija3
+                name: Gäste T
+                unit: °C
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.dev102_battery_mija3
+                name: Gäste B
+                unit: '%'
+              - type: sensor
+                graph: line
+                entity: sensor.dev102_humidity_mija3
+                name: Gäste H
+                icon: mdi:water
+            square: false
+        columns: 1
+        square: false
