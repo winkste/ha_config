@@ -321,6 +321,10 @@ views:
                 entity: sensor.dev101_battery_mija1
                 name: Gäste B
                 unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
               - type: sensor
                 graph: line
                 entity: sensor.dev101_humidity_mija1
@@ -339,6 +343,10 @@ views:
                 entity: sensor.dev102_battery_mija0
                 name: Bad B
                 unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
               - type: sensor
                 graph: line
                 entity: sensor.dev102_humidity_mija0
@@ -368,6 +376,10 @@ views:
                 entity: sensor.dev102_battery_mija2
                 name: Eltern B
                 unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
               - type: sensor
                 graph: line
                 entity: sensor.dev102_humidity_mija2
@@ -388,11 +400,47 @@ views:
                 entity: sensor.dev102_battery_mija3
                 name: Gäste B
                 unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
               - type: sensor
                 graph: line
                 entity: sensor.dev102_humidity_mija3
                 name: Gäste H
                 icon: mdi:water
             square: false
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.win_switch1
+                name: Gäste Fenster
+                icon: mdi:window-closed-variant
+                icon_height: 100px
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.win_batt1
+                name: Gäste Fenster B
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+            columns: 2
+            square: false
         columns: 1
         square: false
+  - title: Alarm Control
+    path: alarm-control
+    icon: mdi:alarm-light
+    badges: []
+    cards:
+      - type: alarm-panel
+        states:
+          - arm_away
+          - arm_night
+        entity: alarm_control_panel.ha_alarm
+        name: Alarm Control

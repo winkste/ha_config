@@ -370,10 +370,14 @@ views:
         line_width: 5
         name: Temp Flur oben
         font_size: 120
-      - type: sensor
-        entity: sensor.dev101_temperature_dht
-        graph: line
+      - type: custom:mini-graph-card
+        entities:
+          - sensor.dev101_temperature_dht
+          - sensor.dev101_humidity_dht
+        line_color: blue
+        line_width: 5
         name: Temp
+        font_size: 120
       - type: entities
         entities:
           - entity: binary_sensor.ewelink_move1

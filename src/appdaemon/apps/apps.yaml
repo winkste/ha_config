@@ -94,6 +94,23 @@ heart_beat_ctr:
   class: HeartBeat
   period: 30
 
+alarm_control:
+  module: alarm_controller
+  class: AlarmCtrl
+  alarm_offset: 30
+  away_listener:
+    - binary_sensor.dev72_motion
+    - binary_sensor.win_switch1
+    - binary_sensor.dev73_motion
+    - binary_sensor.dev71_motion
+    - binary_sensor.dev101_motion
+    - binary_sensor.dev102_motion
+  night_listener:
+    - binary_sensor.dev72_motion
+    - binary_sensor.win_switch1
+    - binary_sensor.dev73_motion
+    - binary_sensor.dev71_motion
+
 zigbee_switch_ctr:
   module: zigbee_switch
   class: ZigbeeSwitch

@@ -98,10 +98,26 @@ mqtt:
   username: !secret mq_user
   password: !secret mq_pass
 
+# alarm configuration
+alarm_control_panel:
+  - platform: manual
+    code: !secret alarm_code
+    delay_time: 30
+    arming_time: 30
+    trigger_time: 30
+
+homekit:
+  entity_config:
+      alarm_control_panel.ha_alarm:
+        code: !secret alarm_code
+
 sensor: !include sensors.yaml
 switch: !include switches.yaml
 light: !include lights.yaml
 binary_sensor: !include b_sensors.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
 #automation: !include automations.yaml
 #camera: !include cameras.yaml
 #script: !include scripts.yaml

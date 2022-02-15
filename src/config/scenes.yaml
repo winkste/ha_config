@@ -1,0 +1,96 @@
+- name: motion_light_red
+  entities:
+    light.dev72:
+      color_mode: rgb
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      brightness: 100
+      state: 'on'
+    light.dev101:
+      color_mode: rgb
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      brightness: 100
+      state: 'on'
+    light.dev102:
+      color_mode: rgb
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      brightness: 100
+      state: 'on'
+    light.dev73:
+      color_mode: rgb
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      brightness: 100
+      state: 'on'
+    light.dev71:
+      color_mode: rgb
+      rgb_color:
+      - 255
+      - 0
+      - 0
+      brightness: 100
+      state: 'on'
+- name: motion_light_off
+  entities:
+    light.dev71:
+      state: 'off'
+    light.dev72:
+      state: 'off'
+    light.dev73:
+      state: 'off'
+    light.dev101:
+      state: 'off'
+    light.dev102:
+      state: 'off'
+- name: motion_light_blue
+  entities:
+    light.dev71:
+      color_mode: rgb
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+      state: 'on'
+    light.dev72:
+      color_mode: rgb
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+      state: 'on'
+    light.dev73:
+      color_mode: rgb
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+      state: 'on'
+    light.dev101:
+      color_mode: rgb
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+      state: 'on'
+    light.dev102:
+      color_mode: rgb
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+      state: 'on'
