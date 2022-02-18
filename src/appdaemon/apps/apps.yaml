@@ -97,7 +97,7 @@ heart_beat_ctr:
 alarm_control:
   module: alarm_controller
   class: AlarmCtrl
-  alarm_offset: 30
+  alarm_offset: 5
   away_listener:
     - binary_sensor.dev72_motion
     - binary_sensor.win_switch1

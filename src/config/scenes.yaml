@@ -40,6 +40,7 @@
       - 0
       brightness: 100
       state: 'on'
+  id: 796f560b7fcb4dc09416b747c6ecd79b
 - name: motion_light_off
   entities:
     light.dev71:
@@ -52,6 +53,7 @@
       state: 'off'
     light.dev102:
       state: 'off'
+  id: 4e1c3586a91a40acba0c5b97215d8d9b
 - name: motion_light_blue
   entities:
     light.dev71:
@@ -94,3 +96,27 @@
       - 255
       brightness: 100
       state: 'on'
+  id: 636cec3123604a278b65fd14f8af3a53
+- id: '1645159711997'
+  name: all_alarm_lights
+  entities:
+    light.dev04:
+      supported_color_modes:
+      - onoff
+      color_mode: onoff
+      friendly_name: Ambi Lampe WZ
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'on'
+  icon: mdi:lamp
+- id: '1645161181203'
+  name: all_alarm_lights_off
+  entities:
+    light.dev04:
+      supported_color_modes:
+      - onoff
+      friendly_name: Ambi Lampe WZ
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+  icon: mdi:lamp-outline
