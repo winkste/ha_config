@@ -140,6 +140,17 @@
         <cap_id>0xFF</cap_id>
         <cap_id>0x0D</cap_id>
     </dev>
+    <dev id="dev64">
+        <name>Single Relay und PIR</name>
+        <type>ESP8285</type>
+        <locat>test</locat>
+        <fw_id>N39004</fw_id>
+        <fw_ver>005</fw_ver>
+        <fw_desc>single relay with pir</fw_desc>
+        <cap_id>0xFF</cap_id>
+        <cap_id>0x20</cap_id>
+        <cap_id>0x37</cap_id>
+    </dev>
     <dev id="dev70">
         <name>MultiSense im Flur unten</name>
         <type>NodeMCU</type>
@@ -469,6 +480,10 @@
         <topic_tx>3/mija/hum</topic_tx>
         <topic_tx>3/mija/batt</topic_tx>
         <topic_tx>3/mija/cnt</topic_tx>
+    </cap>
+    <cap id="0x37">
+        <name>PIR</name>
+        <topic_tx>pir/status</topic_tx>
     </cap>
     <topic id="gen/cmd">
         <chan>std</chan>

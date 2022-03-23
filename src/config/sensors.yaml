@@ -529,3 +529,27 @@
   - platform: mqtt
     state_topic: "std/dev300/s/hb/ts_now"
     name: "dev300_ts_now"
+
+# -----------------------------------------------------------
+  - platform: mqtt
+    state_topic: "dev301/#"
+    name: "dev301"
+
+  - platform: mqtt
+    state_topic: "std/dev301/s/ener_wat/gas"
+    name: "dev301_gas"
+    unit_of_measurement: "qm"
+
+  - platform: mqtt
+    state_topic: "std/dev301/s/ener_wat/power"
+    name: "dev301_power"
+    unit_of_measurement: "kWh"
+
+  - platform: mqtt
+    state_topic: "std/dev301/s/ener_wat/water"
+    name: "dev301_water"
+    unit_of_measurement: "qm"
+
+  - platform: mqtt
+    state_topic: "std/dev301/s/ener_wat/date"
+    name: "dev301_date"
