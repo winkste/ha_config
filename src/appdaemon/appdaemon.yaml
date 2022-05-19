@@ -22,6 +22,8 @@ appdaemon:
       namespace: mqtt
       client_host: '192.168.178.45'
       verbose: true
+      client_user: !secret mq_user
+      client_password: !secret mq_pass
     HASS:
       type: hass
 http:

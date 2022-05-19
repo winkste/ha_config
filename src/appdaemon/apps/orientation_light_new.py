@@ -1,3 +1,4 @@
+#from asyncio.windows_events import NULL
 import hassapi as hass
 
 #
@@ -42,37 +43,71 @@ import hassapi as hass
 #   https://github.com/AppDaemon/appdaemon/blob/dev/conf/example_apps/motion_lights.py
 
 
-class OrientLight(hass.Hass):
+class OrientLightNew(hass.Hass):
+    timer_handle = None
+    motion_sensor = None
+    entity_ctrl = None
+    off_delay = 60
+    sun_down_recog = True
+
 
     def initialize(self):
-        self.handle = None
+        self.timer_handle = None
         # Subscribe to sensors
         if "sensor" in self.args:
-            self.listen_state(self.motion_on, self.args["sensor"], new = "on")
-            self.listen_state(self.motion_off, self.args["sensor"], new = "off")
+            self.motion_sensor = self.args["sensor"]
+            self.listen_state(self.motion_on, self.motion_sensor, new = "on")
+            self.listen_state(self.motion_off, self.motion_sensor, new = "off")
         else:
             self.log("No sensor specified, doing nothing")
+        if "entity_ctrl" in self.args:
+            self.entity_ctrl = self.args["entity_ctrl"]
+        else:
+            self.log("No entity specified, just logging")
+        if "delay" in self.args:
+            self.off_delay = self.args["delay"]
+        else:
+            self.off_delay = 60
+            self.log("No delay specified, just default 60secs")
+        if "sunrec" in self.args:
+            self.sun_down_recog = self.args["sunrec"]
+        else:
+            self.sun_down_recog = True
+            self.log("No sun down recognition specified, just default YES")
+
 
     def motion_on(self, entity, attribute, old, new, kwargs):
-        if "sensor" in self.args:
-            self.log("Motion activated: {}".format(self.args["sensor"]))
-        if self.sun_down():   # check that it is still dark 
-            self.cancel_timer(self.handle)
-            if "entity_ctrl" in self.args:
-                self.log("Turning {} on".format(self.args["entity_ctrl"]))
-                self.turn_on(self.args["entity_ctrl"])
+        self.log("Motion detected: {}".format(self.motion_sensor))
+        if self.timer_handle != None:
+                self.cancel_timer(self.timer_handle)
+                self.timer_handle = None
+        if (self.sun_down_recog == True and self.sun_down()) or self.sun_down_recog == False:   # check that it is still dark 
+            self.turn_on_entity()
     
+
     def motion_off(self, entity, attribute, old, new, kwargs):
-        if "sensor" in self.args:
-            self.log("Motion deactivated: {}".format(self.args["sensor"]))
-        if "delay" in self.args:
-            delay = self.args["delay"]
+        self.log("Motion off: {}".format(self.motion_sensor))
+        if self.timer_handle != None:
+            self.cancel_timer(self.timer_handle)
+            self.timer_handle = None
+        if (self.sun_down_recog == True and self.sun_down()) or self.sun_down_recog == False:
+            self.timer_handle = self.run_in(self.timer_timeout, self.off_delay)
         else:
-            delay = 60
-        self.cancel_timer(self.handle)
-        self.handle = self.run_in(self.timer_timeout, delay)
-    
+            self.turn_off_entity()
+
+
     def timer_timeout(self, kwargs):
-        if "entity_ctrl" in self.args:
-            self.log("Turning {} off".format(self.args["entity_ctrl"]))
-            self.turn_off(self.args["entity_ctrl"])
+        self.turn_off_entity()
+    
+
+    def turn_off_entity(self):
+        if self.entity_ctrl:
+            self.log("Turning {} off".format(self.entity_ctrl))
+            self.turn_off(self.entity_ctrl)
+    
+
+    def turn_on_entity(self):
+        if self.entity_ctrl:
+            self.log("Turning {} on".format(self.entity_ctrl))
+            self.turn_on(self.entity_ctrl)
+

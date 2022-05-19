@@ -37,11 +37,12 @@ orient_carp_inside:
   delay: 20
 
 orient_util:
-  module: orientation_light
-  class: OrientLight
-  sensor: binary_sensor.dev73_motion
-  entity_ctrl: light.dev73
+  module: orientation_light_new
+  class: OrientLightNew
+  sensor: binary_sensor.ewelink_move1
+  entity_ctrl: switch.lidl_power1_switch
   delay: 20
+  sunrec: True
 
 orient_hall_ground:
   module: orientation_light
@@ -60,33 +61,33 @@ orient_hall_first:
 ambi_light_hall_gnd:
   module: ambient_light
   class: AmbientLight
-  offset: -30 
+  offset: 20
   entity_ctrl: light.dev101_r1
   switch: switch.dev101_switch
 
 ambi_light_hall_1st:
   module: ambient_light
   class: AmbientLight
-  offset: -30 
+  offset: 20 
   entity_ctrl: light.dev102_r1
   switch: switch.dev102_switch
 
 ambi_light_living:
   module: ambient_light
   class: AmbientLight
-  offset: -20 
+  offset: 20
   entity_ctrl: light.dev04
 
 ambi_light_garden5:
   module: ambient_light
   class: AmbientLight
-  offset: -10 
+  offset: 30
   entity_ctrl: light.dev50_r5
 
 ambi_light_garden7:
   module: ambient_light
   class: AmbientLight
-  offset: -10 
+  offset: 30 
   entity_ctrl: light.dev50_r7
 
 heart_beat_ctr:
