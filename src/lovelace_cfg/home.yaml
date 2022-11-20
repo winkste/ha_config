@@ -22,6 +22,11 @@ views:
             name: Wetter
         columns: 1
         square: false
+      - aspect_ratio: 80%
+        title: Regenradar
+        type: iframe
+        url: >-
+          https://embed.windy.com/embed2.html?lat=52.676&lon=10.080&zoom=6&level=surface&overlay=rain&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=52.617&detailLon=10.083&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1
   - title: Wohnzimmer
     path: wohnzimmer
     icon: mdi:television
@@ -214,26 +219,72 @@ views:
                 unit: '%'
             columns: 2
             square: false
-          - type: button
-            tap_action:
-              action: more-info
-            entity: binary_sensor.dev73_motion
-            name: HWR
-            icon: mdi:run
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: binary_sensor.ewelink_move1
+                name: HWR
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.lidl_power1_switch
+                name: HWR Licht
+                icon: mdi:lamp
+              - type: sensor
+                entity: sensor.ewelink_temperature1
+                graph: line
+                name: HWR
+                unit: °C
+              - type: sensor
+                entity: sensor.ewelink_humidity1
+                graph: line
+                name: HWR
+                unit: '%'
+              - type: gauge
+                entity: sensor.ewelink_move_power1
+                min: 0
+                max: 100
+                name: Beweg
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+              - type: gauge
+                entity: sensor.ewelink_measure_power1
+                min: 0
+                max: 100
+                name: Mess
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+            square: false
+            columns: 2
           - type: grid
             cards:
               - type: sensor
+                entity: sensor.dev301_gas
                 graph: line
-                entity: sensor.dev73_temperature_dht
-                name: HWR T
+                icon: mdi:gas-station
+                name: Gasverbrauch
+                unit: qm
               - type: sensor
+                entity: sensor.dev301_power
                 graph: line
-                entity: sensor.dev73_humidity_dht
-                name: HWR H
-                unit: '%'
+                icon: mdi:power-plug
+                unit: kWh
+                name: Stromverbrauch
+              - type: sensor
+                entity: sensor.dev301_water
+                graph: line
                 icon: mdi:water
+                unit: qm
+                name: Wasserverbrauch
             square: false
-            columns: 2
         square: false
         columns: 1
   - title: Flur
@@ -248,13 +299,15 @@ views:
               - type: button
                 tap_action:
                   action: toggle
-                entity: light.dev101_r1
+                entity: switch.dev404a
                 name: Kugel klein
+                icon: mdi:lamp
               - type: button
                 tap_action:
                   action: toggle
-                entity: light.dev102_r1
+                entity: switch.tasmota_3c61053e7f64_switch_relay_1
                 name: Kugel groß
+                icon: mdi:lamp
             columns: 2
             square: false
           - type: grid
@@ -262,13 +315,13 @@ views:
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.dev101_motion
+                entity: binary_sensor.switch1_2
                 name: Unten
                 icon: mdi:run
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.dev102_motion
+                entity: binary_sensor.switch1_3
                 name: Oben
                 icon: mdi:run
             columns: 2
@@ -277,23 +330,23 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev101_temperature_dht
+                entity: sensor.dev404_am2301_temperature
                 name: Unten
                 unit: °C
               - type: sensor
                 graph: line
-                entity: sensor.dev102_temperature_dht
+                entity: sensor.dev405_am2301_temperature
                 unit: °C
                 name: Oben
               - type: sensor
                 graph: line
-                entity: sensor.dev101_humidity_dht
+                entity: sensor.dev404_am2301_humidity
                 name: Unten
                 icon: mdi:water
                 unit: '%'
               - type: sensor
                 graph: line
-                entity: sensor.dev102_humidity_dht
+                entity: sensor.dev405_am2301_humidity
                 name: Oben
                 icon: mdi:water
                 unit: '%'
@@ -312,13 +365,13 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev101_temperature_mija1
+                entity: sensor.sensor_xia_firbath_temperature
                 name: Gäste T
                 unit: °C
               - type: gauge
                 min: 0
                 max: 100
-                entity: sensor.dev101_battery_mija1
+                entity: sensor.sensor_xia_firbath_battery
                 name: Gäste B
                 unit: '%'
                 severity:
@@ -327,7 +380,7 @@ views:
                   red: 0
               - type: sensor
                 graph: line
-                entity: sensor.dev101_humidity_mija1
+                entity: sensor.sensor_xia_firbath_humidity
                 icon: mdi:water
                 name: Gäste H
             square: false
@@ -335,12 +388,12 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev102_temperature_mija0
+                entity: sensor.sensor_xia_secbath_temperature
                 name: Bad T
               - type: gauge
                 min: 0
                 max: 100
-                entity: sensor.dev102_battery_mija0
+                entity: sensor.sensor_xia_secbath_battery
                 name: Bad B
                 unit: '%'
                 severity:
@@ -349,7 +402,7 @@ views:
                   red: 0
               - type: sensor
                 graph: line
-                entity: sensor.dev102_humidity_mija0
+                entity: sensor.sensor_xia_secbath_humidity
                 name: Bad H
                 icon: mdi:water
                 unit: '%'
@@ -367,13 +420,13 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev102_temperature_mija2
+                entity: sensor.sensor_xia_parent_temperature
                 name: Eltern T
                 unit: °C
               - type: gauge
                 min: 0
                 max: 100
-                entity: sensor.dev102_battery_mija2
+                entity: sensor.sensor_xia_parent_battery
                 name: Eltern B
                 unit: '%'
                 severity:
@@ -382,7 +435,7 @@ views:
                   red: 0
               - type: sensor
                 graph: line
-                entity: sensor.dev102_humidity_mija2
+                entity: sensor.sensor_xia_parent_humidity
                 name: Eltern H
                 icon: mdi:water
                 unit: '%'
@@ -391,13 +444,13 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev102_temperature_mija3
+                entity: sensor.sensor_xia_offi_temperature
                 name: Gäste T
                 unit: °C
               - type: gauge
                 min: 0
                 max: 100
-                entity: sensor.dev102_battery_mija3
+                entity: sensor.sensor_xia_offi_battery
                 name: Gäste B
                 unit: '%'
                 severity:
@@ -406,7 +459,7 @@ views:
                   red: 0
               - type: sensor
                 graph: line
-                entity: sensor.dev102_humidity_mija3
+                entity: sensor.sensor_xia_offi_humidity
                 name: Gäste H
                 icon: mdi:water
             square: false
@@ -415,14 +468,14 @@ views:
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.win_switch1
+                entity: binary_sensor.sonoff_win1_openclose
                 name: Gäste Fenster
                 icon: mdi:window-closed-variant
                 icon_height: 100px
               - type: gauge
                 min: 0
                 max: 100
-                entity: sensor.win_batt1
+                entity: sensor.sonoff_win1_power
                 name: Gäste Fenster B
                 unit: '%'
                 severity:
@@ -431,6 +484,72 @@ views:
                   red: 0
             columns: 2
             square: false
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.lidl_switch1
+                name: Arbeit
+              - type: gauge
+                entity: sensor.lidl_switch1_batt
+                max: 100
+                name: Battery
+                unit: '%'
+                min: 0
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.lidl_power4
+                name: Arbeitsbereich
+                icon: mdi:lamp
+            columns: 3
+            square: false
+        columns: 1
+        square: false
+  - icon: mdi:door-sliding
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.homefront
+                icon: mdi:lamp
+                name: Front
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.tasmota2
+                icon: mdi:lamp
+                name: Boden
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.tasmota3
+                name: Power
+                icon: mdi:power-socket-de
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.tasmota4
+                name: Unbenutzt
+                icon: mdi:lamp-outline
+            columns: 2
+            square: false
+          - type: button
+            tap_action:
+              action: more-info
+            entity: binary_sensor.switch1
+            icon: mdi:motion-sensor
+            name: Bewegung
         columns: 1
         square: false
   - title: Alarm Control

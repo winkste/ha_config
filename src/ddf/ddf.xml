@@ -302,13 +302,41 @@
     </dev>
         <dev id="dev200">
         <name>RKI per NAS</name>
-        <type>PI3</type>
-        <locat>Schuppen</locat>
+        <type>NAS</type>
+        <locat>Gästezimmer</locat>
         <fw_id>NA</fw_id>
         <fw_ver>001</fw_ver>
         <fw_desc>None</fw_desc>
         <cap_id>0x100</cap_id>
     </dev>
+    </dev>
+        <dev id="dev300">
+        <name>HeartBeat per NAS</name>
+        <type>NAS</type>
+        <locat>Gästezimmer</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>001</fw_ver>
+        <fw_desc>None</fw_desc>
+        <cap_id>0x101</cap_id>
+    </dev>
+    </dev>
+        <dev id="dev401">
+        <name>Haustür Überwachung</name>
+        <type>Tasmota</type>
+        <locat>Haustür front</locat>
+        <fw_id>NA</fw_id>
+        <fw_ver>NA</fw_ver>
+        <fw_desc>Tasmota firmware based</fw_desc>
+        <cap_id>0x200</cap_id>
+        <cap_id>0x201</cap_id>
+        <cap_id>0x202</cap_id>
+    </dev>
+    <cap id="0x101">
+        <name>HeartBeat</name>
+        <topic_tx>hb/heart_beat</topic_tx>
+        <topic_tx>hb/time_now</topic_tx>
+        <topic_tx>hb/ts_now</topic_tx>
+    </cap>
     <cap id="0x100">
         <name>RKI Statistics</name>
         <topic_tx>rki/ce/c7</topic_tx>
@@ -484,6 +512,22 @@
     <cap id="0x37">
         <name>PIR</name>
         <topic_tx>pir/status</topic_tx>
+    </cap>
+    <cap id="0x200">
+        <name>Tasmota PIR</name>
+        <topic_tx>pir/state</topic_tx>  
+    </cap>
+     <cap id="0x201">
+        <name>Tasmota Relais</name>
+        <topic_tx>stat/POWER1</topic_tx>
+        <topic_tx>stat/POWER2</topic_tx>
+        <topic_tx>stat/POWER3</topic_tx>
+        <topic_tx>stat/POWER4</topic_tx>
+        <topic_tx>stat/POWER5</topic_tx>
+    </cap>
+    <cap id="0x202">
+        <name>Tasmota STATUS</name>
+        <topic_tx>stat/RESULT</topic_tx>  
     </cap>
     <topic id="gen/cmd">
         <chan>std</chan>
@@ -834,6 +878,36 @@
         <chan>std</chan>
     </topic>
     <topic id="rki/noh/c7">
+        <chan>std</chan>
+    </topic>
+    <topic id="hb/heart_beat">
+        <chan>std</chan>
+    </topic>
+     <topic id="hb/time_now">
+        <chan>std</chan>
+    </topic>
+    <topic id="hb/ts_now">
+        <chan>std</chan>
+    </topic>
+    <topic id="pir/state">
+        <chan>std</chan>
+    </topic>
+    <topic id="stat/RESULT">
+        <chan>std</chan>
+    </topic>
+    <topic id="stat/POWER1">
+        <chan>std</chan>
+    </topic>
+    <topic id="stat/POWER2">
+        <chan>std</chan>
+    </topic>
+    <topic id="stat/POWER3">
+        <chan>std</chan>
+    </topic>
+    <topic id="stat/POWER4">
+        <chan>std</chan>
+    </topic>
+     <topic id="stat/POWER5">
         <chan>std</chan>
     </topic>
 </home>

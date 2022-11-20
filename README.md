@@ -114,8 +114,17 @@ https://www.youtube.com/watch?v=D6ZlhE-Iv9E
 - swipe card
 - mini-graph-card
 
+### Backup HA image on OSs (not working)
+```
+diskutil list
+sudo dd if=/dev/disk3 of=HaSDBackup.dmg
+diskutil unmountDisk /dev/disk3
+sudo dd if=HaSDBackup.dmg of=/dev/disk3
+```
+
 ### TODO
 - GITHUB via File Editor or SSH:
 https://blog.schembri.me/post/syncing-homeassistant-with-github/
 
 - How to backup the zigbee configurations, entities not found so far?
+

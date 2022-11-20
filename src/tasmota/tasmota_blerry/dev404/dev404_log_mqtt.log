@@ -1,0 +1,3682 @@
+24.09.2022 08:17:15:628	std/dev72/s/pir/status	ON
+
+24.09.2022 08:17:16:643	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0183861037342D580D1004B0005E02","0xfe95":"5020AA0183861037342D580D1004B0005E02"}}
+
+24.09.2022 08:17:17:159	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.87678,"MAC":"582D34371086","Time":"2022-09-24T07:17:16"}
+
+24.09.2022 08:17:17:454	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:17:17:460	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:17:17:461	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:17:17:464	std/dev102/s/0/mija/cnt	163
+
+24.09.2022 08:17:17:468	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:17:17:468	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:17:17:860	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:17:17:869	std/dev102/s/health/tic	47304
+
+24.09.2022 08:17:24:206	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:17:24:213	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:17:24:213	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:17:24:214	std/dev102/s/2/mija/cnt	85
+
+24.09.2022 08:17:24:220	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:17:24:220	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:17:24:220	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:17:24:228	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:17:24:228	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:17:24:228	std/dev102/s/3/mija/cnt	28
+
+24.09.2022 08:17:24:232	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:17:24:233	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:17:26:487	std/dev72/s/pir/status	ON
+
+24.09.2022 08:17:26:680	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0188861037342D580D1004B0005D02","0xfe95":"5020AA0188861037342D580D1004B0005D02"}}
+
+24.09.2022 08:17:27:028	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85207,"MAC":"582D34371086","Time":"2022-09-24T07:17:26"}
+
+24.09.2022 08:17:27:897	std/dev102/s/health/tic	47305
+
+24.09.2022 08:17:28:803	std/dev404/s/cmnd/Backlog	NoDelay;Power6 ON
+
+24.09.2022 08:17:28:897	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:17:29:061	std/dev404/s/stat/RESULT	{"POWER6":"ON"}
+
+24.09.2022 08:17:29:068	std/dev404/s/stat/POWER6	ON
+
+24.09.2022 08:17:29:651	std/dev90/s/health/tic	21
+
+24.09.2022 08:17:30:267	std/dev404/s/cmnd/Backlog	NoDelay;Power6 OFF
+
+24.09.2022 08:17:30:462	std/dev404/s/stat/RESULT	{"POWER6":"OFF"}
+
+24.09.2022 08:17:30:476	std/dev404/s/stat/POWER6	OFF
+
+24.09.2022 08:17:30:585	std/dev72/s/health/tic	55701
+
+24.09.2022 08:17:30:701	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-75,"p":"020106131695FE5020AA018A861037342D58041002B000","0xfe95":"5020AA018A861037342D58041002B000"}}
+
+24.09.2022 08:17:32:193	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:17:32:246	std/dev72/s/temp_hum/hum	78.60
+
+24.09.2022 08:17:36:787	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:17:36:796	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:17:37:962	std/dev102/s/health/tic	47306
+
+24.09.2022 08:17:40:004	std/dev300/s/hb/heart_beat	13420
+
+24.09.2022 08:17:40:008	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:17:40:047	std/dev300/s/hb/time_now	24-09-2022, 08:17:40
+
+24.09.2022 08:17:40:067	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:17:40:070	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:17:40:075	std/dev300/s/hb/ts_now	1664000260
+
+24.09.2022 08:17:40:078	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:17:40:088	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:17:40:104	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:17:41:068	std/dev404/s/cmnd/POWER6	ON
+
+24.09.2022 08:17:41:230	std/dev404/s/stat/RESULT	{"POWER6":"ON"}
+
+24.09.2022 08:17:41:234	std/dev404/s/stat/POWER6	ON
+
+24.09.2022 08:17:42:250	std/dev72/s/pir/status	ON
+
+24.09.2022 08:17:45:742	std/dev404/s/cmnd/POWER6	OFF
+
+24.09.2022 08:17:45:943	std/dev404/s/stat/RESULT	{"POWER6":"OFF"}
+
+24.09.2022 08:17:45:948	std/dev404/s/stat/POWER6	OFF
+
+24.09.2022 08:17:46:671	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:17:47:473	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:17:47:479	std/dev102/s/0/mija/hum	61.2
+
+24.09.2022 08:17:47:485	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:17:47:490	std/dev102/s/0/mija/cnt	186
+
+24.09.2022 08:17:47:495	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:17:47:498	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:17:48:014	std/dev102/s/health/tic	47307
+
+24.09.2022 08:17:49:485	std/dev72/s/pir/status	ON
+
+24.09.2022 08:17:51:700	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:17:54:226	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:17:54:230	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:17:54:242	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:17:54:242	std/dev102/s/2/mija/cnt	104
+
+24.09.2022 08:17:54:250	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:17:54:250	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:17:54:250	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:17:54:250	std/dev102/s/3/mija/hum	56.2
+
+24.09.2022 08:17:54:251	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:17:54:251	std/dev102/s/3/mija/cnt	47
+
+24.09.2022 08:17:54:258	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:17:54:258	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:17:55:118	std/dev72/s/pir/status	ON
+
+24.09.2022 08:17:57:830	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:17:58:045	std/dev102/s/health/tic	47308
+
+24.09.2022 08:17:59:657	std/dev90/s/health/tic	22
+
+24.09.2022 08:18:00:823	std/dev72/s/health/tic	55702
+
+24.09.2022 08:18:00:888	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA0199861037342D580D1004B0006202","0xfe95":"5020AA0199861037342D580D1004B0006202"}}
+
+24.09.2022 08:18:01:005	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:18:00"}
+
+24.09.2022 08:18:02:436	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:18:02:486	std/dev72/s/temp_hum/hum	78.72
+
+24.09.2022 08:18:03:540	std/dev28/s/temp_hum/temp	11.10
+
+24.09.2022 08:18:03:595	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:18:04:668	std/dev102/s/0/dht/temp	22.2
+
+24.09.2022 08:18:04:674	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:18:06:738	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:18:06:742	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:18:06:892	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:18:06:944	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:18:08:070	std/dev102/s/health/tic	47309
+
+24.09.2022 08:18:10:015	std/dev300/s/hb/heart_beat	13421
+
+24.09.2022 08:18:10:032	std/dev300/s/hb/time_now	24-09-2022, 08:18:10
+
+24.09.2022 08:18:10:061	std/dev300/s/hb/ts_now	1664000290
+
+24.09.2022 08:18:10:090	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:18:10:096	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:18:10:105	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:18:10:108	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:18:10:109	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:18:10:112	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:18:10:834	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA019E861037342D580D1004B0005F02","0xfe95":"5020AA019E861037342D580D1004B0005F02"}}
+
+24.09.2022 08:18:11:021	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90145,"MAC":"582D34371086","Time":"2022-09-24T07:18:10"}
+
+24.09.2022 08:18:12:218	std/dev404/s/cmnd/Power2	ON
+
+24.09.2022 08:18:12:354	std/dev404/s/stat/RESULT	{"POWER2":"ON"}
+
+24.09.2022 08:18:12:360	std/dev404/s/stat/POWER2	ON
+
+24.09.2022 08:18:14:324	std/dev404/s/cmnd/Power2	OFF
+
+24.09.2022 08:18:14:432	std/dev404/s/stat/RESULT	{"POWER2":"OFF"}
+
+24.09.2022 08:18:14:508	std/dev404/s/stat/POWER2	OFF
+
+24.09.2022 08:18:14:930	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01A0861037342D580D1004AF005E02","0xfe95":"5020AA01A0861037342D580D1004AF005E02"}}
+
+24.09.2022 08:18:15:018	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.78261,"MAC":"582D34371086","Time":"2022-09-24T07:18:14"}
+
+24.09.2022 08:18:17:593	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:18:17:598	std/dev102/s/0/mija/hum	61.1
+
+24.09.2022 08:18:17:598	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:18:17:598	std/dev102/s/0/mija/cnt	198
+
+24.09.2022 08:18:17:598	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:18:17:598	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:18:18:207	std/dev102/s/health/tic	47310
+
+24.09.2022 08:18:18:898	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA01A2861037342D580D1004AF005F02","0xfe95":"5020AA01A2861037342D580D1004AF005F02"}}
+
+24.09.2022 08:18:19:010	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.80726,"MAC":"582D34371086","Time":"2022-09-24T07:18:18"}
+
+24.09.2022 08:18:19:952	std/dev72/s/pir/status	ON
+
+24.09.2022 08:18:24:321	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:18:24:332	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:18:24:332	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:18:24:332	std/dev102/s/2/mija/cnt	120
+
+24.09.2022 08:18:24:332	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:18:24:332	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:18:24:335	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:18:24:335	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:18:24:335	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:18:24:336	std/dev102/s/3/mija/cnt	62
+
+24.09.2022 08:18:24:340	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:18:24:341	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:18:25:581	std/dev404/s/pir/state	ON
+
+24.09.2022 08:18:25:591	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:18:26:394	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:18:27:937	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:18:27:943	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:18:28:243	std/dev102/s/health/tic	47311
+
+24.09.2022 08:18:28:857	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA01A7861037342D580D1004B0006002","0xfe95":"5020AA01A7861037342D580D1004B0006002"}}
+
+24.09.2022 08:18:29:026	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:18:28"}
+
+24.09.2022 08:18:29:654	std/dev90/s/health/tic	23
+
+24.09.2022 08:18:31:114	std/dev72/s/health/tic	55703
+
+24.09.2022 08:18:32:750	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:18:32:763	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:18:36:997	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:18:37:006	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:18:38:380	std/dev102/s/health/tic	47312
+
+24.09.2022 08:18:40:125	std/dev300/s/hb/heart_beat	13422
+
+24.09.2022 08:18:40:134	std/dev300/s/hb/time_now	24-09-2022, 08:18:40
+
+24.09.2022 08:18:40:134	std/dev300/s/hb/ts_now	1664000320
+
+24.09.2022 08:18:40:134	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:18:40:174	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:18:40:177	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:18:40:185	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:18:40:191	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:18:40:200	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:18:47:597	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:18:47:601	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:18:47:601	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:18:47:601	std/dev102/s/0/mija/cnt	217
+
+24.09.2022 08:18:47:601	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:18:47:601	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:18:48:394	std/dev102/s/health/tic	47313
+
+24.09.2022 08:18:54:461	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:18:54:469	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:18:54:469	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:18:54:469	std/dev102/s/2/mija/cnt	134
+
+24.09.2022 08:18:54:469	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:18:54:469	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/cnt	62
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:18:54:469	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:18:57:330	std/dev102/s/0/dht/temp	22.2
+
+24.09.2022 08:18:57:339	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:18:58:456	std/dev102/s/health/tic	47314
+
+24.09.2022 08:18:59:065	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01B6861037342D580D1004B0006002","0xfe95":"5020AA01B6861037342D580D1004B0006002"}}
+
+24.09.2022 08:18:59:661	std/dev90/s/health/tic	24
+
+24.09.2022 08:19:01:323	std/dev72/s/health/tic	55704
+
+24.09.2022 08:19:02:957	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:19:02:963	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:19:03:674	std/dev28/s/temp_hum/temp	11.10
+
+24.09.2022 08:19:03:713	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:19:06:849	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:19:06:853	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:19:07:155	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:19:07:160	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:19:08:589	std/dev102/s/health/tic	47315
+
+24.09.2022 08:19:10:013	std/dev300/s/hb/heart_beat	13423
+
+24.09.2022 08:19:10:032	std/dev300/s/hb/time_now	24-09-2022, 08:19:10
+
+24.09.2022 08:19:10:057	std/dev300/s/hb/ts_now	1664000350
+
+24.09.2022 08:19:10:199	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:19:10:218	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:19:10:237	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:19:10:244	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:19:10:250	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:19:10:254	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:19:12:983	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA01BD861037342D580D1004B0006102","0xfe95":"5020AA01BD861037342D580D1004B0006102"}}
+
+24.09.2022 08:19:13:083	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.9507,"MAC":"582D34371086","Time":"2022-09-24T07:19:12"}
+
+24.09.2022 08:19:17:089	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106131695FE5020AA01BF861037342D58041002AF00","0xfe95":"5020AA01BF861037342D58041002AF00"}}
+
+24.09.2022 08:19:17:691	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:19:17:696	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:19:17:696	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:19:17:696	std/dev102/s/0/mija/cnt	231
+
+24.09.2022 08:19:17:696	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:19:17:696	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:19:18:016	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.9507,"MAC":"582D34371086","Time":"2022-09-24T07:19:16"}
+
+24.09.2022 08:19:18:624	std/dev102/s/health/tic	47316
+
+24.09.2022 08:19:20:057	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:19:19","MJ_HT_V1371086":{"alias":"sensor_xia_firbath","mac":"582d34371086","Temperature":17.5,"Humidity":60.9,"DewPoint":9.9,"Battery":75,"RSSI":-77},"TempUnit":"C"}
+
+24.09.2022 08:19:24:466	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:19:24:473	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:19:24:473	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:19:24:473	std/dev102/s/2/mija/cnt	151
+
+24.09.2022 08:19:24:473	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:19:24:473	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/temp	20.1
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/cnt	90
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:19:24:473	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:19:28:044	std/dev404/s/tele/STATE	{"Time":"2022-09-24T07:19:27","Uptime":"0T00:05:11","UptimeSec":311,"Heap":30,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":22,"MqttCount":1,"Berry":{"HeapUsed":35,"Objects":647},"POWER1":"OFF","POWER2":"OFF","POWER3":"ON","POWER4":"ON","POWER5":"ON","POWER6":"OFF","Dimmer":100,"Color":"0000FF","HSBColor":"240,100,100","Channel":[0,0,100],"Scheme":0,"Width":1,"Fade":"OFF","Speed":1,"LedTable":"ON","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":100,"Signal":-24,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:19:28:125	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:19:27","Switch1":"OFF","Switch2":"OFF","ANALOG":{"Illuminance1":0},"AM2301":{"Temperature":22.5,"Humidity":49.3,"DewPoint":11.3},"TempUnit":"C"}
+
+24.09.2022 08:19:28:130	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:19:27","BLEDevices":{"total":8,"F930E3309DBA":{"i":0,"r":-88},"E73EA8BE50C8":{"i":1,"r":-83},"A06C6526C73B":{"i":2,"r":-88},"582D34371086":{"i":3,"r":-77,"a":"sensor_xia_firbath"},"582D343916A7":{"i":4,"r":-93},"582D343B8C66":{"i":5,"r":-87},"E585DEC45E71":{"i":6,"r":-90},"609866F66182":{"i":7,"r":-86}}}
+
+24.09.2022 08:19:28:233	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:19:27","BLE":{"scans":15,"adverts":1811,"devices":8,"resets":0}}
+
+24.09.2022 08:19:28:660	std/dev102/s/health/tic	47317
+
+24.09.2022 08:19:29:654	std/dev90/s/health/tic	25
+
+24.09.2022 08:19:31:527	std/dev72/s/health/tic	55705
+
+24.09.2022 08:19:35:213	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:19:35:242	std/dev72/s/temp_hum/hum	79.70
+
+24.09.2022 08:19:37:210	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:19:37:216	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:19:38:661	std/dev102/s/health/tic	47318
+
+24.09.2022 08:19:40:026	std/dev300/s/hb/heart_beat	13424
+
+24.09.2022 08:19:40:032	std/dev300/s/hb/time_now	24-09-2022, 08:19:40
+
+24.09.2022 08:19:40:055	std/dev300/s/hb/ts_now	1664000380
+
+24.09.2022 08:19:40:257	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:19:40:304	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:19:40:309	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:19:40:324	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:19:40:328	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:19:40:333	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:19:43:098	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA01CC861037342D580D1004B0006002","0xfe95":"5020AA01CC861037342D580D1004B0006002"}}
+
+24.09.2022 08:19:44:020	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:19:42"}
+
+24.09.2022 08:19:47:706	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:19:47:712	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:19:47:712	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:19:47:712	std/dev102/s/0/mija/cnt	243
+
+24.09.2022 08:19:47:712	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:19:47:712	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:19:48:733	std/dev102/s/health/tic	47319
+
+24.09.2022 08:19:49:858	std/dev102/s/0/dht/temp	22.2
+
+24.09.2022 08:19:49:862	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:19:51:184	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01D0861037342D580D1004B0005F02","0xfe95":"5020AA01D0861037342D580D1004B0005F02"}}
+
+24.09.2022 08:19:52:007	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90145,"MAC":"582D34371086","Time":"2022-09-24T07:19:50"}
+
+24.09.2022 08:19:54:465	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:19:54:469	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:19:54:469	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:19:54:469	std/dev102/s/2/mija/cnt	167
+
+24.09.2022 08:19:54:469	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:19:54:469	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/hum	56.5
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/cnt	95
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:19:54:469	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:19:55:181	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01D2861037342D580D1004B0005E02","0xfe95":"5020AA01D2861037342D580D1004B0005E02"}}
+
+24.09.2022 08:19:56:104	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.87678,"MAC":"582D34371086","Time":"2022-09-24T07:19:54"}
+
+24.09.2022 08:19:58:743	std/dev102/s/health/tic	47320
+
+24.09.2022 08:19:59:662	std/dev90/s/health/tic	26
+
+24.09.2022 08:20:00:609	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:01:808	std/dev72/s/health/tic	55706
+
+24.09.2022 08:20:02:862	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:03:476	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:20:03:490	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:20:03:885	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:20:03:896	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:20:05:114	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01D7861037342D580D1004AF005F02","0xfe95":"5020AA01D7861037342D580D1004AF005F02"}}
+
+24.09.2022 08:20:06:037	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.80726,"MAC":"582D34371086","Time":"2022-09-24T07:20:04"}
+
+24.09.2022 08:20:06:927	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:20:06:931	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:20:07:265	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:07:313	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:20:07:364	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:20:08:905	std/dev102/s/health/tic	47321
+
+24.09.2022 08:20:10:030	std/dev300/s/hb/heart_beat	13425
+
+24.09.2022 08:20:10:043	std/dev300/s/hb/time_now	24-09-2022, 08:20:10
+
+24.09.2022 08:20:10:054	std/dev300/s/hb/ts_now	1664000410
+
+24.09.2022 08:20:10:338	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:20:10:344	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:20:10:344	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:20:10:348	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:20:10:352	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:20:10:352	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:20:12:675	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:17:289	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:17:789	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:20:17:795	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:20:17:795	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:20:17:799	std/dev102/s/0/mija/cnt	4
+
+24.09.2022 08:20:17:807	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:20:17:810	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:20:18:930	std/dev102/s/health/tic	47322
+
+24.09.2022 08:20:19:139	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01DE861037342D580D1004AF006002","0xfe95":"5020AA01DE861037342D580D1004AF006002"}}
+
+24.09.2022 08:20:20:046	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.83188,"MAC":"582D34371086","Time":"2022-09-24T07:20:18"}
+
+24.09.2022 08:20:21:745	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:23:127	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106121695FE5020AA01E0861037342D580A10014B","0xfe95":"5020AA01E0861037342D580A10014B"}}
+
+24.09.2022 08:20:24:472	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:20:24:479	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:20:24:479	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:20:24:480	std/dev102/s/2/mija/cnt	176
+
+24.09.2022 08:20:24:487	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:20:24:488	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:20:24:488	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:20:24:488	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:20:24:488	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:20:24:488	std/dev102/s/3/mija/cnt	115
+
+24.09.2022 08:20:24:495	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:20:24:495	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:20:28:948	std/dev102/s/health/tic	47323
+
+24.09.2022 08:20:28:952	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:29:164	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01E3861037342D580D1004B0006102","0xfe95":"5020AA01E3861037342D580D1004B0006102"}}
+
+24.09.2022 08:20:29:666	std/dev90/s/health/tic	27
+
+24.09.2022 08:20:29:998	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.9507,"MAC":"582D34371086","Time":"2022-09-24T07:20:28"}
+
+24.09.2022 08:20:31:842	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:32:051	std/dev72/s/health/tic	55707
+
+24.09.2022 08:20:33:377	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106131695FE5020AA01E5861037342D580610026002","0xfe95":"5020AA01E5861037342D580610026002"}}
+
+24.09.2022 08:20:33:684	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:20:33:704	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:20:34:087	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.9507,"MAC":"582D34371086","Time":"2022-09-24T07:20:32"}
+
+24.09.2022 08:20:37:473	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:20:37:479	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:20:39:010	std/dev102/s/health/tic	47324
+
+24.09.2022 08:20:39:193	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA01E8861037342D580D1004AF006202","0xfe95":"5020AA01E8861037342D580D1004AF006202"}}
+
+24.09.2022 08:20:40:038	std/dev300/s/hb/heart_beat	13426
+
+24.09.2022 08:20:40:043	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:20:38"}
+
+24.09.2022 08:20:40:043	std/dev300/s/hb/time_now	24-09-2022, 08:20:40
+
+24.09.2022 08:20:40:058	std/dev300/s/hb/ts_now	1664000440
+
+24.09.2022 08:20:40:443	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:20:40:457	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:20:40:458	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:20:40:458	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:20:40:458	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:20:40:458	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:20:41:979	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:42:491	std/dev102/s/0/dht/temp	22.2
+
+24.09.2022 08:20:42:495	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:20:43:208	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106131695FE5020AA01EA861037342D58041002B000","0xfe95":"5020AA01EA861037342D58041002B000"}}
+
+24.09.2022 08:20:44:027	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:20:42"}
+
+24.09.2022 08:20:46:997	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:47:918	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:20:47:926	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:20:47:926	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:20:47:926	std/dev102/s/0/mija/cnt	21
+
+24.09.2022 08:20:47:926	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:20:47:926	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:20:49:045	std/dev102/s/health/tic	47325
+
+24.09.2022 08:20:50:581	std/dev72/s/pir/status	ON
+
+24.09.2022 08:20:54:579	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:20:54:583	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:20:54:584	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:20:54:584	std/dev102/s/2/mija/cnt	195
+
+24.09.2022 08:20:54:584	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:20:54:584	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/cnt	133
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:20:54:584	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:20:56:622	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:20:59:059	std/dev102/s/health/tic	47326
+
+24.09.2022 08:20:59:655	std/dev90/s/health/tic	28
+
+24.09.2022 08:21:02:276	std/dev72/s/health/tic	55708
+
+24.09.2022 08:21:03:885	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:21:03:897	std/dev28/s/temp_hum/temp	11.10
+
+24.09.2022 08:21:03:930	std/dev72/s/temp_hum/hum	78.97
+
+24.09.2022 08:21:03:948	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:21:07:068	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:21:07:072	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:21:07:255	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01F6861037342D580D1004B0005E02","0xfe95":"5020AA01F6861037342D580D1004B0005E02"}}
+
+24.09.2022 08:21:07:580	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:21:07:587	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:21:08:093	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.87678,"MAC":"582D34371086","Time":"2022-09-24T07:21:06"}
+
+24.09.2022 08:21:09:217	std/dev102/s/health/tic	47327
+
+24.09.2022 08:21:10:037	std/dev300/s/hb/heart_beat	13427
+
+24.09.2022 08:21:10:041	std/dev300/s/hb/time_now	24-09-2022, 08:21:10
+
+24.09.2022 08:21:10:068	std/dev300/s/hb/ts_now	1664000470
+
+24.09.2022 08:21:10:447	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:21:10:451	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:21:10:452	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:21:10:456	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:21:10:462	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:21:10:466	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:21:11:368	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA01F8861037342D580D1004B0005C02","0xfe95":"5020AA01F8861037342D580D1004B0005C02"}}
+
+24.09.2022 08:21:12:085	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.82733,"MAC":"582D34371086","Time":"2022-09-24T07:21:10"}
+
+24.09.2022 08:21:17:921	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:21:17:932	std/dev102/s/0/mija/hum	60.9
+
+24.09.2022 08:21:17:933	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:21:17:933	std/dev102/s/0/mija/cnt	35
+
+24.09.2022 08:21:17:933	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:21:17:933	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:21:19:253	std/dev102/s/health/tic	47328
+
+24.09.2022 08:21:21:404	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01FD861037342D580D1004AF005D02","0xfe95":"5020AA01FD861037342D580D1004AF005D02"}}
+
+24.09.2022 08:21:22:018	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.75792,"MAC":"582D34371086","Time":"2022-09-24T07:21:20"}
+
+24.09.2022 08:21:24:683	std/dev102/s/2/mija/temp	20.7
+
+24.09.2022 08:21:24:687	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:21:24:687	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:21:24:687	std/dev102/s/2/mija/cnt	209
+
+24.09.2022 08:21:24:687	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:21:24:687	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:21:24:687	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:21:24:688	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:21:24:688	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:21:24:688	std/dev102/s/3/mija/cnt	140
+
+24.09.2022 08:21:24:688	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:21:24:688	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:21:25:397	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01FF861037342D580D1004AF005D02","0xfe95":"5020AA01FF861037342D580D1004AF005D02"}}
+
+24.09.2022 08:21:29:290	std/dev102/s/health/tic	47329
+
+24.09.2022 08:21:29:665	std/dev90/s/health/tic	29
+
+24.09.2022 08:21:32:565	std/dev72/s/health/tic	55709
+
+24.09.2022 08:21:34:203	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:21:34:207	std/dev72/s/temp_hum/hum	78.97
+
+24.09.2022 08:21:35:024	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:21:35:029	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:21:35:308	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0104861037342D580D1004AF005F02","0xfe95":"5020AA0104861037342D580D1004AF005F02"}}
+
+24.09.2022 08:21:36:048	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.80726,"MAC":"582D34371086","Time":"2022-09-24T07:21:35"}
+
+24.09.2022 08:21:37:685	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:21:37:695	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:21:39:324	std/dev102/s/health/tic	47330
+
+24.09.2022 08:21:40:041	std/dev300/s/hb/heart_beat	13428
+
+24.09.2022 08:21:40:051	std/dev300/s/hb/time_now	24-09-2022, 08:21:40
+
+24.09.2022 08:21:40:059	std/dev300/s/hb/ts_now	1664000500
+
+24.09.2022 08:21:40:553	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:21:40:564	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:21:40:564	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:21:40:564	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:21:40:564	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:21:40:564	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:21:45:672	std/dev401/s/tele/STATE	{"Time":"2022-09-24T07:21:45","Uptime":"0T16:20:10","UptimeSec":58810,"Heap":27,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":19,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","POWER3":"OFF","POWER4":"OFF","POWER5":"OFF","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":60,"Signal":-70,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:21:45:677	std/dev401/s/tele/SENSOR	{"Time":"2022-09-24T07:21:45","Switch1":"OFF"}
+
+24.09.2022 08:21:48:028	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:21:48:046	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:21:48:046	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:21:48:046	std/dev102/s/0/mija/cnt	51
+
+24.09.2022 08:21:48:046	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:21:48:046	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:21:49:359	std/dev102/s/health/tic	47331
+
+24.09.2022 08:21:54:684	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:21:54:689	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:21:54:689	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:21:54:689	std/dev102/s/2/mija/cnt	225
+
+24.09.2022 08:21:54:689	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:21:54:689	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/cnt	164
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:21:54:689	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:21:59:502	std/dev102/s/health/tic	47332
+
+24.09.2022 08:21:59:671	std/dev90/s/health/tic	30
+
+24.09.2022 08:22:02:774	std/dev72/s/health/tic	55710
+
+24.09.2022 08:22:04:106	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:22:04:122	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:22:04:348	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:22:04:394	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:22:07:178	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:22:07:182	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:22:07:484	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-90,"p":"020106151695FE5020AA0114861037342D580D1004B1005E02","0xfe95":"5020AA0114861037342D580D1004B1005E02"}}
+
+24.09.2022 08:22:07:792	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:22:07:800	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:22:07:995	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.7,"RSSI":-90,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97095,"MAC":"582D34371086","Time":"2022-09-24T07:22:07"}
+
+24.09.2022 08:22:09:502	std/dev102/s/health/tic	47333
+
+24.09.2022 08:22:10:045	std/dev300/s/hb/heart_beat	13429
+
+24.09.2022 08:22:10:054	std/dev300/s/hb/time_now	24-09-2022, 08:22:10
+
+24.09.2022 08:22:10:058	std/dev300/s/hb/ts_now	1664000530
+
+24.09.2022 08:22:10:557	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:22:10:560	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:22:10:560	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:22:10:569	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:22:10:573	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:22:10:577	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:22:18:032	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:22:18:037	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:22:18:037	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:22:18:037	std/dev102/s/0/mija/cnt	66
+
+24.09.2022 08:22:18:037	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:22:18:037	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:22:19:569	std/dev102/s/health/tic	47334
+
+24.09.2022 08:22:24:688	std/dev102/s/2/mija/temp	20.7
+
+24.09.2022 08:22:24:693	std/dev102/s/2/mija/hum	64.2
+
+24.09.2022 08:22:24:694	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:22:24:694	std/dev102/s/2/mija/cnt	240
+
+24.09.2022 08:22:24:694	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:22:24:694	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/cnt	180
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:22:24:694	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:22:27:760	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:22:27:763	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:22:28:681	std/dev72/s/pir/status	ON
+
+24.09.2022 08:22:29:603	std/dev102/s/health/tic	47335
+
+24.09.2022 08:22:29:681	std/dev90/s/health/tic	31
+
+24.09.2022 08:22:31:147	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:22:32:984	std/dev72/s/health/tic	55711
+
+24.09.2022 08:22:36:670	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:22:36:702	std/dev72/s/temp_hum/hum	79.83
+
+24.09.2022 08:22:37:483	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0123861037342D580D1004B0005E02","0xfe95":"5020AA0123861037342D580D1004B0005E02"}}
+
+24.09.2022 08:22:37:898	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:22:37:910	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:22:38:078	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.87678,"MAC":"582D34371086","Time":"2022-09-24T07:22:37"}
+
+24.09.2022 08:22:39:638	std/dev102/s/health/tic	47336
+
+24.09.2022 08:22:40:048	std/dev300/s/hb/heart_beat	13430
+
+24.09.2022 08:22:40:054	std/dev300/s/hb/time_now	24-09-2022, 08:22:40
+
+24.09.2022 08:22:40:081	std/dev300/s/hb/ts_now	1664000560
+
+24.09.2022 08:22:40:662	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:22:40:671	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:22:40:672	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:22:40:672	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:22:40:672	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:22:40:672	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:22:41:481	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA0125861037342D580610026002","0xfe95":"5020AA0125861037342D580610026002"}}
+
+24.09.2022 08:22:41:994	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.87678,"MAC":"582D34371086","Time":"2022-09-24T07:22:41"}
+
+24.09.2022 08:22:47:626	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA0128861037342D580D1004AF006102","0xfe95":"5020AA0128861037342D580D1004AF006102"}}
+
+24.09.2022 08:22:48:035	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:22:48:040	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:22:48:040	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:22:48:040	std/dev102/s/0/mija/cnt	80
+
+24.09.2022 08:22:48:041	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:22:48:041	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:22:48:041	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-78,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:22:47"}
+
+24.09.2022 08:22:49:674	std/dev102/s/health/tic	47337
+
+24.09.2022 08:22:54:700	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:22:54:704	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:22:54:704	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:22:54:704	std/dev102/s/2/mija/cnt	254
+
+24.09.2022 08:22:54:704	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:22:54:704	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:22:54:704	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:22:54:705	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:22:54:705	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:22:54:705	std/dev102/s/3/mija/cnt	190
+
+24.09.2022 08:22:54:705	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:22:54:705	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:22:59:691	std/dev90/s/health/tic	32
+
+24.09.2022 08:22:59:698	std/dev102/s/health/tic	47338
+
+24.09.2022 08:23:01:554	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA012F861037342D580D1004B0006102","0xfe95":"5020AA012F861037342D580D1004B0006102"}}
+
+24.09.2022 08:23:02:064	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.9507,"MAC":"582D34371086","Time":"2022-09-24T07:23:01"}
+
+24.09.2022 08:23:03:293	std/dev72/s/health/tic	55712
+
+24.09.2022 08:23:04:215	std/dev28/s/temp_hum/temp	11.10
+
+24.09.2022 08:23:04:219	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:23:06:979	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:23:07:003	std/dev72/s/temp_hum/hum	79.83
+
+24.09.2022 08:23:07:274	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:23:07:284	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:23:08:004	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:23:08:014	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:23:09:847	std/dev102/s/health/tic	47339
+
+24.09.2022 08:23:10:010	std/dev300/s/hb/heart_beat	13431
+
+24.09.2022 08:23:10:037	std/dev300/s/hb/time_now	24-09-2022, 08:23:10
+
+24.09.2022 08:23:10:068	std/dev300/s/hb/ts_now	1664000590
+
+24.09.2022 08:23:10:668	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:23:10:678	std/dev23/s/temp_hum/hum	61.13
+
+24.09.2022 08:23:10:678	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:23:10:678	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:23:10:678	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:23:10:679	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.13
+
+24.09.2022 08:23:15:576	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0137861037342D580D1004AF006102","0xfe95":"5020AA0137861037342D580D1004AF006102"}}
+
+24.09.2022 08:23:16:100	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:23:15"}
+
+24.09.2022 08:23:18:044	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:23:18:048	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:23:18:053	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:23:18:056	std/dev102/s/0/mija/cnt	94
+
+24.09.2022 08:23:18:103	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:23:18:112	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:23:19:883	std/dev102/s/health/tic	47340
+
+24.09.2022 08:23:20:497	std/dev102/s/0/dht/temp	22.2
+
+24.09.2022 08:23:20:503	std/dev102/s/0/dht/hum	63.22
+
+24.09.2022 08:23:24:704	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:23:24:719	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:23:24:719	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:23:24:723	std/dev102/s/2/mija/cnt	10
+
+24.09.2022 08:23:24:723	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:23:24:724	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:23:24:724	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:23:24:724	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:23:24:727	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:23:24:735	std/dev102/s/3/mija/cnt	206
+
+24.09.2022 08:23:24:740	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:23:24:741	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:23:29:702	std/dev90/s/health/tic	33
+
+24.09.2022 08:23:29:888	std/dev102/s/health/tic	47341
+
+24.09.2022 08:23:33:587	std/dev72/s/health/tic	55713
+
+24.09.2022 08:23:35:038	std/dev102/s/0/pir/state	ON
+
+24.09.2022 08:23:35:175	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:23:35:228	std/dev72/s/temp_hum/hum	78.97
+
+24.09.2022 08:23:37:700	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA0142861037342D580D1004AF006102","0xfe95":"5020AA0142861037342D580D1004AF006102"}}
+
+24.09.2022 08:23:38:110	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:23:38:116	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:23:40:055	std/dev102/s/health/tic	47342
+
+24.09.2022 08:23:40:059	std/dev300/s/hb/heart_beat	13432
+
+24.09.2022 08:23:40:059	std/dev300/s/hb/time_now	24-09-2022, 08:23:40
+
+24.09.2022 08:23:40:066	std/dev300/s/hb/ts_now	1664000620
+
+24.09.2022 08:23:40:465	std/dev102/s/0/pir/state	OFF
+
+24.09.2022 08:23:40:772	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:23:40:783	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:23:40:783	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:23:40:783	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:23:40:783	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:23:40:783	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:23:41:079	std/dev72/s/pir/status	ON
+
+24.09.2022 08:23:43:213	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:23:44:971	std/dev404/s/pir/state	ON
+
+24.09.2022 08:23:44:976	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:23:47:838	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:23:47:847	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:23:48:248	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:23:48:252	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:23:48:253	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:23:48:253	std/dev102/s/0/mija/cnt	111
+
+24.09.2022 08:23:48:253	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:23:48:253	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:23:49:989	std/dev102/s/health/tic	47343
+
+24.09.2022 08:23:50:296	std/dev404/s/pir/state	ON
+
+24.09.2022 08:23:50:356	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:23:51:422	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:23:51:431	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:23:51:613	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-75,"p":"020106121695FE5020AA0149861037342D580A10014B","0xfe95":"5020AA0149861037342D580A10014B"}}
+
+24.09.2022 08:23:54:801	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:23:54:805	std/dev102/s/2/mija/hum	63.2
+
+24.09.2022 08:23:54:805	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:23:54:805	std/dev102/s/2/mija/cnt	27
+
+24.09.2022 08:23:54:805	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:23:54:805	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:23:54:805	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:23:54:805	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:23:54:805	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:23:54:805	std/dev102/s/3/mija/cnt	225
+
+24.09.2022 08:23:54:810	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:23:54:810	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:23:59:703	std/dev90/s/health/tic	34
+
+24.09.2022 08:24:00:093	std/dev102/s/health/tic	47344
+
+24.09.2022 08:24:03:813	std/dev72/s/health/tic	55714
+
+24.09.2022 08:24:04:326	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:24:04:336	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:24:07:397	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:24:07:405	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:24:07:479	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:24:07:536	std/dev72/s/temp_hum/hum	79.83
+
+24.09.2022 08:24:07:702	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0151861037342D580D1004B0006402","0xfe95":"5020AA0151861037342D580D1004B0006402"}}
+
+24.09.2022 08:24:08:115	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0243,"MAC":"582D34371086","Time":"2022-09-24T07:24:07"}
+
+24.09.2022 08:24:08:160	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:24:08:220	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:24:10:061	std/dev300/s/hb/heart_beat	13433
+
+24.09.2022 08:24:10:065	std/dev300/s/hb/time_now	24-09-2022, 08:24:10
+
+24.09.2022 08:24:10:065	std/dev300/s/hb/ts_now	1664000650
+
+24.09.2022 08:24:10:128	std/dev102/s/health/tic	47345
+
+24.09.2022 08:24:10:776	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:24:10:788	std/dev23/s/temp_hum/hum	60.64
+
+24.09.2022 08:24:10:788	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:24:10:789	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:24:10:789	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:24:10:789	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.64
+
+24.09.2022 08:24:11:902	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA0153861037342D580D1004AF006402","0xfe95":"5020AA0153861037342D580D1004AF006402"}}
+
+24.09.2022 08:24:12:019	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-78,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:24:11"}
+
+24.09.2022 08:24:13:233	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:24:13:244	std/dev102/s/0/dht/hum	63.47
+
+24.09.2022 08:24:13:950	std/dev72/s/pir/status	ON
+
+24.09.2022 08:24:17:841	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:24:18:222	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:24:18:225	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:24:18:226	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:24:18:233	std/dev102/s/0/mija/cnt	125
+
+24.09.2022 08:24:18:235	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:24:18:235	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:24:20:095	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:24:19","MJ_HT_V1371086":{"alias":"sensor_xia_firbath","mac":"582d34371086","Temperature":17.5,"Humidity":61.2,"DewPoint":9.9,"Battery":75,"RSSI":-78},"TempUnit":"C"}
+
+24.09.2022 08:24:20:173	std/dev102/s/health/tic	47346
+
+24.09.2022 08:24:20:812	std/dev72/s/pir/status	ON
+
+24.09.2022 08:24:23:271	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:24:24:908	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:24:24:914	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:24:24:914	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:24:24:915	std/dev102/s/2/mija/cnt	46
+
+24.09.2022 08:24:24:915	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:24:24:915	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/cnt	225
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:24:24:915	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:24:25:726	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106151695FE5020AA015A861037342D580D1004AF006302","0xfe95":"5020AA015A861037342D580D1004AF006302"}}
+
+24.09.2022 08:24:26:136	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-87,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:24:25"}
+
+24.09.2022 08:24:28:082	std/dev404/s/tele/STATE	{"Time":"2022-09-24T07:24:27","Uptime":"0T00:10:11","UptimeSec":611,"Heap":34,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":20,"MqttCount":1,"Berry":{"HeapUsed":35,"Objects":647},"POWER1":"OFF","POWER2":"OFF","POWER3":"ON","POWER4":"ON","POWER5":"ON","POWER6":"OFF","Dimmer":100,"Color":"0000FF","HSBColor":"240,100,100","Channel":[0,0,100],"Scheme":0,"Width":1,"Fade":"OFF","Speed":1,"LedTable":"ON","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":100,"Signal":-24,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:24:28:154	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:24:27","Switch1":"OFF","Switch2":"OFF","ANALOG":{"Illuminance1":0},"AM2301":{"Temperature":22.3,"Humidity":49.4,"DewPoint":11.2},"TempUnit":"C"}
+
+24.09.2022 08:24:28:158	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:24:27","BLEDevices":{"total":8,"F930E3309DBA":{"i":0,"r":-88},"E73EA8BE50C8":{"i":1,"r":-73},"A06C6526C73B":{"i":2,"r":-95},"582D34371086":{"i":3,"r":-87,"a":"sensor_xia_firbath"},"582D343916A7":{"i":4,"r":-95},"582D343B8C66":{"i":5,"r":-84},"E585DEC45E71":{"i":6,"r":-79},"609866F66182":{"i":7,"r":-87}}}
+
+24.09.2022 08:24:28:259	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:24:27","BLE":{"scans":30,"adverts":3526,"devices":8,"resets":0}}
+
+24.09.2022 08:24:29:715	std/dev90/s/health/tic	35
+
+24.09.2022 08:24:29:800	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA015C861037342D580D1004B0006402","0xfe95":"5020AA015C861037342D580D1004B0006402"}}
+
+24.09.2022 08:24:30:027	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-78,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0243,"MAC":"582D34371086","Time":"2022-09-24T07:24:29"}
+
+24.09.2022 08:24:30:245	std/dev102/s/health/tic	47347
+
+24.09.2022 08:24:34:124	std/dev72/s/health/tic	55715
+
+24.09.2022 08:24:37:810	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:24:37:832	std/dev72/s/temp_hum/hum	79.83
+
+24.09.2022 08:24:38:269	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:24:38:277	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:24:40:062	std/dev300/s/hb/heart_beat	13434
+
+24.09.2022 08:24:40:066	std/dev300/s/hb/time_now	24-09-2022, 08:24:40
+
+24.09.2022 08:24:40:066	std/dev300/s/hb/ts_now	1664000680
+
+24.09.2022 08:24:40:370	std/dev102/s/health/tic	47348
+
+24.09.2022 08:24:40:882	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:24:40:889	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:24:40:890	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:24:40:890	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:24:40:890	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:24:40:890	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:24:41:293	std/dev72/s/pir/status	ON
+
+24.09.2022 08:24:43:647	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:24:43:751	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0163861037342D580D1004AF006402","0xfe95":"5020AA0163861037342D580D1004AF006402"}}
+
+24.09.2022 08:24:44:056	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:24:43"}
+
+24.09.2022 08:24:48:359	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:24:48:365	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:24:48:365	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:24:48:365	std/dev102/s/0/mija/cnt	139
+
+24.09.2022 08:24:48:365	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:24:48:365	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:24:50:508	std/dev102/s/health/tic	47349
+
+24.09.2022 08:24:51:745	std/dev72/s/pir/status	ON
+
+24.09.2022 08:24:51:819	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106121695FE5020AA0167861037342D580A10014B","0xfe95":"5020AA0167861037342D580A10014B"}}
+
+24.09.2022 08:24:55:013	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:24:55:017	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:24:55:017	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:24:55:017	std/dev102/s/2/mija/cnt	61
+
+24.09.2022 08:24:55:017	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:24:55:017	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:24:55:017	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:24:55:018	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:24:55:018	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:24:55:018	std/dev102/s/3/mija/cnt	254
+
+24.09.2022 08:24:55:018	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:24:55:018	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:24:57:779	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:24:59:716	std/dev90/s/health/tic	36
+
+24.09.2022 08:24:59:823	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106131695FE5020AA016B861037342D58041002B000","0xfe95":"5020AA016B861037342D58041002B000"}}
+
+24.09.2022 08:25:00:026	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:24:59"}
+
+24.09.2022 08:25:00:543	std/dev102/s/health/tic	47350
+
+24.09.2022 08:25:04:434	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:25:04:452	std/dev72/s/health/tic	55716
+
+24.09.2022 08:25:04:452	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:25:05:971	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:25:05:976	std/dev102/s/0/dht/hum	63.34
+
+24.09.2022 08:25:06:006	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:25:06:052	std/dev72/s/temp_hum/hum	78.84
+
+24.09.2022 08:25:07:610	std/dev28/s/temp_hum/temp1	13.10
+
+24.09.2022 08:25:07:613	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:25:08:428	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:25:08:431	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:25:09:862	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-80,"p":"020106131695FE5020AA0170861037342D580610026202","0xfe95":"5020AA0170861037342D580610026202"}}
+
+24.09.2022 08:25:10:038	std/dev300/s/hb/heart_beat	13435
+
+24.09.2022 08:25:10:049	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-80,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:25:09"}
+
+24.09.2022 08:25:10:110	std/dev300/s/hb/time_now	24-09-2022, 08:25:10
+
+24.09.2022 08:25:10:159	std/dev300/s/hb/ts_now	1664000710
+
+24.09.2022 08:25:10:578	std/dev102/s/health/tic	47351
+
+24.09.2022 08:25:10:885	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:25:10:894	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:25:10:894	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:25:10:894	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:25:10:894	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:25:10:894	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:25:18:362	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:25:18:366	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:25:18:366	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:25:18:366	std/dev102/s/0/mija/cnt	156
+
+24.09.2022 08:25:18:366	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:25:18:366	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:25:20:690	std/dev102/s/health/tic	47352
+
+24.09.2022 08:25:23:174	std/dev72/s/pir/status	ON
+
+24.09.2022 08:25:25:120	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:25:25:124	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:25:25:124	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:25:25:124	std/dev102/s/2/mija/cnt	75
+
+24.09.2022 08:25:25:124	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:25:25:124	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/cnt	15
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:25:25:124	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:25:25:533	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:25:29:723	std/dev90/s/health/tic	37
+
+24.09.2022 08:25:30:751	std/dev102/s/health/tic	47353
+
+24.09.2022 08:25:31:878	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106131695FE5020AA017B861037342D580610026102","0xfe95":"5020AA017B861037342D580610026102"}}
+
+24.09.2022 08:25:32:067	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-87,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:25:31"}
+
+24.09.2022 08:25:34:643	std/dev72/s/health/tic	55717
+
+24.09.2022 08:25:38:431	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:25:38:443	std/dev72/s/temp_hum/hum	79.83
+
+24.09.2022 08:25:38:481	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:25:38:487	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:25:39:968	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-80,"p":"020106151695FE5020AA017F861037342D580D1004AE005C02","0xfe95":"5020AA017F861037342D580D1004AE005C02"}}
+
+24.09.2022 08:25:40:007	std/dev300/s/hb/heart_beat	13436
+
+24.09.2022 08:25:40:031	std/dev300/s/hb/time_now	24-09-2022, 08:25:40
+
+24.09.2022 08:25:40:046	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.4,"RSSI":-80,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.63905,"MAC":"582D34371086","Time":"2022-09-24T07:25:39"}
+
+24.09.2022 08:25:40:064	std/dev300/s/hb/ts_now	1664000740
+
+24.09.2022 08:25:40:700	std/dev102/s/health/tic	47354
+
+24.09.2022 08:25:40:885	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:25:40:936	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:25:40:948	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:25:40:956	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:25:40:960	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:25:40:963	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:25:48:034	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0183861037342D580D1004B0006002","0xfe95":"5020AA0183861037342D580D1004B0006002"}}
+
+24.09.2022 08:25:48:073	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:25:47"}
+
+24.09.2022 08:25:48:343	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:25:48:348	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:25:48:354	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:25:48:358	std/dev102/s/0/mija/cnt	170
+
+24.09.2022 08:25:48:358	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:25:48:358	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:25:50:708	std/dev102/s/health/tic	47355
+
+24.09.2022 08:25:52:051	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106121695FE5020AA0185861037342D580A10014B","0xfe95":"5020AA0185861037342D580A10014B"}}
+
+24.09.2022 08:25:55:239	std/dev102/s/2/mija/temp	20.7
+
+24.09.2022 08:25:55:244	std/dev102/s/2/mija/hum	64.1
+
+24.09.2022 08:25:55:244	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:25:55:245	std/dev102/s/2/mija/cnt	89
+
+24.09.2022 08:25:55:245	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:25:55:245	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/cnt	17
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:25:55:245	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:25:56:045	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-80,"p":"020106151695FE5020AA0187861037342D580D1004B0006202","0xfe95":"5020AA0187861037342D580D1004B0006202"}}
+
+24.09.2022 08:25:56:050	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-80,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:25:55"}
+
+24.09.2022 08:25:58:419	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:25:58:423	std/dev102/s/0/dht/hum	63.34
+
+24.09.2022 08:25:59:723	std/dev90/s/health/tic	38
+
+24.09.2022 08:26:00:859	std/dev102/s/health/tic	47356
+
+24.09.2022 08:26:01:984	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA018A861037342D580D1004B0006002","0xfe95":"5020AA018A861037342D580D1004B0006002"}}
+
+24.09.2022 08:26:02:071	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:26:01"}
+
+24.09.2022 08:26:04:544	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:26:04:551	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:26:04:954	std/dev72/s/health/tic	55718
+
+24.09.2022 08:26:06:080	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA018C861037342D580D1004AF006002","0xfe95":"5020AA018C861037342D580D1004AF006002"}}
+
+24.09.2022 08:26:06:088	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.83188,"MAC":"582D34371086","Time":"2022-09-24T07:26:05"}
+
+24.09.2022 08:26:07:617	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:26:07:621	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:26:08:648	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:26:08:653	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:26:08:653	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:26:08:674	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:26:10:074	std/dev300/s/hb/heart_beat	13437
+
+24.09.2022 08:26:10:082	std/dev300/s/hb/time_now	24-09-2022, 08:26:10
+
+24.09.2022 08:26:10:082	std/dev300/s/hb/ts_now	1664000770
+
+24.09.2022 08:26:10:893	std/dev102/s/health/tic	47357
+
+24.09.2022 08:26:10:959	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:26:10:966	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:26:10:970	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:26:10:976	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:26:10:976	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:26:10:981	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:26:12:020	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA018F861037342D580D1004AF006002","0xfe95":"5020AA018F861037342D580D1004AF006002"}}
+
+24.09.2022 08:26:16:018	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0191861037342D580D1004B0006002","0xfe95":"5020AA0191861037342D580D1004B0006002"}}
+
+24.09.2022 08:26:16:091	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:26:15"}
+
+24.09.2022 08:26:18:438	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:26:18:442	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:26:18:451	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:26:18:451	std/dev102/s/0/mija/cnt	183
+
+24.09.2022 08:26:18:451	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:26:18:454	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:26:20:025	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0193861037342D580D1004B0005F02","0xfe95":"5020AA0193861037342D580D1004B0005F02"}}
+
+24.09.2022 08:26:20:097	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90145,"MAC":"582D34371086","Time":"2022-09-24T07:26:19"}
+
+24.09.2022 08:26:20:928	std/dev102/s/health/tic	47358
+
+24.09.2022 08:26:25:128	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:26:25:140	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:26:25:143	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:26:25:147	std/dev102/s/2/mija/cnt	104
+
+24.09.2022 08:26:25:152	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:26:25:152	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:26:25:156	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:26:25:157	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:26:25:162	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:26:25:166	std/dev102/s/3/mija/cnt	17
+
+24.09.2022 08:26:25:197	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:26:25:201	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:26:28:077	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA0197861037342D580D1004B0006002","0xfe95":"5020AA0197861037342D580D1004B0006002"}}
+
+24.09.2022 08:26:29:044	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:26:27"}
+
+24.09.2022 08:26:29:725	std/dev90/s/health/tic	39
+
+24.09.2022 08:26:30:964	std/dev102/s/health/tic	47359
+
+24.09.2022 08:26:35:228	std/dev72/s/health/tic	55719
+
+24.09.2022 08:26:36:186	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA019B861037342D580610026102","0xfe95":"5020AA019B861037342D580610026102"}}
+
+24.09.2022 08:26:36:903	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:26:36:908	std/dev72/s/temp_hum/hum	78.97
+
+24.09.2022 08:26:36:990	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:26:35"}
+
+24.09.2022 08:26:38:694	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:26:38:703	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:26:40:077	std/dev300/s/hb/heart_beat	13438
+
+24.09.2022 08:26:40:084	std/dev300/s/hb/time_now	24-09-2022, 08:26:40
+
+24.09.2022 08:26:40:084	std/dev300/s/hb/ts_now	1664000800
+
+24.09.2022 08:26:40:085	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA019D861037342D580D1004AF006202","0xfe95":"5020AA019D861037342D580D1004AF006202"}}
+
+24.09.2022 08:26:41:000	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:26:41:010	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:26:39"}
+
+24.09.2022 08:26:41:034	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:26:41:037	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:26:41:041	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:26:41:047	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:26:41:056	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:26:41:104	std/dev102/s/health/tic	47360
+
+24.09.2022 08:26:45:584	std/dev401/s/tele/STATE	{"Time":"2022-09-24T07:26:45","Uptime":"0T16:25:10","UptimeSec":59110,"Heap":27,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":19,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","POWER3":"OFF","POWER4":"OFF","POWER5":"OFF","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":62,"Signal":-69,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:26:45:591	std/dev401/s/tele/SENSOR	{"Time":"2022-09-24T07:26:45","Switch1":"OFF"}
+
+24.09.2022 08:26:46:222	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA01A0861037342D58041002B000","0xfe95":"5020AA01A0861037342D58041002B000"}}
+
+24.09.2022 08:26:47:041	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:26:45"}
+
+24.09.2022 08:26:48:577	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:26:48:591	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:26:48:591	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:26:48:591	std/dev102/s/0/mija/cnt	197
+
+24.09.2022 08:26:48:591	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:26:48:591	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:26:51:099	std/dev102/s/health/tic	47361
+
+24.09.2022 08:26:51:105	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:26:51:105	std/dev102/s/0/dht/hum	63.34
+
+24.09.2022 08:26:55:335	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:26:55:340	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:26:55:340	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:26:55:340	std/dev102/s/2/mija/cnt	121
+
+24.09.2022 08:26:55:340	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:26:55:340	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/cnt	59
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:26:55:340	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:26:59:731	std/dev90/s/health/tic	40
+
+24.09.2022 08:27:00:155	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA01A7861037342D580D1004B0005F02","0xfe95":"5020AA01A7861037342D580D1004B0005F02"}}
+
+24.09.2022 08:27:01:070	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90145,"MAC":"582D34371086","Time":"2022-09-24T07:26:59"}
+
+24.09.2022 08:27:01:076	std/dev102/s/health/tic	47362
+
+24.09.2022 08:27:04:245	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01A9861037342D580D1004B0005F02","0xfe95":"5020AA01A9861037342D580D1004B0005F02"}}
+
+24.09.2022 08:27:04:654	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:27:04:658	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:27:05:474	std/dev72/s/health/tic	55720
+
+24.09.2022 08:27:07:830	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:27:07:836	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:27:08:853	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:27:08:857	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:27:09:164	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:27:09:195	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:27:10:081	std/dev300/s/hb/heart_beat	13439
+
+24.09.2022 08:27:10:093	std/dev300/s/hb/time_now	24-09-2022, 08:27:10
+
+24.09.2022 08:27:10:093	std/dev300/s/hb/ts_now	1664000830
+
+24.09.2022 08:27:11:107	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:27:11:112	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:27:11:112	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:27:11:112	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:27:11:112	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:27:11:112	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:27:11:117	std/dev102/s/health/tic	47363
+
+24.09.2022 08:27:18:478	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:27:18:484	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:27:18:488	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:27:18:488	std/dev102/s/0/mija/cnt	211
+
+24.09.2022 08:27:18:488	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:27:18:488	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:27:21:140	std/dev102/s/health/tic	47364
+
+24.09.2022 08:27:25:311	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:27:25:314	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:27:25:314	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:27:25:317	std/dev102/s/2/mija/cnt	135
+
+24.09.2022 08:27:25:320	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:27:25:320	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:27:25:323	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:27:25:325	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:27:25:327	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:27:25:331	std/dev102/s/3/mija/cnt	61
+
+24.09.2022 08:27:25:334	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:27:25:340	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:27:28:308	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01B5861037342D580D1004B0006202","0xfe95":"5020AA01B5861037342D580D1004B0006202"}}
+
+24.09.2022 08:27:29:016	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:27:27"}
+
+24.09.2022 08:27:29:734	std/dev90/s/health/tic	41
+
+24.09.2022 08:27:31:184	std/dev72/s/pir/status	ON
+
+24.09.2022 08:27:31:210	std/dev102/s/health/tic	47365
+
+24.09.2022 08:27:33:736	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:27:35:756	std/dev72/s/health/tic	55721
+
+24.09.2022 08:27:38:960	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:27:38:964	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:27:39:470	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:27:39:496	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:27:40:085	std/dev300/s/hb/heart_beat	13440
+
+24.09.2022 08:27:40:089	std/dev300/s/hb/time_now	24-09-2022, 08:27:40
+
+24.09.2022 08:27:40:089	std/dev300/s/hb/ts_now	1664000860
+
+24.09.2022 08:27:41:110	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:27:41:152	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:27:41:160	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:27:41:164	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:27:41:174	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:27:41:181	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:27:41:188	std/dev102/s/health/tic	47366
+
+24.09.2022 08:27:42:338	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA01BC861037342D580D1004AF006102","0xfe95":"5020AA01BC861037342D580D1004AF006102"}}
+
+24.09.2022 08:27:43:036	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:27:41"}
+
+24.09.2022 08:27:44:079	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:27:44:084	std/dev102/s/0/dht/hum	63.34
+
+24.09.2022 08:27:48:502	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:27:48:506	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:27:48:511	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:27:48:519	std/dev102/s/0/mija/cnt	231
+
+24.09.2022 08:27:48:529	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:27:48:529	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:27:51:350	std/dev102/s/health/tic	47367
+
+24.09.2022 08:27:55:344	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:27:55:353	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:27:55:353	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:27:55:353	std/dev102/s/2/mija/cnt	149
+
+24.09.2022 08:27:55:353	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:27:55:353	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:27:55:353	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:27:55:353	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:27:55:353	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:27:55:354	std/dev102/s/3/mija/cnt	87
+
+24.09.2022 08:27:55:354	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:27:55:354	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:27:57:595	std/dev72/s/pir/status	ON
+
+24.09.2022 08:27:59:736	std/dev90/s/health/tic	42
+
+24.09.2022 08:27:59:746	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:28:01:386	std/dev102/s/health/tic	47368
+
+24.09.2022 08:28:04:251	std/dev72/s/pir/status	ON
+
+24.09.2022 08:28:04:763	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:28:04:770	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:28:06:099	std/dev72/s/health/tic	55722
+
+24.09.2022 08:28:06:290	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA01C7861037342D580D1004B0005D02","0xfe95":"5020AA01C7861037342D580D1004B0005D02"}}
+
+24.09.2022 08:28:06:458	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:28:07:119	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85207,"MAC":"582D34371086","Time":"2022-09-24T07:28:05"}
+
+24.09.2022 08:28:07:729	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:28:07:733	std/dev72/s/temp_hum/hum	78.97
+
+24.09.2022 08:28:07:828	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:28:07:837	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:28:09:064	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:28:09:075	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:28:10:088	std/dev300/s/hb/heart_beat	13441
+
+24.09.2022 08:28:10:093	std/dev300/s/hb/time_now	24-09-2022, 08:28:10
+
+24.09.2022 08:28:10:093	std/dev300/s/hb/ts_now	1664000890
+
+24.09.2022 08:28:10:395	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106151695FE5020AA01C9861037342D580D1004B0005D02","0xfe95":"5020AA01C9861037342D580D1004B0005D02"}}
+
+24.09.2022 08:28:11:215	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:28:11:232	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:28:11:232	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:28:11:232	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:28:11:232	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:28:11:232	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:28:11:285	std/dev72/s/pir/status	ON
+
+24.09.2022 08:28:11:403	std/dev102/s/health/tic	47369
+
+24.09.2022 08:28:13:498	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:28:16:512	std/dev72/s/pir/status	ON
+
+24.09.2022 08:28:18:580	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:28:18:588	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:28:18:588	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:28:18:594	std/dev102/s/0/mija/cnt	245
+
+24.09.2022 08:28:18:594	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:28:18:594	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:28:20:431	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01CE861037342D580D1004AF006202","0xfe95":"5020AA01CE861037342D580D1004AF006202"}}
+
+24.09.2022 08:28:21:150	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:28:20"}
+
+24.09.2022 08:28:21:441	std/dev102/s/health/tic	47370
+
+24.09.2022 08:28:22:992	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:28:25:451	std/dev102/s/2/mija/temp	20.7
+
+24.09.2022 08:28:25:475	std/dev102/s/2/mija/hum	64.0
+
+24.09.2022 08:28:25:476	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:28:25:476	std/dev102/s/2/mija/cnt	166
+
+24.09.2022 08:28:25:476	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:28:25:476	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/cnt	97
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:28:25:476	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:28:25:861	std/dev72/s/pir/status	ON
+
+24.09.2022 08:28:28:015	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:28:29:740	std/dev90/s/health/tic	43
+
+24.09.2022 08:28:31:594	std/dev102/s/health/tic	47371
+
+24.09.2022 08:28:36:304	std/dev72/s/health/tic	55723
+
+24.09.2022 08:28:36:380	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA01D6861037342D580D1004B0006302","0xfe95":"5020AA01D6861037342D580D1004B0006302"}}
+
+24.09.2022 08:28:36:714	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:28:36:719	std/dev102/s/0/dht/hum	63.47
+
+24.09.2022 08:28:37:123	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:28:36"}
+
+24.09.2022 08:28:39:171	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:28:39:175	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:28:39:990	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:28:40:015	std/dev300/s/hb/heart_beat	13442
+
+24.09.2022 08:28:40:025	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:28:40:055	std/dev300/s/hb/time_now	24-09-2022, 08:28:40
+
+24.09.2022 08:28:40:077	std/dev300/s/hb/ts_now	1664000920
+
+24.09.2022 08:28:41:321	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:28:41:331	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:28:41:331	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:28:41:331	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:28:41:331	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:28:41:331	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:28:41:629	std/dev102/s/health/tic	47372
+
+24.09.2022 08:28:48:616	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:28:48:620	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:28:48:623	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:28:48:627	std/dev102/s/0/mija/cnt	1
+
+24.09.2022 08:28:48:630	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:28:48:635	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:28:51:664	std/dev102/s/health/tic	47373
+
+24.09.2022 08:28:52:585	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106121695FE5020AA01DE861037342D580A10014B","0xfe95":"5020AA01DE861037342D580A10014B"}}
+
+24.09.2022 08:28:54:428	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01DF861037342D580D1004AF005F02","0xfe95":"5020AA01DF861037342D580D1004AF005F02"}}
+
+24.09.2022 08:28:55:044	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.80726,"MAC":"582D34371086","Time":"2022-09-24T07:28:54"}
+
+24.09.2022 08:28:55:453	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:28:55:456	std/dev102/s/2/mija/hum	63.9
+
+24.09.2022 08:28:55:523	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:28:55:527	std/dev102/s/2/mija/cnt	180
+
+24.09.2022 08:28:55:527	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:28:55:531	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:28:55:531	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:28:55:531	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:28:55:536	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:28:55:547	std/dev102/s/3/mija/cnt	118
+
+24.09.2022 08:28:55:553	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:28:55:553	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:28:58:423	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA01E1861037342D580D1004B0006002","0xfe95":"5020AA01E1861037342D580D1004B0006002"}}
+
+24.09.2022 08:28:59:037	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:28:58"}
+
+24.09.2022 08:28:59:736	std/dev90/s/health/tic	44
+
+24.09.2022 08:29:01:699	std/dev102/s/health/tic	47374
+
+24.09.2022 08:29:04:873	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:29:04:902	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:29:06:586	std/dev72/s/health/tic	55724
+
+24.09.2022 08:29:07:947	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:29:07:951	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:29:08:529	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA01E6861037342D580D1004B0006202","0xfe95":"5020AA01E6861037342D580D1004B0006202"}}
+
+24.09.2022 08:29:09:062	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:29:08"}
+
+24.09.2022 08:29:09:226	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:29:09:281	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:29:10:098	std/dev300/s/hb/heart_beat	13443
+
+24.09.2022 08:29:10:104	std/dev300/s/hb/time_now	24-09-2022, 08:29:10
+
+24.09.2022 08:29:10:104	std/dev300/s/hb/ts_now	1664000950
+
+24.09.2022 08:29:10:281	std/dev72/s/temp_hum/temp	20.50
+
+24.09.2022 08:29:10:326	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:29:11:325	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:29:11:329	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:29:11:329	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:29:11:329	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:29:11:329	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:29:11:329	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:29:11:837	std/dev102/s/health/tic	47375
+
+24.09.2022 08:29:18:698	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:29:18:701	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:29:18:701	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:29:18:701	std/dev102/s/0/mija/cnt	20
+
+24.09.2022 08:29:18:701	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:29:18:701	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:29:20:131	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:29:19","MJ_HT_V1371086":{"alias":"sensor_xia_firbath","mac":"582d34371086","Temperature":17.6,"Humidity":61.0,"DewPoint":10.0,"Battery":75,"RSSI":-88},"TempUnit":"C"}
+
+24.09.2022 08:29:21:976	std/dev102/s/health/tic	47376
+
+24.09.2022 08:29:24:435	std/dev72/s/pir/status	ON
+
+24.09.2022 08:29:25:543	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:29:25:547	std/dev102/s/2/mija/hum	63.8
+
+24.09.2022 08:29:25:547	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:29:25:548	std/dev102/s/2/mija/cnt	194
+
+24.09.2022 08:29:25:548	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:29:25:553	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:29:25:553	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:29:25:557	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:29:25:560	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:29:25:560	std/dev102/s/3/mija/cnt	125
+
+24.09.2022 08:29:25:567	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:29:25:567	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:29:28:119	std/dev404/s/tele/STATE	{"Time":"2022-09-24T07:29:27","Uptime":"0T00:15:11","UptimeSec":911,"Heap":33,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":19,"MqttCount":1,"Berry":{"HeapUsed":35,"Objects":646},"POWER1":"OFF","POWER2":"OFF","POWER3":"ON","POWER4":"ON","POWER5":"ON","POWER6":"OFF","Dimmer":100,"Color":"0000FF","HSBColor":"240,100,100","Channel":[0,0,100],"Scheme":0,"Width":1,"Fade":"OFF","Speed":1,"LedTable":"ON","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":100,"Signal":-25,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:29:28:127	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:29:27","Switch1":"OFF","Switch2":"OFF","ANALOG":{"Illuminance1":0},"AM2301":{"Temperature":22.1,"Humidity":50.3,"DewPoint":11.3},"TempUnit":"C"}
+
+24.09.2022 08:29:28:198	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:29:27","BLEDevices":{"total":9,"F930E3309DBA":{"i":0,"r":-82},"E73EA8BE50C8":{"i":1,"r":-73},"A06C6526C73B":{"i":2,"r":-92},"582D34371086":{"i":3,"r":-88,"a":"sensor_xia_firbath"},"582D343916A7":{"i":4,"r":-87},"582D343B8C66":{"i":5,"r":-88},"E585DEC45E71":{"i":6,"r":-88},"609866F66182":{"i":7,"r":-86},"6CCE44EDD130":{"i":8,"r":-73}}}
+
+24.09.2022 08:29:28:218	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:29:27","BLE":{"scans":45,"adverts":5590,"devices":9,"resets":0}}
+
+24.09.2022 08:29:28:528	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA01F0861037342D580610026202","0xfe95":"5020AA01F0861037342D580610026202"}}
+
+24.09.2022 08:29:29:552	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:29:29:558	std/dev102/s/0/dht/hum	63.47
+
+24.09.2022 08:29:29:750	std/dev90/s/health/tic	45
+
+24.09.2022 08:29:30:473	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:29:31:907	std/dev102/s/health/tic	47377
+
+24.09.2022 08:29:32:624	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01F2861037342D580D1004B0006302","0xfe95":"5020AA01F2861037342D580D1004B0006302"}}
+
+24.09.2022 08:29:33:136	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:29:32"}
+
+24.09.2022 08:29:36:925	std/dev72/s/health/tic	55725
+
+24.09.2022 08:29:38:502	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:29:38:555	std/dev72/s/temp_hum/hum	79.09
+
+24.09.2022 08:29:38:565	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106131695FE5020AA01F5861037342D58041002AF00","0xfe95":"5020AA01F5861037342D58041002AF00"}}
+
+24.09.2022 08:29:39:076	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:29:38"}
+
+24.09.2022 08:29:39:332	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:29:39:339	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:29:40:100	std/dev300/s/hb/heart_beat	13444
+
+24.09.2022 08:29:40:107	std/dev300/s/hb/time_now	24-09-2022, 08:29:40
+
+24.09.2022 08:29:40:107	std/dev300/s/hb/ts_now	1664000980
+
+24.09.2022 08:29:41:322	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:29:41:371	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:29:41:379	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:29:41:391	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:29:41:391	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:29:41:396	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:29:41:943	std/dev102/s/health/tic	47378
+
+24.09.2022 08:29:42:557	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01F7861037342D580D1004AF006302","0xfe95":"5020AA01F7861037342D580D1004AF006302"}}
+
+24.09.2022 08:29:43:069	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:29:42"}
+
+24.09.2022 08:29:48:804	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:29:48:811	std/dev102/s/0/mija/hum	60.7
+
+24.09.2022 08:29:48:811	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:29:48:811	std/dev102/s/0/mija/cnt	35
+
+24.09.2022 08:29:48:811	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:29:48:811	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:29:52:081	std/dev102/s/health/tic	47379
+
+24.09.2022 08:29:52:592	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106121695FE5020AA01FC861037342D580A10014B","0xfe95":"5020AA01FC861037342D580A10014B"}}
+
+24.09.2022 08:29:55:665	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:29:55:676	std/dev102/s/2/mija/hum	63.7
+
+24.09.2022 08:29:55:676	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:29:55:676	std/dev102/s/2/mija/cnt	206
+
+24.09.2022 08:29:55:676	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:29:55:676	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:29:55:676	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:29:55:676	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:29:55:676	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:29:55:676	std/dev102/s/3/mija/cnt	142
+
+24.09.2022 08:29:55:677	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:29:55:677	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:29:56:581	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA01FE861037342D580D1004B0006402","0xfe95":"5020AA01FE861037342D580D1004B0006402"}}
+
+24.09.2022 08:29:57:101	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0243,"MAC":"582D34371086","Time":"2022-09-24T07:29:56"}
+
+24.09.2022 08:29:59:756	std/dev90/s/health/tic	46
+
+24.09.2022 08:30:00:682	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA0100861037342D58041002AF00","0xfe95":"5020AA0100861037342D58041002AF00"}}
+
+24.09.2022 08:30:01:092	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0243,"MAC":"582D34371086","Time":"2022-09-24T07:30:00"}
+
+24.09.2022 08:30:02:086	std/dev102/s/health/tic	47380
+
+24.09.2022 08:30:04:907	std/dev28/s/temp_hum/temp	11.20
+
+24.09.2022 08:30:04:983	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:30:07:134	std/dev72/s/health/tic	55726
+
+24.09.2022 08:30:08:087	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:30:08:097	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:30:08:644	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0104861037342D580D1004AF006302","0xfe95":"5020AA0104861037342D580D1004AF006302"}}
+
+24.09.2022 08:30:09:079	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:30:08"}
+
+24.09.2022 08:30:09:438	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:30:09:488	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:30:10:011	std/dev300/s/hb/heart_beat	13445
+
+24.09.2022 08:30:10:044	std/dev300/s/hb/time_now	24-09-2022, 08:30:10
+
+24.09.2022 08:30:10:077	std/dev300/s/hb/ts_now	1664001010
+
+24.09.2022 08:30:10:807	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:30:10:856	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:30:11:393	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:30:11:400	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:30:11:403	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:30:11:408	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:30:11:414	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:30:11:420	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:30:12:143	std/dev102/s/health/tic	47381
+
+24.09.2022 08:30:12:641	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-86,"p":"020106151695FE5020AA0106861037342D580D1004AF006402","0xfe95":"5020AA0106861037342D580D1004AF006402"}}
+
+24.09.2022 08:30:13:057	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-86,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:30:12"}
+
+24.09.2022 08:30:16:760	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0108861037342D580D1004AF006302","0xfe95":"5020AA0108861037342D580D1004AF006302"}}
+
+24.09.2022 08:30:17:147	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:30:16"}
+
+24.09.2022 08:30:18:808	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:30:18:812	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:30:18:813	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:30:18:813	std/dev102/s/0/mija/cnt	49
+
+24.09.2022 08:30:18:813	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:30:18:813	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:30:20:669	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106131695FE5020AA010A861037342D58041002AF00","0xfe95":"5020AA010A861037342D58041002AF00"}}
+
+24.09.2022 08:30:22:084	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:30:22:091	std/dev102/s/0/dht/hum	63.47
+
+24.09.2022 08:30:22:188	std/dev102/s/health/tic	47382
+
+24.09.2022 08:30:25:771	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:30:25:776	std/dev102/s/2/mija/hum	63.7
+
+24.09.2022 08:30:25:776	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:30:25:776	std/dev102/s/2/mija/cnt	222
+
+24.09.2022 08:30:25:776	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:30:25:777	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/cnt	142
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:30:25:777	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:30:26:693	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-75,"p":"020106151695FE5020AA010D861037342D580D1004AF006502","0xfe95":"5020AA010D861037342D580D1004AF006502"}}
+
+24.09.2022 08:30:27:101	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-75,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.95445,"MAC":"582D34371086","Time":"2022-09-24T07:30:26"}
+
+24.09.2022 08:30:29:764	std/dev90/s/health/tic	47
+
+24.09.2022 08:30:30:674	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106151695FE5020AA010F861037342D580D1004B0006502","0xfe95":"5020AA010F861037342D580D1004B0006502"}}
+
+24.09.2022 08:30:31:095	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-87,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0488,"MAC":"582D34371086","Time":"2022-09-24T07:30:30"}
+
+24.09.2022 08:30:32:222	std/dev102/s/health/tic	47383
+
+24.09.2022 08:30:33:758	std/dev72/s/pir/status	ON
+
+24.09.2022 08:30:34:783	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106151695FE5020AA0111861037342D580D1004B0006302","0xfe95":"5020AA0111861037342D580D1004B0006302"}}
+
+24.09.2022 08:30:35:089	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-87,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:30:34"}
+
+24.09.2022 08:30:36:215	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:30:37:447	std/dev72/s/health/tic	55727
+
+24.09.2022 08:30:39:595	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:30:39:600	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:30:40:005	std/dev72/s/pir/status	ON
+
+24.09.2022 08:30:40:049	std/dev300/s/hb/heart_beat	13446
+
+24.09.2022 08:30:40:074	std/dev300/s/hb/time_now	24-09-2022, 08:30:40
+
+24.09.2022 08:30:40:106	std/dev300/s/hb/ts_now	1664001040
+
+24.09.2022 08:30:41:114	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:30:41:118	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:30:41:438	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:30:41:474	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:30:41:483	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:30:41:487	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:30:41:487	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:30:41:496	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:30:42:267	std/dev102/s/health/tic	47384
+
+24.09.2022 08:30:42:324	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:30:44:735	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0116861037342D580D1004AF006202","0xfe95":"5020AA0116861037342D580D1004AF006202"}}
+
+24.09.2022 08:30:45:043	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:30:44"}
+
+24.09.2022 08:30:48:914	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:30:48:920	std/dev102/s/0/mija/hum	60.8
+
+24.09.2022 08:30:48:920	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:30:48:930	std/dev102/s/0/mija/cnt	61
+
+24.09.2022 08:30:48:936	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:30:48:936	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:30:50:766	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA0119861037342D580D1004B0006302","0xfe95":"5020AA0119861037342D580D1004B0006302"}}
+
+24.09.2022 08:30:51:064	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:30:50"}
+
+24.09.2022 08:30:52:395	std/dev102/s/health/tic	47385
+
+24.09.2022 08:30:54:751	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106131695FE5020AA011B861037342D580610026302","0xfe95":"5020AA011B861037342D580610026302"}}
+
+24.09.2022 08:30:55:775	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:30:55:779	std/dev102/s/2/mija/hum	63.3
+
+24.09.2022 08:30:55:779	std/dev102/s/2/mija/batt	54
+
+24.09.2022 08:30:55:779	std/dev102/s/2/mija/cnt	238
+
+24.09.2022 08:30:55:779	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:30:55:779	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:30:55:779	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:30:55:779	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:30:55:779	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:30:55:779	std/dev102/s/3/mija/cnt	177
+
+24.09.2022 08:30:55:783	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:30:55:783	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:30:59:766	std/dev90/s/health/tic	48
+
+24.09.2022 08:31:02:343	std/dev102/s/health/tic	47386
+
+24.09.2022 08:31:03:762	std/dev62/s/pir/status	OFF
+
+24.09.2022 08:31:05:093	std/dev72/s/pir/status	ON
+
+24.09.2022 08:31:05:102	std/dev28/s/temp_hum/temp	11.30
+
+24.09.2022 08:31:05:112	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:31:07:755	std/dev72/s/health/tic	55728
+
+24.09.2022 08:31:08:268	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:31:08:272	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:31:08:326	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:31:09:702	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:31:09:708	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:31:10:111	std/dev300/s/hb/heart_beat	13447
+
+24.09.2022 08:31:10:114	std/dev300/s/hb/time_now	24-09-2022, 08:31:10
+
+24.09.2022 08:31:10:114	std/dev300/s/hb/ts_now	1664001070
+
+24.09.2022 08:31:11:443	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:31:11:448	std/dev72/s/temp_hum/hum	79.95
+
+24.09.2022 08:31:11:492	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:31:11:496	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:31:11:504	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:31:11:510	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:31:11:524	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:31:11:527	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:31:12:466	std/dev102/s/health/tic	47387
+
+24.09.2022 08:31:14:835	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:31:14:842	std/dev102/s/0/dht/hum	63.59
+
+24.09.2022 08:31:18:816	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0127861037342D580D1004AF006302","0xfe95":"5020AA0127861037342D580D1004AF006302"}}
+
+24.09.2022 08:31:18:986	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:31:18:991	std/dev102/s/0/mija/hum	60.9
+
+24.09.2022 08:31:18:991	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:31:18:991	std/dev102/s/0/mija/cnt	80
+
+24.09.2022 08:31:19:010	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:31:19:024	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:31:19:034	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:31:18"}
+
+24.09.2022 08:31:21:170	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:31:21:176	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:31:22:502	std/dev102/s/health/tic	47388
+
+24.09.2022 08:31:25:881	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:31:25:886	std/dev102/s/2/mija/hum	63.1
+
+24.09.2022 08:31:25:886	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:31:25:886	std/dev102/s/2/mija/cnt	255
+
+24.09.2022 08:31:25:886	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:31:25:886	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:31:25:886	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:31:25:886	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:31:25:886	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:31:25:887	std/dev102/s/3/mija/cnt	190
+
+24.09.2022 08:31:25:887	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:31:25:887	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:31:28:936	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA012C861037342D580D1004AF006302","0xfe95":"5020AA012C861037342D580D1004AF006302"}}
+
+24.09.2022 08:31:29:764	std/dev90/s/health/tic	49
+
+24.09.2022 08:31:30:902	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA012D861037342D580D1004B0006302","0xfe95":"5020AA012D861037342D580D1004B0006302"}}
+
+24.09.2022 08:31:31:412	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:31:30"}
+
+24.09.2022 08:31:32:537	std/dev102/s/health/tic	47389
+
+24.09.2022 08:31:35:199	std/dev72/s/pir/status	ON
+
+24.09.2022 08:31:37:830	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:31:38:032	std/dev72/s/health/tic	55729
+
+24.09.2022 08:31:38:885	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA0131861037342D580D1004B0006302","0xfe95":"5020AA0131861037342D580D1004B0006302"}}
+
+24.09.2022 08:31:39:705	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:31:39:710	std/dev72/s/temp_hum/hum	79.09
+
+24.09.2022 08:31:39:756	std/dev71/s/temp_hum/temp	16.60
+
+24.09.2022 08:31:39:766	std/dev71/s/temp_hum/hum	71.09
+
+24.09.2022 08:31:40:114	std/dev300/s/hb/heart_beat	13448
+
+24.09.2022 08:31:40:119	std/dev300/s/hb/time_now	24-09-2022, 08:31:40
+
+24.09.2022 08:31:40:119	std/dev300/s/hb/ts_now	1664001100
+
+24.09.2022 08:31:41:549	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:31:41:567	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:31:41:571	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:31:41:574	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:31:41:578	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:31:41:583	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:31:42:573	std/dev102/s/health/tic	47390
+
+24.09.2022 08:31:42:981	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106151695FE5020AA0133861037342D580D1004AF006302","0xfe95":"5020AA0133861037342D580D1004AF006302"}}
+
+24.09.2022 08:31:43:061	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-87,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:31:42"}
+
+24.09.2022 08:31:44:066	std/dev72/s/pir/status	ON
+
+24.09.2022 08:31:45:605	std/dev401/s/tele/STATE	{"Time":"2022-09-24T07:31:45","Uptime":"0T16:30:10","UptimeSec":59410,"Heap":27,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":19,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","POWER3":"OFF","POWER4":"OFF","POWER5":"OFF","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":66,"Signal":-67,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:31:45:611	std/dev401/s/tele/SENSOR	{"Time":"2022-09-24T07:31:45","Switch1":"OFF"}
+
+24.09.2022 08:31:48:995	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0136861037342D580D1004AF006302","0xfe95":"5020AA0136861037342D580D1004AF006302"}}
+
+24.09.2022 08:31:49:000	std/dev102/s/0/mija/temp	19.4
+
+24.09.2022 08:31:49:005	std/dev102/s/0/mija/hum	60.9
+
+24.09.2022 08:31:49:009	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:31:49:009	std/dev102/s/0/mija/cnt	94
+
+24.09.2022 08:31:49:013	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:31:49:018	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:31:52:607	std/dev102/s/health/tic	47391
+
+24.09.2022 08:31:52:914	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106121695FE5020AA0138861037342D580A10014B","0xfe95":"5020AA0138861037342D580A10014B"}}
+
+24.09.2022 08:31:53:734	std/dev72/s/pir/status	OFF
+
+24.09.2022 08:31:55:986	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:31:55:992	std/dev102/s/2/mija/hum	63.1
+
+24.09.2022 08:31:55:992	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:31:55:992	std/dev102/s/2/mija/cnt	13
+
+24.09.2022 08:31:55:992	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:31:55:992	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:31:55:992	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:31:55:992	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:31:55:992	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:31:55:992	std/dev102/s/3/mija/cnt	204
+
+24.09.2022 08:31:55:993	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:31:55:993	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:31:59:767	std/dev90/s/health/tic	50
+
+24.09.2022 08:32:02:642	std/dev102/s/health/tic	47392
+
+24.09.2022 08:32:05:203	std/dev28/s/temp_hum/temp	11.30
+
+24.09.2022 08:32:05:231	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:32:07:455	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:32:07:460	std/dev102/s/0/dht/hum	63.59
+
+24.09.2022 08:32:08:279	std/dev72/s/health/tic	55730
+
+24.09.2022 08:32:08:320	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:32:08:325	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:32:09:913	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:32:09:920	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:32:10:016	std/dev300/s/hb/heart_beat	13449
+
+24.09.2022 08:32:10:041	std/dev300/s/hb/time_now	24-09-2022, 08:32:10
+
+24.09.2022 08:32:10:067	std/dev300/s/hb/ts_now	1664001130
+
+24.09.2022 08:32:11:655	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:32:11:664	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:32:11:664	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:32:11:664	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:32:11:664	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:32:11:664	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:32:11:961	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:32:12:000	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:32:12:782	std/dev102/s/health/tic	47393
+
+24.09.2022 08:32:17:082	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0144861037342D580D1004AF006102","0xfe95":"5020AA0144861037342D580D1004AF006102"}}
+
+24.09.2022 08:32:17:086	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:32:16"}
+
+24.09.2022 08:32:19:136	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:32:19:145	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:32:19:146	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:32:19:146	std/dev102/s/0/mija/cnt	106
+
+24.09.2022 08:32:19:146	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:32:19:146	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:32:19:188	std/dev72/s/temt6000/raw	2
+
+24.09.2022 08:32:19:192	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:32:21:077	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0146861037342D580D1004AF006202","0xfe95":"5020AA0146861037342D580D1004AF006202"}}
+
+24.09.2022 08:32:21:146	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:32:20"}
+
+24.09.2022 08:32:22:819	std/dev102/s/health/tic	47394
+
+24.09.2022 08:32:25:994	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:32:26:001	std/dev102/s/2/mija/hum	63.2
+
+24.09.2022 08:32:26:002	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:32:26:002	std/dev102/s/2/mija/cnt	25
+
+24.09.2022 08:32:26:002	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:32:26:002	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/cnt	220
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:32:26:002	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:32:28:863	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:32:28:871	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:32:29:781	std/dev90/s/health/tic	51
+
+24.09.2022 08:32:31:116	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-87,"p":"020106131695FE5020AA014B861037342D58041002AF00","0xfe95":"5020AA014B861037342D58041002AF00"}}
+
+24.09.2022 08:32:32:857	std/dev102/s/health/tic	47395
+
+24.09.2022 08:32:38:593	std/dev72/s/health/tic	55731
+
+24.09.2022 08:32:38:600	std/dev72/s/temt6000/raw	2
+
+24.09.2022 08:32:38:600	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:32:40:027	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:32:40:040	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:32:40:040	std/dev300/s/hb/heart_beat	13450
+
+24.09.2022 08:32:40:040	std/dev300/s/hb/time_now	24-09-2022, 08:32:40
+
+24.09.2022 08:32:40:062	std/dev300/s/hb/ts_now	1664001160
+
+24.09.2022 08:32:41:666	std/dev23/s/temp_hum/temp	20.30
+
+24.09.2022 08:32:41:691	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:32:41:696	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:32:41:702	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:32:41:710	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.30
+
+24.09.2022 08:32:41:714	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:32:42:279	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:32:42:286	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:32:42:908	std/dev102/s/health/tic	47396
+
+24.09.2022 08:32:43:083	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0151861037342D580D1004B0006202","0xfe95":"5020AA0151861037342D580D1004B0006202"}}
+
+24.09.2022 08:32:44:008	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:32:42"}
+
+24.09.2022 08:32:48:322	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:32:48:327	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:32:49:141	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:32:49:158	std/dev102/s/0/mija/hum	61.0
+
+24.09.2022 08:32:49:158	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:32:49:159	std/dev102/s/0/mija/cnt	123
+
+24.09.2022 08:32:49:159	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:32:49:159	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:32:51:087	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106131695FE5020AA0155861037342D58041002B000","0xfe95":"5020AA0155861037342D58041002B000"}}
+
+24.09.2022 08:32:52:930	std/dev102/s/health/tic	47397
+
+24.09.2022 08:32:55:081	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0157861037342D580D1004B0006302","0xfe95":"5020AA0157861037342D580D1004B0006302"}}
+
+24.09.2022 08:32:56:003	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:32:56:010	std/dev102/s/2/mija/hum	63.0
+
+24.09.2022 08:32:56:010	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:32:56:010	std/dev102/s/2/mija/cnt	44
+
+24.09.2022 08:32:56:010	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:32:56:010	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/cnt	220
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:32:56:010	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:32:56:010	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:32:54"}
+
+24.09.2022 08:32:59:177	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA0159861037342D580D1004AF006102","0xfe95":"5020AA0159861037342D580D1004AF006102"}}
+
+24.09.2022 08:32:59:793	std/dev90/s/health/tic	52
+
+24.09.2022 08:33:00:097	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:33:00:100	std/dev102/s/0/dht/hum	63.71
+
+24.09.2022 08:33:00:100	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:32:58"}
+
+24.09.2022 08:33:02:968	std/dev102/s/health/tic	47398
+
+24.09.2022 08:33:05:322	std/dev28/s/temp_hum/temp	11.30
+
+24.09.2022 08:33:05:364	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:33:08:496	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:33:08:500	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:33:08:906	std/dev72/s/health/tic	55732
+
+24.09.2022 08:33:09:212	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-89,"p":"020106151695FE5020AA015E861037342D580D1004AF006002","0xfe95":"5020AA015E861037342D580D1004AF006002"}}
+
+24.09.2022 08:33:10:032	std/dev300/s/hb/heart_beat	13451
+
+24.09.2022 08:33:10:048	std/dev300/s/hb/time_now	24-09-2022, 08:33:10
+
+24.09.2022 08:33:10:075	std/dev300/s/hb/ts_now	1664001190
+
+24.09.2022 08:33:10:082	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:33:10:095	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-89,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.83188,"MAC":"582D34371086","Time":"2022-09-24T07:33:08"}
+
+24.09.2022 08:33:10:129	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:33:11:780	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:33:11:787	std/dev23/s/temp_hum/hum	60.64
+
+24.09.2022 08:33:11:787	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:33:11:787	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:33:11:787	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:33:11:787	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.64
+
+24.09.2022 08:33:12:592	std/dev72/s/temp_hum/temp	20.50
+
+24.09.2022 08:33:12:618	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:33:13:001	std/dev102/s/health/tic	47399
+
+24.09.2022 08:33:15:152	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0161861037342D580D1004AF006102","0xfe95":"5020AA0161861037342D580D1004AF006102"}}
+
+24.09.2022 08:33:16:074	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:33:14"}
+
+24.09.2022 08:33:17:394	std/dev72/s/temt6000/raw	2
+
+24.09.2022 08:33:17:399	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:33:19:146	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:33:19:151	std/dev102/s/0/mija/hum	61.1
+
+24.09.2022 08:33:19:152	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:33:19:152	std/dev102/s/0/mija/cnt	137
+
+24.09.2022 08:33:19:152	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:33:19:152	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:33:19:220	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA0163861037342D580D1004B0006202","0xfe95":"5020AA0163861037342D580D1004B0006202"}}
+
+24.09.2022 08:33:20:170	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:33:18"}
+
+24.09.2022 08:33:23:139	std/dev102/s/health/tic	47400
+
+24.09.2022 08:33:26:109	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:33:26:119	std/dev102/s/2/mija/hum	62.9
+
+24.09.2022 08:33:26:119	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:33:26:119	std/dev102/s/2/mija/cnt	53
+
+24.09.2022 08:33:26:119	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:33:26:119	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:33:26:119	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:33:26:120	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:33:26:120	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:33:26:120	std/dev102/s/3/mija/cnt	249
+
+24.09.2022 08:33:26:120	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:33:26:120	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:33:27:133	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:33:27:137	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:33:29:284	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA0168861037342D580D1004B0006002","0xfe95":"5020AA0168861037342D580D1004B0006002"}}
+
+24.09.2022 08:33:29:804	std/dev90/s/health/tic	53
+
+24.09.2022 08:33:30:103	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.92609,"MAC":"582D34371086","Time":"2022-09-24T07:33:28"}
+
+24.09.2022 08:33:33:147	std/dev102/s/health/tic	47401
+
+24.09.2022 08:33:39:217	std/dev72/s/health/tic	55733
+
+24.09.2022 08:33:39:224	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA016D861037342D580D1004AF006102","0xfe95":"5020AA016D861037342D580D1004AF006102"}}
+
+24.09.2022 08:33:40:138	std/dev300/s/hb/heart_beat	13452
+
+24.09.2022 08:33:40:144	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.85647,"MAC":"582D34371086","Time":"2022-09-24T07:33:38"}
+
+24.09.2022 08:33:40:145	std/dev300/s/hb/time_now	24-09-2022, 08:33:40
+
+24.09.2022 08:33:40:145	std/dev300/s/hb/ts_now	1664001220
+
+24.09.2022 08:33:40:187	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:33:40:194	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:33:40:855	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:33:40:860	std/dev72/s/temp_hum/hum	79.09
+
+24.09.2022 08:33:41:781	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:33:41:816	std/dev23/s/temp_hum/hum	60.89
+
+24.09.2022 08:33:41:826	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:33:41:839	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:33:41:846	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:33:41:851	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.89
+
+24.09.2022 08:33:43:211	std/dev102/s/health/tic	47402
+
+24.09.2022 08:33:43:218	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA016F861037342D580D1004B0006202","0xfe95":"5020AA016F861037342D580D1004B0006202"}}
+
+24.09.2022 08:33:44:132	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-77,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:33:42"}
+
+24.09.2022 08:33:47:356	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0171861037342D580D1004B0006302","0xfe95":"5020AA0171861037342D580D1004B0006302"}}
+
+24.09.2022 08:33:48:132	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:33:46"}
+
+24.09.2022 08:33:49:260	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:33:49:316	std/dev102/s/0/mija/hum	61.1
+
+24.09.2022 08:33:49:316	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:33:49:316	std/dev102/s/0/mija/cnt	152
+
+24.09.2022 08:33:49:316	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:33:49:316	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:33:52:836	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:33:52:842	std/dev102/s/0/dht/hum	63.71
+
+24.09.2022 08:33:53:246	std/dev102/s/health/tic	47403
+
+24.09.2022 08:33:56:216	std/dev102/s/2/mija/temp	20.4
+
+24.09.2022 08:33:56:220	std/dev102/s/2/mija/hum	62.9
+
+24.09.2022 08:33:56:220	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:33:56:220	std/dev102/s/2/mija/cnt	73
+
+24.09.2022 08:33:56:220	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:33:56:220	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:33:56:220	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:33:56:221	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:33:56:221	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:33:56:221	std/dev102/s/3/mija/cnt	12
+
+24.09.2022 08:33:56:221	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:33:56:221	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:33:59:809	std/dev90/s/health/tic	54
+
+24.09.2022 08:34:03:281	std/dev102/s/health/tic	47404
+
+24.09.2022 08:34:05:432	std/dev28/s/temp_hum/temp	11.30
+
+24.09.2022 08:34:05:472	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:34:08:607	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:34:08:611	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:34:09:427	std/dev72/s/health/tic	55734
+
+24.09.2022 08:34:10:045	std/dev300/s/hb/heart_beat	13453
+
+24.09.2022 08:34:10:054	std/dev300/s/hb/time_now	24-09-2022, 08:34:10
+
+24.09.2022 08:34:10:076	std/dev300/s/hb/ts_now	1664001250
+
+24.09.2022 08:34:10:347	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:34:10:354	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:34:11:282	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA017D861037342D580D1004B0006202","0xfe95":"5020AA017D861037342D580D1004B0006202"}}
+
+24.09.2022 08:34:11:846	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:34:11:853	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:34:11:861	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:34:11:872	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:34:11:878	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:34:11:886	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:34:12:070	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.97526,"MAC":"582D34371086","Time":"2022-09-24T07:34:10"}
+
+24.09.2022 08:34:13:109	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:34:13:148	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:34:13:221	std/dev102/s/health/tic	47405
+
+24.09.2022 08:34:17:401	std/dev404/s/pir/state	ON
+
+24.09.2022 08:34:17:408	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:34:18:437	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:34:18:442	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:34:19:258	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:34:19:261	std/dev102/s/0/mija/hum	61.1
+
+24.09.2022 08:34:19:262	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:34:19:262	std/dev102/s/0/mija/cnt	166
+
+24.09.2022 08:34:19:262	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:34:19:262	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:34:20:075	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:34:19","MJ_HT_V1371086":{"alias":"sensor_xia_firbath","mac":"582d34371086","Temperature":17.6,"Humidity":61.0,"DewPoint":10.0,"Battery":75,"RSSI":-76},"TempUnit":"C"}
+
+24.09.2022 08:34:21:202	std/dev404/s/pir/state	ON
+
+24.09.2022 08:34:21:206	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:34:21:282	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA0182861037342D580D1004B0006302","0xfe95":"5020AA0182861037342D580D1004B0006302"}}
+
+24.09.2022 08:34:22:123	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:34:20"}
+
+24.09.2022 08:34:22:199	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:34:22:206	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:34:23:250	std/dev102/s/health/tic	47406
+
+24.09.2022 08:34:24:478	std/dev404/s/pir/state	ON
+
+24.09.2022 08:34:24:490	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"ON"}}
+
+24.09.2022 08:34:25:350	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA0184861037342D580D1004B0006302","0xfe95":"5020AA0184861037342D580D1004B0006302"}}
+
+24.09.2022 08:34:25:809	std/dev404/s/pir/state	OFF
+
+24.09.2022 08:34:25:814	std/dev404/s/stat/RESULT	{"Switch1":{"Action":"OFF"}}
+
+24.09.2022 08:34:26:235	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:34:26:244	std/dev102/s/2/mija/hum	62.8
+
+24.09.2022 08:34:26:245	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:34:26:245	std/dev102/s/2/mija/cnt	87
+
+24.09.2022 08:34:26:245	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:34:26:249	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:34:26:249	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:34:26:255	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:34:26:279	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:34:26:279	std/dev102/s/3/mija/cnt	22
+
+24.09.2022 08:34:26:279	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:34:26:279	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:34:28:063	std/dev404/s/tele/STATE	{"Time":"2022-09-24T07:34:27","Uptime":"0T00:20:11","UptimeSec":1211,"Heap":29,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":20,"MqttCount":1,"Berry":{"HeapUsed":35,"Objects":646},"POWER1":"OFF","POWER2":"OFF","POWER3":"ON","POWER4":"ON","POWER5":"ON","POWER6":"OFF","Dimmer":100,"Color":"0000FF","HSBColor":"240,100,100","Channel":[0,0,100],"Scheme":0,"Width":1,"Fade":"OFF","Speed":1,"LedTable":"ON","Wifi":{"AP":1,"SSId":"FRITZ!Box 7580 RU","BSSId":"E0:28:6D:48:73:F4","Channel":6,"Mode":"11n","RSSI":100,"Signal":-27,"LinkCount":1,"Downtime":"0T00:00:04"}}
+
+24.09.2022 08:34:28:143	std/dev404/s/tele/SENSOR	{"Time":"2022-09-24T07:34:27","Switch1":"OFF","Switch2":"OFF","ANALOG":{"Illuminance1":0},"AM2301":{"Temperature":22.1,"Humidity":50.6,"DewPoint":11.4},"TempUnit":"C"}
+
+24.09.2022 08:34:28:146	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:34:27","BLEDevices":{"total":9,"F930E3309DBA":{"i":0,"r":-75},"E73EA8BE50C8":{"i":1,"r":-57},"A06C6526C73B":{"i":2,"r":-94},"582D34371086":{"i":3,"r":-78,"a":"sensor_xia_firbath"},"582D343916A7":{"i":4,"r":-88},"582D343B8C66":{"i":5,"r":-85},"E585DEC45E71":{"i":6,"r":-90},"609866F66182":{"i":7,"r":-85},"6CCE44EDD130":{"i":8,"r":-75}}}
+
+24.09.2022 08:34:28:267	std/dev404/s/tele/BLE	{"Time":"2022-09-24T07:34:27","BLE":{"scans":60,"adverts":8591,"devices":9,"resets":0}}
+
+24.09.2022 08:34:29:814	std/dev90/s/health/tic	55
+
+24.09.2022 08:34:31:134	std/dev102/s/0/pir/state	ON
+
+24.09.2022 08:34:33:361	std/dev102/s/health/tic	47407
+
+24.09.2022 08:34:35:641	std/dev102/s/0/pir/state	OFF
+
+24.09.2022 08:34:39:736	std/dev72/s/health/tic	55735
+
+24.09.2022 08:34:40:044	std/dev300/s/hb/heart_beat	13454
+
+24.09.2022 08:34:40:050	std/dev300/s/hb/time_now	24-09-2022, 08:34:40
+
+24.09.2022 08:34:40:075	std/dev300/s/hb/ts_now	1664001280
+
+24.09.2022 08:34:40:403	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:34:40:410	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:34:41:990	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:34:41:997	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:34:41:997	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:34:41:997	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:34:41:997	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:34:41:997	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:34:43:429	std/dev102/s/health/tic	47408
+
+24.09.2022 08:34:43:439	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:34:43:457	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:34:44:611	std/dev72/s/temt6000/raw	2
+
+24.09.2022 08:34:44:619	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:34:45:573	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:34:45:581	std/dev102/s/0/dht/hum	63.71
+
+24.09.2022 08:34:49:362	std/dev102/s/0/mija/temp	19.2
+
+24.09.2022 08:34:49:375	std/dev102/s/0/mija/hum	61.2
+
+24.09.2022 08:34:49:376	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:34:49:376	std/dev102/s/0/mija/cnt	183
+
+24.09.2022 08:34:49:376	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:34:49:376	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:34:49:444	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106131695FE5020AA0190861037342D580610026002","0xfe95":"5020AA0190861037342D580610026002"}}
+
+24.09.2022 08:34:50:079	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:34:49"}
+
+24.09.2022 08:34:50:403	std/dev05/s/pir/status	OFF
+
+24.09.2022 08:34:53:449	std/dev102/s/health/tic	47409
+
+24.09.2022 08:34:54:278	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:34:54:285	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:34:56:326	std/dev102/s/2/mija/temp	20.6
+
+24.09.2022 08:34:56:330	std/dev102/s/2/mija/hum	62.9
+
+24.09.2022 08:34:56:330	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:34:56:330	std/dev102/s/2/mija/cnt	103
+
+24.09.2022 08:34:56:330	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:34:56:330	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/cnt	44
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:34:56:331	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:34:59:398	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0195861037342D580D1004AF006202","0xfe95":"5020AA0195861037342D580D1004AF006202"}}
+
+24.09.2022 08:34:59:814	std/dev90/s/health/tic	56
+
+24.09.2022 08:35:00:091	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":61,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.88102,"MAC":"582D34371086","Time":"2022-09-24T07:34:59"}
+
+24.09.2022 08:35:03:392	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106151695FE5020AA0197861037342D580D1004AF006302","0xfe95":"5020AA0197861037342D580D1004AF006302"}}
+
+24.09.2022 08:35:03:461	std/dev102/s/health/tic	47410
+
+24.09.2022 08:35:04:109	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.90553,"MAC":"582D34371086","Time":"2022-09-24T07:35:03"}
+
+24.09.2022 08:35:05:534	std/dev28/s/temp_hum/temp	11.30
+
+24.09.2022 08:35:05:580	std/dev28/s/temp_hum/hum	122.88
+
+24.09.2022 08:35:08:717	std/dev28/s/temp_hum/temp1	13.20
+
+24.09.2022 08:35:08:722	std/dev28/s/temp_hum/hum1	86.35
+
+24.09.2022 08:35:09:481	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA019A861037342D580D1004B0006302","0xfe95":"5020AA019A861037342D580D1004B0006302"}}
+
+24.09.2022 08:35:10:047	std/dev72/s/health/tic	55736
+
+24.09.2022 08:35:10:051	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:35:09"}
+
+24.09.2022 08:35:10:051	std/dev300/s/hb/heart_beat	13455
+
+24.09.2022 08:35:10:067	std/dev300/s/hb/time_now	24-09-2022, 08:35:10
+
+24.09.2022 08:35:10:083	std/dev300/s/hb/ts_now	1664001310
+
+24.09.2022 08:35:10:560	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:35:10:563	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:35:11:685	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:35:11:692	std/dev72/s/temp_hum/hum	79.09
+
+24.09.2022 08:35:11:956	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:35:11:962	std/dev23/s/temp_hum/hum	61.01
+
+24.09.2022 08:35:11:968	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:35:11:968	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:35:11:972	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:35:11:978	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  61.01
+
+24.09.2022 08:35:13:409	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-76,"p":"020106151695FE5020AA019C861037342D580D1004AF006402","0xfe95":"5020AA019C861037342D580D1004AF006402"}}
+
+24.09.2022 08:35:13:497	std/dev102/s/health/tic	47411
+
+24.09.2022 08:35:13:633	std/dev72/s/temt6000/raw	2
+
+24.09.2022 08:35:13:638	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:35:14:041	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.5,"RSSI":-76,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.93001,"MAC":"582D34371086","Time":"2022-09-24T07:35:13"}
+
+24.09.2022 08:35:19:469	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:35:19:475	std/dev102/s/0/mija/hum	61.2
+
+24.09.2022 08:35:19:475	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:35:19:475	std/dev102/s/0/mija/cnt	197
+
+24.09.2022 08:35:19:475	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:35:19:475	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:35:23:361	std/dev72/s/temt6000/raw	3
+
+24.09.2022 08:35:23:364	std/dev72/s/temt6000/level	DARK
+
+24.09.2022 08:35:23:543	std/dev102/s/health/tic	47412
+
+24.09.2022 08:35:26:402	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:35:26:409	std/dev102/s/2/mija/hum	62.4
+
+24.09.2022 08:35:26:409	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:35:26:413	std/dev102/s/2/mija/cnt	120
+
+24.09.2022 08:35:26:413	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:35:26:416	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:35:26:418	std/dev102/s/3/mija/temp	20.0
+
+24.09.2022 08:35:26:421	std/dev102/s/3/mija/hum	56.4
+
+24.09.2022 08:35:26:422	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:35:26:425	std/dev102/s/3/mija/cnt	58
+
+24.09.2022 08:35:26:425	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:35:26:425	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:35:27:559	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA01A3861037342D580D1004B0006402","0xfe95":"5020AA01A3861037342D580D1004B0006402"}}
+
+24.09.2022 08:35:28:070	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0243,"MAC":"582D34371086","Time":"2022-09-24T07:35:27"}
+
+24.09.2022 08:35:29:823	std/dev90/s/health/tic	57
+
+24.09.2022 08:35:33:600	std/dev102/s/health/tic	47413
+
+24.09.2022 08:35:37:492	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-77,"p":"020106151695FE5020AA01A8861037342D580D1004B0006402","0xfe95":"5020AA01A8861037342D580D1004B0006402"}}
+
+24.09.2022 08:35:38:107	std/dev102/s/0/dht/temp	22.1
+
+24.09.2022 08:35:38:111	std/dev102/s/0/dht/hum	63.71
+
+24.09.2022 08:35:38:516	std/dev62/s/pir/status	OFF
+
+24.09.2022 08:35:40:051	std/dev300/s/hb/heart_beat	13456
+
+24.09.2022 08:35:40:056	std/dev300/s/hb/time_now	24-09-2022, 08:35:40
+
+24.09.2022 08:35:40:072	std/dev300/s/hb/ts_now	1664001340
+
+24.09.2022 08:35:40:237	std/dev72/s/health/tic	55737
+
+24.09.2022 08:35:40:666	std/dev71/s/temp_hum/temp	16.50
+
+24.09.2022 08:35:40:672	std/dev71/s/temp_hum/hum	70.97
+
+24.09.2022 08:35:41:587	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-79,"p":"020106151695FE5020AA01AA861037342D580D1004B0006502","0xfe95":"5020AA01AA861037342D580D1004B0006502"}}
+
+24.09.2022 08:35:41:998	std/dev23/s/temp_hum/temp	20.20
+
+24.09.2022 08:35:42:040	std/dev23/s/temp_hum/hum	60.76
+
+24.09.2022 08:35:42:047	inf/s/trace/dev23	DHT Sensor processes publish request
+
+24.09.2022 08:35:42:054	inf/s/trace/dev23	reading temperature and humidity from DHT
+
+24.09.2022 08:35:42:060	inf/s/trace/dev23	<<mqtt>> publish temperature: /s/temp_hum/temp  :  20.20
+
+24.09.2022 08:35:42:066	inf/s/trace/dev23	<<mqtt>> publish humidity: /s/temp_hum/hum  :  60.76
+
+24.09.2022 08:35:42:077	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-79,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":10.0488,"MAC":"582D34371086","Time":"2022-09-24T07:35:41"}
+
+24.09.2022 08:35:43:635	std/dev102/s/health/tic	47414
+
+24.09.2022 08:35:43:947	std/dev72/s/temp_hum/temp	20.40
+
+24.09.2022 08:35:43:980	std/dev72/s/temp_hum/hum	80.07
+
+24.09.2022 08:35:47:533	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-78,"p":"020106151695FE5020AA01AD861037342D580D1004B0006302","0xfe95":"5020AA01AD861037342D580D1004B0006302"}}
+
+24.09.2022 08:35:48:061	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-78,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:35:47"}
+
+24.09.2022 08:35:49:472	std/dev102/s/0/mija/temp	19.3
+
+24.09.2022 08:35:49:476	std/dev102/s/0/mija/hum	61.1
+
+24.09.2022 08:35:49:476	std/dev102/s/0/mija/batt	77
+
+24.09.2022 08:35:49:476	std/dev102/s/0/mija/cnt	211
+
+24.09.2022 08:35:49:476	std/dev102/s/0/mija/addr	58 2d 34 38 64 37
+
+24.09.2022 08:35:49:476	std/dev102/s/0/mija/loc	Badezimmer oben
+
+24.09.2022 08:35:53:774	std/dev102/s/health/tic	47415
+
+24.09.2022 08:35:55:503	std/dev404/s/tele/BLE	{"DetailsBLE":{"mac":"582D34371086","a":"sensor_xia_firbath","RSSI":-88,"p":"020106131695FE5020AA01B1861037342D580610026402","0xfe95":"5020AA01B1861037342D580610026402"}}
+
+24.09.2022 08:35:56:128	std/blerry/sensor_xia_firbath	{"Model":"Xiaomi","Temperature":17.6,"RSSI":-88,"Alias":"sensor_xia_firbath","Humidity":62,"DevID":"LYWSDCGQ","Battery":80,"DewPoint":9.99979,"MAC":"582D34371086","Time":"2022-09-24T07:35:55"}
+
+24.09.2022 08:35:56:509	std/dev102/s/2/mija/temp	20.5
+
+24.09.2022 08:35:56:513	std/dev102/s/2/mija/hum	61.7
+
+24.09.2022 08:35:56:513	std/dev102/s/2/mija/batt	53
+
+24.09.2022 08:35:56:513	std/dev102/s/2/mija/cnt	132
+
+24.09.2022 08:35:56:513	std/dev102/s/2/mija/addr	58 2d 34 3b 8c 66
+
+24.09.2022 08:35:56:513	std/dev102/s/2/mija/loc	Elternschlafzimmer
+
+24.09.2022 08:35:56:513	std/dev102/s/3/mija/temp	19.9
+
+24.09.2022 08:35:56:518	std/dev102/s/3/mija/hum	56.3
+
+24.09.2022 08:35:56:518	std/dev102/s/3/mija/batt	21
+
+24.09.2022 08:35:56:518	std/dev102/s/3/mija/cnt	73
+
+24.09.2022 08:35:56:518	std/dev102/s/3/mija/addr	58 2d 34 39 16 a7
+
+24.09.2022 08:35:56:526	std/dev102/s/3/mija/loc	Gaestezimmer
+
+24.09.2022 08:35:59:823	std/dev90/s/health/tic	58
+
+24.09.2022 08:36:02:272	std/dev102/s/0/pir/state	ON
+
+24.09.2022 08:36:03:802	std/dev102/s/health/tic	47416
+

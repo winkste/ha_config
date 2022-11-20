@@ -22,6 +22,13 @@ garden_house_light:
   entity_ctrl: light.dev63
   delay: 60
 
+front_door_light:
+  module: motion_light
+  class: MotionLight
+  sensor: binary_sensor.switch1
+  entity_ctrl: switch.homefront
+  delay: 60
+
 orient_living:
   module: orientation_light
   class: OrientLight
@@ -47,48 +54,48 @@ orient_util:
 orient_hall_ground:
   module: orientation_light
   class: OrientLight
-  sensor: binary_sensor.dev101_motion
-  entity_ctrl: light.dev101
+  sensor: binary_sensor.switch1_2
+  entity_ctrl: light.tasmota_fcf5c4530de4_light_light_5
   delay: 20
 
 orient_hall_first:
   module: orientation_light
   class: OrientLight
-  sensor: binary_sensor.dev102_motion
-  entity_ctrl: light.dev102
+  sensor: binary_sensor.switch1_3 
+  entity_ctrl: light.tasmota_3c61053e7f64_light_light_5
   delay: 20
 
 ambi_light_hall_gnd:
   module: ambient_light
   class: AmbientLight
-  offset: 20
-  entity_ctrl: light.dev101_r1
-  switch: switch.dev101_switch
+  offset: 40
+  entity_ctrl: switch.dev404a
+  switch: binary_sensor.switch2
 
 ambi_light_hall_1st:
   module: ambient_light
   class: AmbientLight
-  offset: 20 
-  entity_ctrl: light.dev102_r1
-  switch: switch.dev102_switch
+  offset: 40
+  entity_ctrl: switch.tasmota_3c61053e7f64_switch_relay_1
+  switch: binary_sensor.switch2_2
 
 ambi_light_living:
   module: ambient_light
   class: AmbientLight
-  offset: 20
+  offset: 41
   entity_ctrl: light.dev04
-
-ambi_light_garden5:
-  module: ambient_light
-  class: AmbientLight
-  offset: 30
-  entity_ctrl: light.dev50_r5
 
 ambi_light_garden7:
   module: ambient_light
   class: AmbientLight
-  offset: 30 
+  offset: 43
   entity_ctrl: light.dev50_r7
+
+ambi_light_door:
+  module: ambient_light
+  class: AmbientLight
+  offset: 43 
+  entity_ctrl: switch.tasmota2
 
 heart_beat_ctr:
   module: heart_beat
@@ -117,11 +124,18 @@ zigbee_switch_ctr:
   class: ZigbeeSwitch
   switch: 00:12:4b:00:25:04:6d:0b
   entity_ctrl: 
-    - light.dev101_r1
-    - light.dev102_r1
     - light.dev04
-    - light.dev50_r5
+    - switch.tasmota2
     - light.dev50_r7
+    - switch.dev404a
+    - switch.tasmota_3c61053e7f64_switch_relay_1
+
+switch_light_work_ctr:
+  module: switch_light
+  class: SwitchLight
+  switch: switch.lidl_switch1
+  entity_ctrl: 
+    - switch.lidl_power4
 
 nightly_reset:
   module: night_reset
@@ -135,15 +149,13 @@ nightly_reset:
     - light.dev75
     - light.dev03
     - light.dev62
-    - light.dev101
-    - light.dev102
+    - switch.dev404a
+    - switch.tasmota_3c61053e7f64_switch_relay_1
     - light.dev04
     - light.dev101_r1
     - light.dev102_r1
-    - light.dev50_r5
+    - switch.tasmota2
     - light.dev50_r7
+    - switch.homefront
     
-#zigbee_tester:
-#  module: zigbee_test
-#  class: ZigbeeTest
 

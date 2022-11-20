@@ -65,7 +65,7 @@ class AmbientLight(hass.Hass):
             self.log("Turning {} on".format(self.entity_ctrl))
             self.turn_on(self.entity_ctrl)
             self.timer_handle = None
-            self.timer_handle = self.run_at(self.light_timer_callback, "23:00:00")
+            self.timer_handle = self.run_at(self.light_timer_callback, "22:00:00")
 
     def light_timer_callback(self, kwargs):
         if self.entity_ctrl != None:

@@ -1,0 +1,20 @@
+{
+   "devices": {
+     "582D34371086": {
+       "alias": "sensor_xia_firbath",
+       "model": "Xiaomi"
+     }
+   },
+   "override": {
+     "base_topic": "std/blerry",
+     "discovery": true,
+     "precision": {
+       "Temperature": 1,
+       "Humidity": 0,
+       "Battery": -1
+     }
+   },
+   "advanced": {
+     "old_details": false
+   }
+ }
