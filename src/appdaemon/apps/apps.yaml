@@ -97,6 +97,24 @@ ambi_light_door:
   offset: 43 
   entity_ctrl: switch.tasmota2
 
+#christmas_light_door:
+#  module: ambient_light
+#  class: AmbientLight
+#  offset: 43 
+#  entity_ctrl: switch.tasmota3
+
+#christmas_light_garden:
+#  module: ambient_light
+#  class: AmbientLight
+#  offset: 43 
+#  entity_ctrl: light.dev50_r2
+
+light_dining_room:
+  module: ambient_light
+  class: AmbientLight
+  offset: 43 
+  entity_ctrl: switch.lidl_power4
+
 heart_beat_ctr:
   module: heart_beat
   class: HeartBeat
@@ -135,7 +153,7 @@ switch_light_work_ctr:
   class: SwitchLight
   switch: switch.lidl_switch1
   entity_ctrl: 
-    - switch.lidl_power4
+    - switch.lidl_power6
 
 nightly_reset:
   module: night_reset
