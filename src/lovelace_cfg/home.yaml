@@ -285,6 +285,30 @@ views:
                 unit: qm
                 name: Wasserverbrauch
             square: false
+          - type: grid
+            cards:
+              - type: entity
+                entity: binary_sensor.dev301_garb_rest
+                name: Restmüll
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_organic
+                name: Bioabfall
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_paper
+                name: Papier
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_plastic
+                name: Gelber Sack
+                icon: mdi:delete
+                state_color: true
+            columns: 2
+            square: false
         square: false
         columns: 1
   - title: Flur
@@ -305,7 +329,7 @@ views:
               - type: button
                 tap_action:
                   action: toggle
-                entity: switch.tasmota_3c61053e7f64_switch_relay_1
+                entity: switch.dev405b
                 name: Kugel groß
                 icon: mdi:lamp
             columns: 2

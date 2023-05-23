@@ -29,6 +29,13 @@ front_door_light:
   entity_ctrl: switch.homefront
   delay: 60
 
+front_door_light_bottom:
+  module: motion_light
+  class: MotionLight
+  sensor: binary_sensor.switch1
+  entity_ctrl: switch.tasmota2
+  delay: 60
+
 orient_living:
   module: orientation_light
   class: OrientLight
@@ -62,7 +69,7 @@ orient_hall_first:
   module: orientation_light
   class: OrientLight
   sensor: binary_sensor.switch1_3 
-  entity_ctrl: light.tasmota_3c61053e7f64_light_light_5
+  entity_ctrl: light.dev405f
   delay: 20
 
 ambi_light_hall_gnd:
@@ -76,7 +83,7 @@ ambi_light_hall_1st:
   module: ambient_light
   class: AmbientLight
   offset: 40
-  entity_ctrl: switch.tasmota_3c61053e7f64_switch_relay_1
+  entity_ctrl: switch.dev405b
   switch: binary_sensor.switch2_2
 
 ambi_light_living:
@@ -91,11 +98,11 @@ ambi_light_garden7:
   offset: 43
   entity_ctrl: light.dev50_r7
 
-ambi_light_door:
-  module: ambient_light
-  class: AmbientLight
-  offset: 43 
-  entity_ctrl: switch.tasmota2
+#ambi_light_door:
+#  module: ambient_light
+#  class: AmbientLight
+#  offset: 43 
+#  entity_ctrl: switch.tasmota2
 
 #christmas_light_door:
 #  module: ambient_light
