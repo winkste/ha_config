@@ -16,39 +16,44 @@ carport_light:
   delay: 60
 
 garden_house_light:
-  module: motion_light
-  class: MotionLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.dev63_motion
   entity_ctrl: light.dev63
   delay: 60
+  sunrec: True
 
 front_door_light:
-  module: motion_light
-  class: MotionLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.switch1
   entity_ctrl: switch.homefront
   delay: 60
+  sunrec: True
 
 front_door_light_bottom:
-  module: motion_light
-  class: MotionLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.switch1
   entity_ctrl: switch.tasmota2
   delay: 60
+  sunrec: True
 
 orient_living:
-  module: orientation_light
-  class: OrientLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.dev72_motion
   entity_ctrl: light.dev72
   delay: 20
+  sunrec: True
 
 orient_carp_inside:
-  module: orientation_light
-  class: OrientLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.dev71_motion
   entity_ctrl: light.dev71
   delay: 20
+  sunrec: True
 
 orient_util:
   module: orientation_light_new
@@ -59,18 +64,20 @@ orient_util:
   sunrec: True
 
 orient_hall_ground:
-  module: orientation_light
-  class: OrientLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.switch1_2
   entity_ctrl: light.tasmota_fcf5c4530de4_light_light_5
   delay: 20
+  sunrec: True
 
 orient_hall_first:
-  module: orientation_light
-  class: OrientLight
+  module: orientation_light_new
+  class: OrientLightNew
   sensor: binary_sensor.switch1_3 
   entity_ctrl: light.dev405f
   delay: 20
+  sunrec: True
 
 ambi_light_hall_gnd:
   module: ambient_light
