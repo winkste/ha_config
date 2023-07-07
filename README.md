@@ -128,3 +128,11 @@ https://blog.schembri.me/post/syncing-homeassistant-with-github/
 
 - How to backup the zigbee configurations, entities not found so far?
 
+- update to new RASPI4 with ext SDD
+
+- integrate fronius inverter
+  - https://www.home-assistant.io/integrations/fronius/
+  - https://community.home-assistant.io/t/fronius-integration-connection-failed/401288/4
+  - Bei neuen GEN24-Geräten ab der Softwareversion 1.14 ist die Solar-API-Schnittstelle standardmäßig nicht aktiviert und muss bei Bedarf (z.B. Einbindung eines Fronius Wattpilot) aktiviert werden. Die Einstellung dazu finden Sie auf der Benutzeroberfläche des Wechselrichters unter "Kommunikation" - "Solar API".
+
+- appdaemon compile in VSCode showing issues

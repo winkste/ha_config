@@ -65,7 +65,6 @@ class NeoCombined(hass.Hass):
         """This is the constructor initialize function for this app class
         """
         super().__init__(ad, name, logging, args, config, app_config, global_vars)
-        #self.motion_timer = None
         self.ambi_timer = None
         self.motion_sensor = None
         self.entity_ctrl = None
@@ -97,32 +96,16 @@ class NeoCombined(hass.Hass):
         """Callback for motion state "on" detection
         """
         self.log(f"Motion detected: {self.motion_sensor}")
-        #if self.motion_timer is not None: # if active motion timer, stop it
-        #    self.cancel_timer(self.motion_timer)
-        #    self.motion_timer = None
-        #if self.sun_down():   # check that it is dark
-        self.turn_on_motion_light()
+        if self.sun_down():   # check that it is dark
+            self.turn_on_motion_light()
 
 
     def motion_off_callback(self, _entity, _attribute, _old, _new, _kwargs):
         """Callback for motion state "off" detection
         """
         self.log(f"Motion off: {self.motion_sensor}")
-        #if self.motion_timer is not None:
-        #    self.cancel_timer(self.motion_timer)
-        #    self.motion_timer = None
-        #if self.sun_down():
-        #    self.motion_timer = self.run_in(self.motion_timer_callback, self.off_delay)
-        #else:
-        #if self.sun_up():
-        self.turn_off_motion_light()
-
-
-    #def motion_timer_callback(self, _kwargs):
-    #    """Callback for timer timeout
-    #    """
-    #    self.log("Motion time off")
-    #    self.turn_off_motion_light()
+        if self.sun_up():
+            self.turn_off_motion_light()
 
 
     def turn_on_motion_light(self):
@@ -150,7 +133,8 @@ class NeoCombined(hass.Hass):
         self.ambi_time = True
         self.turn_on_ambi_light()
         if self.ambi_timer is not None:
-            self.cancel_timer(self.ambi_timer)
+            if self.timer_running(self.ambi_timer):
+                self.cancel_timer(self.ambi_timer)
             self.ambi_timer = None
         self.ambi_timer = self.run_at(self.ambi_timer_callback, "22:00:00")
 

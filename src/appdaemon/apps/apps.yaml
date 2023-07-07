@@ -1,9 +1,23 @@
 ---
-
+# -----------------------------------------------------
+# General controlling and diagnostic apps
+# -----------------------------------------------------
+# Check the sun down/rise time and print to log
 sun_state_check:
   module: sun_checker
   class: SunChecker
 
+# Heart beat controller including 
+# time stamp distribution
+heart_beat_ctr:
+  module: heart_beat
+  class: HeartBeat
+  period: 30
+
+# -----------------------------------------------------
+# General controlling and diagnostic apps
+# -----------------------------------------------------
+# Carport orientation light
 carport_light:
   module: carport_light
   class: CarportLight
@@ -15,6 +29,7 @@ carport_light:
     - light.dev62
   delay: 60
 
+# Garden House orientation light
 garden_house_light:
   module: orientation_light_new
   class: OrientLightNew
@@ -23,6 +38,7 @@ garden_house_light:
   delay: 60
   sunrec: True
 
+# Front door orientation light for front lights
 front_door_light:
   module: orientation_light_new
   class: OrientLightNew
@@ -31,6 +47,7 @@ front_door_light:
   delay: 60
   sunrec: True
 
+# Front door orientation light for bottom and walk
 front_door_light_bottom:
   module: orientation_light_new
   class: OrientLightNew
@@ -39,6 +56,7 @@ front_door_light_bottom:
   delay: 60
   sunrec: True
 
+# Living room orientation light
 orient_living:
   module: orientation_light_new
   class: OrientLightNew
@@ -47,6 +65,7 @@ orient_living:
   delay: 20
   sunrec: True
 
+# Inside carport orientation light
 orient_carp_inside:
   module: orientation_light_new
   class: OrientLightNew
@@ -55,6 +74,7 @@ orient_carp_inside:
   delay: 20
   sunrec: True
 
+# Utility room orientation light
 orient_util:
   module: orientation_light_new
   class: OrientLightNew
@@ -63,6 +83,7 @@ orient_util:
   delay: 20
   sunrec: True
 
+# Hall ground orientation light
 orient_hall_ground:
   module: orientation_light_new
   class: OrientLightNew
@@ -71,6 +92,7 @@ orient_hall_ground:
   delay: 20
   sunrec: True
 
+# Hall first floor orientation light
 orient_hall_first:
   module: orientation_light_new
   class: OrientLightNew
@@ -79,30 +101,37 @@ orient_hall_first:
   delay: 20
   sunrec: True
 
+# -----------------------------------------------------
+# Ambient light controller
+# -----------------------------------------------------
+# Ambient light hall ground
 ambi_light_hall_gnd:
   module: ambient_light
   class: AmbientLight
-  offset: 40
+  offset: -20
   entity_ctrl: switch.dev404a
   switch: binary_sensor.switch2
 
+# Ambient light hall first floor
 ambi_light_hall_1st:
   module: ambient_light
   class: AmbientLight
-  offset: 40
+  offset: -19
   entity_ctrl: switch.dev405b
   switch: binary_sensor.switch2_2
 
+# Ambient light living room
 ambi_light_living:
   module: ambient_light
   class: AmbientLight
-  offset: 41
+  offset: -18
   entity_ctrl: light.dev04
 
+# Ambient light floor garden lights
 ambi_light_garden7:
   module: ambient_light
   class: AmbientLight
-  offset: 43
+  offset: -21
   entity_ctrl: light.dev50_r7
 
 #ambi_light_door:
@@ -123,17 +152,16 @@ ambi_light_garden7:
 #  offset: 43 
 #  entity_ctrl: light.dev50_r2
 
+# Ambient light dining room
 light_dining_room:
   module: ambient_light
   class: AmbientLight
   offset: 43 
   entity_ctrl: switch.lidl_power4
 
-heart_beat_ctr:
-  module: heart_beat
-  class: HeartBeat
-  period: 30
-
+# -----------------------------------------------------
+# Alarm controller
+# -----------------------------------------------------
 alarm_control:
   module: alarm_controller
   class: AlarmCtrl
@@ -151,28 +179,29 @@ alarm_control:
     - binary_sensor.dev73_motion
     - binary_sensor.dev71_motion
 
-zigbee_switch_ctr:
-  module: zigbee_switch
-  class: ZigbeeSwitch
-  switch: 00:12:4b:00:25:04:6d:0b
-  entity_ctrl: 
-    - light.dev04
-    - switch.tasmota2
-    - light.dev50_r7
-    - switch.dev404a
-    - switch.tasmota_3c61053e7f64_switch_relay_1
+# -----------------------------------------------------
+# Zigbee switch controller
+# -----------------------------------------------------
+# Zigbee switch for overall room light control
+#zigbee_switch_ctr:
+#  module: zigbee_switch
+#  class: ZigbeeSwitch
+#  switch: 00:12:4b:00:25:04:6d:0b
+#  entity_ctrl: 
+#    - light.dev04
+#    - switch.tasmota2
+#    - light.dev50_r7
+#    - switch.dev404a
+#    - switch.tasmota_3c61053e7f64_switch_relay_1
 
-switch_light_work_ctr:
+# Zigbee switch for office work space
+switch_emergency:
   module: switch_light
   class: SwitchLight
-  switch: switch.lidl_switch1
+  switch: switch.lidl_switch2
   entity_ctrl: 
-    - switch.lidl_power6
-
-nightly_reset:
-  module: night_reset
-  class: NightReset
-  lights: 
+    - switch.lidl_power4
+    - light.dev05
     - light.dev63
     - light.dev70
     - light.dev71
@@ -182,12 +211,60 @@ nightly_reset:
     - light.dev03
     - light.dev62
     - switch.dev404a
-    - switch.tasmota_3c61053e7f64_switch_relay_1
     - light.dev04
     - light.dev101_r1
     - light.dev102_r1
     - switch.tasmota2
+    - light.dev50_r3
+    - light.dev50_r5
+    - light.dev50_r6
     - light.dev50_r7
     - switch.homefront
-    
+    - light.dev400
+
+# Zigbee switch for office work space
+switch_light_work_ctr:
+  module: switch_light
+  class: SwitchLight
+  switch: switch.lidl_switch1
+  entity_ctrl: 
+    - switch.lidl_power6
+
+# -----------------------------------------------------
+# Night controller
+# -----------------------------------------------------
+nightly_reset:
+  module: night_reset
+  class: NightReset
+  lights: 
+    - switch.lidl_power4
+    - light.dev05
+    - light.dev63
+    - light.dev70
+    - light.dev71
+    - light.dev72
+    - light.dev73
+    - light.dev75
+    - light.dev03
+    - light.dev62
+    - switch.dev404a
+    - light.dev04
+    - light.dev101_r1
+    - light.dev102_r1
+    - switch.tasmota2
+    - light.dev50_r3
+    - light.dev50_r5
+    - light.dev50_r6
+    - light.dev50_r7
+    - switch.homefront
+    - light.dev400
+
+# -----------------------------------------------------
+# Test controller
+# -----------------------------------------------------
+neo_hall_gnd:
+  module: neo_combined
+  class: NeoCombined
+  sensor: binary_sensor.switch1_4
+  entity_ctrl: light.dev400
 
