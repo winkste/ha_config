@@ -120,3 +120,420 @@
       icon: mdi:lamp
       state: 'off'
   icon: mdi:lamp-outline
+- id: '1688530598125'
+  name: ALL_LIGHTS_OFF
+  entities:
+    light.dev80_l1:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank links
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev80_l2:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank rechts
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev80_l3:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank mitte
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev04:
+      supported_color_modes:
+      - onoff
+      friendly_name: Ambi Lampe WZ
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r5:
+      supported_color_modes:
+      - onoff
+      friendly_name: Wandbeleuchtung
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r7:
+      supported_color_modes:
+      - onoff
+      friendly_name: Terrasse Bodenlampe
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r3:
+      supported_color_modes:
+      - onoff
+      friendly_name: Gartenstehlampe links
+      supported_features: 0
+      icon: mdi:fish
+      state: 'off'
+    light.dev50_r6:
+      supported_color_modes:
+      - onoff
+      friendly_name: Gartenstehlampe rechts
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r1:
+      supported_color_modes:
+      - onoff
+      friendly_name: Garten Strahler 1
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r4:
+      supported_color_modes:
+      - onoff
+      friendly_name: Garten Strahler 2
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev05:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht im Holzschuppen
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev62:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht unter Carport
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev63:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht Gartenhaus außen
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    switch.lidl_power1_switch:
+      friendly_name: lidl_power1_switch
+      state: 'off'
+    light.tasmota_fcf5c4530de4_light_light_5:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      friendly_name: ''
+      supported_features: 36
+      state: 'off'
+    switch.dev404:
+      friendly_name: dev404
+      state: 'off'
+    switch.dev404a:
+      friendly_name: dev404a
+      state: 'off'
+    switch.tasmota_fcf5c4530de4_switch_relay_2:
+      friendly_name: ''
+      state: 'on'
+    switch.tasmota_fcf5c4530de4_switch_relay_3:
+      friendly_name: ''
+      state: 'on'
+    switch.tasmota_fcf5c4530de4_switch_relay_4:
+      friendly_name: ''
+      state: 'on'
+    light.dev405f:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      friendly_name: dev405f
+      supported_features: 36
+      state: 'off'
+    switch.dev405a:
+      friendly_name: dev405a
+      state: 'off'
+    switch.dev405b:
+      friendly_name: dev405b
+      state: 'off'
+    switch.dev405c:
+      friendly_name: dev405c
+      state: 'on'
+    switch.dev405d:
+      friendly_name: dev405d
+      state: 'on'
+    switch.dev405e:
+      friendly_name: dev405e
+      state: 'on'
+    switch.homefront:
+      friendly_name: relay1
+      state: 'off'
+    switch.tasmota2:
+      friendly_name: relay2
+      state: 'off'
+    switch.tasmota3:
+      friendly_name: relay3
+      state: 'off'
+    switch.tasmota4:
+      friendly_name: relay4
+      state: 'off'
+    switch.tasmota_4c75253801cf_switch_relay_4:
+      friendly_name: led1
+      state: 'off'
+  icon: mdi:lightning-bolt-outline
+- id: '1688579338220'
+  name: ALL_LIGHTS_ON
+  entities:
+    light.dev04:
+      supported_color_modes:
+      - onoff
+      friendly_name: Ambi Lampe WZ
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev80_l1:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank links
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev80_l2:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank rechts
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev80_l3:
+      supported_color_modes:
+      - brightness
+      friendly_name: Schrank mitte
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r5:
+      supported_color_modes:
+      - onoff
+      friendly_name: Wandbeleuchtung
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r7:
+      supported_color_modes:
+      - onoff
+      friendly_name: Terrasse Bodenlampe
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r3:
+      supported_color_modes:
+      - onoff
+      friendly_name: Gartenstehlampe links
+      supported_features: 0
+      icon: mdi:fish
+      state: 'off'
+    light.dev50_r6:
+      supported_color_modes:
+      - onoff
+      friendly_name: Gartenstehlampe rechts
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r1:
+      supported_color_modes:
+      - onoff
+      friendly_name: Garten Strahler 1
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r4:
+      supported_color_modes:
+      - onoff
+      friendly_name: Garten Strahler 2
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev03:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht im Holzschuppen
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev62:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht unter Carport
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev63:
+      supported_color_modes:
+      - onoff
+      friendly_name: Licht Gartenhaus außen
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    switch.homefront:
+      friendly_name: relay1
+      state: 'off'
+    switch.tasmota2:
+      friendly_name: relay2
+      state: 'off'
+    switch.tasmota3:
+      friendly_name: relay3
+      state: 'off'
+    switch.tasmota4:
+      friendly_name: relay4
+      state: 'off'
+    switch.tasmota_4c75253801cf_switch_relay_4:
+      friendly_name: led1
+      state: 'off'
+    light.dev405f:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      friendly_name: dev405f
+      supported_features: 36
+      state: 'off'
+    switch.dev405a:
+      friendly_name: dev405a
+      state: 'off'
+    switch.dev405b:
+      friendly_name: dev405b
+      state: 'off'
+    switch.dev405c:
+      friendly_name: dev405c
+      state: 'on'
+    switch.dev405d:
+      friendly_name: dev405d
+      state: 'on'
+    switch.dev405e:
+      friendly_name: dev405e
+      state: 'on'
+    light.tasmota_fcf5c4530de4_light_light_5:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      friendly_name: ''
+      supported_features: 36
+      state: 'off'
+    switch.dev404:
+      friendly_name: dev404
+      state: 'off'
+    switch.dev404a:
+      friendly_name: dev404a
+      state: 'off'
+    switch.tasmota_fcf5c4530de4_switch_relay_2:
+      friendly_name: ''
+      state: 'on'
+    switch.tasmota_fcf5c4530de4_switch_relay_3:
+      friendly_name: ''
+      state: 'on'
+    switch.tasmota_fcf5c4530de4_switch_relay_4:
+      friendly_name: ''
+      state: 'on'
+    switch.lidl_switch1:
+      friendly_name: lidl_switch1
+      state: 'off'
+  icon: mdi:lightning-bolt
+- id: '1688615896406'
+  name: Ambient Livingroom off
+  entities:
+    light.dev400:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      friendly_name: dev400
+      supported_features: 36
+      state: 'off'
+  icon: mdi:television
+- id: '1688617080426'
+  name: Ambient Livingroom on
+  entities:
+    light.dev400:
+      effect_list:
+      - None
+      - Wake up
+      - Cycle up
+      - Cycle down
+      - Random
+      supported_color_modes:
+      - hs
+      color_mode: hs
+      brightness: 250
+      hs_color:
+      - 215
+      - 86
+      rgb_color:
+      - 35
+      - 127
+      - 255
+      xy_color:
+      - 0.147
+      - 0.139
+      effect: Cycle down
+      friendly_name: dev400
+      supported_features: 36
+      state: 'on'
+  icon: mdi:television-classic
+- id: '1688701513177'
+  name: Ambient Garden On
+  entities:
+    light.dev50_r7:
+      supported_color_modes:
+      - onoff
+      color_mode: onoff
+      friendly_name: Terrasse Bodenlampe
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'on'
+    light.dev50_r5:
+      supported_color_modes:
+      - onoff
+      color_mode: onoff
+      friendly_name: Wandbeleuchtung
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'on'
+  icon: mdi:flower-tulip
+- id: '1688701629090'
+  name: Ambient Garden Off
+  entities:
+    light.dev50_r5:
+      supported_color_modes:
+      - onoff
+      friendly_name: Wandbeleuchtung
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+    light.dev50_r7:
+      supported_color_modes:
+      - onoff
+      friendly_name: Terrasse Bodenlampe
+      supported_features: 0
+      icon: mdi:lamp
+      state: 'off'
+  icon: mdi:flower-tulip-outline

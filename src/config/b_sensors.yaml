@@ -73,4 +73,20 @@
     state_topic: "std/dev102/s/0/pir/state"
     name: "dev102_motion"
     device_class: motion
+  - platform: mqtt
+    state_topic: "std/dev301/s/garbage/rest"
+    name: "dev301_garb_rest"
+    #device_class: running
+  - platform: mqtt
+    state_topic: "std/dev301/s/garbage/paper"
+    name: "dev301_garb_paper"
+    #device_class: running
+  - platform: mqtt
+    state_topic: "std/dev301/s/garbage/plastic"
+    name: "dev301_garb_plastic"
+    #device_class: running
+  - platform: mqtt
+    state_topic: "std/dev301/s/garbage/organic"
+    name: "dev301_garb_organic"
+    #device_class: running
 #------------------------------------------------

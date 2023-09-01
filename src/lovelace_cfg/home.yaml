@@ -285,6 +285,30 @@ views:
                 unit: qm
                 name: Wasserverbrauch
             square: false
+          - type: grid
+            cards:
+              - type: entity
+                entity: binary_sensor.dev301_garb_rest
+                name: Restmüll
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_organic
+                name: Bioabfall
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_paper
+                name: Papier
+                icon: mdi:delete
+                state_color: true
+              - type: entity
+                entity: binary_sensor.dev301_garb_plastic
+                name: Gelber Sack
+                icon: mdi:delete
+                state_color: true
+            columns: 2
+            square: false
         square: false
         columns: 1
   - title: Flur
@@ -305,7 +329,7 @@ views:
               - type: button
                 tap_action:
                   action: toggle
-                entity: switch.tasmota_3c61053e7f64_switch_relay_1
+                entity: switch.dev405b
                 name: Kugel groß
                 icon: mdi:lamp
             columns: 2
@@ -504,7 +528,7 @@ views:
               - type: button
                 tap_action:
                   action: toggle
-                entity: switch.lidl_power4
+                entity: switch.lidl_power6
                 name: Arbeitsbereich
                 icon: mdi:lamp
             columns: 3
@@ -563,3 +587,34 @@ views:
           - arm_night
         entity: alarm_control_panel.ha_alarm
         name: Alarm Control
+  - title: Weihnachten
+    path: weihnachten
+    icon: mdi:candelabra-fire
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: light.dev50_r2
+                icon: mdi:lamp
+                name: Garten
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.lidl_power4
+                icon: mdi:lamp
+                name: Pyramide
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.tasmota3
+                icon: mdi:lamp
+                name: Haustür
+            columns: 2
+            square: false
+        columns: 1
+        square: false
