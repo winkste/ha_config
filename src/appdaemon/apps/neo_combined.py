@@ -104,8 +104,7 @@ class NeoCombined(hass.Hass):
         """Callback for motion state "off" detection
         """
         self.log(f"Motion off: {self.motion_sensor}")
-        if self.sun_up():
-            self.turn_off_motion_light()
+        self.turn_off_motion_light()
 
 
     def turn_on_motion_light(self):
