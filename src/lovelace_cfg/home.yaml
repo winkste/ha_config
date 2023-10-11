@@ -62,14 +62,15 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev72_temperature_dht
+                entity: sensor.dev400_am2301_temperature
                 name: Temperatur
                 unit: °C
               - type: sensor
                 graph: line
-                entity: sensor.dev72_humidity_dht
+                entity: sensor.dev400_am2301_humidity
                 icon: mdi:water
                 unit: '%'
+                name: Luftfeuchtigkeit
             columns: 2
             square: false
           - type: grid
@@ -77,13 +78,17 @@ views:
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.dev72_motion
                 icon: mdi:run
                 name: Bewegung
                 hold_action:
-                  action: none
+                  action: more-info
+                show_state: false
+                entity: binary_sensor.switch1_4
+              - type: light
+                entity: light.dev400
+                name: Ambi Licht WZ
             square: false
-            columns: 1
+            columns: 2
         columns: 1
         square: false
   - title: Garten
@@ -127,6 +132,7 @@ views:
                 tap_action:
                   action: toggle
                 entity: light.dev50_r2
+                name: Brunnen
             columns: 2
             square: false
           - type: grid
@@ -159,7 +165,7 @@ views:
         columns: 1
   - title: Geräte
     path: gerate
-    icon: mdi:garage
+    icon: mdi:garage-open-variant
     badges: []
     cards:
       - type: grid
@@ -218,72 +224,6 @@ views:
                 icon: mdi:water
                 unit: '%'
             columns: 2
-            square: false
-          - type: grid
-            cards:
-              - type: button
-                tap_action:
-                  action: toggle
-                entity: binary_sensor.ewelink_move1
-                name: HWR
-              - type: button
-                tap_action:
-                  action: toggle
-                entity: switch.lidl_power1_switch
-                name: HWR Licht
-                icon: mdi:lamp
-              - type: sensor
-                entity: sensor.ewelink_temperature1
-                graph: line
-                name: HWR
-                unit: °C
-              - type: sensor
-                entity: sensor.ewelink_humidity1
-                graph: line
-                name: HWR
-                unit: '%'
-              - type: gauge
-                entity: sensor.ewelink_move_power1
-                min: 0
-                max: 100
-                name: Beweg
-                unit: '%'
-                severity:
-                  green: 50
-                  yellow: 30
-                  red: 0
-              - type: gauge
-                entity: sensor.ewelink_measure_power1
-                min: 0
-                max: 100
-                name: Mess
-                unit: '%'
-                severity:
-                  green: 50
-                  yellow: 30
-                  red: 0
-            square: false
-            columns: 2
-          - type: grid
-            cards:
-              - type: sensor
-                entity: sensor.dev301_gas
-                graph: line
-                icon: mdi:gas-station
-                name: Gasverbrauch
-                unit: qm
-              - type: sensor
-                entity: sensor.dev301_power
-                graph: line
-                icon: mdi:power-plug
-                unit: kWh
-                name: Stromverbrauch
-              - type: sensor
-                entity: sensor.dev301_water
-                graph: line
-                icon: mdi:water
-                unit: qm
-                name: Wasserverbrauch
             square: false
           - type: grid
             cards:
@@ -618,3 +558,79 @@ views:
             square: false
         columns: 1
         square: false
+  - title: HWR
+    path: hwr
+    icon: mdi:electron-framework
+    badges: []
+    cards:
+      - type: grid
+        cards:
+          - type: grid
+            cards:
+              - type: button
+                tap_action:
+                  action: more-info
+                entity: binary_sensor.ewelink_move1
+                name: HWR
+                icon: mdi:run
+              - type: button
+                tap_action:
+                  action: toggle
+                entity: switch.lidl_power1_switch
+                name: HWR Licht
+                icon: mdi:lamp
+              - type: sensor
+                entity: sensor.ewelink_temperature1
+                graph: line
+                name: HWR
+                unit: °C
+              - type: sensor
+                entity: sensor.ewelink_humidity1
+                graph: line
+                name: HWR
+                unit: '%'
+              - type: gauge
+                entity: sensor.ewelink_move_power1
+                min: 0
+                max: 100
+                name: Beweg
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+              - type: gauge
+                entity: sensor.ewelink_measure_power1
+                min: 0
+                max: 100
+                name: Mess
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+            square: false
+            columns: 2
+          - type: grid
+            cards:
+              - type: sensor
+                entity: sensor.dev301_gas
+                graph: line
+                icon: mdi:gas-station
+                name: Gasverbrauch
+                unit: qm
+              - type: sensor
+                entity: sensor.dev301_power
+                graph: line
+                icon: mdi:power-plug
+                unit: kWh
+                name: Stromverbrauch
+              - type: sensor
+                entity: sensor.dev301_water
+                graph: line
+                icon: mdi:water
+                unit: qm
+                name: Wasserverbrauch
+            square: false
+        square: false
+        columns: 1
