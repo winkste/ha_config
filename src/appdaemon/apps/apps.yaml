@@ -160,6 +160,14 @@ light_dining_room:
   entity_ctrl: switch.lidl_power4
 
 # -----------------------------------------------------
+# Daylight controller
+# -----------------------------------------------------
+daylight_control:
+  module: daylight_runner
+  class: DayLightRunner
+  entity_ctrl:
+    - light.dev50_r2
+# -----------------------------------------------------
 # Alarm controller
 # -----------------------------------------------------
 alarm_control:
@@ -268,3 +276,8 @@ neo_hall_gnd:
   sensor: binary_sensor.switch1_4
   entity_ctrl: light.dev400
 
+neo_living:
+  module: neo_combined
+  class: NeoCombined
+  sensor: binary_sensor.switch1_5
+  entity_ctrl: light.dev406
