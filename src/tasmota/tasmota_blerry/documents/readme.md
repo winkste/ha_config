@@ -121,6 +121,17 @@ std/dev400/s/stat/RESULT = {"POWER":"ON","Dimmer":99,"Color":"FCD76D","HSBColor"
  }
 ```
 
+Enable the bluethooth MQTT transmitting of sensor data:
+```
+Rule3 on System#Boot DO br load('blerry.be') ENDON
+
+Rule3 1
+```
+Example with turned on rule:
+```
+{"Rule3":{"State":"ON","Once":"OFF","StopOnError":"OFF","Length":44,"Free":467,"Rules":"ON System#Boot DO br load('blerry.be') ENDON"}}
+```
+
 ## Configure HomeAssistant Lovelace for Device view
 **TBD**
 

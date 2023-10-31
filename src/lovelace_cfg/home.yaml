@@ -83,9 +83,9 @@ views:
                 hold_action:
                   action: more-info
                 show_state: false
-                entity: binary_sensor.switch1_4
+                entity: binary_sensor.switch1_5
               - type: light
-                entity: light.dev400
+                entity: light.dev406
                 name: Ambi Licht WZ
             square: false
             columns: 2
@@ -260,12 +260,9 @@ views:
         cards:
           - type: grid
             cards:
-              - type: button
-                tap_action:
-                  action: toggle
-                entity: switch.dev404a
-                name: Kugel klein
-                icon: mdi:lamp
+              - type: light
+                entity: light.dev400
+                name: Ambi Licht Unten
               - type: button
                 tap_action:
                   action: toggle
@@ -279,7 +276,7 @@ views:
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.switch1_2
+                entity: binary_sensor.switch1_4
                 name: Unten
                 icon: mdi:run
               - type: button
@@ -294,7 +291,7 @@ views:
             cards:
               - type: sensor
                 graph: line
-                entity: sensor.dev404_am2301_temperature
+                entity: sensor.dev400_am2301_temperature
                 name: Unten
                 unit: °C
               - type: sensor
@@ -304,7 +301,7 @@ views:
                 name: Oben
               - type: sensor
                 graph: line
-                entity: sensor.dev404_am2301_humidity
+                entity: sensor.dev400_am2301_humidity
                 name: Unten
                 icon: mdi:water
                 unit: '%'
@@ -632,5 +629,14 @@ views:
                 unit: qm
                 name: Wasserverbrauch
             square: false
+          - type: history-graph
+            entities:
+              - entity: sensor.power_battery_fronius_power_flow_0_192_168_178_171
+              - entity: sensor.power_grid_fronius_power_flow_0_192_168_178_171
+              - entity: >-
+                  sensor.power_photovoltaics_fronius_power_flow_0_192_168_178_171
+            hours_to_show: 24
+            refresh_interval: 0
+            title: Fronius Power View
         square: false
         columns: 1

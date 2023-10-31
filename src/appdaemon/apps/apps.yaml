@@ -92,33 +92,17 @@ orient_hall_ground:
   delay: 20
   sunrec: True
 
-# Hall first floor orientation light
-orient_hall_first:
-  module: orientation_light_new
-  class: OrientLightNew
-  sensor: binary_sensor.switch1_3 
-  entity_ctrl: light.dev405f
-  delay: 20
-  sunrec: True
-
 # -----------------------------------------------------
 # Ambient light controller
 # -----------------------------------------------------
-# Ambient light hall ground
+
+# Ambient light hall first floor
 ambi_light_hall_gnd:
   module: ambient_light
   class: AmbientLight
   offset: -20
   entity_ctrl: switch.dev404a
   switch: binary_sensor.switch2
-
-# Ambient light hall first floor
-ambi_light_hall_1st:
-  module: ambient_light
-  class: AmbientLight
-  offset: -19
-  entity_ctrl: switch.dev405b
-  switch: binary_sensor.switch2_2
 
 # Ambient light living room
 ambi_light_living:
@@ -160,13 +144,32 @@ light_dining_room:
   entity_ctrl: switch.lidl_power4
 
 # -----------------------------------------------------
+# Neo Combined Controller
+# -----------------------------------------------------
+# Hall room ambient and motion controller
+neo_hall_first:
+  module: neo_combined
+  class: NeoCombined
+  sensor: binary_sensor.switch1_4
+  entity_ctrl: light.dev400
+
+# Living Room ambient and motion controller
+neo_living:
+  module: neo_combined
+  class: NeoCombined
+  sensor: binary_sensor.switch1_5
+  entity_ctrl: light.dev406
+
+# -----------------------------------------------------
 # Daylight controller
 # -----------------------------------------------------
-daylight_control:
-  module: daylight_runner
-  class: DayLightRunner
-  entity_ctrl:
-    - light.dev50_r2
+# Garden fountain - disabled due to winter time
+#daylight_control:
+#  module: daylight_runner
+#  class: DayLightRunner
+#  entity_ctrl:
+#    - light.dev50_r2
+
 # -----------------------------------------------------
 # Alarm controller
 # -----------------------------------------------------
@@ -190,19 +193,7 @@ alarm_control:
 # -----------------------------------------------------
 # Zigbee switch controller
 # -----------------------------------------------------
-# Zigbee switch for overall room light control
-#zigbee_switch_ctr:
-#  module: zigbee_switch
-#  class: ZigbeeSwitch
-#  switch: 00:12:4b:00:25:04:6d:0b
-#  entity_ctrl: 
-#    - light.dev04
-#    - switch.tasmota2
-#    - light.dev50_r7
-#    - switch.dev404a
-#    - switch.tasmota_3c61053e7f64_switch_relay_1
-
-# Zigbee switch for office work space
+# Emergency button lights
 switch_emergency:
   module: switch_light
   class: SwitchLight
@@ -218,7 +209,6 @@ switch_emergency:
     - light.dev75
     - light.dev03
     - light.dev62
-    - switch.dev404a
     - light.dev04
     - light.dev101_r1
     - light.dev102_r1
@@ -229,6 +219,7 @@ switch_emergency:
     - light.dev50_r7
     - switch.homefront
     - light.dev400
+    - light.dev406
 
 # Zigbee switch for office work space
 switch_light_work_ctr:
@@ -255,7 +246,6 @@ nightly_reset:
     - light.dev75
     - light.dev03
     - light.dev62
-    - switch.dev404a
     - light.dev04
     - light.dev101_r1
     - light.dev102_r1
@@ -266,18 +256,5 @@ nightly_reset:
     - light.dev50_r7
     - switch.homefront
     - light.dev400
-
-# -----------------------------------------------------
-# Test controller
-# -----------------------------------------------------
-neo_hall_gnd:
-  module: neo_combined
-  class: NeoCombined
-  sensor: binary_sensor.switch1_4
-  entity_ctrl: light.dev400
-
-neo_living:
-  module: neo_combined
-  class: NeoCombined
-  sensor: binary_sensor.switch1_5
-  entity_ctrl: light.dev406
+    - light.dev406
+    - switch.dev404a
