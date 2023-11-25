@@ -1,14 +1,14 @@
 ---
-secrets: /config/secrets.yaml
+secrets: /homeassistant/secrets.yaml
 logs:
   main_log:
-    filename: /config/appdaemon/logs/appdaemon.log
+    filename: /homeassistant/logs/appdaemon.log
   access_log:
-    filename: /config/appdaemon/logs/access.log
+    filename: /homeassistant/logs/access.log
   error_log:
-    filename: /config/appdaemon/logs/error.log
+    filename: /homeassistant/logs/error.log
   diag_log:
-    filename: /config/appdaemon/logs/diag.log
+    filename: /homeassistant/logs/diag.log
     log_generations: 5
     log_size: 1024
 appdaemon:

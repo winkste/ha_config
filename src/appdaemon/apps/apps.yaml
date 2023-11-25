@@ -124,17 +124,23 @@ ambi_light_garden7:
 #  offset: 43 
 #  entity_ctrl: switch.tasmota2
 
-#christmas_light_door:
-#  module: ambient_light
-#  class: AmbientLight
-#  offset: 43 
-#  entity_ctrl: switch.tasmota3
+christmas_light_door:
+  module: ambient_light
+  class: AmbientLight
+  offset: 43 
+  entity_ctrl: switch.tasmota3
 
-#christmas_light_garden:
-#  module: ambient_light
-#  class: AmbientLight
-#  offset: 43 
-#  entity_ctrl: light.dev50_r2
+christmas_light_garden:
+  module: ambient_light
+  class: AmbientLight
+  offset: 43 
+  entity_ctrl: light.dev50_r2
+
+christmas_light_pyramid:
+  module: ambient_light
+  class: AmbientLight
+  offset: 43 
+  entity_ctrl: switch.lidl_power5
 
 # Ambient light dining room
 light_dining_room:
@@ -179,14 +185,12 @@ alarm_control:
   alarm_offset: 5
   away_listener:
     - binary_sensor.dev72_motion
-    - binary_sensor.win_switch1
     - binary_sensor.dev73_motion
     - binary_sensor.dev71_motion
     - binary_sensor.dev101_motion
     - binary_sensor.dev102_motion
   night_listener:
     - binary_sensor.dev72_motion
-    - binary_sensor.win_switch1
     - binary_sensor.dev73_motion
     - binary_sensor.dev71_motion
 
