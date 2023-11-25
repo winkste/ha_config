@@ -83,27 +83,9 @@ orient_util:
   delay: 20
   sunrec: True
 
-# Hall ground orientation light
-orient_hall_ground:
-  module: orientation_light_new
-  class: OrientLightNew
-  sensor: binary_sensor.switch1_2
-  entity_ctrl: light.tasmota_fcf5c4530de4_light_light_5
-  delay: 20
-  sunrec: True
-
 # -----------------------------------------------------
 # Ambient light controller
 # -----------------------------------------------------
-
-# Ambient light hall first floor
-ambi_light_hall_gnd:
-  module: ambient_light
-  class: AmbientLight
-  offset: -20
-  entity_ctrl: switch.dev404a
-  switch: binary_sensor.switch2
-
 # Ambient light living room
 ambi_light_living:
   module: ambient_light
@@ -134,7 +116,7 @@ christmas_light_garden:
   module: ambient_light
   class: AmbientLight
   offset: 43 
-  entity_ctrl: light.dev50_r2
+  entity_ctrl: light.dev01
 
 christmas_light_pyramid:
   module: ambient_light
@@ -152,7 +134,7 @@ light_dining_room:
 # -----------------------------------------------------
 # Neo Combined Controller
 # -----------------------------------------------------
-# Hall room ambient and motion controller
+# Hall room first floor ambient and motion controller
 neo_hall_first:
   module: neo_combined
   class: NeoCombined
@@ -165,6 +147,13 @@ neo_living:
   class: NeoCombined
   sensor: binary_sensor.switch1_5
   entity_ctrl: light.dev406
+
+# Hall room ground floor ambient and motion controller
+neo_hall_ground:
+  module: neo_combined
+  class: NeoCombined
+  sensor: binary_sensor.switch1_6
+  entity_ctrl: light.dev407
 
 # -----------------------------------------------------
 # Daylight controller
