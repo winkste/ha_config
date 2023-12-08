@@ -263,12 +263,9 @@ views:
               - type: light
                 entity: light.dev400
                 name: Ambi Licht Oben
-              - type: button
-                tap_action:
-                  action: toggle
-                entity: switch.dev404a
-                name: Kugel klein
-                icon: mdi:lamp
+              - type: light
+                entity: light.dev407
+                name: Ambi Licht Unten
             columns: 2
             square: false
           - type: grid
@@ -282,7 +279,7 @@ views:
               - type: button
                 tap_action:
                   action: more-info
-                entity: binary_sensor.switch1_2
+                entity: binary_sensor.switch1_6
                 name: Unten
                 icon: mdi:run
             columns: 2
@@ -296,9 +293,9 @@ views:
                 unit: °C
               - type: sensor
                 graph: line
-                entity: sensor.dev404_am2301_temperature
+                entity: sensor.dev407_am2301_temperature
                 unit: °C
-                name: Oben
+                name: Unten
               - type: sensor
                 graph: line
                 entity: sensor.dev400_am2301_humidity
@@ -307,8 +304,8 @@ views:
                 unit: '%'
               - type: sensor
                 graph: line
-                entity: sensor.dev404_am2301_humidity
-                name: Oben
+                entity: sensor.dev407_am2301_humidity
+                name: Unten
                 icon: mdi:water
                 unit: '%'
             columns: 2
@@ -422,6 +419,28 @@ views:
                 graph: line
                 entity: sensor.sensor_xia_offi_humidity
                 name: Gäste H
+                icon: mdi:water
+          - type: grid
+            cards:
+              - type: sensor
+                graph: line
+                entity: sensor.sensor_xia_child_temperature
+                name: Kind T
+                unit: °C
+              - type: gauge
+                min: 0
+                max: 100
+                entity: sensor.sensor_xia_child_battery
+                name: Kind B
+                unit: '%'
+                severity:
+                  green: 50
+                  yellow: 30
+                  red: 0
+              - type: sensor
+                graph: line
+                entity: sensor.sensor_xia_child_humidity
+                name: Kind H
                 icon: mdi:water
             square: false
           - type: grid
@@ -618,7 +637,7 @@ views:
               - type: button
                 tap_action:
                   action: toggle
-                entity: light.dev50_r2
+                entity: light.dev01
                 icon: mdi:lamp
                 name: Garten
               - type: button

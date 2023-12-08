@@ -90,14 +90,31 @@ std/dev400/s/stat/RESULT = {"POWER":"ON","Dimmer":78,"Color":"C6A955","HSBColor"
 std/dev400/s/stat/RESULT = {"POWER":"ON","Dimmer":99,"Color":"FCD76D","HSBColor":"45,57,99","Channel":[99,85,43]}
 ```
 
-## Enable Bluetooth Sensor readings
+## Bluetooth Sensors
+### List of Devices and MAC Addresses
+
+| MAC          | Type | Model   | Location             |
+| ------------ | ---- | ------- | -------------------- |
+| A4C1382E8D23 | ATC  | ATCpvvx | Children Room        |
+| 582D343B8C66 | MIJA | Xiaomi  | Parent Sleeping Room |
+| 582D343916A7 | MIJA | Xiaomi  | Office               |
+| 582D34386437 | MIJA | Xiaomi  | Bathroom 2nd         |
+| 582D34371086 | MIJA | Xiaomi  | Bathroom 1st         |
+
+### Enable Bluetooth Sensor readings
 1. First select enable bluetooth under bluetooth settings
 
 2. Load the bluetooth files in consoles->file system:
-- blerry_driver_Xiaomi.be
+- blerry_driver_XYZ.be according to below model table
 - blerry.be
 
-3. Load the sensor json configuration, example:
+| Type | Model   | driver                   |
+| ---- | ------- | ------------------------ |
+| ATC  | ATCpvvx | blerry_driver_ATCpvvx.be |
+| MIJA | Xiaomi  | blerry_driver_Xiaomi.be  |
+
+
+1. Load the sensor json configuration, example:
 ```json
 {
    "devices": {
@@ -132,10 +149,31 @@ Example with turned on rule:
 {"Rule3":{"State":"ON","Once":"OFF","StopOnError":"OFF","Length":44,"Free":467,"Rules":"ON System#Boot DO br load('blerry.be') ENDON"}}
 ```
 
-## Configure HomeAssistant Lovelace for Device view
+### Configure HomeAssistant Lovelace for Device view
 **TBD**
 
-## Enable automations using appdaemon
+### Enable automations using appdaemon
 **TBD**
+
+### Prepare the LYWSD03MMC/ATC Temperature and Humidity Sensor
+Information of the integration can be found here:
+[Tasmota - Bluetooth Device Support](https://tasmota.github.io/docs/Bluetooth_ESP32/#supported-devices)
+
+The temperature sensors need to be flashed with a new firmware. This can be done using a web flasher available here:
+[WEB FLASHER](https://atc1441.github.io/TelinkFlasher.html)
+
+Firmware binaries are found here:
+(Firmware Repo)[https://github.com/atc1441/ATC_MiThermometer/releases]
+
+The configuration in blerry is:
+```json
+  "devices": {
+    "A4C1382E8D23": {
+      "alias": "sensor_xia_child",
+      "model": "ATCpvvx"
+    }
+  }
+
+```
 
 

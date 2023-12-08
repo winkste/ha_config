@@ -1,28 +1,28 @@
 {
-   "devices": {
-     "582d34386437": {
-       "alias": "sensor_xia_secbath",
-       "model": "Xiaomi"
-     },
-     "582D343916a7": {
+  "devices": {
+      "582d34386437": {
+        "alias": "sensor_xia_secbath",
+        "model": "Xiaomi"
+      },
+      "582D343916a7": {
       "alias": "sensor_xia_offi",
       "model": "Xiaomi"
     },
-     "582D343b8c66": {
+      "582D343b8c66": {
       "alias": "sensor_xia_parent",
       "model": "Xiaomi"
     }
-   },
-   "override": {
-     "base_topic": "std/blerry",
-     "discovery": true,
-     "precision": {
-       "Temperature": 1,
-       "Humidity": 0,
-       "Battery": -1
+  },
+  "override": {
+    "base_topic": "std/blerry",
+    "discovery": true,
+    "precision": {
+      "Temperature": 1,
+      "Humidity": 0,
+      "Battery": -1
      }
-   },
-   "advanced": {
-     "old_details": false
-   }
- }
+  },
+  "advanced": {
+    "old_details": false
+  } 
+}
