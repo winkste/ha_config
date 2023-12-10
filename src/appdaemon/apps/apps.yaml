@@ -15,7 +15,7 @@ heart_beat_ctr:
   period: 30
 
 # -----------------------------------------------------
-# General controlling and diagnostic apps
+# Orientation Light Controlling
 # -----------------------------------------------------
 # Carport orientation light
 carport_light:
@@ -125,11 +125,11 @@ christmas_light_pyramid:
   entity_ctrl: switch.lidl_power5
 
 # Ambient light dining room
-light_dining_room:
-  module: ambient_light
-  class: AmbientLight
-  offset: 43 
-  entity_ctrl: switch.lidl_power4
+#light_dining_room:
+#  module: ambient_light
+#  class: AmbientLight
+#  offset: 43 
+#  entity_ctrl: switch.lidl_power4
 
 # -----------------------------------------------------
 # Neo Combined Controller
@@ -192,7 +192,6 @@ switch_emergency:
   class: SwitchLight
   switch: switch.lidl_switch2
   entity_ctrl: 
-    - switch.lidl_power4
     - light.dev05
     - light.dev63
     - light.dev70
@@ -221,6 +220,15 @@ switch_light_work_ctr:
   switch: switch.lidl_switch1
   entity_ctrl: 
     - switch.lidl_power6
+
+# Extract Hood Power Controller
+ext_hood_ctrl:
+  module: extract_hood_ctrl
+  class: ExtractHoodCtrl
+  sensor: binary_sensor.lidl_window_kitchen
+  entity_ctrl: switch.lidl_power4
+  batt_sensor: sensor.lidl_window_kitchen_batt
+
 
 # -----------------------------------------------------
 # Night controller
