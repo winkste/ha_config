@@ -1,16 +1,12 @@
-# Build and Configure the Tasmota Lamp device with or w/o Bluetooth
-
-## 3D Printed Housing
-**TBD**
-
-## Cabeling the sensors, neopix and ESP32
-**TBD**
+# Generic Setup for Tasmota Devices
 
 ## Firmware programming using WEB api
 https://tasmota.github.io/install/
 
 ## Configure Device name
-**TBD**
+| Device Name | Description   |
+| ----------- | ------------- |
+| dev408      | Carport Light |
 
 
 ## Configure MQTT
@@ -24,6 +20,50 @@ https://tasmota.github.io/install/
 | Password   | pwd                     |
 | Topic      | dev4xx                  |
 | Full Topic | std/%topic%/s/%prefix%/ |
+
+# Sonoff replacement with Relais, Motion Detector and LED showing motion
+## Generic cofiguration
+see above
+
+## Programming
+Connect serial to usb converter and set GPRIO0 to GND.
+
+## Pinout
+![alt text](1-tasmota_relais.jpg)
+
+![alt text](2-tasmota_relais.jpg)
+
+| NO.	Name | Function                                                                                                                                                  | NO.	Name | Function                                                                    |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- |
+| 1        | GND	Power ground                                                                                                                                          | 13       | IO10	GPIO10                                                                 |
+| 2        | Relay	Relay drive port , using IO5 drive by default. If need use other I/O drive relay,  please remove R14, then use the I/O connected to this relay pin. | 14       | MISO	Slave output master input                                              |
+| 3        | IO2	GPIO2; UART1_TXD                                                                                                                                      | 15       | IO13	GPIO13; HSPI_MOSI; UART0_CTS                                           |
+| 4        | IO4	GPIO4                                                                                                                                                 | 16       | IO14	GPIO14; HSPI_CLK                                                       |
+| 5        | RX	UART0_RXD; GPIO3                                                                                                                                       | 17       | ADC	A/D Conversion result. Input voltage range 0~1V, ranging from 0 to 1024 |
+| 6        | 3V3	3.3V power                                                                                                                                            | 18       | 3V3	3.3V power                                                              |
+| 7        | SCLK	CLOCK                                                                                                                                                | 19       | MOSI	Master output Slave input                                              |
+| 8        | IO15	GPIO15; MTDO; HSPICS; UART0_RTS                                                                                                                      | 20       | IO9	GPIO9                                                                   |
+| 9        | IO0	GPIO0                                                                                                                                                 | 21       | CS0	chip select                                                             |
+| 10       | IO5	GPIO5                                                                                                                                                 | 22       | IO12	GPIO12; HSPI_MISO                                                      |
+| 11       | TX	UART0_TXD; GPIO1                                                                                                                                       | 23       | IO16	GPIO16                                                                 |
+| 12       | 5V	5V power                                                                                                                                               | 24       | GND	Power ground                                                            |
+
+## Rules
+Setup rule to turn on LED when motion detected
+```
+Rule2 on Switch1#state=0 do LedPower1 1 endon
+Rule3 on Switch1#state=1 do LedPower1 0 endon
+Rule2 1
+Rule3 1
+```
+
+# Build and Configure the Tasmota Lamp device with or with Bluetooth
+
+## 3D Printed Housing
+**TBD**
+
+## Cabeling the sensors, neopix and ESP32
+**TBD**
 
 ## Features
 - NEO LED strips, all connected to one single gpio

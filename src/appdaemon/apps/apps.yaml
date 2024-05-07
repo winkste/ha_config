@@ -22,10 +22,10 @@ carport_light:
   module: carport_light
   class: CarportLight
   sensor:
-    - binary_sensor.dev05_motion
+    - binary_sensor.dev408
     - binary_sensor.dev62_motion
   entity_ctrl:
-    - light.dev05
+    - switch.dev408
     - light.dev62
   delay: 60
 
@@ -173,15 +173,19 @@ alarm_control:
   class: AlarmCtrl
   alarm_offset: 5
   away_listener:
-    - binary_sensor.dev72_motion
-    - binary_sensor.dev73_motion
+    - binary_sensor.switch1_5
     - binary_sensor.dev71_motion
-    - binary_sensor.dev101_motion
-    - binary_sensor.dev102_motion
+    - binary_sensor.switch1_4
+    - binary_sensor.switch1_6
+    - binary_sensor.lidl_window_kitchen
+    - binary_sensor.ewelink_move1
   night_listener:
-    - binary_sensor.dev72_motion
-    - binary_sensor.dev73_motion
+    - binary_sensor.switch1_5
     - binary_sensor.dev71_motion
+    - binary_sensor.switch1_4
+    - binary_sensor.switch1_6
+    - binary_sensor.lidl_window_kitchen
+    - binary_sensor.ewelink_move1
 
 # -----------------------------------------------------
 # Zigbee switch controller
@@ -192,26 +196,35 @@ switch_emergency:
   class: SwitchLight
   switch: switch.lidl_switch2
   entity_ctrl: 
-    - light.dev05
-    - light.dev63
-    - light.dev70
-    - light.dev71
-    - light.dev72
-    - light.dev73
-    - light.dev75
-    - light.dev03
-    - light.dev62
+  # Living Room entities
     - light.dev04
-    - light.dev101_r1
-    - light.dev102_r1
-    - switch.tasmota2
-    - light.dev50_r3
-    - light.dev50_r5
-    - light.dev50_r6
-    - light.dev50_r7
-    - switch.homefront
-    - light.dev400
+    - light.dev80_l1
+    - light.dev80_l3
+    - light.dev80_l2
     - light.dev406
+  # Garden entities
+    - light.dev50_r5
+    - light.dev50_r7
+    - light.dev50_r3
+    - light.dev50_r6
+    - light.dev50_r1
+    - light.dev50_r4
+  # Carport entities
+    - switch.dev408
+    - light.dev62
+  # Garden House
+    - light.dev63
+  # Hall Room entities
+    - light.dev400
+    - light.dev407
+    - switch.lidl_power5
+  # Main Entry entities
+    - switch.homefront
+    - switch.tasmota2
+    - switch.tasmota3
+    - switch.tasmota4
+  # Utility room entities
+    - switch.lidl_power1_switch
 
 # Zigbee switch for office work space
 switch_light_work_ctr:
@@ -237,25 +250,36 @@ nightly_reset:
   module: night_reset
   class: NightReset
   lights: 
-    - switch.lidl_power4
-    - light.dev05
-    - light.dev63
-    - light.dev70
-    - light.dev71
-    - light.dev72
-    - light.dev73
-    - light.dev75
-    - light.dev03
-    - light.dev62
+  # Living Room entities
     - light.dev04
-    - light.dev101_r1
-    - light.dev102_r1
-    - switch.tasmota2
-    - light.dev50_r3
-    - light.dev50_r5
-    - light.dev50_r6
-    - light.dev50_r7
-    - switch.homefront
-    - light.dev400
+    - light.dev80_l1
+    - light.dev80_l3
+    - light.dev80_l2
     - light.dev406
-    - switch.dev404a
+  # Garden entities
+    - light.dev50_r5
+    - light.dev50_r7
+    - light.dev50_r3
+    - light.dev50_r6
+    - light.dev50_r1
+    - light.dev50_r4
+    - light.dev50_r2
+    - light.dev50_r8
+  # Carport entities
+    - switch.dev408
+    - light.dev62
+  # Garden House
+    - light.dev63
+  # Hall Room entities
+    - light.dev400
+    - light.dev407
+    - switch.lidl_power5
+  # Main Entry entities
+    - switch.homefront
+    - switch.tasmota2
+    - switch.tasmota3
+    - switch.tasmota4
+  # Kitchen entities
+    - switch.lidl_power4
+  # Utility room entities
+    - switch.lidl_power1_switch
